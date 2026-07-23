@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_MgCo5CuO8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.94844111
+_cell_length_b   6.39967474
+_cell_length_c   5.79277303
+_cell_angle_alpha   63.19888775
+_cell_angle_beta   89.87372157
+_cell_angle_gamma   122.46594150
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgCo5CuO8
+_chemical_formula_sum   'Mg1 Co5 Cu1 O8'
+_cell_volume   157.09149554
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.12500000  0.75000000  0.12500000  1.0
+  Co  Co1  1  0.62500000  0.25000000  0.12500000  1.0
+  Co  Co2  1  0.95518900  0.04725600  0.97706300  1.0
+  Co  Co3  1  0.62500000  0.25000000  0.62500000  1.0
+  Co  Co4  1  0.29481100  0.45274400  0.27293700  1.0
+  Co  Co5  1  0.12500000  0.75000000  0.62500000  1.0
+  Cu  Cu6  1  0.62500000  0.75000000  0.62500000  1.0
+  O  O7  1  0.91868600  0.30576900  0.34706300  1.0
+  O  O8  1  0.37257900  0.19344400  0.40382200  1.0
+  O  O9  1  0.87742100  0.30655600  0.84617800  1.0
+  O  O10  1  0.85256700  0.72737100  0.38393200  1.0
+  O  O11  1  0.33131400  0.19423100  0.90293700  1.0
+  O  O12  1  0.84995400  0.72603600  0.89071200  1.0
+  O  O13  1  0.40004600  0.77396400  0.35928800  1.0
+  O  O14  1  0.39743300  0.77262900  0.86606800  1.0

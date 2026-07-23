@@ -1,0 +1,979 @@
+{
+  "nodes": [
+    {
+      "id": "Model:MEGNet",
+      "type": "Model",
+      "architecture": "GNN",
+      "training_data": "Materials Project",
+      "speed": "fast",
+      "supported_props": [
+        "formation_energy",
+        "band_gap"
+      ],
+      "element_coverage": "broad",
+      "is_available": true,
+      "paper": "Chen et al. 2019",
+      "notes": "引入全局状态向量，同时支持晶体和分子",
+      "label": "MEGNet"
+    },
+    {
+      "id": "Model:M3GNet",
+      "type": "Model",
+      "architecture": "GNN",
+      "training_data": "Materials Project",
+      "speed": "fast",
+      "supported_props": [
+        "formation_energy"
+      ],
+      "element_coverage": "broad",
+      "is_available": true,
+      "paper": "Chen et al. 2022",
+      "notes": "势能面模型，形成能预测精度高",
+      "label": "M3GNet"
+    },
+    {
+      "id": "Model:ALIGNN",
+      "type": "Model",
+      "architecture": "GNN",
+      "training_data": "JARVIS-DFT",
+      "speed": "fast",
+      "supported_props": [
+        "formation_energy",
+        "band_gap"
+      ],
+      "element_coverage": "broad",
+      "is_available": true,
+      "paper": "Choudhary & DeCost 2021",
+      "notes": "显式编码键角信息，带隙预测综合最优",
+      "label": "ALIGNN"
+    },
+    {
+      "id": "Model:CGCNN",
+      "type": "Model",
+      "architecture": "GNN",
+      "training_data": "Materials Project",
+      "speed": "slow",
+      "supported_props": [
+        "formation_energy",
+        "band_gap",
+        "bulk_modulus",
+        "shear_modulus"
+      ],
+      "element_coverage": "broad",
+      "is_available": true,
+      "paper": "Xie & Grossman 2018",
+      "notes": "经典模型，支持性质种类最多",
+      "label": "CGCNN"
+    },
+    {
+      "id": "Model:CHGNet",
+      "type": "Model",
+      "architecture": "GNN",
+      "training_data": "Materials Project Trajectory",
+      "speed": "fast",
+      "supported_props": [],
+      "element_coverage": "broad",
+      "is_available": false,
+      "paper": "Deng et al. 2023",
+      "notes": "势能面模型，适合分子动力学，暂不用于性质预测",
+      "label": "CHGNet"
+    },
+    {
+      "id": "Property:formation_energy",
+      "type": "Property",
+      "unit": "eV/atom",
+      "description": "每原子形成能，负值表示材料热力学稳定",
+      "stability_threshold": 0.0,
+      "label": "formation_energy"
+    },
+    {
+      "id": "Property:band_gap",
+      "type": "Property",
+      "unit": "eV",
+      "description": "电子带隙，0为金属，>0为半导体/绝缘体",
+      "metal_threshold": 0.1,
+      "label": "band_gap"
+    },
+    {
+      "id": "Property:bulk_modulus",
+      "type": "Property",
+      "unit": "log(GPa)",
+      "description": "体模量（Voigt-Reuss-Hill平均），衡量材料抗压缩能力",
+      "label": "bulk_modulus"
+    },
+    {
+      "id": "Property:shear_modulus",
+      "type": "Property",
+      "unit": "log(GPa)",
+      "description": "剪切模量（Voigt-Reuss-Hill平均），衡量材料抗剪切能力",
+      "label": "shear_modulus"
+    },
+    {
+      "id": "Property:poisson_ratio",
+      "type": "Property",
+      "unit": "dimensionless",
+      "description": "泊松比，描述横向应变与轴向应变之比",
+      "label": "poisson_ratio"
+    },
+    {
+      "id": "Property:fermi_energy",
+      "type": "Property",
+      "unit": "eV",
+      "description": "费米能级",
+      "label": "fermi_energy"
+    },
+    {
+      "id": "CrystalSystem:三斜",
+      "type": "CrystalSystem",
+      "symmetry_level": "lowest",
+      "typical_materials": [
+        "CuAl2O4变体",
+        "矿物feldspar"
+      ],
+      "train_count": 16898,
+      "label": "三斜"
+    },
+    {
+      "id": "CrystalSystem:单斜",
+      "type": "CrystalSystem",
+      "symmetry_level": "low",
+      "typical_materials": [
+        "单斜ZrO2",
+        "VO2低温相"
+      ],
+      "train_count": 25439,
+      "label": "单斜"
+    },
+    {
+      "id": "CrystalSystem:正交",
+      "type": "CrystalSystem",
+      "symmetry_level": "medium",
+      "typical_materials": [
+        "正交BaTiO3",
+        "GaN正交相"
+      ],
+      "train_count": 22715,
+      "label": "正交"
+    },
+    {
+      "id": "CrystalSystem:四方",
+      "type": "CrystalSystem",
+      "symmetry_level": "medium",
+      "typical_materials": [
+        "四方BaTiO3",
+        "TiO2金红石"
+      ],
+      "train_count": 11766,
+      "label": "四方"
+    },
+    {
+      "id": "CrystalSystem:三方",
+      "type": "CrystalSystem",
+      "symmetry_level": "medium_high",
+      "typical_materials": [
+        "α-Al2O3",
+        "α-Fe2O3"
+      ],
+      "train_count": 9099,
+      "label": "三方"
+    },
+    {
+      "id": "CrystalSystem:六方",
+      "type": "CrystalSystem",
+      "symmetry_level": "high",
+      "typical_materials": [
+        "GaN纤锌矿",
+        "MoS2 2H相"
+      ],
+      "train_count": 7474,
+      "label": "六方"
+    },
+    {
+      "id": "CrystalSystem:立方",
+      "type": "CrystalSystem",
+      "symmetry_level": "highest",
+      "typical_materials": [
+        "NaCl",
+        "Si",
+        "Cu"
+      ],
+      "train_count": 14668,
+      "label": "立方"
+    },
+    {
+      "id": "Tool:spglib",
+      "type": "Tool",
+      "function": "从结构文件确定空间群和晶系",
+      "input": "Structure",
+      "output": "crystal_system, space_group",
+      "is_available": true,
+      "label": "spglib"
+    },
+    {
+      "id": "Tool:CifParser",
+      "type": "Tool",
+      "function": "解析CIF/POSCAR格式的结构文件",
+      "input": "file_path",
+      "output": "Structure",
+      "is_available": true,
+      "label": "CifParser"
+    },
+    {
+      "id": "Tool:LLM_parser",
+      "type": "Tool",
+      "function": "从自然语言提取化学式和目标性质",
+      "input": "natural_language",
+      "output": "formula, target_properties",
+      "is_available": true,
+      "label": "LLM_parser"
+    },
+    {
+      "id": "Tool:polymorph_checker",
+      "type": "Tool",
+      "function": "检测化学式是否存在多态性",
+      "input": "formula",
+      "output": "polymorphs_list",
+      "is_available": true,
+      "label": "polymorph_checker"
+    },
+    {
+      "id": "CrystalSystem:三斜_band"
+    },
+    {
+      "id": "CrystalSystem:三斜_bulk"
+    },
+    {
+      "id": "CrystalSystem:三斜_formation"
+    },
+    {
+      "id": "CrystalSystem:三斜_shear"
+    },
+    {
+      "id": "CrystalSystem:三方_band"
+    },
+    {
+      "id": "CrystalSystem:三方_bulk"
+    },
+    {
+      "id": "CrystalSystem:三方_formation"
+    },
+    {
+      "id": "CrystalSystem:三方_shear"
+    },
+    {
+      "id": "CrystalSystem:六方_band"
+    },
+    {
+      "id": "CrystalSystem:六方_bulk"
+    },
+    {
+      "id": "CrystalSystem:六方_formation"
+    },
+    {
+      "id": "CrystalSystem:六方_shear"
+    },
+    {
+      "id": "CrystalSystem:单斜_band"
+    },
+    {
+      "id": "CrystalSystem:单斜_bulk"
+    },
+    {
+      "id": "CrystalSystem:单斜_formation"
+    },
+    {
+      "id": "CrystalSystem:单斜_shear"
+    },
+    {
+      "id": "CrystalSystem:四方_band"
+    },
+    {
+      "id": "CrystalSystem:四方_bulk"
+    },
+    {
+      "id": "CrystalSystem:四方_formation"
+    },
+    {
+      "id": "CrystalSystem:四方_shear"
+    },
+    {
+      "id": "CrystalSystem:正交_band"
+    },
+    {
+      "id": "CrystalSystem:正交_bulk"
+    },
+    {
+      "id": "CrystalSystem:正交_formation"
+    },
+    {
+      "id": "CrystalSystem:正交_shear"
+    },
+    {
+      "id": "CrystalSystem:立方_band"
+    },
+    {
+      "id": "CrystalSystem:立方_bulk"
+    },
+    {
+      "id": "CrystalSystem:立方_formation"
+    },
+    {
+      "id": "CrystalSystem:立方_shear"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Model:MEGNet",
+      "target": "Property:formation_energy",
+      "relation": "PREDICTS"
+    },
+    {
+      "source": "Model:MEGNet",
+      "target": "Property:band_gap",
+      "relation": "PREDICTS"
+    },
+    {
+      "source": "Model:MEGNet",
+      "target": "Tool:CifParser",
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "Model:MEGNet",
+      "target": "Tool:spglib",
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "Model:M3GNet",
+      "target": "Property:formation_energy",
+      "relation": "PREDICTS"
+    },
+    {
+      "source": "Model:M3GNet",
+      "target": "Tool:CifParser",
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "Model:M3GNet",
+      "target": "Tool:spglib",
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "Model:ALIGNN",
+      "target": "Property:formation_energy",
+      "relation": "PREDICTS"
+    },
+    {
+      "source": "Model:ALIGNN",
+      "target": "Property:band_gap",
+      "relation": "PREDICTS"
+    },
+    {
+      "source": "Model:ALIGNN",
+      "target": "Tool:CifParser",
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "Model:ALIGNN",
+      "target": "Tool:spglib",
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "Model:CGCNN",
+      "target": "Property:formation_energy",
+      "relation": "PREDICTS"
+    },
+    {
+      "source": "Model:CGCNN",
+      "target": "Property:band_gap",
+      "relation": "PREDICTS"
+    },
+    {
+      "source": "Model:CGCNN",
+      "target": "Property:bulk_modulus",
+      "relation": "PREDICTS"
+    },
+    {
+      "source": "Model:CGCNN",
+      "target": "Property:shear_modulus",
+      "relation": "PREDICTS"
+    },
+    {
+      "source": "Model:CGCNN",
+      "target": "Tool:CifParser",
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "Model:CGCNN",
+      "target": "Tool:spglib",
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "Model:CHGNet",
+      "target": "Tool:CifParser",
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "Model:CHGNet",
+      "target": "Tool:spglib",
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "Property:formation_energy",
+      "target": "Property:band_gap",
+      "relation": "PHYSICALLY_IMPLIES",
+      "condition": "formation_energy > 0",
+      "implication": "形成能为正说明材料热力学不稳定，带隙预测参考价值低",
+      "action": "warn"
+    },
+    {
+      "source": "Property:band_gap",
+      "target": "Property:shear_modulus",
+      "relation": "PHYSICALLY_IMPLIES",
+      "condition": "band_gap < 0.1",
+      "implication": "带隙接近0说明是金属，剪切模量预测更有实际意义",
+      "action": "prioritize"
+    },
+    {
+      "source": "Property:bulk_modulus",
+      "target": "Property:shear_modulus",
+      "relation": "PHYSICALLY_IMPLIES",
+      "condition": "always",
+      "implication": "体模量和剪切模量通常一起预测，用于计算泊松比",
+      "action": "suggest"
+    },
+    {
+      "source": "Tool:LLM_parser",
+      "target": "Property:formation_energy",
+      "relation": "CAN_IDENTIFY"
+    },
+    {
+      "source": "Tool:LLM_parser",
+      "target": "Property:band_gap",
+      "relation": "CAN_IDENTIFY"
+    },
+    {
+      "source": "Tool:LLM_parser",
+      "target": "Property:bulk_modulus",
+      "relation": "CAN_IDENTIFY"
+    },
+    {
+      "source": "Tool:LLM_parser",
+      "target": "Property:shear_modulus",
+      "relation": "CAN_IDENTIFY"
+    },
+    {
+      "source": "Tool:LLM_parser",
+      "target": "Property:poisson_ratio",
+      "relation": "CAN_IDENTIFY"
+    },
+    {
+      "source": "Tool:LLM_parser",
+      "target": "Property:fermi_energy",
+      "relation": "CAN_IDENTIFY"
+    },
+    {
+      "source": "CrystalSystem:三斜_band",
+      "target": "Model:ALIGNN",
+      "relation": "HAS_COVERAGE",
+      "property": "gap",
+      "mae": 0.7924,
+      "sample_count": 16898
+    },
+    {
+      "source": "CrystalSystem:三斜_band",
+      "target": "Model:CGCNN",
+      "relation": "HAS_COVERAGE",
+      "property": "gap",
+      "mae": 0.8427,
+      "sample_count": 16898
+    },
+    {
+      "source": "CrystalSystem:三斜_band",
+      "target": "Model:MEGNet",
+      "relation": "HAS_COVERAGE",
+      "property": "gap",
+      "mae": 0.7157,
+      "sample_count": 16898
+    },
+    {
+      "source": "CrystalSystem:三斜_bulk",
+      "target": "Model:CGCNN",
+      "relation": "HAS_COVERAGE",
+      "property": "modulus",
+      "mae": 0.2412,
+      "sample_count": 56
+    },
+    {
+      "source": "CrystalSystem:三斜_formation",
+      "target": "Model:ALIGNN",
+      "relation": "HAS_COVERAGE",
+      "property": "energy",
+      "mae": 0.242,
+      "sample_count": 16898
+    },
+    {
+      "source": "CrystalSystem:三斜_formation",
+      "target": "Model:CGCNN",
+      "relation": "HAS_COVERAGE",
+      "property": "energy",
+      "mae": 0.1887,
+      "sample_count": 16898
+    },
+    {
+      "source": "CrystalSystem:三斜_formation",
+      "target": "Model:M3GNet",
+      "relation": "HAS_COVERAGE",
+      "property": "energy",
+      "mae": 0.1723,
+      "sample_count": 16898
+    },
+    {
+      "source": "CrystalSystem:三斜_formation",
+      "target": "Model:MEGNet",
+      "relation": "HAS_COVERAGE",
+      "property": "energy",
+      "mae": 0.141,
+      "sample_count": 16898
+    },
+    {
+      "source": "CrystalSystem:三斜_shear",
+      "target": "Model:CGCNN",
+      "relation": "HAS_COVERAGE",
+      "property": "modulus",
+      "mae": 0.2987,
+      "sample_count": 58
+    },
+    {
+      "source": "CrystalSystem:三方_band",
+      "target": "Model:ALIGNN",
+      "relation": "HAS_COVERAGE",
+      "property": "gap",
+      "mae": 0.4186,
+      "sample_count": 9099
+    },
+    {
+      "source": "CrystalSystem:三方_band",
+      "target": "Model:CGCNN",
+      "relation": "HAS_COVERAGE",
+      "property": "gap",
+      "mae": 0.7357,
+      "sample_count": 9099
+    },
+    {
+      "source": "CrystalSystem:三方_band",
+      "target": "Model:MEGNet",
+      "relation": "HAS_COVERAGE",
+      "property": "gap",
+      "mae": 0.5411,
+      "sample_count": 9099
+    },
+    {
+      "source": "CrystalSystem:三方_bulk",
+      "target": "Model:CGCNN",
+      "relation": "HAS_COVERAGE",
+      "property": "modulus",
+      "mae": 0.1489,
+      "sample_count": 675
+    },
+    {
+      "source": "CrystalSystem:三方_formation",
+      "target": "Model:ALIGNN",
+      "relation": "HAS_COVERAGE",
+      "property": "energy",
+      "mae": 0.1645,
+      "sample_count": 9099
+    },
+    {
+      "source": "CrystalSystem:三方_formation",
+      "target": "Model:CGCNN",
+      "relation": "HAS_COVERAGE",
+      "property": "energy",
+      "mae": 0.1173,
+      "sample_count": 9099
+    },
+    {
+      "source": "CrystalSystem:三方_formation",
+      "target": "Model:M3GNet",
+      "relation": "HAS_COVERAGE",
+      "property": "energy",
+      "mae": 0.1277,
+      "sample_count": 9099
+    },
+    {
+      "source": "CrystalSystem:三方_formation",
+      "target": "Model:MEGNet",
+      "relation": "HAS_COVERAGE",
+      "property": "energy",
+      "mae": 0.0956,
+      "sample_count": 9099
+    },
+    {
+      "source": "CrystalSystem:三方_shear",
+      "target": "Model:CGCNN",
+      "relation": "HAS_COVERAGE",
+      "property": "modulus",
+      "mae": 0.1528,
+      "sample_count": 665
+    },
+    {
+      "source": "CrystalSystem:六方_band",
+      "target": "Model:ALIGNN",
+      "relation": "HAS_COVERAGE",
+      "property": "gap",
+      "mae": 0.1952,
+      "sample_count": 7473
+    },
+    {
+      "source": "CrystalSystem:六方_band",
+      "target": "Model:CGCNN",
+      "relation": "HAS_COVERAGE",
+      "property": "gap",
+      "mae": 0.6727,
+      "sample_count": 7473
+    },
+    {
+      "source": "CrystalSystem:六方_band",
+      "target": "Model:MEGNet",
+      "relation": "HAS_COVERAGE",
+      "property": "gap",
+      "mae": 0.2502,
+      "sample_count": 7473
+    },
+    {
+      "source": "CrystalSystem:六方_bulk",
+      "target": "Model:CGCNN",
+      "relation": "HAS_COVERAGE",
+      "property": "modulus",
+      "mae": 0.1076,
+      "sample_count": 1266
+    },
+    {
+      "source": "CrystalSystem:六方_formation",
+      "target": "Model:ALIGNN",
+      "relation": "HAS_COVERAGE",
+      "property": "energy",
+      "mae": 0.0991,
+      "sample_count": 7474
+    },
+    {
+      "source": "CrystalSystem:六方_formation",
+      "target": "Model:CGCNN",
+      "relation": "HAS_COVERAGE",
+      "property": "energy",
+      "mae": 0.1058,
+      "sample_count": 7474
+    },
+    {
+      "source": "CrystalSystem:六方_formation",
+      "target": "Model:M3GNet",
+      "relation": "HAS_COVERAGE",
+      "property": "energy",
+      "mae": 0.0864,
+      "sample_count": 7474
+    },
+    {
+      "source": "CrystalSystem:六方_formation",
+      "target": "Model:MEGNet",
+      "relation": "HAS_COVERAGE",
+      "property": "energy",
+      "mae": 0.0767,
+      "sample_count": 7474
+    },
+    {
+      "source": "CrystalSystem:六方_shear",
+      "target": "Model:CGCNN",
+      "relation": "HAS_COVERAGE",
+      "property": "modulus",
+      "mae": 0.166,
+      "sample_count": 1233
+    },
+    {
+      "source": "CrystalSystem:单斜_band",
+      "target": "Model:ALIGNN",
+      "relation": "HAS_COVERAGE",
+      "property": "gap",
+      "mae": 0.6885,
+      "sample_count": 25439
+    },
+    {
+      "source": "CrystalSystem:单斜_band",
+      "target": "Model:CGCNN",
+      "relation": "HAS_COVERAGE",
+      "property": "gap",
+      "mae": 0.7898,
+      "sample_count": 25439
+    },
+    {
+      "source": "CrystalSystem:单斜_band",
+      "target": "Model:MEGNet",
+      "relation": "HAS_COVERAGE",
+      "property": "gap",
+      "mae": 0.7211,
+      "sample_count": 25439
+    },
+    {
+      "source": "CrystalSystem:单斜_bulk",
+      "target": "Model:CGCNN",
+      "relation": "HAS_COVERAGE",
+      "property": "modulus",
+      "mae": 0.1368,
+      "sample_count": 506
+    },
+    {
+      "source": "CrystalSystem:单斜_formation",
+      "target": "Model:ALIGNN",
+      "relation": "HAS_COVERAGE",
+      "property": "energy",
+      "mae": 0.1924,
+      "sample_count": 25439
+    },
+    {
+      "source": "CrystalSystem:单斜_formation",
+      "target": "Model:CGCNN",
+      "relation": "HAS_COVERAGE",
+      "property": "energy",
+      "mae": 0.1235,
+      "sample_count": 25439
+    },
+    {
+      "source": "CrystalSystem:单斜_formation",
+      "target": "Model:M3GNet",
+      "relation": "HAS_COVERAGE",
+      "property": "energy",
+      "mae": 0.1293,
+      "sample_count": 25439
+    },
+    {
+      "source": "CrystalSystem:单斜_formation",
+      "target": "Model:MEGNet",
+      "relation": "HAS_COVERAGE",
+      "property": "energy",
+      "mae": 0.092,
+      "sample_count": 25439
+    },
+    {
+      "source": "CrystalSystem:单斜_shear",
+      "target": "Model:CGCNN",
+      "relation": "HAS_COVERAGE",
+      "property": "modulus",
+      "mae": 0.1609,
+      "sample_count": 503
+    },
+    {
+      "source": "CrystalSystem:四方_band",
+      "target": "Model:ALIGNN",
+      "relation": "HAS_COVERAGE",
+      "property": "gap",
+      "mae": 0.3033,
+      "sample_count": 11766
+    },
+    {
+      "source": "CrystalSystem:四方_band",
+      "target": "Model:CGCNN",
+      "relation": "HAS_COVERAGE",
+      "property": "gap",
+      "mae": 0.8547,
+      "sample_count": 11766
+    },
+    {
+      "source": "CrystalSystem:四方_band",
+      "target": "Model:MEGNet",
+      "relation": "HAS_COVERAGE",
+      "property": "gap",
+      "mae": 0.4378,
+      "sample_count": 11766
+    },
+    {
+      "source": "CrystalSystem:四方_bulk",
+      "target": "Model:CGCNN",
+      "relation": "HAS_COVERAGE",
+      "property": "modulus",
+      "mae": 0.1205,
+      "sample_count": 1656
+    },
+    {
+      "source": "CrystalSystem:四方_formation",
+      "target": "Model:ALIGNN",
+      "relation": "HAS_COVERAGE",
+      "property": "energy",
+      "mae": 0.1257,
+      "sample_count": 11766
+    },
+    {
+      "source": "CrystalSystem:四方_formation",
+      "target": "Model:CGCNN",
+      "relation": "HAS_COVERAGE",
+      "property": "energy",
+      "mae": 0.1681,
+      "sample_count": 11766
+    },
+    {
+      "source": "CrystalSystem:四方_formation",
+      "target": "Model:M3GNet",
+      "relation": "HAS_COVERAGE",
+      "property": "energy",
+      "mae": 0.1114,
+      "sample_count": 11766
+    },
+    {
+      "source": "CrystalSystem:四方_formation",
+      "target": "Model:MEGNet",
+      "relation": "HAS_COVERAGE",
+      "property": "energy",
+      "mae": 0.1213,
+      "sample_count": 11766
+    },
+    {
+      "source": "CrystalSystem:四方_shear",
+      "target": "Model:CGCNN",
+      "relation": "HAS_COVERAGE",
+      "property": "modulus",
+      "mae": 0.1592,
+      "sample_count": 1630
+    },
+    {
+      "source": "CrystalSystem:正交_band",
+      "target": "Model:ALIGNN",
+      "relation": "HAS_COVERAGE",
+      "property": "gap",
+      "mae": 0.4318,
+      "sample_count": 22715
+    },
+    {
+      "source": "CrystalSystem:正交_band",
+      "target": "Model:CGCNN",
+      "relation": "HAS_COVERAGE",
+      "property": "gap",
+      "mae": 0.7349,
+      "sample_count": 22715
+    },
+    {
+      "source": "CrystalSystem:正交_band",
+      "target": "Model:MEGNet",
+      "relation": "HAS_COVERAGE",
+      "property": "gap",
+      "mae": 0.4918,
+      "sample_count": 22715
+    },
+    {
+      "source": "CrystalSystem:正交_bulk",
+      "target": "Model:CGCNN",
+      "relation": "HAS_COVERAGE",
+      "property": "modulus",
+      "mae": 0.0976,
+      "sample_count": 1158
+    },
+    {
+      "source": "CrystalSystem:正交_formation",
+      "target": "Model:ALIGNN",
+      "relation": "HAS_COVERAGE",
+      "property": "energy",
+      "mae": 0.1529,
+      "sample_count": 22715
+    },
+    {
+      "source": "CrystalSystem:正交_formation",
+      "target": "Model:CGCNN",
+      "relation": "HAS_COVERAGE",
+      "property": "energy",
+      "mae": 0.219,
+      "sample_count": 22715
+    },
+    {
+      "source": "CrystalSystem:正交_formation",
+      "target": "Model:M3GNet",
+      "relation": "HAS_COVERAGE",
+      "property": "energy",
+      "mae": 0.1965,
+      "sample_count": 22715
+    },
+    {
+      "source": "CrystalSystem:正交_formation",
+      "target": "Model:MEGNet",
+      "relation": "HAS_COVERAGE",
+      "property": "energy",
+      "mae": 0.2276,
+      "sample_count": 22715
+    },
+    {
+      "source": "CrystalSystem:正交_shear",
+      "target": "Model:CGCNN",
+      "relation": "HAS_COVERAGE",
+      "property": "modulus",
+      "mae": 0.1346,
+      "sample_count": 1142
+    },
+    {
+      "source": "CrystalSystem:立方_band",
+      "target": "Model:ALIGNN",
+      "relation": "HAS_COVERAGE",
+      "property": "gap",
+      "mae": 0.2628,
+      "sample_count": 14666
+    },
+    {
+      "source": "CrystalSystem:立方_band",
+      "target": "Model:CGCNN",
+      "relation": "HAS_COVERAGE",
+      "property": "gap",
+      "mae": 0.8103,
+      "sample_count": 14666
+    },
+    {
+      "source": "CrystalSystem:立方_band",
+      "target": "Model:MEGNet",
+      "relation": "HAS_COVERAGE",
+      "property": "gap",
+      "mae": 0.4026,
+      "sample_count": 14666
+    },
+    {
+      "source": "CrystalSystem:立方_bulk",
+      "target": "Model:CGCNN",
+      "relation": "HAS_COVERAGE",
+      "property": "modulus",
+      "mae": 0.1288,
+      "sample_count": 3714
+    },
+    {
+      "source": "CrystalSystem:立方_formation",
+      "target": "Model:ALIGNN",
+      "relation": "HAS_COVERAGE",
+      "property": "energy",
+      "mae": 0.1249,
+      "sample_count": 14668
+    },
+    {
+      "source": "CrystalSystem:立方_formation",
+      "target": "Model:CGCNN",
+      "relation": "HAS_COVERAGE",
+      "property": "energy",
+      "mae": 0.1242,
+      "sample_count": 14668
+    },
+    {
+      "source": "CrystalSystem:立方_formation",
+      "target": "Model:M3GNet",
+      "relation": "HAS_COVERAGE",
+      "property": "energy",
+      "mae": 0.0855,
+      "sample_count": 14668
+    },
+    {
+      "source": "CrystalSystem:立方_formation",
+      "target": "Model:MEGNet",
+      "relation": "HAS_COVERAGE",
+      "property": "energy",
+      "mae": 0.0909,
+      "sample_count": 14668
+    },
+    {
+      "source": "CrystalSystem:立方_shear",
+      "target": "Model:CGCNN",
+      "relation": "HAS_COVERAGE",
+      "property": "modulus",
+      "mae": 0.2382,
+      "sample_count": 3381
+    }
+  ]
+}

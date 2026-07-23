@@ -1,0 +1,45 @@
+# generated using pymatgen
+data_MgNi2(BiO3)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.14708903
+_cell_length_b   5.14681103
+_cell_length_c   9.98281500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.01184443
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgNi2(BiO3)4
+_chemical_formula_sum   'Mg1 Ni2 Bi4 O12'
+_cell_volume   264.45569055
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.00000000  0.50000000  0.24997800  1.0
+  Ni  Ni1  1  0.00000000  0.00000000  0.99864200  1.0
+  Ni  Ni2  1  0.50000000  0.50000000  0.50139800  1.0
+  Bi  Bi3  1  0.00000000  0.00000000  0.35461600  1.0
+  Bi  Bi4  1  0.00000000  0.00000000  0.67921600  1.0
+  Bi  Bi5  1  0.50000000  0.50000000  0.14527800  1.0
+  Bi  Bi6  1  0.50000000  0.50000000  0.82084500  1.0
+  O  O7  1  0.17317300  0.79348600  0.16499000  1.0
+  O  O8  1  0.19255400  0.80769800  0.84018300  1.0
+  O  O9  1  0.19833500  0.79750000  0.51287800  1.0
+  O  O10  1  0.29739400  0.30168100  0.98697500  1.0
+  O  O11  1  0.29309300  0.32651000  0.33523700  1.0
+  O  O12  1  0.30771000  0.30747100  0.65975200  1.0
+  O  O13  1  0.70690700  0.67349000  0.33523700  1.0
+  O  O14  1  0.69229000  0.69252900  0.65975200  1.0
+  O  O15  1  0.70260600  0.69831900  0.98697500  1.0
+  O  O16  1  0.80166500  0.20250000  0.51287800  1.0
+  O  O17  1  0.82682700  0.20651400  0.16499000  1.0
+  O  O18  1  0.80744600  0.19230200  0.84018300  1.0

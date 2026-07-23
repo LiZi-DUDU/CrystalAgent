@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_KMgNbO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.36201655
+_cell_length_b   4.38839292
+_cell_length_c   4.38839362
+_cell_angle_alpha   99.61114123
+_cell_angle_beta   99.51144476
+_cell_angle_gamma   80.48855605
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KMgNbO3
+_chemical_formula_sum   'K1 Mg1 Nb1 O3'
+_cell_volume   80.86334672
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.58424298  0.61256087  0.38743913  1.0
+  Mg  Mg1  1  0.27139181  0.29656836  0.70343164  1.0
+  Nb  Nb2  1  0.95960180  0.98859504  0.01140496  1.0
+  O  O3  1  0.97532232  0.49911323  0.99473420  1.0
+  O  O4  1  0.97532232  0.00526580  0.50088678  1.0
+  O  O5  1  0.46745178  0.00277171  0.99722829  1.0

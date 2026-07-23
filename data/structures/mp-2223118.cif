@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_MgTl2(FeS2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.92151900
+_cell_length_b   6.88417897
+_cell_length_c   7.60518137
+_cell_angle_alpha   118.17687321
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   110.94375636
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgTl2(FeS2)2
+_chemical_formula_sum   'Mg1 Tl2 Fe2 S4'
+_cell_volume   207.62056059
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.54416200  0.08832400  0.75623300  1.0
+  Tl  Tl1  1  0.70024700  0.40049500  0.56041600  1.0
+  Tl  Tl2  1  0.34203500  0.68407000  0.27854500  1.0
+  Fe  Fe3  1  0.23778500  0.96616200  0.01797500  1.0
+  Fe  Fe4  1  0.72837700  0.96616200  0.01797500  1.0
+  S  S5  1  0.31532500  0.63065100  0.88950500  1.0
+  S  S6  1  0.65246100  0.30492100  0.13665400  1.0
+  S  S7  1  0.01437200  0.02874300  0.27463500  1.0
+  S  S8  1  0.96523600  0.93047100  0.75324700  1.0

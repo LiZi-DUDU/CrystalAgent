@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_H5PbCBr3N2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.96885000
+_cell_length_b   6.19973000
+_cell_length_c   6.15940700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.99999040
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   H5PbCBr3N2
+_chemical_formula_sum   'H5 Pb1 C1 Br3 N2'
+_cell_volume   227.93044769
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  H  H0  1  0.74207100  0.28965500  0.50000000  1.0
+  H  H1  1  0.74207100  0.71034500  0.50000000  1.0
+  H  H2  1  0.29077400  0.50000000  0.50000000  1.0
+  H  H3  1  0.47233800  0.82078200  0.50000000  1.0
+  H  H4  1  0.47233800  0.17921800  0.50000000  1.0
+  Pb  Pb5  1  0.04426200  0.00000000  0.00000000  1.0
+  C  C6  1  0.47346900  0.49999900  0.50000000  1.0
+  Br  Br7  1  0.02830200  0.50000000  0.00000000  1.0
+  Br  Br8  1  0.54287900  0.00000000  0.00000000  1.0
+  Br  Br9  1  0.07746900  0.00000000  0.50000000  1.0
+  N  N10  1  0.57275800  0.68833500  0.50000000  1.0
+  N  N11  1  0.57275800  0.31166700  0.50000000  1.0

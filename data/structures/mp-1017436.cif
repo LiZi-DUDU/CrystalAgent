@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Mg6NbSi
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.06938300
+_cell_length_b   5.74711800
+_cell_length_c   10.89245700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mg6NbSi
+_chemical_formula_sum   'Mg12 Nb2 Si2'
+_cell_volume   317.34457060
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.50000000  0.25122300  0.42319800  1.0
+  Mg  Mg1  1  0.50000000  0.74877700  0.42319800  1.0
+  Mg  Mg2  1  0.00000000  0.74440400  0.08096100  1.0
+  Mg  Mg3  1  0.00000000  0.25559600  0.08096100  1.0
+  Mg  Mg4  1  0.00000000  0.00000000  0.32209500  1.0
+  Mg  Mg5  1  0.00000000  0.50000000  0.32519400  1.0
+  Mg  Mg6  1  0.50000000  0.75122300  0.92319800  1.0
+  Mg  Mg7  1  0.50000000  0.24877700  0.92319800  1.0
+  Mg  Mg8  1  0.00000000  0.24440400  0.58096100  1.0
+  Mg  Mg9  1  0.00000000  0.75559600  0.58096100  1.0
+  Mg  Mg10  1  0.00000000  0.50000000  0.82209500  1.0
+  Mg  Mg11  1  0.00000000  0.00000000  0.82519400  1.0
+  Nb  Nb12  1  0.50000000  0.50000000  0.17548200  1.0
+  Nb  Nb13  1  0.50000000  0.00000000  0.67548200  1.0
+  Si  Si14  1  0.50000000  0.00000000  0.16890700  1.0
+  Si  Si15  1  0.50000000  0.50000000  0.66890700  1.0

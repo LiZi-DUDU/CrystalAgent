@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_Y2MgCuO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.87710114
+_cell_length_b   7.87710114
+_cell_length_c   7.83350057
+_cell_angle_alpha   150.43513943
+_cell_angle_beta   150.43513943
+_cell_angle_gamma   42.18274621
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y2MgCuO4
+_chemical_formula_sum   'Y2 Mg1 Cu1 O4'
+_cell_volume   118.09058861
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.34457289  0.34457289  0.97853657  1.0
+  Y  Y1  1  0.59924332  0.59924332  0.01465317  1.0
+  Mg  Mg2  1  0.79008502  0.79008502  0.98761204  1.0
+  Cu  Cu3  1  0.97518673  0.97518673  0.00050841  1.0
+  O  O4  1  0.53238548  0.03880206  0.51398941  1.0
+  O  O5  1  0.77116829  0.27147321  0.49014700  1.0
+  O  O6  1  0.03880206  0.53238548  0.51398941  1.0
+  O  O7  1  0.27147321  0.77116829  0.49014700  1.0

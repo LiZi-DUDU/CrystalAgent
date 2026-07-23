@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_MgV2Cd2(CuO4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.83712611
+_cell_length_b   5.83712557
+_cell_length_c   6.72327790
+_cell_angle_alpha   90.43650277
+_cell_angle_beta   89.56349728
+_cell_angle_gamma   118.23747574
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgV2Cd2(CuO4)2
+_chemical_formula_sum   'Mg1 V2 Cd2 Cu2 O8'
+_cell_volume   201.80647809
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.50000000  0.50000000  0.50000000  1.0
+  V  V1  1  0.33568324  0.66431676  0.21558968  1.0
+  V  V2  1  0.66431676  0.33568324  0.78441032  1.0
+  Cd  Cd3  1  0.00000000  0.00000000  0.00000000  1.0
+  Cd  Cd4  1  0.00000000  0.00000000  0.50000000  1.0
+  Cu  Cu5  1  0.73873647  0.26126353  0.26480633  1.0
+  Cu  Cu6  1  0.26126353  0.73873647  0.73519367  1.0
+  O  O7  1  0.23071295  0.76928705  0.00351984  1.0
+  O  O8  1  0.72883170  0.27116830  0.53707799  1.0
+  O  O9  1  0.76928705  0.23071295  0.99648016  1.0
+  O  O10  1  0.27116830  0.72883170  0.46292201  1.0
+  O  O11  1  0.24452764  0.30453692  0.26314210  1.0
+  O  O12  1  0.75547236  0.69546308  0.73685790  1.0
+  O  O13  1  0.69546308  0.75547236  0.26314210  1.0
+  O  O14  1  0.30453692  0.24452764  0.73685790  1.0

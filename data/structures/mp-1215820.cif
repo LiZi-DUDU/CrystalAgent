@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_YUCo10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.97840850
+_cell_length_b   4.86592376
+_cell_length_c   8.37864376
+_cell_angle_alpha   89.99925359
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YUCo10
+_chemical_formula_sum   'Y1 U1 Co10'
+_cell_volume   162.19908481
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  -0.00000000  0.49999509  0.50005442  1.0
+  U  U1  1  0.00000000  -0.00001659  0.99995084  1.0
+  Co  Co2  1  -0.00000000  -0.00002306  0.30882315  1.0
+  Co  Co3  1  0.00000000  0.49999563  0.84480570  1.0
+  Co  Co4  1  0.00000000  0.49999094  0.15511946  1.0
+  Co  Co5  1  -0.00000000  0.99998096  0.69118258  1.0
+  Co  Co6  1  0.50000000  0.49998471  0.99994471  1.0
+  Co  Co7  1  0.50000000  -0.00001820  0.50008643  1.0
+  Co  Co8  1  0.50000000  0.25388057  0.25201055  1.0
+  Co  Co9  1  0.50000000  0.74608872  0.74801091  1.0
+  Co  Co10  1  0.50000000  0.74607673  0.25200242  1.0
+  Co  Co11  1  0.50000000  0.25386549  0.74800683  1.0

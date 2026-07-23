@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_Ho4MgTi2O10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.89882576
+_cell_length_b   5.93504602
+_cell_length_c   11.63494158
+_cell_angle_alpha   78.67901077
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   70.82479570
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ho4MgTi2O10
+_chemical_formula_sum   'Ho4 Mg1 Ti2 O10'
+_cell_volume   248.73914550
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ho  Ho0  1  0.17863506  0.64272988  0.88131641  1.0
+  Ho  Ho1  1  0.14955741  0.70088518  0.55921558  1.0
+  Ho  Ho2  1  0.82136494  0.35727012  0.11868359  1.0
+  Ho  Ho3  1  0.85044259  0.29911482  0.44078442  1.0
+  Mg  Mg4  1  0.50000000  -0.00000000  0.00000000  1.0
+  Ti  Ti5  1  0.13362839  0.73274322  0.26700948  1.0
+  Ti  Ti6  1  0.86637161  0.26725678  0.73299052  1.0
+  O  O7  1  0.02284616  0.95430669  0.37579511  1.0
+  O  O8  1  0.02613216  0.94773467  0.12179302  1.0
+  O  O9  1  0.66440170  0.67119460  0.96571720  1.0
+  O  O10  1  0.72991753  0.54016294  0.57857273  1.0
+  O  O11  1  0.29764258  0.40471585  0.74709451  1.0
+  O  O12  1  0.70235742  0.59528415  0.25290549  1.0
+  O  O13  1  0.33559830  0.32880540  0.03428280  1.0
+  O  O14  1  0.27008247  0.45983706  0.42142727  1.0
+  O  O15  1  0.97715384  0.04569331  0.62420489  1.0
+  O  O16  1  0.97386784  0.05226533  0.87820698  1.0

@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Ba3MgWO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.36435781
+_cell_length_b   7.45123571
+_cell_length_c   7.45102318
+_cell_angle_alpha   48.93988620
+_cell_angle_beta   48.99861798
+_cell_angle_gamma   48.99543630
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba3MgWO6
+_chemical_formula_sum   'Ba3 Mg1 W1 O6'
+_cell_volume   213.67598777
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.28751465  0.31052701  0.31048168  1.0
+  Ba  Ba1  1  0.49894934  0.50765240  0.50758202  1.0
+  Ba  Ba2  1  0.69124968  0.71792360  0.71783967  1.0
+  Mg  Mg3  1  0.11845184  0.12422818  0.12416362  1.0
+  W  W4  1  0.98390034  0.98797761  0.98805080  1.0
+  O  O5  1  0.25553676  0.77656270  0.77674552  1.0
+  O  O6  1  0.21963166  0.76341555  0.20555305  1.0
+  O  O7  1  0.79854863  0.26279544  0.76374296  1.0
+  O  O8  1  0.21970365  0.20562125  0.76332566  1.0
+  O  O9  1  0.75290796  0.21506306  0.21512022  1.0
+  O  O10  1  0.79860849  0.76364818  0.26280779  1.0

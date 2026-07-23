@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_K4MgNb2(CuS4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.66781436
+_cell_length_b   7.34898266
+_cell_length_c   12.24707131
+_cell_angle_alpha   84.39619991
+_cell_angle_beta   76.61511395
+_cell_angle_gamma   65.08785831
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K4MgNb2(CuS4)2
+_chemical_formula_sum   'K4 Mg1 Nb2 Cu2 S8'
+_cell_volume   450.09146794
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.95085300  0.75015200  0.09798200  1.0
+  K  K1  1  0.30652400  0.75031700  0.38743000  1.0
+  K  K2  1  0.05082800  0.24974100  0.89966700  1.0
+  K  K3  1  0.67366600  0.25006700  0.65336800  1.0
+  Mg  Mg4  1  0.25111900  0.25010600  0.49831900  1.0
+  Nb  Nb5  1  0.12731600  0.75000900  0.74570800  1.0
+  Nb  Nb6  1  0.87900300  0.25002500  0.24206600  1.0
+  Cu  Cu7  1  0.62511000  0.74969700  0.75077000  1.0
+  Cu  Cu8  1  0.37887200  0.25000600  0.24197900  1.0
+  S  S9  1  0.71956100  0.94733300  0.85653800  1.0
+  S  S10  1  0.05860600  0.53867300  0.63209300  1.0
+  S  S11  1  0.67021800  0.06594300  0.36819600  1.0
+  S  S12  1  0.57440400  0.45311500  0.13727800  1.0
+  S  S13  1  0.28838400  0.04699200  0.13721400  1.0
+  S  S14  1  0.96165000  0.43391800  0.36831800  1.0
+  S  S15  1  0.30967800  0.96148800  0.63213400  1.0
+  S  S16  1  0.42420600  0.55241600  0.85649600  1.0

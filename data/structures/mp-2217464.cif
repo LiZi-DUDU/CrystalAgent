@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_MgTiCu3O4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.16724220
+_cell_length_b   6.16724282
+_cell_length_c   15.93011753
+_cell_angle_alpha   26.66271053
+_cell_angle_beta   26.66270597
+_cell_angle_gamma   28.11392914
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgTiCu3O4
+_chemical_formula_sum   'Mg1 Ti1 Cu3 O4'
+_cell_volume   111.05696551
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.03240819  0.03240819  0.25757117  1.0
+  Ti  Ti1  1  0.48572240  0.48572240  0.83541840  1.0
+  Cu  Cu2  1  0.98661682  0.98661682  0.04230568  1.0
+  Cu  Cu3  1  0.00671322  0.00671322  0.63529276  1.0
+  Cu  Cu4  1  0.64918676  0.64918676  0.40492817  1.0
+  O  O5  1  0.06869017  0.06869017  0.09999170  1.0
+  O  O6  1  0.08242342  0.08242342  0.69757765  1.0
+  O  O7  1  0.85248033  0.85248033  0.63263028  1.0
+  O  O8  1  0.83575569  0.83575569  0.03620919  1.0

@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_Lu2AlSi2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.02394527
+_cell_length_b   5.44215513
+_cell_length_c   5.44215536
+_cell_angle_alpha   61.68476963
+_cell_angle_beta   68.30280576
+_cell_angle_gamma   68.30279483
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Lu2AlSi2
+_chemical_formula_sum   'Lu2 Al1 Si2'
+_cell_volume   94.69318560
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.78978850  0.71021150  0.71021150  1.0
+  Lu  Lu1  1  0.21021150  0.28978850  0.28978850  1.0
+  Al  Al2  1  -0.00000000  0.00000000  -0.00000000  1.0
+  Si  Si3  1  0.50000000  0.28883056  0.71116944  1.0
+  Si  Si4  1  0.50000000  0.71116944  0.28883056  1.0

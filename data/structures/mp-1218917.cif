@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_Sr(SiPd)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.40344338
+_cell_length_b   8.40342666
+_cell_length_c   8.40343178
+_cell_angle_alpha   122.80650906
+_cell_angle_beta   120.67967992
+_cell_angle_gamma   87.01693922
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr(SiPd)6
+_chemical_formula_sum   'Sr2 Si12 Pd12'
+_cell_volume   407.77444277
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.24999946  0.24999985  0.00000064  1.0
+  Sr  Sr1  1  0.75000160  0.75000076  0.00000010  1.0
+  Si  Si2  1  0.04040236  0.21925246  0.49371922  1.0
+  Si  Si3  1  0.72553695  0.54668754  0.50628442  1.0
+  Si  Si4  1  0.22553011  0.71925551  0.17885011  1.0
+  Si  Si5  1  0.54040661  0.04668027  0.82115087  1.0
+  Si  Si6  1  0.95959949  0.78074301  0.50627330  1.0
+  Si  Si7  1  0.27446993  0.45332621  0.49372714  1.0
+  Si  Si8  1  0.77446087  0.28074609  0.82114939  1.0
+  Si  Si9  1  0.45959625  0.95331112  0.17885020  1.0
+  Si  Si10  1  0.73527125  0.43527006  0.17053745  1.0
+  Si  Si11  1  0.26473257  0.56473455  0.82946294  1.0
+  Si  Si12  1  0.76473026  0.93526827  0.70000235  1.0
+  Si  Si13  1  0.23526670  0.06472743  0.29999832  1.0
+  Pd  Pd14  1  0.46113236  0.68173275  0.50390769  1.0
+  Pd  Pd15  1  0.17782516  0.95722596  0.49609421  1.0
+  Pd  Pd16  1  0.67783552  0.18173991  0.22061387  1.0
+  Pd  Pd17  1  0.96112584  0.45722183  0.77938540  1.0
+  Pd  Pd18  1  0.53886877  0.31825928  0.49609502  1.0
+  Pd  Pd19  1  0.82216212  0.04277259  0.50390367  1.0
+  Pd  Pd20  1  0.32217617  0.81826917  0.77939859  1.0
+  Pd  Pd21  1  0.03886986  0.54277630  0.22059819  1.0
+  Pd  Pd22  1  0.53257159  0.68168180  0.21425164  1.0
+  Pd  Pd23  1  0.46742953  0.31831909  0.78574659  1.0
+  Pd  Pd24  1  0.03257058  0.81831281  0.85088354  1.0
+  Pd  Pd25  1  0.96742709  0.18168738  0.14911515  1.0

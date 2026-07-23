@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Ba2ZnSe3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.44401323
+_cell_length_b   9.22608162
+_cell_length_c   17.81171133
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2ZnSe3
+_chemical_formula_sum   'Ba8 Zn4 Se12'
+_cell_volume   730.29492653
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.25000000  0.24865286  0.54370715  1.0
+  Ba  Ba1  1  0.25000000  0.74865286  0.95629285  1.0
+  Ba  Ba2  1  0.75000000  0.75134714  0.45629285  1.0
+  Ba  Ba3  1  0.75000000  0.25134714  0.04370715  1.0
+  Ba  Ba4  1  0.25000000  0.41735222  0.28734748  1.0
+  Ba  Ba5  1  0.25000000  0.91735222  0.21265252  1.0
+  Ba  Ba6  1  0.75000000  0.58264778  0.71265252  1.0
+  Ba  Ba7  1  0.75000000  0.08264778  0.78734748  1.0
+  Zn  Zn8  1  0.25000000  0.36329440  0.86396956  1.0
+  Zn  Zn9  1  0.25000000  0.86329440  0.63603044  1.0
+  Zn  Zn10  1  0.75000000  0.63670560  0.13603044  1.0
+  Zn  Zn11  1  0.75000000  0.13670560  0.36396956  1.0
+  Se  Se12  1  0.25000000  0.00735272  0.39790106  1.0
+  Se  Se13  1  0.25000000  0.50735272  0.10209894  1.0
+  Se  Se14  1  0.75000000  0.99264728  0.60209894  1.0
+  Se  Se15  1  0.75000000  0.49264728  0.89790106  1.0
+  Se  Se16  1  0.25000000  0.12812123  0.92885643  1.0
+  Se  Se17  1  0.25000000  0.62812123  0.57114357  1.0
+  Se  Se18  1  0.75000000  0.87187877  0.07114357  1.0
+  Se  Se19  1  0.75000000  0.37187877  0.42885643  1.0
+  Se  Se20  1  0.25000000  0.31949753  0.72722227  1.0
+  Se  Se21  1  0.25000000  0.81949753  0.77277773  1.0
+  Se  Se22  1  0.75000000  0.68050247  0.27277773  1.0
+  Se  Se23  1  0.75000000  0.18050247  0.22722227  1.0

@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_ScGeRh
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.84301999
+_cell_length_b   6.67059899
+_cell_length_c   6.67059983
+_cell_angle_alpha   119.99999043
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ScGeRh
+_chemical_formula_sum   'Sc3 Ge3 Rh3'
+_cell_volume   148.09249088
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.50000000  0.58044378  0.00000000  1.0
+  Sc  Sc1  1  0.50000000  0.41956472  0.41959351  1.0
+  Sc  Sc2  1  0.50000000  0.99997120  0.58040649  1.0
+  Ge  Ge3  1  -0.00000000  0.33331529  0.66667803  1.0
+  Ge  Ge4  1  -0.00000000  0.66663626  0.33332197  1.0
+  Ge  Ge5  1  0.50000000  0.00001646  -0.00000000  1.0
+  Rh  Rh6  1  -0.00000000  0.24399484  0.00000000  1.0
+  Rh  Rh7  1  0.00000000  0.75597544  0.75599243  1.0
+  Rh  Rh8  1  0.00000000  0.99998301  0.24400757  1.0

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_YSiPt
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.28156320
+_cell_length_b   7.00880457
+_cell_length_c   7.44169338
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YSiPt
+_chemical_formula_sum   'Y4 Si4 Pt4'
+_cell_volume   223.31509557
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.25000000  0.99727189  0.29869657  1.0
+  Y  Y1  1  0.25000000  0.49727189  0.20130343  1.0
+  Y  Y2  1  0.75000000  0.00272811  0.70130343  1.0
+  Y  Y3  1  0.75000000  0.50272811  0.79869657  1.0
+  Si  Si4  1  0.25000000  0.31324989  0.58703050  1.0
+  Si  Si5  1  0.25000000  0.81324989  0.91296950  1.0
+  Si  Si6  1  0.75000000  0.68675011  0.41296950  1.0
+  Si  Si7  1  0.75000000  0.18675011  0.08703050  1.0
+  Pt  Pt8  1  0.25000000  0.19914440  0.91540881  1.0
+  Pt  Pt9  1  0.25000000  0.69914440  0.58459119  1.0
+  Pt  Pt10  1  0.75000000  0.80085560  0.08459119  1.0
+  Pt  Pt11  1  0.75000000  0.30085560  0.41540881  1.0

@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_Na6MgV2O8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.79563236
+_cell_length_b   6.12357742
+_cell_length_c   6.18983362
+_cell_angle_alpha   85.92847599
+_cell_angle_beta   89.94245560
+_cell_angle_gamma   90.04812072
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na6MgV2O8
+_chemical_formula_sum   'Na6 Mg1 V2 O8'
+_cell_volume   256.93082060
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.99992036  0.09177364  0.49193275  1.0
+  Na  Na1  1  0.22838731  0.32845555  0.97868187  1.0
+  Na  Na2  1  0.26421392  0.60984947  0.38192868  1.0
+  Na  Na3  1  0.49930079  0.96101229  0.12388107  1.0
+  Na  Na4  1  0.73388988  0.61014838  0.37796810  1.0
+  Na  Na5  1  0.77215371  0.32821325  0.97738658  1.0
+  Mg  Mg6  1  0.50043219  0.66991760  0.79113213  1.0
+  V  V7  1  0.00023170  0.82880742  0.01149462  1.0
+  V  V8  1  0.50018763  0.16529016  0.50903232  1.0
+  O  O9  1  0.00051086  0.09340205  0.87066624  1.0
+  O  O10  1  0.00000706  0.79680728  0.29858772  1.0
+  O  O11  1  0.25641565  0.71141594  0.96252848  1.0
+  O  O12  1  0.28996131  0.24187587  0.34502984  1.0
+  O  O13  1  0.50022924  0.34859492  0.73927338  1.0
+  O  O14  1  0.50007188  0.85533010  0.51683347  1.0
+  O  O15  1  0.71045477  0.24139583  0.34419362  1.0
+  O  O16  1  0.74363175  0.71146026  0.96320614  1.0

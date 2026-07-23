@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_Ba4Mg(CuO2)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.95950550
+_cell_length_b   12.53492494
+_cell_length_c   3.54213085
+_cell_angle_alpha   90.00249738
+_cell_angle_beta   90.00147013
+_cell_angle_gamma   89.56068542
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba4Mg(CuO2)4
+_chemical_formula_sum   'Ba4 Mg1 Cu4 O8'
+_cell_volume   264.59631815
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.24182400  0.12245500  0.50024700  1.0
+  Ba  Ba1  1  0.25823400  0.37799400  0.49972400  1.0
+  Ba  Ba2  1  0.74419700  0.89933300  0.50016700  1.0
+  Ba  Ba3  1  0.75580800  0.60110600  0.49970000  1.0
+  Mg  Mg4  1  0.24999100  0.75025300  0.50014700  1.0
+  Cu  Cu5  1  0.24487300  0.90608900  0.00020700  1.0
+  Cu  Cu6  1  0.25508200  0.59436100  0.99999700  1.0
+  Cu  Cu7  1  0.74644900  0.13475400  0.00003600  1.0
+  Cu  Cu8  1  0.75356700  0.36563200  0.99976000  1.0
+  O  O9  1  0.03162600  0.74898100  0.99975600  1.0
+  O  O10  1  0.97790200  0.24981300  0.99984900  1.0
+  O  O11  1  0.99957900  0.48960200  0.99981400  1.0
+  O  O12  1  0.50042100  0.01086000  0.00012500  1.0
+  O  O13  1  0.46828400  0.75167100  0.00073300  1.0
+  O  O14  1  0.52214500  0.25060200  0.99974900  1.0
+  O  O15  1  0.51436700  0.48973200  0.99972800  1.0
+  O  O16  1  0.98564900  0.01076100  0.00025900  1.0

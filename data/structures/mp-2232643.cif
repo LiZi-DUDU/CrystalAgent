@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Ba3MgMn3O9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.39474782
+_cell_length_b   8.39474474
+_cell_length_c   8.39424347
+_cell_angle_alpha   40.85801873
+_cell_angle_beta   40.85802821
+_cell_angle_gamma   40.85176241
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba3MgMn3O9
+_chemical_formula_sum   'Ba3 Mg1 Mn3 O9'
+_cell_volume   228.46650158
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.77766000  0.77765900  0.77645000  1.0
+  Ba  Ba1  1  0.23754900  0.23755000  0.23783300  1.0
+  Ba  Ba2  1  0.96894400  0.96894300  0.96903600  1.0
+  Mg  Mg3  1  0.10703000  0.10703000  0.10565800  1.0
+  Mn  Mn4  1  0.62039300  0.62039400  0.62040600  1.0
+  Mn  Mn5  1  0.38099400  0.38099600  0.38050500  1.0
+  Mn  Mn6  1  0.50478200  0.50478200  0.50382600  1.0
+  O  O7  1  0.50304000  0.98805800  0.50328600  1.0
+  O  O8  1  0.98806000  0.50303900  0.50328600  1.0
+  O  O9  1  0.50288200  0.50288100  0.98828500  1.0
+  O  O10  1  0.29975400  0.29975200  0.75261000  1.0
+  O  O11  1  0.29965500  0.75435700  0.29840600  1.0
+  O  O12  1  0.75435900  0.29965300  0.29840600  1.0
+  O  O13  1  0.70375500  0.26399500  0.70331200  1.0
+  O  O14  1  0.70381700  0.70382000  0.26371600  1.0
+  O  O15  1  0.26399200  0.70375700  0.70331200  1.0

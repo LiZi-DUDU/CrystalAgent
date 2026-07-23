@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Tb2MgCr2O8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.22715584
+_cell_length_b   6.21173708
+_cell_length_c   6.08630245
+_cell_angle_alpha   105.63641223
+_cell_angle_beta   105.74727612
+_cell_angle_gamma   118.07671961
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb2MgCr2O8
+_chemical_formula_sum   'Tb2 Mg1 Cr2 O8'
+_cell_volume   176.69998102
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.12536500  0.87536500  0.25073100  1.0
+  Tb  Tb1  1  0.90359400  0.15359300  0.80718500  1.0
+  Mg  Mg2  1  0.61515000  0.86515000  0.23030200  1.0
+  Cr  Cr3  1  0.35121300  0.60121400  0.70242800  1.0
+  Cr  Cr4  1  0.62653100  0.37653100  0.25306200  1.0
+  O  O5  1  0.79563100  0.74423100  0.43229900  1.0
+  O  O6  1  0.38515900  0.79976300  0.53673400  1.0
+  O  O7  1  0.72040100  0.81258300  0.94925900  1.0
+  O  O8  1  0.81305200  0.38899000  0.07443600  1.0
+  O  O9  1  0.63666700  0.18806900  0.43230000  1.0
+  O  O10  1  0.15157800  0.23697400  0.53673500  1.0
+  O  O11  1  0.26138300  0.18544600  0.07443600  1.0
+  O  O12  1  0.22885800  0.63667700  0.94926000  1.0

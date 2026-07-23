@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_K3ErMgV2O8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.21545767
+_cell_length_b   6.21619700
+_cell_length_c   8.09165520
+_cell_angle_alpha   86.69612701
+_cell_angle_beta   93.29449760
+_cell_angle_gamma   120.84414626
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K3ErMgV2O8
+_chemical_formula_sum   'K3 Er1 Mg1 V2 O8'
+_cell_volume   267.82772434
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.70718900  0.29295600  0.26777700  1.0
+  K  K1  1  0.29290900  0.70716900  0.73229300  1.0
+  K  K2  1  0.99984700  0.00014200  0.99989100  1.0
+  Er  Er3  1  0.00003700  0.99997700  0.50004800  1.0
+  Mg  Mg4  1  0.49993300  0.49991300  0.50001100  1.0
+  V  V5  1  0.69406800  0.30598700  0.75191900  1.0
+  V  V6  1  0.30601000  0.69408500  0.24804800  1.0
+  O  O7  1  0.67153400  0.32852300  0.95848700  1.0
+  O  O8  1  0.32865500  0.67152800  0.04152500  1.0
+  O  O9  1  0.81753700  0.62485300  0.63397100  1.0
+  O  O10  1  0.37484700  0.18239200  0.63413000  1.0
+  O  O11  1  0.85123000  0.14877200  0.69158700  1.0
+  O  O12  1  0.18241100  0.37493000  0.36591800  1.0
+  O  O13  1  0.62499300  0.81754900  0.36600300  1.0
+  O  O14  1  0.14880000  0.85122600  0.30839200  1.0

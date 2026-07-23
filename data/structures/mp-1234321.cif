@@ -1,0 +1,45 @@
+# generated using pymatgen
+data_Rb2CaNb2(TeO6)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.64194569
+_cell_length_b   7.65627478
+_cell_length_c   7.47844476
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   60.70525315
+_cell_angle_gamma   121.58126244
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Rb2CaNb2(TeO6)2
+_chemical_formula_sum   'Rb2 Ca1 Nb2 Te2 O12'
+_cell_volume   305.13427832
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.85844200  0.32521100  0.32077900  1.0
+  Rb  Rb1  1  0.14155800  0.67478900  0.67922100  1.0
+  Ca  Ca2  1  0.50000000  0.50000000  0.50000000  1.0
+  Nb  Nb3  1  0.50000000  0.50000000  0.00000000  1.0
+  Nb  Nb4  1  0.50000000  0.00000000  0.00000000  1.0
+  Te  Te5  1  0.00000000  0.00000000  0.50000000  1.0
+  Te  Te6  1  0.00000000  0.00000000  0.00000000  1.0
+  O  O7  1  0.84177500  0.91818500  0.32911300  1.0
+  O  O8  1  0.61244900  0.31164900  0.94377500  1.0
+  O  O9  1  0.24777400  0.93367500  0.93564300  1.0
+  O  O10  1  0.25745500  0.33004400  0.32779900  1.0
+  O  O11  1  0.25745500  0.33004400  0.91474600  1.0
+  O  O12  1  0.24777400  0.93367500  0.31658200  1.0
+  O  O13  1  0.15822500  0.08181500  0.67088700  1.0
+  O  O14  1  0.38755100  0.68835100  0.05622500  1.0
+  O  O15  1  0.75222600  0.06632500  0.06435700  1.0
+  O  O16  1  0.74254500  0.66995600  0.67220100  1.0
+  O  O17  1  0.74254500  0.66995600  0.08525400  1.0
+  O  O18  1  0.75222600  0.06632500  0.68341800  1.0

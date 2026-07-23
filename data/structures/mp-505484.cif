@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_PrGePt
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.46602109
+_cell_length_b   7.67245788
+_cell_length_c   14.79908622
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   PrGePt
+_chemical_formula_sum   'Pr8 Ge8 Pt8'
+_cell_volume   507.09599782
+_cell_formula_units_Z   8
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pr  Pr0  1  0.50000000  0.79037168  0.74667265  1.0
+  Pr  Pr1  1  0.00000000  0.20962832  0.75332735  1.0
+  Pr  Pr2  1  0.50000000  0.79037168  0.25332735  1.0
+  Pr  Pr3  1  -0.00000000  0.20962832  0.24667265  1.0
+  Pr  Pr4  1  0.50000000  0.70839047  -0.00000000  1.0
+  Pr  Pr5  1  -0.00000000  0.29160953  0.50000000  1.0
+  Pr  Pr6  1  0.50000000  0.70328443  0.50000000  1.0
+  Pr  Pr7  1  -0.00000000  0.29671557  -0.00000000  1.0
+  Ge  Ge8  1  0.50000000  0.41018134  0.65052529  1.0
+  Ge  Ge9  1  0.00000000  0.58981866  0.84947471  1.0
+  Ge  Ge10  1  0.50000000  0.41018134  0.34947471  1.0
+  Ge  Ge11  1  0.00000000  0.58981866  0.15052529  1.0
+  Ge  Ge12  1  0.50000000  0.08759592  0.09399808  1.0
+  Ge  Ge13  1  0.00000000  0.91240408  0.40600192  1.0
+  Ge  Ge14  1  0.50000000  0.08759592  0.90600192  1.0
+  Ge  Ge15  1  0.00000000  0.91240408  0.59399808  1.0
+  Pt  Pt16  1  0.50000000  0.07917320  0.60950030  1.0
+  Pt  Pt17  1  0.00000000  0.92082680  0.89049970  1.0
+  Pt  Pt18  1  0.50000000  0.07917320  0.39049970  1.0
+  Pt  Pt19  1  0.00000000  0.92082680  0.10950030  1.0
+  Pt  Pt20  1  0.50000000  0.41752526  0.15048714  1.0
+  Pt  Pt21  1  -0.00000000  0.58247474  0.34951286  1.0
+  Pt  Pt22  1  0.50000000  0.41752526  0.84951286  1.0
+  Pt  Pt23  1  -0.00000000  0.58247474  0.65048714  1.0

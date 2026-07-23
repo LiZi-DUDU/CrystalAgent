@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_CaTb4Al2(FeO6)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.14280864
+_cell_length_b   6.25456642
+_cell_length_c   7.08114982
+_cell_angle_alpha   89.64869534
+_cell_angle_beta   85.52756520
+_cell_angle_gamma   91.98623958
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaTb4Al2(FeO6)2
+_chemical_formula_sum   'Ca1 Tb4 Al2 Fe2 O12'
+_cell_volume   271.06000170
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.35914700  0.30426300  0.19574400  1.0
+  Tb  Tb1  1  0.68870700  0.63688700  0.29723100  1.0
+  Tb  Tb2  1  0.85368200  0.12189300  0.21207300  1.0
+  Tb  Tb3  1  0.54225300  0.40683100  0.74029500  1.0
+  Tb  Tb4  1  0.93574900  0.94352200  0.73932000  1.0
+  Al  Al5  1  0.11200100  0.47501200  0.52516200  1.0
+  Al  Al6  1  0.39447700  0.90904800  0.98267600  1.0
+  Fe  Fe7  1  0.00569100  0.53574100  0.97193900  1.0
+  Fe  Fe8  1  0.45845000  0.99064400  0.51573500  1.0
+  O  O9  1  0.48204400  0.95543600  0.21569500  1.0
+  O  O10  1  0.03144000  0.45740000  0.28616700  1.0
+  O  O11  1  0.57007800  0.02598900  0.78484100  1.0
+  O  O12  1  0.90210900  0.56349000  0.69185600  1.0
+  O  O13  1  0.84279400  0.81227600  0.03552400  1.0
+  O  O14  1  0.61881600  0.30363600  0.43479100  1.0
+  O  O15  1  0.17964300  0.20393000  0.57904500  1.0
+  O  O16  1  0.32917200  0.62901300  0.95065700  1.0
+  O  O17  1  0.17732100  0.10374400  0.98793000  1.0
+  O  O18  1  0.35779200  0.64158600  0.52839600  1.0
+  O  O19  1  0.81993500  0.89579400  0.45464100  1.0
+  O  O20  1  0.70120000  0.36958100  0.03099800  1.0

@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_Sm4MgTi2Mn2O12
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.54761406
+_cell_length_b   6.09958288
+_cell_length_c   8.06463248
+_cell_angle_alpha   87.83186343
+_cell_angle_beta   92.04006097
+_cell_angle_gamma   92.82992903
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sm4MgTi2Mn2O12
+_chemical_formula_sum   'Sm4 Mg1 Ti2 Mn2 O12'
+_cell_volume   272.20859159
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sm  Sm0  1  0.06316700  0.87564200  0.70053400  1.0
+  Sm  Sm1  1  0.43607300  0.41962500  0.74496500  1.0
+  Sm  Sm2  1  0.97909000  0.09551200  0.27047500  1.0
+  Sm  Sm3  1  0.51307200  0.57226100  0.26834400  1.0
+  Mg  Mg4  1  0.86957400  0.22565200  0.86823400  1.0
+  Ti  Ti5  1  0.51368100  0.00356900  0.49328100  1.0
+  Ti  Ti6  1  0.97132600  0.59440000  0.02487000  1.0
+  Mn  Mn7  1  0.99493600  0.49331800  0.48692900  1.0
+  Mn  Mn8  1  0.46715100  0.97785700  0.00803100  1.0
+  O  O9  1  0.86826800  0.52719100  0.77208000  1.0
+  O  O10  1  0.64628900  0.04941000  0.73523600  1.0
+  O  O11  1  0.12394700  0.46929900  0.23660200  1.0
+  O  O12  1  0.37300400  0.95356700  0.26632000  1.0
+  O  O13  1  0.81126600  0.81690200  0.45172400  1.0
+  O  O14  1  0.72104200  0.32907000  0.06453000  1.0
+  O  O15  1  0.20568500  0.18824900  0.53975100  1.0
+  O  O16  1  0.29610600  0.67024300  0.93176600  1.0
+  O  O17  1  0.19424800  0.15436500  0.90012600  1.0
+  O  O18  1  0.33079500  0.68203800  0.54964300  1.0
+  O  O19  1  0.79505500  0.82384700  0.08905300  1.0
+  O  O20  1  0.68872100  0.29673300  0.43083500  1.0

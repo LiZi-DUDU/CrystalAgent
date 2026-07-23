@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_SnGe4Te4Se
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   18.55885784
+_cell_length_b   18.55885784
+_cell_length_c   18.55885717
+_cell_angle_alpha   12.97605779
+_cell_angle_beta   12.97605779
+_cell_angle_gamma   12.97605641
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SnGe4Te4Se
+_chemical_formula_sum   'Sn1 Ge4 Te4 Se1'
+_cell_volume   280.31025001
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sn  Sn0  1  0.40676184  0.40676184  0.40676184  1.0
+  Ge  Ge1  1  0.80389790  0.80389790  0.80389790  1.0
+  Ge  Ge2  1  0.20349676  0.20349676  0.20349676  1.0
+  Ge  Ge3  1  0.60294713  0.60294713  0.60294713  1.0
+  Ge  Ge4  1  0.00263795  0.00263795  0.00263795  1.0
+  Te  Te5  1  0.49679953  0.49679953  0.49679953  1.0
+  Te  Te6  1  0.89632191  0.89632191  0.89632191  1.0
+  Te  Te7  1  0.29581582  0.29581582  0.29581582  1.0
+  Te  Te8  1  0.69550563  0.69550563  0.69550563  1.0
+  Se  Se9  1  0.09929354  0.09929354  0.09929354  1.0

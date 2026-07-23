@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_MgAg4(RuO3)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.23746545
+_cell_length_b   7.22837221
+_cell_length_c   7.23732442
+_cell_angle_alpha   60.04464019
+_cell_angle_beta   90.00132188
+_cell_angle_gamma   119.96162110
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgAg4(RuO3)4
+_chemical_formula_sum   'Mg1 Ag4 Ru4 O12'
+_cell_volume   268.06437059
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.12962900  0.25011600  0.12951100  1.0
+  Ag  Ag1  1  0.58056800  0.55348500  0.97356100  1.0
+  Ag  Ag2  1  0.97461900  0.94880800  0.97465700  1.0
+  Ag  Ag3  1  0.97459200  0.55114600  0.97464200  1.0
+  Ag  Ag4  1  0.97356300  0.94648800  0.58054300  1.0
+  Ru  Ru5  1  0.50030000  0.00064400  0.99898700  1.0
+  Ru  Ru6  1  0.50016300  0.00032800  0.50018900  1.0
+  Ru  Ru7  1  0.50017800  0.49966000  0.50020600  1.0
+  Ru  Ru8  1  0.99900600  0.49933600  0.50032100  1.0
+  O  O9  1  0.82327500  0.24986900  0.42654800  1.0
+  O  O10  1  0.57078200  0.14236300  0.17880800  1.0
+  O  O11  1  0.57078700  0.74962000  0.17881400  1.0
+  O  O12  1  0.82269000  0.25000900  0.82266900  1.0
+  O  O13  1  0.82326600  0.64682100  0.42657100  1.0
+  O  O14  1  0.42591700  0.25002900  0.42585500  1.0
+  O  O15  1  0.57085800  0.74999100  0.57089600  1.0
+  O  O16  1  0.17872200  0.74997800  0.17875200  1.0
+  O  O17  1  0.17880400  0.35764400  0.57079400  1.0
+  O  O18  1  0.42657000  0.25013000  0.82325300  1.0
+  O  O19  1  0.42655300  0.85315500  0.82325800  1.0
+  O  O20  1  0.17879000  0.75038200  0.57079500  1.0

@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_BaPrMg(CoO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.74186266
+_cell_length_b   4.02766867
+_cell_length_c   9.76462585
+_cell_angle_alpha   101.84314383
+_cell_angle_beta   83.48938218
+_cell_angle_gamma   89.65622765
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaPrMg(CoO3)2
+_chemical_formula_sum   'Ba1 Pr1 Mg1 Co2 O6'
+_cell_volume   143.03616481
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.15061983  0.82698707  0.05507006  1.0
+  Pr  Pr1  1  0.06371793  0.03584978  0.44655287  1.0
+  Mg  Mg2  1  0.73836295  0.21230610  0.81882796  1.0
+  Co  Co3  1  0.29919367  0.65819260  0.69391747  1.0
+  Co  Co4  1  0.59805915  0.43046858  0.25544930  1.0
+  O  O5  1  0.77338622  0.69668088  0.79230444  1.0
+  O  O6  1  0.26451886  0.15499397  0.71054026  1.0
+  O  O7  1  0.08809169  0.44304804  0.28386888  1.0
+  O  O8  1  0.59359777  0.94179534  0.28105362  1.0
+  O  O9  1  0.50602629  0.53150185  0.49568801  1.0
+  O  O10  1  0.65775864  0.31817580  0.03339613  1.0

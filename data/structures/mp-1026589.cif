@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Mg14BiC
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.52934890
+_cell_length_b   6.85807037
+_cell_length_c   9.67780264
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   121.67986968
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mg14BiC
+_chemical_formula_sum   'Mg14 Bi1 C1'
+_cell_volume   368.78727541
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.18782393  0.34391146  0.62500000  1.0
+  Mg  Mg1  1  0.19372149  0.84686024  0.62500000  1.0
+  Mg  Mg2  1  0.72089615  0.38323094  0.12500000  1.0
+  Mg  Mg3  1  0.68111526  0.32091989  0.62500000  1.0
+  Mg  Mg4  1  0.72089615  0.83766421  0.12500000  1.0
+  Mg  Mg5  1  0.68111526  0.86019437  0.62500000  1.0
+  Mg  Mg6  1  0.33182247  0.18920368  0.35909089  1.0
+  Mg  Mg7  1  0.33182247  0.18920368  0.89090911  1.0
+  Mg  Mg8  1  0.33182247  0.64261979  0.35909089  1.0
+  Mg  Mg9  1  0.33182247  0.64261979  0.89090911  1.0
+  Mg  Mg10  1  0.84880339  0.17440220  0.35142974  1.0
+  Mg  Mg11  1  0.84880339  0.17440220  0.89857026  1.0
+  Mg  Mg12  1  0.82951531  0.66475815  0.38854243  1.0
+  Mg  Mg13  1  0.82951531  0.66475815  0.86145757  1.0
+  Bi  Bi14  1  0.22200033  0.86099967  0.12500000  1.0
+  C  C15  1  0.90850415  0.20425158  0.12500000  1.0

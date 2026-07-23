@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Ba2LaMgCu3O7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.79504055
+_cell_length_b   4.00857842
+_cell_length_c   14.63409685
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2LaMgCu3O7
+_chemical_formula_sum   'Ba2 La1 Mg1 Cu3 O7'
+_cell_volume   222.62438347
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.50000000  0.50000000  0.08332292  1.0
+  Ba  Ba1  1  0.50000000  0.50000000  0.78133836  1.0
+  La  La2  1  0.50000000  0.50000000  0.52104479  1.0
+  Mg  Mg3  1  0.50000000  0.00000000  0.27140299  1.0
+  Cu  Cu4  1  0.00000000  0.00000000  0.93591781  1.0
+  Cu  Cu5  1  0.00000000  0.00000000  0.40916393  1.0
+  Cu  Cu6  1  0.00000000  0.00000000  0.64555932  1.0
+  O  O7  1  0.50000000  0.00000000  0.40385603  1.0
+  O  O8  1  0.50000000  0.00000000  0.62102467  1.0
+  O  O9  1  0.00000000  0.50000000  0.41743885  1.0
+  O  O10  1  0.00000000  0.50000000  0.63460958  1.0
+  O  O11  1  0.00000000  0.00000000  0.20504790  1.0
+  O  O12  1  0.00000000  0.00000000  0.80417855  1.0
+  O  O13  1  0.00000000  0.50000000  0.97165030  1.0

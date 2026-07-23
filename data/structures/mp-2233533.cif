@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_MgV2In2O8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.95627730
+_cell_length_b   5.11500506
+_cell_length_c   6.02375700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   91.12373686
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgV2In2O8
+_chemical_formula_sum   'Mg1 V2 In2 O8'
+_cell_volume   152.68120329
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.50000000  0.75000000  0.89424800  1.0
+  V  V1  1  0.00000000  0.25000000  0.16175700  1.0
+  V  V2  1  0.00000000  0.75000000  0.85343400  1.0
+  In  In3  1  0.50000000  0.25000000  0.64617500  1.0
+  In  In4  1  0.50000000  0.75000000  0.35098100  1.0
+  O  O5  1  0.78642300  0.04853400  0.89132400  1.0
+  O  O6  1  0.21357700  0.45146600  0.89132400  1.0
+  O  O7  1  0.23022700  0.93575300  0.09461700  1.0
+  O  O8  1  0.76977300  0.56424700  0.09461700  1.0
+  O  O9  1  0.74871000  0.10683200  0.36147900  1.0
+  O  O10  1  0.25129000  0.39316800  0.36147900  1.0
+  O  O11  1  0.27174300  0.89415500  0.64199100  1.0
+  O  O12  1  0.72825700  0.60584500  0.64199100  1.0

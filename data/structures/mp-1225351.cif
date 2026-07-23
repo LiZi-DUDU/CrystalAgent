@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Dy4MnSe7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.83032587
+_cell_length_b   6.83032587
+_cell_length_c   11.99502431
+_cell_angle_alpha   75.66322713
+_cell_angle_beta   75.66322713
+_cell_angle_gamma   33.60135958
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Dy4MnSe7
+_chemical_formula_sum   'Dy4 Mn1 Se7'
+_cell_volume   299.15396019
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.69310103  0.69310103  0.20398422  1.0
+  Dy  Dy1  1  0.30644593  0.30644593  0.80145019  1.0
+  Dy  Dy2  1  0.99969290  0.99969290  0.00603352  1.0
+  Dy  Dy3  1  0.11397832  0.11397832  0.56719444  1.0
+  Mn  Mn4  1  0.88416016  0.88416016  0.42286746  1.0
+  Se  Se5  1  0.74397361  0.74397361  0.64045005  1.0
+  Se  Se6  1  0.26788892  0.26788892  0.35242570  1.0
+  Se  Se7  1  0.33815475  0.33815475  0.05045995  1.0
+  Se  Se8  1  0.66007003  0.66007003  0.94847582  1.0
+  Se  Se9  1  0.03400014  0.03400014  0.22497324  1.0
+  Se  Se10  1  0.96365895  0.96365895  0.78496153  1.0
+  Se  Se11  1  0.49487625  0.49487625  0.49672390  1.0

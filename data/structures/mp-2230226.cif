@@ -1,0 +1,45 @@
+# generated using pymatgen
+data_Ba6Mg(TiS5)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.85878387
+_cell_length_b   8.46288217
+_cell_length_c   9.36756015
+_cell_angle_alpha   117.67647008
+_cell_angle_beta   122.49174023
+_cell_angle_gamma   88.60985528
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba6Mg(TiS5)2
+_chemical_formula_sum   'Ba6 Mg1 Ti2 S10'
+_cell_volume   556.62811665
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.67012613  0.18577651  -0.00000000  1.0
+  Ba  Ba1  1  0.90684231  0.66357362  0.00000000  1.0
+  Ba  Ba2  1  0.16124060  0.33142659  0.00000000  1.0
+  Ba  Ba3  1  0.26955965  0.86871688  1.00000000  1.0
+  Ba  Ba4  1  0.68881187  0.75057423  0.50154867  1.0
+  Ba  Ba5  1  0.18726320  0.24902556  0.49845133  1.0
+  Mg  Mg6  1  0.58749403  0.72681647  0.00000000  1.0
+  Ti  Ti7  1  0.75119558  0.23595295  0.48360129  1.0
+  Ti  Ti8  1  0.26759429  0.75235166  0.51639871  1.0
+  S  S9  1  0.02880887  0.50367029  0.29681159  1.0
+  S  S10  1  0.73199729  0.20685871  0.70318941  1.0
+  S  S11  1  0.98642409  0.48633416  0.68210366  1.0
+  S  S12  1  0.24413565  0.01291577  0.72321803  1.0
+  S  S13  1  0.52173982  0.69266631  0.70042323  1.0
+  S  S14  1  0.82131759  0.99224407  0.29957777  1.0
+  S  S15  1  0.52091862  0.28969873  0.27678297  1.0
+  S  S16  1  0.30432142  0.80423149  0.31789734  1.0
+  S  S17  1  0.99034567  0.01085709  1.00000000  1.0
+  S  S18  1  0.45361332  0.50974689  1.00000000  1.0

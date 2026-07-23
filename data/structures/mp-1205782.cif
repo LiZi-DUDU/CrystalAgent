@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Sm3(AgGe)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.38787185
+_cell_length_b   7.10574826
+_cell_length_c   8.42557010
+_cell_angle_alpha   114.93909188
+_cell_angle_beta   105.08074209
+_cell_angle_gamma   89.99368858
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sm3(AgGe)4
+_chemical_formula_sum   'Sm3 Ag4 Ge4'
+_cell_volume   228.19367063
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sm  Sm0  1  0.87192255  0.37201269  0.74380467  1.0
+  Sm  Sm1  1  0.12807744  0.62798738  0.25619514  1.0
+  Sm  Sm2  1  0.00000016  0.00000023  1.00000007  1.0
+  Ag  Ag3  1  0.33159406  0.63581352  0.66268345  1.0
+  Ag  Ag4  1  0.66840589  0.36418670  0.33731683  1.0
+  Ag  Ag5  1  0.33122987  0.02693665  0.66272230  1.0
+  Ag  Ag6  1  0.66876899  0.97306320  0.33727648  1.0
+  Ge  Ge7  1  0.21652980  0.21662967  0.43324435  1.0
+  Ge  Ge8  1  0.78347006  0.78337090  0.56675591  1.0
+  Ge  Ge9  1  0.50019850  0.68165744  0.99992856  1.0
+  Ge  Ge10  1  0.49980168  0.31834263  0.00007124  1.0

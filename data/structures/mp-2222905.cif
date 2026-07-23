@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Sr2Mg(TiS3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.75304397
+_cell_length_b   6.69817158
+_cell_length_c   7.52442462
+_cell_angle_alpha   116.97905185
+_cell_angle_beta   109.75037736
+_cell_angle_gamma   88.13533522
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr2Mg(TiS3)2
+_chemical_formula_sum   'Sr2 Mg1 Ti2 S6'
+_cell_volume   240.66329444
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.31932649  0.60507497  0.22538246  1.0
+  Sr  Sr1  1  0.64656455  0.39095869  0.78628197  1.0
+  Mg  Mg2  1  0.02186420  0.23045549  0.45962435  1.0
+  Ti  Ti3  1  0.48099179  0.98950916  0.97796903  1.0
+  Ti  Ti4  1  0.98541090  0.98733465  0.97522972  1.0
+  S  S5  1  0.60609042  0.84443779  0.67773140  1.0
+  S  S6  1  0.82296146  0.83589524  0.17141114  1.0
+  S  S7  1  0.80325320  0.33851174  0.17328875  1.0
+  S  S8  1  0.37649031  0.16518615  0.32208154  1.0
+  S  S9  1  0.15126342  0.16823401  0.80886019  1.0
+  S  S10  1  0.17120025  0.64440212  0.81213945  1.0

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Yb4CrS7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.42317062
+_cell_length_b   6.42317062
+_cell_length_c   11.25727165
+_cell_angle_alpha   74.37054696
+_cell_angle_beta   74.37054696
+_cell_angle_gamma   33.79952159
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Yb4CrS7
+_chemical_formula_sum   'Yb4 Cr1 S7'
+_cell_volume   247.91057141
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Yb  Yb0  1  0.68543352  0.68543352  0.22183471  1.0
+  Yb  Yb1  1  0.30143693  0.30143693  0.80833034  1.0
+  Yb  Yb2  1  0.99227430  0.99227430  0.00553460  1.0
+  Yb  Yb3  1  0.11928051  0.11928051  0.56574277  1.0
+  Cr  Cr4  1  0.88994135  0.88994135  0.42346813  1.0
+  S  S5  1  0.75164549  0.75164549  0.63519234  1.0
+  S  S6  1  0.27355633  0.27355633  0.35358484  1.0
+  S  S7  1  0.33037687  0.33037687  0.05468422  1.0
+  S  S8  1  0.65227954  0.65227954  0.94496923  1.0
+  S  S9  1  0.03000231  0.03000231  0.22439841  1.0
+  S  S10  1  0.96052885  0.96052885  0.78311170  1.0
+  S  S11  1  0.51324400  0.51324400  0.47914771  1.0

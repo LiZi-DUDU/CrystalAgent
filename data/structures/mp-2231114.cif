@@ -1,0 +1,45 @@
+# generated using pymatgen
+data_MgV4FeNiO12
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.06059624
+_cell_length_b   7.06180616
+_cell_length_c   5.52792589
+_cell_angle_alpha   71.20495909
+_cell_angle_beta   108.79699959
+_cell_angle_gamma   102.92135516
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgV4FeNiO12
+_chemical_formula_sum   'Mg1 V4 Fe1 Ni1 O12'
+_cell_volume   244.79505582
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.72560134  0.72510317  0.74999541  1.0
+  V  V1  1  0.19085415  0.62098933  0.75229368  1.0
+  V  V2  1  0.38974294  0.83917623  0.21531984  1.0
+  V  V3  1  0.62140528  0.19040105  0.74769361  1.0
+  V  V4  1  0.83971616  0.38926926  0.28470649  1.0
+  Fe  Fe5  1  0.09905670  0.09843751  0.74995377  1.0
+  Ni  Ni6  1  0.92123398  0.92075928  0.24994880  1.0
+  O  O7  1  0.02106952  0.79673587  0.65446494  1.0
+  O  O8  1  0.04337345  0.40390308  0.67030790  1.0
+  O  O9  1  0.18967087  0.97657391  0.15552748  1.0
+  O  O10  1  0.39003597  0.69558426  0.59974756  1.0
+  O  O11  1  0.40432097  0.04281387  0.82971678  1.0
+  O  O12  1  0.29646541  0.59892354  0.08827205  1.0
+  O  O13  1  0.69599551  0.38953990  0.90025703  1.0
+  O  O14  1  0.65403039  0.86564210  0.34474672  1.0
+  O  O15  1  0.59935282  0.29591243  0.41168469  1.0
+  O  O16  1  0.79713954  0.02059596  0.84554583  1.0
+  O  O17  1  0.86619415  0.65351931  0.15518333  1.0
+  O  O18  1  0.97696687  0.18908293  0.34463308  1.0

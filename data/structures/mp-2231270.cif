@@ -1,0 +1,45 @@
+# generated using pymatgen
+data_NaMgCr2In(H2O5)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.87090473
+_cell_length_b   6.77174002
+_cell_length_c   7.25246384
+_cell_angle_alpha   109.66668217
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   115.68897481
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaMgCr2In(H2O5)2
+_chemical_formula_sum   'Na1 Mg1 Cr2 In1 H4 O10'
+_cell_volume   241.03235394
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.88918263  0.77836526  0.48536801  1.0
+  Mg  Mg1  1  0.16048173  0.32096446  0.45864651  1.0
+  Cr  Cr2  1  0.62422699  0.24845598  0.31642568  1.0
+  Cr  Cr3  1  0.39403230  0.78806260  0.69981068  1.0
+  In  In4  1  0.00628041  0.01256081  0.00928888  1.0
+  H  H5  1  0.25796025  0.51591951  0.17336945  1.0
+  H  H6  1  0.76424797  0.52849693  0.80385997  1.0
+  H  H7  1  0.22644766  0.45289432  0.92945578  1.0
+  H  H8  1  0.77195378  0.54390855  0.03648452  1.0
+  O  O9  1  0.19358910  0.38717720  0.04057148  1.0
+  O  O10  1  0.81822445  0.63644990  0.94680521  1.0
+  O  O11  1  0.71605334  0.43210869  0.19566311  1.0
+  O  O12  1  0.26293548  0.52586896  0.74607718  1.0
+  O  O13  1  0.70101954  0.40203907  0.56084028  1.0
+  O  O14  1  0.32242850  0.64485701  0.44173858  1.0
+  O  O15  1  0.82161029  0.09842719  0.26944013  1.0
+  O  O16  1  0.27681690  0.09842719  0.26944013  1.0
+  O  O17  1  0.21728956  0.93834168  0.77264271  1.0
+  O  O18  1  0.72105211  0.93834168  0.77264271  1.0

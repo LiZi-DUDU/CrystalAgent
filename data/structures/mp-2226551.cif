@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Na2MgTiO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.00038818
+_cell_length_b   5.62288475
+_cell_length_c   6.72067754
+_cell_angle_alpha   122.91422415
+_cell_angle_beta   102.81762456
+_cell_angle_gamma   89.95408885
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2MgTiO3
+_chemical_formula_sum   'Na2 Mg1 Ti1 O3'
+_cell_volume   91.81335890
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.58001429  0.52598796  0.15860198  1.0
+  Na  Na1  1  0.29589669  0.48468062  0.58648263  1.0
+  Mg  Mg2  1  0.84046988  0.06660541  0.67567447  1.0
+  Ti  Ti3  1  0.03677798  0.92814650  0.07204041  1.0
+  O  O4  1  0.66301150  0.04570938  0.32566939  1.0
+  O  O5  1  0.45122906  0.02662587  0.89932166  1.0
+  O  O6  1  0.94510060  0.53161926  0.88637646  1.0

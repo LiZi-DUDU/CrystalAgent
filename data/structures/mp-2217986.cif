@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_BaLaMgMn2O6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.96362031
+_cell_length_b   3.96362031
+_cell_length_c   10.23049000
+_cell_angle_alpha   100.26248089
+_cell_angle_beta   100.26248089
+_cell_angle_gamma   89.79014079
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaLaMgMn2O6
+_chemical_formula_sum   'Ba1 La1 Mg1 Mn2 O6'
+_cell_volume   155.55706425
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.82684884  0.82684884  0.04592059  1.0
+  La  La1  1  0.97371337  0.97371337  0.43437825  1.0
+  Mg  Mg2  1  0.22357258  0.22357258  0.82467807  1.0
+  Mn  Mn3  1  0.66420404  0.66420404  0.70241865  1.0
+  Mn  Mn4  1  0.41511112  0.41511112  0.24905881  1.0
+  O  O5  1  0.19408760  0.69608997  0.76416133  1.0
+  O  O6  1  0.69608997  0.19408760  0.76416133  1.0
+  O  O7  1  0.92992457  0.42316777  0.27591826  1.0
+  O  O8  1  0.42316777  0.92992457  0.27591826  1.0
+  O  O9  1  0.31840056  0.31840056  0.02859331  1.0
+  O  O10  1  0.58488557  0.58488557  0.49312815  1.0

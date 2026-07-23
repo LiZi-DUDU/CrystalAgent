@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_MgV2(Cl2O)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.63571563
+_cell_length_b   3.72018800
+_cell_length_c   7.21558864
+_cell_angle_alpha   104.46355969
+_cell_angle_beta   105.73431102
+_cell_angle_gamma   89.99721361
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgV2(Cl2O)2
+_chemical_formula_sum   'Mg1 V2 Cl4 O2'
+_cell_volume   190.53083266
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.36854000  0.74539100  0.50544400  1.0
+  V  V1  1  0.98206200  0.99823400  0.99709100  1.0
+  V  V2  1  0.51664900  0.00461600  0.00461100  1.0
+  Cl  Cl3  1  0.19793600  0.87239200  0.72996600  1.0
+  Cl  Cl4  1  0.31845400  0.13756500  0.28100400  1.0
+  Cl  Cl5  1  0.66695000  0.86631800  0.72016600  1.0
+  Cl  Cl6  1  0.81806900  0.12207900  0.24938000  1.0
+  O  O7  1  0.50175800  0.50652300  0.00867200  1.0
+  O  O8  1  0.99995300  0.49688300  0.99440700  1.0

@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_MgCr2(NiO4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.58172797
+_cell_length_b   5.58162252
+_cell_length_c   6.23614354
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.42052416
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgCr2(NiO4)2
+_chemical_formula_sum   'Mg1 Cr2 Ni2 O8'
+_cell_volume   169.23192222
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.84374102  0.15625669  0.25000000  1.0
+  Cr  Cr1  1  0.57956716  0.42039779  0.25000100  1.0
+  Cr  Cr2  1  0.38802787  0.61199548  0.75000100  1.0
+  Ni  Ni3  1  0.06848680  0.93146241  0.52757350  1.0
+  Ni  Ni4  1  0.06848680  0.93146241  0.97242650  1.0
+  O  O5  1  0.23243567  0.24414636  0.75000000  1.0
+  O  O6  1  0.79131021  0.78213114  0.25000000  1.0
+  O  O7  1  0.21786160  0.20867142  0.25000000  1.0
+  O  O8  1  0.75585265  0.76756466  0.75000000  1.0
+  O  O9  1  0.27637548  0.72368356  0.96336039  1.0
+  O  O10  1  0.69032313  0.30968876  0.45910950  1.0
+  O  O11  1  0.69032313  0.30968876  0.04088950  1.0
+  O  O12  1  0.27637548  0.72368356  0.53663861  1.0

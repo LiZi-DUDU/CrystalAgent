@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_Zn11Co2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.64464521
+_cell_length_b   7.64478068
+_cell_length_c   7.64477020
+_cell_angle_alpha   109.47147854
+_cell_angle_beta   109.47076657
+_cell_angle_gamma   109.47084487
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zn11Co2
+_chemical_formula_sum   'Zn22 Co4'
+_cell_volume   343.92834894
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.35429548  0.35434791  0.99999974  1.0
+  Zn  Zn1  1  -0.00004601  0.64565555  0.64565643  1.0
+  Zn  Zn2  1  0.35429463  0.99999953  0.35434726  1.0
+  Zn  Zn3  1  0.00001478  0.35430277  0.35430329  1.0
+  Zn  Zn4  1  0.64571649  0.00000807  0.64570106  1.0
+  Zn  Zn5  1  0.64571723  0.64570015  0.00000778  1.0
+  Zn  Zn6  1  0.20668333  0.20674312  0.20674520  1.0
+  Zn  Zn7  1  -0.00005517  0.00000374  0.79327319  1.0
+  Zn  Zn8  1  -0.00005491  0.79327988  0.00000639  1.0
+  Zn  Zn9  1  0.79330847  0.00000313  0.00000572  1.0
+  Zn  Zn10  1  0.39028405  0.74247733  0.74247878  1.0
+  Zn  Zn11  1  0.64780294  0.99999332  0.25752214  1.0
+  Zn  Zn12  1  0.64779920  0.25752342  0.99999513  1.0
+  Zn  Zn13  1  0.99999410  0.64772682  0.25744758  1.0
+  Zn  Zn14  1  0.74255506  0.39028435  0.74255404  1.0
+  Zn  Zn15  1  0.25742954  0.64767123  0.99999218  1.0
+  Zn  Zn16  1  0.99999415  0.25744889  0.64772273  1.0
+  Zn  Zn17  1  0.25742881  0.99999202  0.64766886  1.0
+  Zn  Zn18  1  0.74255541  0.74255304  0.39028139  1.0
+  Zn  Zn19  1  0.60977060  0.35231273  0.35231373  1.0
+  Zn  Zn20  1  0.35226025  0.60973697  0.35226005  1.0
+  Zn  Zn21  1  0.35225597  0.35225499  0.60973332  1.0
+  Co  Co22  1  0.34379418  0.99999855  0.99999918  1.0
+  Co  Co23  1  0.00000038  0.34377908  0.00000039  1.0
+  Co  Co24  1  0.00000013  -0.00000059  0.34378216  1.0
+  Co  Co25  1  0.65620193  0.65620099  0.65620128  1.0

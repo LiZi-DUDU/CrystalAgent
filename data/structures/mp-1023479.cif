@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_CaMg6Al
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.13720100
+_cell_length_b   6.59225300
+_cell_length_c   11.34728000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaMg6Al
+_chemical_formula_sum   'Ca2 Mg12 Al2'
+_cell_volume   384.28390601
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.50000000  0.50000000  0.17114700  1.0
+  Ca  Ca1  1  0.50000000  0.00000000  0.67114700  1.0
+  Mg  Mg2  1  0.00000000  0.24092900  0.07997600  1.0
+  Mg  Mg3  1  0.00000000  0.75907100  0.07997600  1.0
+  Mg  Mg4  1  0.00000000  0.50000000  0.83312200  1.0
+  Mg  Mg5  1  0.50000000  0.24240100  0.91737300  1.0
+  Mg  Mg6  1  0.50000000  0.75759900  0.91737300  1.0
+  Mg  Mg7  1  0.50000000  0.50000000  0.66438900  1.0
+  Mg  Mg8  1  0.00000000  0.74092900  0.57997600  1.0
+  Mg  Mg9  1  0.00000000  0.25907100  0.57997600  1.0
+  Mg  Mg10  1  0.00000000  0.00000000  0.33312200  1.0
+  Mg  Mg11  1  0.50000000  0.74240100  0.41737300  1.0
+  Mg  Mg12  1  0.50000000  0.25759900  0.41737300  1.0
+  Mg  Mg13  1  0.50000000  0.00000000  0.16438900  1.0
+  Al  Al14  1  0.00000000  0.50000000  0.33664400  1.0
+  Al  Al15  1  0.00000000  0.00000000  0.83664400  1.0

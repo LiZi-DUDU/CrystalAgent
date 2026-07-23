@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_MgTiVO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.14790683
+_cell_length_b   5.14877456
+_cell_length_c   5.14844723
+_cell_angle_alpha   132.12220719
+_cell_angle_beta   132.22048319
+_cell_angle_gamma   69.96070387
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgTiVO4
+_chemical_formula_sum   'Mg1 Ti1 V1 O4'
+_cell_volume   73.49244751
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.23583100  0.73596900  0.49801600  1.0
+  Ti  Ti1  1  0.73831200  0.23843800  0.49800900  1.0
+  V  V2  1  0.98838500  0.98821600  0.99863400  1.0
+  O  O3  1  0.50481900  0.00464600  0.49864500  1.0
+  O  O4  1  0.23192700  0.23191200  0.99816900  1.0
+  O  O5  1  0.97296000  0.47287000  0.49855900  1.0
+  O  O6  1  0.74443200  0.74461600  0.99806300  1.0

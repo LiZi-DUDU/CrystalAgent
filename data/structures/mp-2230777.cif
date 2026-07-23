@@ -1,0 +1,45 @@
+# generated using pymatgen
+data_Na8MgCr2O8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.90167057
+_cell_length_b   5.83625801
+_cell_length_c   9.16543424
+_cell_angle_alpha   68.86988878
+_cell_angle_beta   83.13008305
+_cell_angle_gamma   69.33554323
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na8MgCr2O8
+_chemical_formula_sum   'Na8 Mg1 Cr2 O8'
+_cell_volume   275.51003568
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.75564641  0.94285187  0.40281554  1.0
+  Na  Na1  1  0.77711725  0.37125841  0.70077335  1.0
+  Na  Na2  1  0.26760990  0.39945962  0.82136874  1.0
+  Na  Na3  1  0.24926677  0.79830778  0.01044704  1.0
+  Na  Na4  1  0.72457905  0.21944003  0.02559480  1.0
+  Na  Na5  1  0.18942773  0.50986134  0.45581737  1.0
+  Na  Na6  1  0.24580550  0.90196250  0.60187746  1.0
+  Na  Na7  1  0.82328967  0.58708813  0.07779286  1.0
+  Mg  Mg8  1  0.63569983  0.44540788  0.38222683  1.0
+  Cr  Cr9  1  0.26818362  0.16486769  0.24375009  1.0
+  Cr  Cr10  1  0.71743818  0.86855023  0.74209983  1.0
+  O  O11  1  0.12354211  0.20525770  0.06203702  1.0
+  O  O12  1  0.98040282  0.36367451  0.33772516  1.0
+  O  O13  1  0.96431017  0.67465711  0.63362780  1.0
+  O  O14  1  0.52762470  0.64005529  0.82993708  1.0
+  O  O15  1  0.50070764  0.34291810  0.23090405  1.0
+  O  O16  1  0.45189847  0.80853813  0.36798585  1.0
+  O  O17  1  0.85737037  0.95371994  0.88297875  1.0
+  O  O18  1  0.55466279  0.21878973  0.59024138  1.0

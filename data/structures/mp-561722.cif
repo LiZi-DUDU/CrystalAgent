@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CsTmCoS3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.98189818
+_cell_length_b   7.98189818
+_cell_length_c   10.37362526
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   151.37376547
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsTmCoS3
+_chemical_formula_sum   'Cs2 Tm2 Co2 S6'
+_cell_volume   316.63833182
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.26204171  0.73795829  0.75000000  1.0
+  Cs  Cs1  1  0.73795829  0.26204171  0.25000000  1.0
+  Tm  Tm2  1  0.00000000  -0.00000000  0.50000000  1.0
+  Tm  Tm3  1  0.00000000  -0.00000000  -0.00000000  1.0
+  Co  Co4  1  0.53634607  0.46365393  0.75000000  1.0
+  Co  Co5  1  0.46365393  0.53634607  0.25000000  1.0
+  S  S6  1  0.38829550  0.61170450  0.06209973  1.0
+  S  S7  1  0.61170450  0.38829550  0.56209973  1.0
+  S  S8  1  0.38829550  0.61170450  0.43790027  1.0
+  S  S9  1  0.61170450  0.38829550  0.93790027  1.0
+  S  S10  1  0.95172578  0.04827422  0.75000000  1.0
+  S  S11  1  0.04827422  0.95172578  0.25000000  1.0

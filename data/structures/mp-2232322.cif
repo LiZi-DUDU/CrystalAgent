@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_MgCd2(NiO2)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.35783530
+_cell_length_b   6.40325083
+_cell_length_c   6.29435021
+_cell_angle_alpha   59.57983771
+_cell_angle_beta   87.20021012
+_cell_angle_gamma   119.48027199
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgCd2(NiO2)4
+_chemical_formula_sum   'Mg1 Cd2 Ni4 O8'
+_cell_volume   176.55249245
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.79168974  0.02887991  0.78645738  1.0
+  Cd  Cd1  1  0.11891771  0.03362391  0.05052198  1.0
+  Cd  Cd2  1  0.72835052  0.51000281  0.70657315  1.0
+  Ni  Ni3  1  0.37418132  0.26017623  0.37650760  1.0
+  Ni  Ni4  1  0.83454446  0.25594573  0.30529818  1.0
+  Ni  Ni5  1  0.37199160  0.73850949  0.37761630  1.0
+  Ni  Ni6  1  0.32475975  0.72742552  0.86067000  1.0
+  O  O7  1  0.15294153  0.31355769  0.14239430  1.0
+  O  O8  1  0.56456378  0.18088629  0.15511583  1.0
+  O  O9  1  0.61598624  0.73591145  0.17470436  1.0
+  O  O10  1  0.12537363  0.68284073  0.12927926  1.0
+  O  O11  1  0.58223986  0.17647201  0.62233262  1.0
+  O  O12  1  0.17084679  0.29658863  0.61101791  1.0
+  O  O13  1  0.15600704  0.76246118  0.58817885  1.0
+  O  O14  1  0.60844002  0.79671844  0.63416526  1.0

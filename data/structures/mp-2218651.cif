@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_MgFe2(SbO4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.38470913
+_cell_length_b   6.06759936
+_cell_length_c   6.37898612
+_cell_angle_alpha   85.57220939
+_cell_angle_beta   116.80805610
+_cell_angle_gamma   60.15010857
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgFe2(SbO4)2
+_chemical_formula_sum   'Mg1 Fe2 Sb2 O8'
+_cell_volume   176.17509040
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.25873309  0.93482640  0.79103016  1.0
+  Fe  Fe1  1  0.74090216  0.75247690  0.50220016  1.0
+  Fe  Fe2  1  0.50718609  0.40034285  0.09326128  1.0
+  Sb  Sb3  1  0.26133956  0.27027900  0.47141529  1.0
+  Sb  Sb4  1  -0.00004662  0.93860149  0.06223043  1.0
+  O  O5  1  0.04360176  0.77971408  0.80514812  1.0
+  O  O6  1  0.56923374  0.24069060  0.81941460  1.0
+  O  O7  1  0.48304071  0.86769931  0.64697764  1.0
+  O  O8  1  0.03700223  0.33820198  0.62462221  1.0
+  O  O9  1  0.48311209  0.19835338  0.32195541  1.0
+  O  O10  1  0.01237772  0.69580440  0.29757753  1.0
+  O  O11  1  0.41157360  0.78408302  0.16858542  1.0
+  O  O12  1  0.94194286  0.23940358  0.19320074  1.0

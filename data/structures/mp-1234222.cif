@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Ba6CaNb2Ir(ClO6)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.04475014
+_cell_length_b   6.03643456
+_cell_length_c   16.01961715
+_cell_angle_alpha   84.33109436
+_cell_angle_beta   92.71721749
+_cell_angle_gamma   120.33010448
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba6CaNb2Ir(ClO6)2
+_chemical_formula_sum   'Ba6 Ca1 Nb2 Ir1 Cl2 O12'
+_cell_volume   502.06085262
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.30517351  0.74572217  0.38028625  1.0
+  Ba  Ba1  1  0.36509517  0.56365861  0.76871921  1.0
+  Ba  Ba2  1  0.70404119  0.27330589  0.63896737  1.0
+  Ba  Ba3  1  0.69511028  0.21978985  0.88643505  1.0
+  Ba  Ba4  1  0.34461349  0.54047778  0.00614325  1.0
+  Ba  Ba5  1  0.64638091  0.45386515  0.23445015  1.0
+  Ca  Ca6  1  0.28873111  0.80588853  0.16653368  1.0
+  Nb  Nb7  1  0.03090658  0.88786497  0.81323357  1.0
+  Nb  Nb8  1  0.97425962  0.13619746  0.19831998  1.0
+  Ir  Ir9  1  -0.03530000  0.94353763  0.01177973  1.0
+  Cl  Cl10  1  0.67622009  0.36238746  0.43478068  1.0
+  Cl  Cl11  1  0.32696409  0.66845329  0.57715351  1.0
+  O  O12  1  0.20923918  0.14286046  0.91573455  1.0
+  O  O13  1  0.35696578  0.08078799  0.75522015  1.0
+  O  O14  1  0.20584178  0.42024106  0.26587550  1.0
+  O  O15  1  0.82048263  0.60888522  0.74584906  1.0
+  O  O16  1  0.90647367  0.12183971  0.76030884  1.0
+  O  O17  1  0.72006430  0.83285019  0.11085860  1.0
+  O  O18  1  0.07644222  0.88854401  0.26372507  1.0
+  O  O19  1  0.21804140  0.12999162  0.11063856  1.0
+  O  O20  1  0.96316297  0.40977198  0.12549999  1.0
+  O  O21  1  0.74391737  0.76736609  0.90654254  1.0
+  O  O22  1  0.64629045  0.99862144  0.25412849  1.0
+  O  O23  1  0.14421519  0.66375844  0.87863725  1.0

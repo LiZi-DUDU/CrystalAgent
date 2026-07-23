@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Sr(Cu2As)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.23754250
+_cell_length_b   8.23754250
+_cell_length_c   8.23754293
+_cell_angle_alpha   29.22865379
+_cell_angle_beta   29.22865379
+_cell_angle_gamma   29.22865445
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr(Cu2As)2
+_chemical_formula_sum   'Sr1 Cu4 As2'
+_cell_volume   117.92227765
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.00000000  0.00000000  0.00000000  1.0
+  Cu  Cu1  1  0.44079617  0.44079617  0.44079617  1.0
+  Cu  Cu2  1  0.14499975  0.14499975  0.14499975  1.0
+  Cu  Cu3  1  0.55920383  0.55920383  0.55920383  1.0
+  Cu  Cu4  1  0.85500025  0.85500025  0.85500025  1.0
+  As  As5  1  0.24761718  0.24761718  0.24761718  1.0
+  As  As6  1  0.75238282  0.75238282  0.75238282  1.0

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_MgTe2MoW2(SeS)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.33788800
+_cell_length_b   3.33799902
+_cell_length_c   38.27230900
+_cell_angle_alpha   90.00149466
+_cell_angle_beta   90.00000749
+_cell_angle_gamma   119.99888260
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgTe2MoW2(SeS)2
+_chemical_formula_sum   'Mg1 Te2 Mo1 W2 Se2 S2'
+_cell_volume   369.29901663
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.99999000  0.99998000  0.45774100  1.0
+  Te  Te1  1  0.66667400  0.33334600  0.06593300  1.0
+  Te  Te2  1  0.66669100  0.33338200  0.16514000  1.0
+  Mo  Mo3  1  0.33334300  0.66668300  0.11555000  1.0
+  W  W4  1  0.33330000  0.66660200  0.58596400  1.0
+  W  W5  1  0.66666700  0.33333700  0.33893700  1.0
+  Se  Se6  1  0.66662100  0.33324000  0.54183800  1.0
+  Se  Se7  1  0.66664500  0.33329100  0.62974000  1.0
+  S  S8  1  0.33334200  0.66668600  0.37890600  1.0
+  S  S9  1  0.33332700  0.66665400  0.29934400  1.0

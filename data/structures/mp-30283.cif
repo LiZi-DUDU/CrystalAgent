@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_Tb4SiBr6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.05655152
+_cell_length_b   13.21068922
+_cell_length_c   13.99372685
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb4SiBr6
+_chemical_formula_sum   'Tb8 Si2 Br12'
+_cell_volume   749.92160299
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.50000000  0.11849004  0.34077026  1.0
+  Tb  Tb1  1  0.50000000  0.88150996  0.65922974  1.0
+  Tb  Tb2  1  0.50000000  0.61849004  0.15922974  1.0
+  Tb  Tb3  1  0.50000000  0.38150996  0.84077026  1.0
+  Tb  Tb4  1  -0.00000000  0.11846403  0.57883270  1.0
+  Tb  Tb5  1  -0.00000000  0.88153597  0.42116730  1.0
+  Tb  Tb6  1  -0.00000000  0.61846403  0.92116730  1.0
+  Tb  Tb7  1  0.00000000  0.38153597  0.07883270  1.0
+  Si  Si8  1  0.50000000  0.00000000  0.50000000  1.0
+  Si  Si9  1  0.50000000  0.50000000  -0.00000000  1.0
+  Br  Br10  1  0.50000000  0.24422626  0.16351810  1.0
+  Br  Br11  1  0.50000000  0.75577374  0.83648190  1.0
+  Br  Br12  1  0.50000000  0.74422626  0.33648190  1.0
+  Br  Br13  1  0.50000000  0.25577374  0.66351810  1.0
+  Br  Br14  1  -0.00000000  0.25550540  0.41115496  1.0
+  Br  Br15  1  -0.00000000  0.74449460  0.58884504  1.0
+  Br  Br16  1  0.00000000  0.75550540  0.08884504  1.0
+  Br  Br17  1  -0.00000000  0.24449460  0.91115496  1.0
+  Br  Br18  1  0.00000000  0.00198006  0.24236839  1.0
+  Br  Br19  1  -0.00000000  0.99801994  0.75763161  1.0
+  Br  Br20  1  0.00000000  0.50198006  0.25763161  1.0
+  Br  Br21  1  0.00000000  0.49801994  0.74236839  1.0

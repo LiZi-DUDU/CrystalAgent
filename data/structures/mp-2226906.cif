@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_MgNbVO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   2.94293100
+_cell_length_b   6.02413508
+_cell_length_c   6.03184670
+_cell_angle_alpha   76.92502793
+_cell_angle_beta   119.20873909
+_cell_angle_gamma   119.24459230
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgNbVO4
+_chemical_formula_sum   'Mg1 Nb1 V1 O4'
+_cell_volume   81.43186908
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.96625300  0.99771400  0.49776300  1.0
+  Nb  Nb1  1  0.96620600  0.49770800  0.49771800  1.0
+  V  V2  1  0.46720100  0.99772200  0.99772300  1.0
+  O  O3  1  0.40971100  0.16806300  0.27033300  1.0
+  O  O4  1  0.50019000  0.30959800  0.71951400  1.0
+  O  O5  1  0.43270000  0.68588600  0.27589900  1.0
+  O  O6  1  0.52385800  0.82739300  0.72513800  1.0

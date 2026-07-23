@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Sr3Fe2Br2O5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.01024801
+_cell_length_b   4.01024823
+_cell_length_c   13.65876343
+_cell_angle_alpha   98.44160599
+_cell_angle_beta   98.44159544
+_cell_angle_gamma   89.99999745
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr3Fe2Br2O5
+_chemical_formula_sum   'Sr3 Fe2 Br2 O5'
+_cell_volume   214.87548514
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.85899400  0.85899500  0.71799100  1.0
+  Sr  Sr1  1  0.14100400  0.14100500  0.28200900  1.0
+  Sr  Sr2  1  0.00000000  0.00000000  0.00000000  1.0
+  Fe  Fe3  1  0.42806300  0.42806300  0.85612400  1.0
+  Fe  Fe4  1  0.57193700  0.57193700  0.14387600  1.0
+  Br  Br5  1  0.30572300  0.30572400  0.61144700  1.0
+  Br  Br6  1  0.69427700  0.69427600  0.38855300  1.0
+  O  O7  1  0.58185600  0.08185300  0.16370900  1.0
+  O  O8  1  0.41814500  0.91814600  0.83629100  1.0
+  O  O9  1  0.91814500  0.41814600  0.83629100  1.0
+  O  O10  1  0.50000000  0.49999900  0.00000000  1.0
+  O  O11  1  0.08185600  0.58185400  0.16370900  1.0

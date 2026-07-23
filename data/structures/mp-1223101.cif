@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_La8(BiSb)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.48575850
+_cell_length_b   8.48576056
+_cell_length_c   9.78874832
+_cell_angle_alpha   54.80893086
+_cell_angle_beta   54.80893579
+_cell_angle_gamma   70.52434190
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La8(BiSb)3
+_chemical_formula_sum   'La8 Bi3 Sb3'
+_cell_volume   470.76207842
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.35115808  0.99654223  0.25911854  1.0
+  La  La1  1  0.14118451  0.49812324  0.11236808  1.0
+  La  La2  1  0.50187676  0.85881449  0.88763292  1.0
+  La  La3  1  0.00345777  0.64884292  0.74088046  1.0
+  La  La4  1  0.64336315  0.50356195  0.60437342  1.0
+  La  La5  1  0.85656765  0.99413818  0.25876124  1.0
+  La  La6  1  0.49643805  0.35663685  0.39562658  1.0
+  La  La7  1  0.00586182  0.14343235  0.74123876  1.0
+  Bi  Bi8  1  0.24784500  0.24993084  0.87772690  1.0
+  Bi  Bi9  1  0.75006916  0.75215500  0.12227310  1.0
+  Bi  Bi10  1  0.62781314  0.37218686  0.00000000  1.0
+  Sb  Sb11  1  0.87251661  0.12748339  0.50000000  1.0
+  Sb  Sb12  1  0.12697320  0.62512491  0.37307120  1.0
+  Sb  Sb13  1  0.37487509  0.87302680  0.62692880  1.0

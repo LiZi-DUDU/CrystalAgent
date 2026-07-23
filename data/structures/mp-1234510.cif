@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Ba6MgNb2Ir(ClO6)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.06989812
+_cell_length_b   6.07113675
+_cell_length_c   15.02677002
+_cell_angle_alpha   90.00055047
+_cell_angle_beta   90.00437261
+_cell_angle_gamma   120.01515196
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba6MgNb2Ir(ClO6)2
+_chemical_formula_sum   'Ba6 Mg1 Nb2 Ir1 Cl2 O12'
+_cell_volume   479.49199100
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.33331700  0.66667800  0.36392300  1.0
+  Ba  Ba1  1  0.33320600  0.66662400  0.79288400  1.0
+  Ba  Ba2  1  0.66668300  0.33332200  0.63607700  1.0
+  Ba  Ba3  1  0.66657200  0.33330300  0.92843900  1.0
+  Ba  Ba4  1  0.33342800  0.66669700  0.07156000  1.0
+  Ba  Ba5  1  0.66679400  0.33337600  0.20711600  1.0
+  Mg  Mg6  1  0.00000000  0.00000000  0.50000000  1.0
+  Nb  Nb7  1  0.00024100  0.00002300  0.81365700  1.0
+  Nb  Nb8  1  0.99975900  0.99997700  0.18634300  1.0
+  Ir  Ir9  1  0.00000000  0.00000000  0.00000000  1.0
+  Cl  Cl10  1  0.66668000  0.33333100  0.41897000  1.0
+  Cl  Cl11  1  0.33332000  0.66666900  0.58103000  1.0
+  O  O12  1  0.15358000  0.30728100  0.91746900  1.0
+  O  O13  1  0.32415400  0.16209000  0.75773300  1.0
+  O  O14  1  0.16202600  0.32395800  0.24220900  1.0
+  O  O15  1  0.83797400  0.67604200  0.75779100  1.0
+  O  O16  1  0.83802600  0.16190600  0.75783800  1.0
+  O  O17  1  0.84642000  0.69271900  0.08253100  1.0
+  O  O18  1  0.16197400  0.83809400  0.24216200  1.0
+  O  O19  1  0.30705200  0.15351400  0.08242900  1.0
+  O  O20  1  0.84638600  0.15370600  0.08260700  1.0
+  O  O21  1  0.69294800  0.84648600  0.91757100  1.0
+  O  O22  1  0.67584600  0.83791000  0.24226700  1.0
+  O  O23  1  0.15361400  0.84629400  0.91739300  1.0

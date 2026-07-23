@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_MgCuH4(OF)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.94901658
+_cell_length_b   5.94901658
+_cell_length_c   3.22126663
+_cell_angle_alpha   80.71766331
+_cell_angle_beta   99.28233669
+_cell_angle_gamma   79.98639234
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgCuH4(OF)2
+_chemical_formula_sum   'Mg1 Cu1 H4 O2 F2'
+_cell_volume   108.67333169
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.86615503  0.86615503  0.50000000  1.0
+  Cu  Cu1  1  0.09438933  0.09438933  0.00000000  1.0
+  H  H2  1  0.46305193  0.26587312  0.17935911  1.0
+  H  H3  1  0.72170155  0.51169898  0.10608801  1.0
+  H  H4  1  0.51169898  0.72170155  0.89391199  1.0
+  H  H5  1  0.26587312  0.46305193  0.82064089  1.0
+  O  O6  1  0.30266688  0.30266688  0.00000000  1.0
+  O  O7  1  0.68424595  0.68424595  0.00000000  1.0
+  F  F8  1  0.19887375  0.71634350  0.60116411  1.0
+  F  F9  1  0.71634350  0.19887375  0.39883589  1.0

@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_TaReSi
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.63360959
+_cell_length_b   6.95020877
+_cell_length_c   7.46149922
+_cell_angle_alpha   117.75799619
+_cell_angle_beta   116.39279276
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TaReSi
+_chemical_formula_sum   'Ta6 Re6 Si6'
+_cell_volume   263.22843082
+_cell_formula_units_Z   6
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  1  0.90379739  0.94503296  0.39006792  1.0
+  Ta  Ta1  1  0.51372946  0.05496704  0.60993208  1.0
+  Ta  Ta2  1  0.50062578  0.53400323  0.56800746  1.0
+  Ta  Ta3  1  0.93261932  0.46599677  0.43199254  1.0
+  Ta  Ta4  1  0.08931852  0.74750849  0.99501698  1.0
+  Ta  Ta5  1  0.09430154  0.25249151  0.00498302  1.0
+  Re  Re6  1  0.75488392  0.50000000  1.00000000  1.0
+  Re  Re7  1  0.75488392  1.00000000  1.00000000  1.0
+  Re  Re8  1  0.24953577  0.90749323  0.74539244  1.0
+  Re  Re9  1  0.50414333  0.09250677  0.25460756  1.0
+  Re  Re10  1  0.24953577  0.33789921  0.74539244  1.0
+  Re  Re11  1  0.50414333  0.66210079  0.25460756  1.0
+  Si  Si12  1  0.46327076  0.72261060  0.94522219  1.0
+  Si  Si13  1  0.51804857  0.27738940  0.05477781  1.0
+  Si  Si14  1  0.17390035  0.67208797  0.33531689  1.0
+  Si  Si15  1  0.83858346  0.32791203  0.66468311  1.0
+  Si  Si16  1  0.17390035  0.16322893  0.33531689  1.0
+  Si  Si17  1  0.83858346  0.83677107  0.66468311  1.0

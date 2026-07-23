@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Mg6GaSb
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.26615400
+_cell_length_b   6.15304800
+_cell_length_c   11.02035600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mg6GaSb
+_chemical_formula_sum   'Mg12 Ga2 Sb2'
+_cell_volume   357.09147511
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.00000000  0.25031800  0.08463400  1.0
+  Mg  Mg1  1  0.00000000  0.74968200  0.08463400  1.0
+  Mg  Mg2  1  0.00000000  0.00000000  0.33210400  1.0
+  Mg  Mg3  1  0.50000000  0.74583200  0.41187700  1.0
+  Mg  Mg4  1  0.50000000  0.25416800  0.41187700  1.0
+  Mg  Mg5  1  0.50000000  0.00000000  0.16735300  1.0
+  Mg  Mg6  1  0.00000000  0.75031800  0.58463400  1.0
+  Mg  Mg7  1  0.00000000  0.24968200  0.58463400  1.0
+  Mg  Mg8  1  0.00000000  0.50000000  0.83210400  1.0
+  Mg  Mg9  1  0.50000000  0.24583200  0.91187700  1.0
+  Mg  Mg10  1  0.50000000  0.75416800  0.91187700  1.0
+  Mg  Mg11  1  0.50000000  0.50000000  0.66735300  1.0
+  Ga  Ga12  1  0.00000000  0.50000000  0.34701400  1.0
+  Ga  Ga13  1  0.00000000  0.00000000  0.84701400  1.0
+  Sb  Sb14  1  0.50000000  0.50000000  0.16050700  1.0
+  Sb  Sb15  1  0.50000000  0.00000000  0.66050700  1.0

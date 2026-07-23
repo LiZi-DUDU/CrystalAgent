@@ -1,0 +1,39 @@
+{
+  "_comment": "此文件由 scripts/build_routing_table.py 自动生成，请勿手动编辑",
+  "_format": "{晶系}_{性质}: {models: {模型名: MAE}, sample_count: 样本数}",
+  "立方_band_gap": {
+    "models": {
+      "CGCNN":  0.412,
+      "MEGNet": 0.380,
+      "ALIGNN": 0.298,
+      "M3GNet": 0.321,
+      "CHGNet": 0.335
+    },
+    "sample_count": 850
+  },
+  "立方_formation_energy": {
+    "models": {
+      "CGCNN":  0.089,
+      "MEGNet": 0.075,
+      "ALIGNN": 0.062,
+      "M3GNet": 0.071,
+      "CHGNet": 0.068
+    },
+    "sample_count": 850
+  },
+  "四方_band_gap": {
+    "models": {
+      "CGCNN":  0.445,
+      "MEGNet": 0.398,
+      "ALIGNN": 0.312,
+      "M3GNet": 0.340,
+      "CHGNet": 0.355
+    },
+    "sample_count": 720
+  },
+  "三斜_band_gap": {
+    "models": {},
+    "sample_count": 32,
+    "_note": "样本不足，触发集成模式"
+  }
+}

@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_MgTi2Zn2O6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.91381219
+_cell_length_b   5.91381257
+_cell_length_c   5.91381339
+_cell_angle_alpha   51.67259938
+_cell_angle_beta   51.67259383
+_cell_angle_gamma   51.67260065
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgTi2Zn2O6
+_chemical_formula_sum   'Mg1 Ti2 Zn2 O6'
+_cell_volume   117.58822985
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.50000000  0.50000000  0.50000000  1.0
+  Ti  Ti1  1  0.14958800  0.14958800  0.14958800  1.0
+  Ti  Ti2  1  0.85041200  0.85041200  0.85041200  1.0
+  Zn  Zn3  1  0.32951300  0.32951300  0.32951300  1.0
+  Zn  Zn4  1  0.67048700  0.67048700  0.67048700  1.0
+  O  O5  1  0.74458000  0.44346900  0.08479700  1.0
+  O  O6  1  0.44346900  0.08479700  0.74458000  1.0
+  O  O7  1  0.08479700  0.74458000  0.44346900  1.0
+  O  O8  1  0.25542000  0.55653100  0.91520300  1.0
+  O  O9  1  0.91520300  0.25542000  0.55653100  1.0
+  O  O10  1  0.55653100  0.91520300  0.25542000  1.0

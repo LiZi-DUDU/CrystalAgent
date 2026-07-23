@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Sc3(NiGe)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.47550278
+_cell_length_b   7.47496326
+_cell_length_c   7.47526678
+_cell_angle_alpha   149.82000569
+_cell_angle_beta   127.82284019
+_cell_angle_gamma   61.46880436
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sc3(NiGe)4
+_chemical_formula_sum   'Sc3 Ni4 Ge4'
+_cell_volume   164.42017117
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.87315866  0.37314366  0.49998619  1.0
+  Sc  Sc1  1  0.12684139  0.62685641  0.50001373  1.0
+  Sc  Sc2  1  0.49999975  0.50000015  0.00000032  1.0
+  Ni  Ni3  1  0.48145548  0.17791695  0.30360043  1.0
+  Ni  Ni4  1  0.12556933  0.82206570  0.30350233  1.0
+  Ni  Ni5  1  0.51854490  0.82208312  0.69639824  1.0
+  Ni  Ni6  1  0.87443133  0.17793407  0.69649894  1.0
+  Ge  Ge7  1  0.28096951  0.28104633  -0.00006112  1.0
+  Ge  Ge8  1  0.71903171  0.71895446  1.00006161  1.0
+  Ge  Ge9  1  0.80445633  0.99997294  0.80439546  1.0
+  Ge  Ge10  1  0.19554161  0.00002619  0.19560387  1.0

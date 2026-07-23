@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_La2MgCo2Sb2(PbO6)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.90662350
+_cell_length_b   6.02831417
+_cell_length_c   9.07905520
+_cell_angle_alpha   93.00533592
+_cell_angle_beta   82.48961981
+_cell_angle_gamma   93.91793960
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La2MgCo2Sb2(PbO6)2
+_chemical_formula_sum   'La2 Mg1 Co2 Sb2 Pb2 O12'
+_cell_volume   319.44602675
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.54406600  0.43637900  0.76630400  1.0
+  La  La1  1  0.07967400  0.05746900  0.30138900  1.0
+  Mg  Mg2  1  0.14994200  0.50096800  0.52294600  1.0
+  Co  Co3  1  0.70859000  0.44551700  0.41927400  1.0
+  Co  Co4  1  0.48937100  0.01054400  0.95088000  1.0
+  Sb  Sb5  1  0.01108400  0.47553200  0.97589900  1.0
+  Sb  Sb6  1  0.53693500  0.98148200  0.52148900  1.0
+  Pb  Pb7  1  0.49441400  0.62397400  0.16791200  1.0
+  Pb  Pb8  1  0.98662800  0.94440400  0.74808800  1.0
+  O  O9  1  0.68268100  0.95610500  0.31075700  1.0
+  O  O10  1  0.13057400  0.52330500  0.75430200  1.0
+  O  O11  1  0.40635900  0.03619400  0.73632900  1.0
+  O  O12  1  0.01770400  0.43499900  0.32782800  1.0
+  O  O13  1  0.24333700  0.82376200  0.47818900  1.0
+  O  O14  1  0.66033400  0.72666900  0.93015700  1.0
+  O  O15  1  0.80911700  0.19174100  0.56731900  1.0
+  O  O16  1  0.29620300  0.31768900  0.99706700  1.0
+  O  O17  1  0.40210300  0.27997200  0.47473700  1.0
+  O  O18  1  0.78415000  0.22673600  0.91951700  1.0
+  O  O19  1  0.68241100  0.70117200  0.56882800  1.0
+  O  O20  1  0.26527500  0.86788800  0.10245500  1.0

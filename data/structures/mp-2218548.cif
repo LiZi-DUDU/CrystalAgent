@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_RbMgFe(SeO4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.27299248
+_cell_length_b   5.76745868
+_cell_length_c   7.51177748
+_cell_angle_alpha   79.96556004
+_cell_angle_beta   101.72609367
+_cell_angle_gamma   127.55845288
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbMgFe(SeO4)2
+_chemical_formula_sum   'Rb1 Mg1 Fe1 Se2 O8'
+_cell_volume   210.50041666
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.00036811  0.03861319  0.96632066  1.0
+  Mg  Mg1  1  0.70550422  0.31680129  0.23826261  1.0
+  Fe  Fe2  1  0.04700951  0.94797071  0.45124708  1.0
+  Se  Se3  1  0.61455307  0.34325120  0.73698553  1.0
+  Se  Se4  1  0.40164998  0.63394070  0.29834537  1.0
+  O  O5  1  0.70386167  0.15669079  0.67676396  1.0
+  O  O6  1  0.78584024  0.69151578  0.64832217  1.0
+  O  O7  1  0.28121949  0.18630597  0.66872245  1.0
+  O  O8  1  0.75805661  0.98675458  0.30734079  1.0
+  O  O9  1  0.30670093  0.66779643  0.07880818  1.0
+  O  O10  1  0.65169302  0.36670645  0.96212067  1.0
+  O  O11  1  1.01721881  0.68378077  0.33413563  1.0
+  O  O12  1  0.40132534  0.31737215  0.30405489  1.0

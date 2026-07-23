@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Ba3SrMgNb2O9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.31332563
+_cell_length_b   6.33416854
+_cell_length_c   7.73224455
+_cell_angle_alpha   87.12765248
+_cell_angle_beta   92.68111330
+_cell_angle_gamma   121.56303426
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba3SrMgNb2O9
+_chemical_formula_sum   'Ba3 Sr1 Mg1 Nb2 O9'
+_cell_volume   263.05915748
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.93991552  0.06359752  0.00803990  1.0
+  Ba  Ba1  1  0.38332221  0.60814694  0.60917967  1.0
+  Ba  Ba2  1  0.65758584  0.34340183  0.28993587  1.0
+  Sr  Sr3  1  0.01576405  0.98273214  0.48634640  1.0
+  Mg  Mg4  1  0.17365339  0.82841740  0.85197069  1.0
+  Nb  Nb5  1  0.33849935  0.66156594  0.16440930  1.0
+  Nb  Nb6  1  0.65986082  0.34240769  0.84327609  1.0
+  O  O7  1  0.65598666  0.79772689  0.30388564  1.0
+  O  O8  1  0.20587063  0.79559850  0.32794458  1.0
+  O  O9  1  0.19743381  0.34403001  0.30467547  1.0
+  O  O10  1  0.31995810  0.15663864  0.71996819  1.0
+  O  O11  1  0.80515982  0.20748439  0.69708165  1.0
+  O  O12  1  0.84360649  0.68403587  0.72267580  1.0
+  O  O13  1  0.48965113  0.50581309  0.99868460  1.0
+  O  O14  1  0.48419330  0.00427514  0.00636917  1.0
+  O  O15  1  0.99620589  0.51787800  0.00722400  1.0

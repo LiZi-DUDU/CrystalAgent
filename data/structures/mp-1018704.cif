@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_GdAlZn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.49768195
+_cell_length_b   4.49918534
+_cell_length_c   7.18415207
+_cell_angle_alpha   90.00817620
+_cell_angle_beta   89.99203847
+_cell_angle_gamma   119.98514106
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GdAlZn
+_chemical_formula_sum   'Gd2 Al2 Zn2'
+_cell_volume   125.91972749
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Gd  Gd0  1  0.00000286  0.00000860  0.49998815  1.0
+  Gd  Gd1  1  0.00000217  0.00000760  0.00001012  1.0
+  Al  Al2  1  0.33340897  0.66678501  0.25000046  1.0
+  Al  Al3  1  0.66658652  0.33318495  0.74996655  1.0
+  Zn  Zn4  1  0.33337535  0.66677404  0.75000959  1.0
+  Zn  Zn5  1  0.66662612  0.33323980  0.25002712  1.0

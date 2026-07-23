@@ -1,0 +1,45 @@
+# generated using pymatgen
+data_La4Mg(Cu2O5)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.81553202
+_cell_length_b   5.82809467
+_cell_length_c   13.10832067
+_cell_angle_alpha   103.66038165
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La4Mg(Cu2O5)2
+_chemical_formula_sum   'La4 Mg1 Cu4 O10'
+_cell_volume   283.24784607
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.50000000  0.30702105  0.76811312  1.0
+  La  La1  1  0.50000000  0.69297895  0.23188688  1.0
+  La  La2  1  0.50000000  0.71924555  0.61255121  1.0
+  La  La3  1  0.50000000  0.28075445  0.38744879  1.0
+  Mg  Mg4  1  0.50000000  -0.00000000  0.00000000  1.0
+  Cu  Cu5  1  0.00000000  0.19714873  0.57376184  1.0
+  Cu  Cu6  1  -0.00000000  0.80285127  0.42623816  1.0
+  Cu  Cu7  1  -0.00000000  0.73120035  0.86992547  1.0
+  Cu  Cu8  1  -0.00000000  0.26879965  0.13007453  1.0
+  O  O9  1  -0.00000000  0.50000000  0.50000000  1.0
+  O  O10  1  0.00000000  -0.00000000  0.00000000  1.0
+  O  O11  1  -0.00000000  0.51199764  0.72532588  1.0
+  O  O12  1  -0.00000000  0.48800236  0.27467412  1.0
+  O  O13  1  0.00000000  0.00089529  0.69719975  1.0
+  O  O14  1  -0.00000000  -0.00089529  0.30280025  1.0
+  O  O15  1  0.50000000  0.25050272  0.57488226  1.0
+  O  O16  1  0.50000000  0.74949728  0.42511774  1.0
+  O  O17  1  0.50000000  0.30442478  0.11457190  1.0
+  O  O18  1  0.50000000  0.69557522  0.88542810  1.0

@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_MgNb3SiO10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.89956539
+_cell_length_b   5.51854153
+_cell_length_c   6.94916243
+_cell_angle_alpha   102.16049911
+_cell_angle_beta   112.19350358
+_cell_angle_gamma   88.78273312
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgNb3SiO10
+_chemical_formula_sum   'Mg1 Nb3 Si1 O10'
+_cell_volume   169.71692956
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.77924000  0.16104600  0.07728200  1.0
+  Nb  Nb1  1  0.60480600  0.71136900  0.69959400  1.0
+  Nb  Nb2  1  0.10587500  0.23590600  0.73398500  1.0
+  Nb  Nb3  1  0.88237300  0.76700600  0.29102500  1.0
+  Si  Si4  1  0.40124200  0.27830500  0.30795600  1.0
+  O  O5  1  0.27409200  0.59170300  0.38922200  1.0
+  O  O6  1  0.64765000  0.46934100  0.22124000  1.0
+  O  O7  1  0.46117500  0.04353900  0.78014800  1.0
+  O  O8  1  0.88252100  0.86976800  0.59332300  1.0
+  O  O9  1  0.31923700  0.52720900  0.77174900  1.0
+  O  O10  1  0.69998500  0.35579900  0.56961500  1.0
+  O  O11  1  0.12468100  0.25894800  0.02195800  1.0
+  O  O12  1  0.86419500  0.75903600  0.00153600  1.0
+  O  O13  1  0.56000800  0.01462000  0.22509300  1.0
+  O  O14  1  0.14292100  0.13140500  0.37183200  1.0

@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_TbUTe4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.08996386
+_cell_length_b   8.08795173
+_cell_length_c   8.08787927
+_cell_angle_alpha   149.41233893
+_cell_angle_beta   135.54551161
+_cell_angle_gamma   54.92188764
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TbUTe4
+_chemical_formula_sum   'Tb1 U1 Te4'
+_cell_volume   187.41367266
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.14095486  0.14087181  0.00000897  1.0
+  U  U1  1  0.86290176  0.86298362  0.99990226  1.0
+  Te  Te2  1  0.70688628  0.20684964  0.50007714  1.0
+  Te  Te3  1  0.29259115  0.79263689  0.50000457  1.0
+  Te  Te4  1  0.74975389  0.49816662  0.25142977  1.0
+  Te  Te5  1  0.24691205  0.49849241  0.74857828  1.0

@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_MgV2Pb3O8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.02973734
+_cell_length_b   5.84570781
+_cell_length_c   8.04308152
+_cell_angle_alpha   74.15958363
+_cell_angle_beta   60.65819526
+_cell_angle_gamma   71.70652416
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgV2Pb3O8
+_chemical_formula_sum   'Mg1 V2 Pb3 O8'
+_cell_volume   232.19915669
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.05478207  0.54358514  0.70545028  1.0
+  V  V1  1  0.54541611  0.55097744  0.20235028  1.0
+  V  V2  1  0.46189367  0.42325335  0.81903223  1.0
+  Pb  Pb3  1  0.06481370  0.32237001  0.35395791  1.0
+  Pb  Pb4  1  0.64663827  0.91452211  0.51028848  1.0
+  Pb  Pb5  1  0.99881944  0.90296968  0.00402009  1.0
+  O  O6  1  0.76262390  0.68819019  0.96127785  1.0
+  O  O7  1  0.32616991  0.52568322  0.05801444  1.0
+  O  O8  1  0.72818049  0.63214612  0.31664341  1.0
+  O  O9  1  0.30325189  0.24403194  0.78514112  1.0
+  O  O10  1  0.60617135  0.22230810  0.26242014  1.0
+  O  O11  1  0.29801139  0.72337119  0.71726969  1.0
+  O  O12  1  0.19644067  0.61965271  0.40710541  1.0
+  O  O13  1  0.80943311  0.36345981  0.71369567  1.0

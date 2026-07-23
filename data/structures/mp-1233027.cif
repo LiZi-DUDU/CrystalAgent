@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_Hf8Mg(N2O)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.46559100
+_cell_length_b   5.45736004
+_cell_length_c   10.76270726
+_cell_angle_alpha   90.61835859
+_cell_angle_beta   74.95460525
+_cell_angle_gamma   59.51400305
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf8Mg(N2O)4
+_chemical_formula_sum   'Hf8 Mg1 N8 O4'
+_cell_volume   263.21759681
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.13948200  0.43216900  0.28962300  1.0
+  Hf  Hf1  1  0.12380800  0.90473800  0.78945000  1.0
+  Hf  Hf2  1  0.34359800  0.35164600  0.00497000  1.0
+  Hf  Hf3  1  0.65826300  0.18990800  0.49740100  1.0
+  Hf  Hf4  1  0.35044800  0.84164800  0.47524100  1.0
+  Hf  Hf5  1  0.84195700  0.08193300  0.21190100  1.0
+  Hf  Hf6  1  0.65591200  0.68180000  0.02557400  1.0
+  Hf  Hf7  1  0.85195700  0.55385000  0.71274800  1.0
+  Mg  Mg8  1  0.50085700  0.23204700  0.75104300  1.0
+  N  N9  1  0.45687000  0.11198100  0.36915400  1.0
+  N  N10  1  0.55423400  0.38705500  0.12804800  1.0
+  N  N11  1  0.26566500  0.54660900  0.63701000  1.0
+  N  N12  1  0.74795900  0.43566900  0.37414400  1.0
+  N  N13  1  0.45607400  0.59558000  0.86962300  1.0
+  N  N14  1  0.92947000  0.68119100  0.13116300  1.0
+  N  N15  1  0.93490100  0.15784800  0.63058500  1.0
+  N  N16  1  0.72445000  0.93294500  0.87259500  1.0
+  O  O17  1  0.25656300  0.06708900  0.13129400  1.0
+  O  O18  1  0.07447900  0.81549900  0.37506800  1.0
+  O  O19  1  0.07834900  0.30425300  0.86504800  1.0
+  O  O20  1  0.56418500  0.88016200  0.62733700  1.0

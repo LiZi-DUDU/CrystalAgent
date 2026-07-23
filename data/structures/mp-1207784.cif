@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Y5(CoTe)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.89916932
+_cell_length_b   7.89916932
+_cell_length_c   15.01419982
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   151.08356989
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y5(CoTe)2
+_chemical_formula_sum   'Y10 Co4 Te4'
+_cell_volume   452.99303661
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.96143377  0.03856623  0.12298115  1.0
+  Y  Y1  1  0.03856623  0.96143377  0.87701885  1.0
+  Y  Y2  1  0.03856623  0.96143377  0.62298115  1.0
+  Y  Y3  1  0.96143377  0.03856623  0.37701885  1.0
+  Y  Y4  1  0.74396957  0.25603043  0.62967951  1.0
+  Y  Y5  1  0.25603043  0.74396957  0.37032049  1.0
+  Y  Y6  1  0.25603043  0.74396957  0.12967951  1.0
+  Y  Y7  1  0.74396957  0.25603043  0.87032049  1.0
+  Y  Y8  1  0.60330139  0.39669861  0.25000000  1.0
+  Y  Y9  1  0.39669861  0.60330139  0.75000000  1.0
+  Co  Co10  1  0.41051096  0.58948904  0.25000000  1.0
+  Co  Co11  1  0.58948904  0.41051096  0.75000000  1.0
+  Co  Co12  1  0.82409352  0.17590648  0.25000000  1.0
+  Co  Co13  1  0.17590648  0.82409352  0.75000000  1.0
+  Te  Te14  1  0.61787810  0.38212190  0.03807380  1.0
+  Te  Te15  1  0.38212190  0.61787810  0.96192620  1.0
+  Te  Te16  1  0.38212190  0.61787810  0.53807380  1.0
+  Te  Te17  1  0.61787810  0.38212190  0.46192620  1.0

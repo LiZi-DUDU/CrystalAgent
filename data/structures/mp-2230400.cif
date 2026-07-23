@@ -1,0 +1,45 @@
+# generated using pymatgen
+data_MgCo2(SbO3)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.05302241
+_cell_length_b   4.91209031
+_cell_length_c   9.69873889
+_cell_angle_alpha   89.99322717
+_cell_angle_beta   90.04779014
+_cell_angle_gamma   90.95776914
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgCo2(SbO3)4
+_chemical_formula_sum   'Mg1 Co2 Sb4 O12'
+_cell_volume   240.69773338
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.49985700  0.99995100  0.26515400  1.0
+  Co  Co1  1  0.00065600  0.99987200  0.99850400  1.0
+  Co  Co2  1  0.49998000  0.49997400  0.50236800  1.0
+  Sb  Sb3  1  0.00019700  0.00009100  0.67504000  1.0
+  Sb  Sb4  1  0.99990000  0.00004400  0.35472600  1.0
+  Sb  Sb5  1  0.49994800  0.49980200  0.13183700  1.0
+  Sb  Sb6  1  0.50003900  0.49991400  0.81293700  1.0
+  O  O7  1  0.29310600  0.27761600  0.34978600  1.0
+  O  O8  1  0.31408100  0.30584200  0.97195200  1.0
+  O  O9  1  0.19494500  0.79840800  0.82293200  1.0
+  O  O10  1  0.68565100  0.69370300  0.97229700  1.0
+  O  O11  1  0.30467000  0.29830600  0.66628000  1.0
+  O  O12  1  0.19069600  0.83119400  0.18067500  1.0
+  O  O13  1  0.80551100  0.20115700  0.82313100  1.0
+  O  O14  1  0.70673800  0.72224600  0.34977300  1.0
+  O  O15  1  0.18330000  0.80901300  0.51253700  1.0
+  O  O16  1  0.81666200  0.19095900  0.51248100  1.0
+  O  O17  1  0.69550300  0.70165900  0.66644200  1.0
+  O  O18  1  0.80856000  0.17025000  0.18114900  1.0

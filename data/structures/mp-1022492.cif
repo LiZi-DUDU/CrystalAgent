@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_SrMg6Zr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.27548100
+_cell_length_b   6.95215600
+_cell_length_c   11.21416900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrMg6Zr
+_chemical_formula_sum   'Sr2 Mg12 Zr2'
+_cell_volume   411.29049091
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.50000000  0.50000000  0.14399100  1.0
+  Sr  Sr1  1  0.50000000  0.00000000  0.64399100  1.0
+  Mg  Mg2  1  0.00000000  0.22998200  0.09189300  1.0
+  Mg  Mg3  1  0.00000000  0.77001800  0.09189300  1.0
+  Mg  Mg4  1  0.00000000  0.50000000  0.85157200  1.0
+  Mg  Mg5  1  0.50000000  0.22931600  0.90331400  1.0
+  Mg  Mg6  1  0.50000000  0.77068400  0.90331400  1.0
+  Mg  Mg7  1  0.50000000  0.50000000  0.65995800  1.0
+  Mg  Mg8  1  0.00000000  0.72998200  0.59189300  1.0
+  Mg  Mg9  1  0.00000000  0.27001800  0.59189300  1.0
+  Mg  Mg10  1  0.00000000  0.00000000  0.35157200  1.0
+  Mg  Mg11  1  0.50000000  0.72931600  0.40331400  1.0
+  Mg  Mg12  1  0.50000000  0.27068400  0.40331400  1.0
+  Mg  Mg13  1  0.50000000  0.00000000  0.15995800  1.0
+  Zr  Zr14  1  0.00000000  0.50000000  0.35406400  1.0
+  Zr  Zr15  1  0.00000000  0.00000000  0.85406400  1.0

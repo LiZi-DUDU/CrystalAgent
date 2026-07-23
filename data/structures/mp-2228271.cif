@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_MgMnNbO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.78902927
+_cell_length_b   5.80234440
+_cell_length_c   5.80230465
+_cell_angle_alpha   137.06958287
+_cell_angle_beta   140.11206585
+_cell_angle_gamma   60.07638504
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgMnNbO4
+_chemical_formula_sum   'Mg1 Mn1 Nb1 O4'
+_cell_volume   84.24051409
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.18499500  0.71195065  0.47355781  1.0
+  Mn  Mn1  1  0.76562699  0.28952369  0.47659891  1.0
+  Nb  Nb2  1  0.96247292  0.98587102  0.97708385  1.0
+  O  O3  1  0.42792942  0.95220028  0.47626337  1.0
+  O  O4  1  0.16849408  0.19440465  0.97457228  1.0
+  O  O5  1  0.98086315  0.50345766  0.47787673  1.0
+  O  O6  1  0.73878543  0.76537005  0.97390806  1.0

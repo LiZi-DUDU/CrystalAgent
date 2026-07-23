@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Mg6CoMo
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.76810000
+_cell_length_b   5.84275300
+_cell_length_c   10.69895000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mg6CoMo
+_chemical_formula_sum   'Mg12 Co2 Mo2'
+_cell_volume   298.06023543
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.50000000  0.25106800  0.42371400  1.0
+  Mg  Mg1  1  0.50000000  0.74893200  0.42371400  1.0
+  Mg  Mg2  1  0.00000000  0.74661100  0.08660200  1.0
+  Mg  Mg3  1  0.00000000  0.25338900  0.08660200  1.0
+  Mg  Mg4  1  0.00000000  0.00000000  0.31253700  1.0
+  Mg  Mg5  1  0.00000000  0.50000000  0.32191400  1.0
+  Mg  Mg6  1  0.50000000  0.75106800  0.92371400  1.0
+  Mg  Mg7  1  0.50000000  0.24893200  0.92371400  1.0
+  Mg  Mg8  1  0.00000000  0.24661100  0.58660200  1.0
+  Mg  Mg9  1  0.00000000  0.75338900  0.58660200  1.0
+  Mg  Mg10  1  0.00000000  0.50000000  0.81253700  1.0
+  Mg  Mg11  1  0.00000000  0.00000000  0.82191400  1.0
+  Co  Co12  1  0.50000000  0.00000000  0.16910500  1.0
+  Co  Co13  1  0.50000000  0.50000000  0.66910500  1.0
+  Mo  Mo14  1  0.50000000  0.50000000  0.17580700  1.0
+  Mo  Mo15  1  0.50000000  0.00000000  0.67580700  1.0

@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_ZnFe4NiO8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.96932321
+_cell_length_b   5.96932321
+_cell_length_c   5.92544328
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   59.75472946
+_cell_angle_gamma   120.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZnFe4NiO8
+_chemical_formula_sum   'Zn1 Fe4 Ni1 O8'
+_cell_volume   148.74281794
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  -0.00492170  -0.00246135  0.00738304  1.0
+  Fe  Fe1  1  0.25515103  0.37311875  0.37173022  1.0
+  Fe  Fe2  1  0.25515103  0.88203227  0.37173022  1.0
+  Fe  Fe3  1  0.74623751  0.37311875  0.37173022  1.0
+  Fe  Fe4  1  0.50432192  0.75216096  0.74351712  1.0
+  Ni  Ni5  1  0.74891076  0.37445488  0.87663436  1.0
+  O  O6  1  0.26660263  0.13330131  0.60009606  1.0
+  O  O7  1  0.72789481  0.13160987  0.14049533  1.0
+  O  O8  1  0.72789481  0.59628594  0.14049533  1.0
+  O  O9  1  0.26321874  0.13160987  0.14049533  1.0
+  O  O10  1  0.23699570  0.61849835  0.14450594  1.0
+  O  O11  1  0.76549571  0.62077568  0.61372861  1.0
+  O  O12  1  0.76549571  0.14472003  0.61372861  1.0
+  O  O13  1  0.24155136  0.62077568  0.61372861  1.0

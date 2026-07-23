@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_Tb4MgAl2(FeO6)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.36441156
+_cell_length_b   5.85565445
+_cell_length_c   8.27775777
+_cell_angle_alpha   87.21906374
+_cell_angle_beta   85.05661616
+_cell_angle_gamma   90.38753021
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb4MgAl2(FeO6)2
+_chemical_formula_sum   'Tb4 Mg1 Al2 Fe2 O12'
+_cell_volume   258.73416452
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.53691000  0.58525200  0.27808800  1.0
+  Tb  Tb1  1  0.95843100  0.08939100  0.24557700  1.0
+  Tb  Tb2  1  0.44842700  0.40754700  0.71750800  1.0
+  Tb  Tb3  1  0.02782300  0.86984800  0.72798100  1.0
+  Mg  Mg4  1  0.89389400  0.28699200  0.89232900  1.0
+  Al  Al5  1  0.00606200  0.45528300  0.50169500  1.0
+  Al  Al6  1  0.46565200  0.94145500  0.97042700  1.0
+  Fe  Fe7  1  0.04844000  0.62725700  0.09514900  1.0
+  Fe  Fe8  1  0.49488800  0.00054500  0.49708100  1.0
+  O  O9  1  0.31081300  0.89831900  0.18157400  1.0
+  O  O10  1  0.14738400  0.43536000  0.28676200  1.0
+  O  O11  1  0.66757300  0.06759500  0.78832000  1.0
+  O  O12  1  0.86342700  0.51699200  0.71489800  1.0
+  O  O13  1  0.77295000  0.85423500  0.05999000  1.0
+  O  O14  1  0.70479400  0.31651200  0.45588000  1.0
+  O  O15  1  0.18469800  0.18134200  0.56449800  1.0
+  O  O16  1  0.31063300  0.68789000  0.89131500  1.0
+  O  O17  1  0.21788700  0.14932900  0.90493400  1.0
+  O  O18  1  0.27451400  0.66414600  0.53935800  1.0
+  O  O19  1  0.78413200  0.81261900  0.42472800  1.0
+  O  O20  1  0.75566900  0.36637800  0.10119400  1.0

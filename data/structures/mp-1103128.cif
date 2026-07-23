@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Yb4Ni2C5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.52427351
+_cell_length_b   3.63323628
+_cell_length_c   11.36442585
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Yb4Ni2C5
+_chemical_formula_sum   'Yb4 Ni2 C5'
+_cell_volume   145.51599956
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Yb  Yb0  1  0.50000000  0.50048440  0.20296417  1.0
+  Yb  Yb1  1  0.50000000  0.50048440  0.79703583  1.0
+  Yb  Yb2  1  0.50000000  0.21213595  0.50000000  1.0
+  Yb  Yb3  1  0.00000000  0.99879259  0.00000000  1.0
+  Ni  Ni4  1  0.00000000  0.70099146  0.38419691  1.0
+  Ni  Ni5  1  0.00000000  0.70099146  0.61580309  1.0
+  C  C6  1  0.00000000  0.99874842  0.22813411  1.0
+  C  C7  1  0.00000000  0.99874842  0.77186589  1.0
+  C  C8  1  0.00000000  0.20006200  0.33285340  1.0
+  C  C9  1  0.00000000  0.20006200  0.66714660  1.0
+  C  C10  1  0.50000000  0.48999991  0.00000000  1.0

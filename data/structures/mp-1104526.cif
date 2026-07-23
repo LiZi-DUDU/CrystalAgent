@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Sc(Ni2As)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.04933653
+_cell_length_b   7.04933653
+_cell_length_c   3.71336028
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sc(Ni2As)2
+_chemical_formula_sum   'Sc2 Ni8 As4'
+_cell_volume   184.52855274
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.50000000  0.50000000  0.00000000  1.0
+  Sc  Sc1  1  -0.00000000  0.00000000  0.50000000  1.0
+  Ni  Ni2  1  0.58937085  0.15481904  0.50000000  1.0
+  Ni  Ni3  1  0.41062915  0.84518096  0.50000000  1.0
+  Ni  Ni4  1  0.08937085  0.34518096  0.00000000  1.0
+  Ni  Ni5  1  0.91062915  0.65481904  0.00000000  1.0
+  Ni  Ni6  1  0.15481904  0.58937085  0.50000000  1.0
+  Ni  Ni7  1  0.84518096  0.41062915  0.50000000  1.0
+  Ni  Ni8  1  0.34518096  0.08937085  0.00000000  1.0
+  Ni  Ni9  1  0.65481904  0.91062915  -0.00000000  1.0
+  As  As10  1  0.71749628  0.71749628  0.50000000  1.0
+  As  As11  1  0.28250372  0.28250372  0.50000000  1.0
+  As  As12  1  0.21749628  0.78250372  0.00000000  1.0
+  As  As13  1  0.78250372  0.21749628  0.00000000  1.0

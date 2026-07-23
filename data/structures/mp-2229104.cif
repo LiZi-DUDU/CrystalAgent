@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_MgTi2Al4O10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.67606970
+_cell_length_b   5.25869804
+_cell_length_c   9.76660143
+_cell_angle_alpha   90.74576784
+_cell_angle_beta   89.99840318
+_cell_angle_gamma   110.45849166
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgTi2Al4O10
+_chemical_formula_sum   'Mg1 Ti2 Al4 O10'
+_cell_volume   176.87592275
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.49516700  0.98962300  0.27175000  1.0
+  Ti  Ti1  1  0.12504800  0.24944000  0.05753300  1.0
+  Ti  Ti2  1  0.88745900  0.77433100  0.56742200  1.0
+  Al  Al3  1  0.16284700  0.32504700  0.44311100  1.0
+  Al  Al4  1  0.18619600  0.37195600  0.76094800  1.0
+  Al  Al5  1  0.79658400  0.59239600  0.24803500  1.0
+  Al  Al6  1  0.86508700  0.72948000  0.92211500  1.0
+  O  O7  1  0.07767100  0.15486700  0.60943500  1.0
+  O  O8  1  0.04106700  0.08154900  0.87618200  1.0
+  O  O9  1  0.27955200  0.55840800  0.26381600  1.0
+  O  O10  1  0.32718100  0.65370400  0.54994900  1.0
+  O  O11  1  0.29962900  0.59869800  0.92655400  1.0
+  O  O12  1  0.64543500  0.29020600  0.12334000  1.0
+  O  O13  1  0.67763800  0.35459600  0.40408200  1.0
+  O  O14  1  0.75931400  0.51813700  0.75512100  1.0
+  O  O15  1  0.91993300  0.83910900  0.10587200  1.0
+  O  O16  1  0.97204700  0.94345500  0.36473600  1.0

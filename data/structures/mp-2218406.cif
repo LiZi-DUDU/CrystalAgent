@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_MgCr2(BiO4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.47622856
+_cell_length_b   6.12329296
+_cell_length_c   6.12271770
+_cell_angle_alpha   103.37028574
+_cell_angle_beta   107.47191580
+_cell_angle_gamma   115.25245295
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgCr2(BiO4)2
+_chemical_formula_sum   'Mg1 Cr2 Bi2 O8'
+_cell_volume   190.43326633
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.50002700  0.74013000  0.24009100  1.0
+  Cr  Cr1  1  0.36775500  0.61021200  0.71298100  1.0
+  Cr  Cr2  1  0.63227100  0.34531400  0.24250000  1.0
+  Bi  Bi3  1  0.06333200  0.86502400  0.26013200  1.0
+  Bi  Bi4  1  0.93671500  0.19681800  0.80177400  1.0
+  O  O5  1  0.19312600  0.62672500  0.90944300  1.0
+  O  O6  1  0.34472500  0.75631000  0.49578900  1.0
+  O  O7  1  0.19349200  0.25298600  0.59142000  1.0
+  O  O8  1  0.67698700  0.80475400  0.98416300  1.0
+  O  O9  1  0.32298300  0.30727800  0.12787100  1.0
+  O  O10  1  0.80687100  0.71635800  0.43361500  1.0
+  O  O11  1  0.65523100  0.15103600  0.41153800  1.0
+  O  O12  1  0.80648600  0.39788800  0.05951800  1.0

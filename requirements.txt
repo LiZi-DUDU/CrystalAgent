@@ -1,0 +1,27 @@
+# 后端框架
+fastapi
+uvicorn
+python-multipart
+
+# LangGraph / LangChain
+langgraph
+langchain
+langchain-openai
+
+# 材料科学工具
+pymatgen
+spglib
+mp-api
+
+# GNN模型
+chgnet
+m3gnet
+alignn
+megnet
+
+# 数据处理
+numpy
+scikit-learn   # 学习路由分类器
+
+# 开发工具
+python-dotenv

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_VSiNi
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.50844958
+_cell_length_b   5.97022268
+_cell_length_c   6.87942385
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   VSiNi
+_chemical_formula_sum   'V4 Si4 Ni4'
+_cell_volume   144.09796158
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  V  V0  1  0.25000000  0.02641200  0.33445371  1.0
+  V  V1  1  0.25000000  0.52641200  0.16554629  1.0
+  V  V2  1  0.75000000  0.97358800  0.66554629  1.0
+  V  V3  1  0.75000000  0.47358800  0.83445371  1.0
+  Si  Si4  1  0.25000000  0.27059577  0.63043532  1.0
+  Si  Si5  1  0.25000000  0.77059577  0.86956468  1.0
+  Si  Si6  1  0.75000000  0.72940423  0.36956468  1.0
+  Si  Si7  1  0.75000000  0.22940423  0.13043532  1.0
+  Ni  Ni8  1  0.25000000  0.14429928  0.93988180  1.0
+  Ni  Ni9  1  0.25000000  0.64429928  0.56011820  1.0
+  Ni  Ni10  1  0.75000000  0.85570072  0.06011820  1.0
+  Ni  Ni11  1  0.75000000  0.35570072  0.43988180  1.0

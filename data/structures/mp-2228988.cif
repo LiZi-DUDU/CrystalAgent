@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Ba4MgTi3O10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.03974901
+_cell_length_b   16.79650698
+_cell_length_c   5.73395998
+_cell_angle_alpha   100.09513779
+_cell_angle_beta   135.05983609
+_cell_angle_gamma   82.86206054
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba4MgTi3O10
+_chemical_formula_sum   'Ba4 Mg1 Ti3 O10'
+_cell_volume   270.57188324
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.01294800  0.82429300  0.96817600  1.0
+  Ba  Ba1  1  0.00760300  0.58804500  0.82650500  1.0
+  Ba  Ba2  1  0.01674800  0.17593500  0.14139400  1.0
+  Ba  Ba3  1  0.00867300  0.41151000  0.23949400  1.0
+  Mg  Mg4  1  0.98660800  0.99958200  0.89164600  1.0
+  Ti  Ti5  1  0.98905200  0.00217500  0.42188100  1.0
+  Ti  Ti6  1  0.00977400  0.30223000  0.68629800  1.0
+  Ti  Ti7  1  0.00813100  0.69744300  0.38397900  1.0
+  O  O8  1  0.00774400  0.58067900  0.32221100  1.0
+  O  O9  1  0.99465900  0.12208200  0.54073900  1.0
+  O  O10  1  0.52562100  0.00160000  0.93404400  1.0
+  O  O11  1  0.45395900  0.00166700  0.39732700  1.0
+  O  O12  1  0.50904200  0.29124800  0.17995500  1.0
+  O  O13  1  0.51273300  0.29049400  0.68202000  1.0
+  O  O14  1  0.50777700  0.70889000  0.88886300  1.0
+  O  O15  1  0.51005100  0.71013600  0.39098700  1.0
+  O  O16  1  0.00828300  0.41951200  0.74308700  1.0
+  O  O17  1  0.99437700  0.88146300  0.42052900  1.0

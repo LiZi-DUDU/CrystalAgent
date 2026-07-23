@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_MgFe2(AgO2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.11714728
+_cell_length_b   3.11912552
+_cell_length_c   14.70061101
+_cell_angle_alpha   90.00000141
+_cell_angle_beta   85.10966144
+_cell_angle_gamma   120.02101041
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgFe2(AgO2)2
+_chemical_formula_sum   'Mg1 Fe2 Ag2 O4'
+_cell_volume   123.15411424
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.68150073  0.84075087  0.86536544  1.0
+  Fe  Fe1  1  0.96782899  0.98391450  0.47784271  1.0
+  Fe  Fe2  1  0.24225038  0.12112519  0.05779080  1.0
+  Ag  Ag3  1  0.58123129  0.29061564  0.69911591  1.0
+  Ag  Ag4  1  0.43664718  0.71832409  0.26276715  1.0
+  O  O5  1  0.34053787  0.67026943  0.40532233  1.0
+  O  O6  1  0.31447297  0.15723648  0.92381957  1.0
+  O  O7  1  0.59938783  0.29969392  0.54416609  1.0
+  O  O8  1  0.54447276  0.77223688  0.11276700  1.0

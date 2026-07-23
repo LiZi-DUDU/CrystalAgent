@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_MgCr2(IrO6)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.01516842
+_cell_length_b   5.22188602
+_cell_length_c   7.27310348
+_cell_angle_alpha   89.94583320
+_cell_angle_beta   89.71373497
+_cell_angle_gamma   90.04795207
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgCr2(IrO6)2
+_chemical_formula_sum   'Mg1 Cr2 Ir2 O12'
+_cell_volume   190.47014304
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.97799200  0.07195300  0.75021700  1.0
+  Cr  Cr1  1  0.99670600  0.51061100  0.00364900  1.0
+  Cr  Cr2  1  0.49692000  0.99703800  0.49594800  1.0
+  Ir  Ir3  1  0.00275500  0.50243200  0.49255400  1.0
+  Ir  Ir4  1  0.49387100  0.00099400  0.00783600  1.0
+  O  O5  1  0.11141500  0.46195500  0.74728900  1.0
+  O  O6  1  0.18118900  0.18889700  0.05488700  1.0
+  O  O7  1  0.18422500  0.19091500  0.44104900  1.0
+  O  O8  1  0.31919500  0.69577200  0.06263900  1.0
+  O  O9  1  0.31652400  0.68558900  0.43956800  1.0
+  O  O10  1  0.36850300  0.97189600  0.74954000  1.0
+  O  O11  1  0.61549100  0.02803500  0.25040800  1.0
+  O  O12  1  0.69900200  0.29955500  0.56300500  1.0
+  O  O13  1  0.68784600  0.29703100  0.93641000  1.0
+  O  O14  1  0.82106100  0.82454000  0.93869200  1.0
+  O  O15  1  0.82654100  0.81633500  0.56223400  1.0
+  O  O16  1  0.87576400  0.53145100  0.25407700  1.0

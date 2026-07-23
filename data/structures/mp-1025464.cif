@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_Sc3NiC4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.45690090
+_cell_length_b   4.35461662
+_cell_length_c   6.55329841
+_cell_angle_alpha   109.40517052
+_cell_angle_beta   105.29285853
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sc3NiC4
+_chemical_formula_sum   'Sc3 Ni1 C4'
+_cell_volume   89.33386827
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.68728347  0.18728347  0.37456794  1.0
+  Sc  Sc1  1  0.31271653  0.81271653  0.62543206  1.0
+  Sc  Sc2  1  0.50000000  0.50000000  -0.00000000  1.0
+  Ni  Ni3  1  -0.00000000  -0.00000000  -0.00000000  1.0
+  C  C4  1  0.12414054  0.45681125  0.24828207  1.0
+  C  C5  1  0.87585946  0.54318875  0.75171793  1.0
+  C  C6  1  0.12414054  0.79146982  0.24828207  1.0
+  C  C7  1  0.87585946  0.20853018  0.75171793  1.0

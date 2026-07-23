@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Sc7NiBr12
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.65525962
+_cell_length_b   8.65536533
+_cell_length_c   8.65515536
+_cell_angle_alpha   107.35579108
+_cell_angle_beta   107.35682378
+_cell_angle_gamma   107.35620704
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sc7NiBr12
+_chemical_formula_sum   'Sc7 Ni1 Br12'
+_cell_volume   534.65560686
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.50000224  0.50000259  0.50000330  1.0
+  Sc  Sc1  1  0.10206576  0.03051821  0.30729734  1.0
+  Sc  Sc2  1  0.03051967  0.30729950  0.10206240  1.0
+  Sc  Sc3  1  0.30729820  0.10206043  0.03051831  1.0
+  Sc  Sc4  1  0.89793842  0.96948144  0.69270157  1.0
+  Sc  Sc5  1  0.96948469  0.69270286  0.89794474  1.0
+  Sc  Sc6  1  0.69270507  0.89793801  0.96947745  1.0
+  Ni  Ni7  1  0.00000154  -0.00000013  -0.00000069  1.0
+  Br  Br8  1  0.07435591  0.68277014  0.22254581  1.0
+  Br  Br9  1  0.68279489  0.22254733  0.07437233  1.0
+  Br  Br10  1  0.22253935  0.07435649  0.68277830  1.0
+  Br  Br11  1  0.92562183  0.31720579  0.77744587  1.0
+  Br  Br12  1  0.31720585  0.77745350  0.92562686  1.0
+  Br  Br13  1  0.77746288  0.92566421  0.31720141  1.0
+  Br  Br14  1  0.46288356  0.15566691  0.38626017  1.0
+  Br  Br15  1  0.15567291  0.38625950  0.46288316  1.0
+  Br  Br16  1  0.38626069  0.46287442  0.15565848  1.0
+  Br  Br17  1  0.53711522  0.84433636  0.61373919  1.0
+  Br  Br18  1  0.84433458  0.61373496  0.53713799  1.0
+  Br  Br19  1  0.61373576  0.53712447  0.84434503  1.0

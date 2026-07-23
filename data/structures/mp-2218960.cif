@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_CsMgFe(SO4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.18604606
+_cell_length_b   5.18679488
+_cell_length_c   9.13045112
+_cell_angle_alpha   89.98985144
+_cell_angle_beta   89.99161562
+_cell_angle_gamma   120.00986731
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsMgFe(SO4)2
+_chemical_formula_sum   'Cs1 Mg1 Fe1 S2 O8'
+_cell_volume   212.67434174
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.00058400  0.99975300  0.47274700  1.0
+  Mg  Mg1  1  0.33402900  0.66591400  0.93437200  1.0
+  Fe  Fe2  1  0.00072200  0.00020600  0.01842400  1.0
+  S  S3  1  0.33306900  0.66657100  0.20857700  1.0
+  S  S4  1  0.66732700  0.33278300  0.79262200  1.0
+  O  O5  1  0.65564600  0.05459900  0.85087500  1.0
+  O  O6  1  0.40067100  0.34438900  0.85077300  1.0
+  O  O7  1  0.07698400  0.38919900  0.14457200  1.0
+  O  O8  1  0.66743800  0.33281000  0.63284800  1.0
+  O  O9  1  0.33440300  0.66609000  0.36910100  1.0
+  O  O10  1  0.31114100  0.92262900  0.14520300  1.0
+  O  O11  1  0.94556600  0.59931100  0.85074600  1.0
+  O  O12  1  0.60992100  0.68824800  0.14342300  1.0

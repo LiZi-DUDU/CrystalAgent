@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_MgFe2(CuS2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.29561233
+_cell_length_b   5.32254571
+_cell_length_c   5.32254571
+_cell_angle_alpha   90.03756267
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgFe2(CuS2)2
+_chemical_formula_sum   'Mg1 Fe2 Cu2 S4'
+_cell_volume   150.02197909
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.50027920  0.50000000  0.50000000  1.0
+  Fe  Fe1  1  0.49951043  0.00000000  0.50000000  1.0
+  Fe  Fe2  1  0.49951043  0.50000000  0.00000000  1.0
+  Cu  Cu3  1  0.00016925  0.50000000  0.50000000  1.0
+  Cu  Cu4  1  0.99987654  0.00000000  0.00000000  1.0
+  S  S5  1  0.73195149  0.23535110  0.76464890  1.0
+  S  S6  1  0.26837559  0.76479184  0.76479184  1.0
+  S  S7  1  0.26837559  0.23520816  0.23520816  1.0
+  S  S8  1  0.73195149  0.76464890  0.23535110  1.0

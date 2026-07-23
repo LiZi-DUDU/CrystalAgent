@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Na4Mg(MoO4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.50861264
+_cell_length_b   6.50861089
+_cell_length_c   6.85106489
+_cell_angle_alpha   101.80585260
+_cell_angle_beta   101.80589308
+_cell_angle_gamma   124.66378112
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na4Mg(MoO4)2
+_chemical_formula_sum   'Na4 Mg1 Mo2 O8'
+_cell_volume   214.29079450
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.61427700  0.38572300  0.25000000  1.0
+  Na  Na1  1  0.13553700  0.86446500  0.25000000  1.0
+  Na  Na2  1  0.80292000  0.19707900  0.75000000  1.0
+  Na  Na3  1  0.44713300  0.55286700  0.75000000  1.0
+  Mg  Mg4  1  0.37479300  0.62520700  0.25000000  1.0
+  Mo  Mo5  1  0.87494200  0.12505800  0.24999900  1.0
+  Mo  Mo6  1  0.12509000  0.87491100  0.75000000  1.0
+  O  O7  1  0.24987600  0.21316700  0.93492200  1.0
+  O  O8  1  0.27814400  0.81428000  0.56461200  1.0
+  O  O9  1  0.78683400  0.75012500  0.56507800  1.0
+  O  O10  1  0.18571900  0.72185600  0.93538800  1.0
+  O  O11  1  0.69914500  0.75452900  0.12062700  1.0
+  O  O12  1  0.63392400  0.07880400  0.37956400  1.0
+  O  O13  1  0.92119600  0.36607600  0.12043500  1.0
+  O  O14  1  0.24547200  0.30085500  0.37937300  1.0

@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Zr2NiS4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.86774004
+_cell_length_b   6.86774004
+_cell_length_c   6.31375882
+_cell_angle_alpha   62.69008794
+_cell_angle_beta   62.69008794
+_cell_angle_gamma   31.14100407
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr2NiS4
+_chemical_formula_sum   'Zr2 Ni1 S4'
+_cell_volume   135.41355691
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.49881003  0.49881003  0.50627106  1.0
+  Zr  Zr1  1  0.00341919  0.00341919  0.99010382  1.0
+  Ni  Ni2  1  0.67578786  0.67578786  0.65634270  1.0
+  S  S3  1  0.37383866  0.37383866  0.95949343  1.0
+  S  S4  1  0.87280818  0.87280818  0.46285073  1.0
+  S  S5  1  0.62637970  0.62637970  0.04459160  1.0
+  S  S6  1  0.13141537  0.13141537  0.53119767  1.0

@@ -1,0 +1,205 @@
+{
+  "三斜_band_gap": {
+    "models": {
+      "ALIGNN": 0.7924,
+      "CGCNN": 0.8427,
+      "MEGNet": 0.7157
+    },
+    "sample_count": 16898
+  },
+  "三斜_bulk_modulus": {
+    "models": {
+      "CGCNN": 0.2412
+    },
+    "sample_count": 56
+  },
+  "三斜_formation_energy": {
+    "models": {
+      "ALIGNN": 0.242,
+      "CGCNN": 0.1887,
+      "M3GNet": 0.1723,
+      "MEGNet": 0.141
+    },
+    "sample_count": 16898
+  },
+  "三斜_shear_modulus": {
+    "models": {
+      "CGCNN": 0.2987
+    },
+    "sample_count": 58
+  },
+  "三方_band_gap": {
+    "models": {
+      "ALIGNN": 0.4186,
+      "CGCNN": 0.7357,
+      "MEGNet": 0.5411
+    },
+    "sample_count": 9099
+  },
+  "三方_bulk_modulus": {
+    "models": {
+      "CGCNN": 0.1489
+    },
+    "sample_count": 675
+  },
+  "三方_formation_energy": {
+    "models": {
+      "ALIGNN": 0.1645,
+      "CGCNN": 0.1173,
+      "M3GNet": 0.1277,
+      "MEGNet": 0.0956
+    },
+    "sample_count": 9099
+  },
+  "三方_shear_modulus": {
+    "models": {
+      "CGCNN": 0.1528
+    },
+    "sample_count": 665
+  },
+  "六方_band_gap": {
+    "models": {
+      "ALIGNN": 0.1952,
+      "CGCNN": 0.6727,
+      "MEGNet": 0.2502
+    },
+    "sample_count": 7473
+  },
+  "六方_bulk_modulus": {
+    "models": {
+      "CGCNN": 0.1076
+    },
+    "sample_count": 1266
+  },
+  "六方_formation_energy": {
+    "models": {
+      "ALIGNN": 0.0991,
+      "CGCNN": 0.1058,
+      "M3GNet": 0.0864,
+      "MEGNet": 0.0767
+    },
+    "sample_count": 7474
+  },
+  "六方_shear_modulus": {
+    "models": {
+      "CGCNN": 0.166
+    },
+    "sample_count": 1233
+  },
+  "单斜_band_gap": {
+    "models": {
+      "ALIGNN": 0.6885,
+      "CGCNN": 0.7898,
+      "MEGNet": 0.7211
+    },
+    "sample_count": 25439
+  },
+  "单斜_bulk_modulus": {
+    "models": {
+      "CGCNN": 0.1368
+    },
+    "sample_count": 506
+  },
+  "单斜_formation_energy": {
+    "models": {
+      "ALIGNN": 0.1924,
+      "CGCNN": 0.1235,
+      "M3GNet": 0.1293,
+      "MEGNet": 0.092
+    },
+    "sample_count": 25439
+  },
+  "单斜_shear_modulus": {
+    "models": {
+      "CGCNN": 0.1609
+    },
+    "sample_count": 503
+  },
+  "四方_band_gap": {
+    "models": {
+      "ALIGNN": 0.3033,
+      "CGCNN": 0.8547,
+      "MEGNet": 0.4378
+    },
+    "sample_count": 11766
+  },
+  "四方_bulk_modulus": {
+    "models": {
+      "CGCNN": 0.1205
+    },
+    "sample_count": 1656
+  },
+  "四方_formation_energy": {
+    "models": {
+      "ALIGNN": 0.1257,
+      "CGCNN": 0.1681,
+      "M3GNet": 0.1114,
+      "MEGNet": 0.1213
+    },
+    "sample_count": 11766
+  },
+  "四方_shear_modulus": {
+    "models": {
+      "CGCNN": 0.1592
+    },
+    "sample_count": 1630
+  },
+  "正交_band_gap": {
+    "models": {
+      "ALIGNN": 0.4318,
+      "CGCNN": 0.7349,
+      "MEGNet": 0.4918
+    },
+    "sample_count": 22715
+  },
+  "正交_bulk_modulus": {
+    "models": {
+      "CGCNN": 0.0976
+    },
+    "sample_count": 1158
+  },
+  "正交_formation_energy": {
+    "models": {
+      "ALIGNN": 0.1529,
+      "CGCNN": 0.219,
+      "M3GNet": 0.1965,
+      "MEGNet": 0.2276
+    },
+    "sample_count": 22715
+  },
+  "正交_shear_modulus": {
+    "models": {
+      "CGCNN": 0.1346
+    },
+    "sample_count": 1142
+  },
+  "立方_band_gap": {
+    "models": {
+      "ALIGNN": 0.2628,
+      "CGCNN": 0.8103,
+      "MEGNet": 0.4026
+    },
+    "sample_count": 14666
+  },
+  "立方_bulk_modulus": {
+    "models": {
+      "CGCNN": 0.1288
+    },
+    "sample_count": 3714
+  },
+  "立方_formation_energy": {
+    "models": {
+      "ALIGNN": 0.1249,
+      "CGCNN": 0.1242,
+      "M3GNet": 0.0855,
+      "MEGNet": 0.0909
+    },
+    "sample_count": 14668
+  },
+  "立方_shear_modulus": {
+    "models": {
+      "CGCNN": 0.2382
+    },
+    "sample_count": 3381
+  }
+}

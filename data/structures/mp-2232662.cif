@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_K3NaMg(RuO4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.21573864
+_cell_length_b   6.21573800
+_cell_length_c   7.77757559
+_cell_angle_alpha   90.11142318
+_cell_angle_beta   89.88857681
+_cell_angle_gamma   115.77360148
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K3NaMg(RuO4)2
+_chemical_formula_sum   'K3 Na1 Mg1 Ru2 O8'
+_cell_volume   270.59609190
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.71506953  0.35757607  0.33115617  1.0
+  K  K1  1  0.86490536  0.86490536  1.00000000  1.0
+  K  K2  1  0.35757607  0.71506953  0.66884383  1.0
+  Na  Na3  1  0.01481935  0.01481935  0.50000000  1.0
+  Mg  Mg4  1  0.34358945  0.34358945  0.00000000  1.0
+  Ru  Ru5  1  0.69721530  0.33470581  0.76469337  1.0
+  Ru  Ru6  1  0.33470581  0.69721530  0.23530663  1.0
+  O  O7  1  0.22319427  0.35334381  0.23822755  1.0
+  O  O8  1  0.62370300  0.84441764  0.33255584  1.0
+  O  O9  1  0.11101402  0.78970319  0.29698510  1.0
+  O  O10  1  0.84441764  0.62370300  0.66744416  1.0
+  O  O11  1  0.78970319  0.11101402  0.70301490  1.0
+  O  O12  1  0.35334381  0.22319427  0.76177245  1.0
+  O  O13  1  0.67140753  0.37130767  0.00558197  1.0
+  O  O14  1  0.37130767  0.67140753  0.99441803  1.0

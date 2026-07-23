@@ -1,0 +1,45 @@
+# generated using pymatgen
+data_MgNi2(SbO3)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.33121495
+_cell_length_b   5.33121145
+_cell_length_c   9.49422343
+_cell_angle_alpha   85.70191885
+_cell_angle_beta   94.29797846
+_cell_angle_gamma   103.17787882
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgNi2(SbO3)4
+_chemical_formula_sum   'Mg1 Ni2 Sb4 O12'
+_cell_volume   261.53295700
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.29268297  0.70731870  0.35350256  1.0
+  Ni  Ni1  1  -0.01105184  0.01105156  0.00564507  1.0
+  Ni  Ni2  1  0.58124137  0.41875755  0.51376821  1.0
+  Sb  Sb3  1  0.44907905  0.55092172  0.81451572  1.0
+  Sb  Sb4  1  0.95232905  0.04766971  0.34048423  1.0
+  Sb  Sb5  1  0.56252947  0.43746752  0.14286487  1.0
+  Sb  Sb6  1  0.01140006  0.98860093  0.67305410  1.0
+  O  O7  1  0.70686160  0.67170548  0.66802153  1.0
+  O  O8  1  0.32829480  0.29313895  0.66802230  1.0
+  O  O9  1  0.66371076  0.73551288  0.35721739  1.0
+  O  O10  1  0.11866957  0.88133369  0.20342655  1.0
+  O  O11  1  0.80559125  0.19440821  0.15753253  1.0
+  O  O12  1  0.86810096  0.13189874  0.81719110  1.0
+  O  O13  1  0.32689414  0.29009028  0.97370000  1.0
+  O  O14  1  0.13783490  0.86216748  0.50317462  1.0
+  O  O15  1  0.81992685  0.18007196  0.50927033  1.0
+  O  O16  1  0.70990916  0.67310527  0.97370036  1.0
+  O  O17  1  0.26448357  0.33629118  0.35721795  1.0
+  O  O18  1  0.21706932  0.78293217  0.81054759  1.0

@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_MgMn4CuO8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.20878664
+_cell_length_b   6.20869706
+_cell_length_c   6.01349721
+_cell_angle_alpha   99.27031671
+_cell_angle_beta   73.42974998
+_cell_angle_gamma   55.36425682
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgMn4CuO8
+_chemical_formula_sum   'Mg1 Mn4 Cu1 O8'
+_cell_volume   166.75305071
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.15278376  0.54894689  0.39657945  1.0
+  Mn  Mn1  1  0.77479607  0.26640805  0.49177490  1.0
+  Mn  Mn2  1  0.03023485  0.98419947  0.95394388  1.0
+  Mn  Mn3  1  0.52803915  0.98895898  0.96048092  1.0
+  Mn  Mn4  1  0.02816824  0.48921513  0.96118915  1.0
+  Cu  Cu5  1  0.52054948  0.52598395  0.00523114  1.0
+  O  O6  1  0.45812626  0.25701814  0.79915470  1.0
+  O  O7  1  0.95586019  0.21940830  0.76220704  1.0
+  O  O8  1  0.45742556  0.71764847  0.76204184  1.0
+  O  O9  1  0.96001232  0.72226825  0.76252868  1.0
+  O  O10  1  0.09772413  0.29824634  0.20061949  1.0
+  O  O11  1  0.59919090  0.29032730  0.21771200  1.0
+  O  O12  1  0.07202121  0.81646230  0.21749258  1.0
+  O  O13  1  0.60465089  0.76032541  0.15487723  1.0

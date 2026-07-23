@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Zn(NiO2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.75848835
+_cell_length_b   5.75846068
+_cell_length_c   5.75849165
+_cell_angle_alpha   119.01985767
+_cell_angle_beta   119.02083559
+_cell_angle_gamma   91.70301720
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zn(NiO2)2
+_chemical_formula_sum   'Zn2 Ni4 O8'
+_cell_volume   136.95985794
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.75000201  0.25001919  0.50000443  1.0
+  Zn  Zn1  1  -0.00000201  0.99998081  -0.00000443  1.0
+  Ni  Ni2  1  0.87500000  0.62500000  0.25000000  1.0
+  Ni  Ni3  1  0.37500000  0.62500000  0.75000000  1.0
+  Ni  Ni4  1  0.37500000  0.12500000  0.75000000  1.0
+  Ni  Ni5  1  0.37500000  0.62500000  0.25000000  1.0
+  O  O6  1  0.13373919  0.88199897  0.29523820  1.0
+  O  O7  1  0.11798062  0.41321891  0.25174266  1.0
+  O  O8  1  0.16146788  0.86623633  0.74823898  1.0
+  O  O9  1  0.16323099  0.41151281  0.79524906  1.0
+  O  O10  1  0.58853212  0.38376367  0.75176102  1.0
+  O  O11  1  0.63201938  0.83678109  0.24825734  1.0
+  O  O12  1  0.58676901  0.83848719  0.70475094  1.0
+  O  O13  1  0.61626081  0.36800103  0.20476180  1.0

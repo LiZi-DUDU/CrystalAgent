@@ -1,0 +1,45 @@
+# generated using pymatgen
+data_MgZn4(Fe2O5)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.18596103
+_cell_length_b   8.08201245
+_cell_length_c   10.34355421
+_cell_angle_alpha   90.28326818
+_cell_angle_beta   90.01459524
+_cell_angle_gamma   90.00129391
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgZn4(Fe2O5)2
+_chemical_formula_sum   'Mg1 Zn4 Fe4 O10'
+_cell_volume   266.33267270
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.50045700  0.89926900  0.15795300  1.0
+  Zn  Zn1  1  0.50004700  0.43429900  0.86856600  1.0
+  Zn  Zn2  1  0.49989900  0.56645200  0.13319600  1.0
+  Zn  Zn3  1  0.49996300  0.92665600  0.63071400  1.0
+  Zn  Zn4  1  0.49977300  0.09201400  0.38416900  1.0
+  Fe  Fe5  1  0.99996900  0.31683700  0.59827900  1.0
+  Fe  Fe6  1  0.99998400  0.69403600  0.40878100  1.0
+  Fe  Fe7  1  0.00005100  0.19922200  0.08899300  1.0
+  Fe  Fe8  1  0.00002900  0.80315800  0.89574000  1.0
+  O  O9  1  0.00000200  0.48238100  0.47966400  1.0
+  O  O10  1  0.99960500  0.08096200  0.27223800  1.0
+  O  O11  1  0.99992100  0.68938200  0.21217200  1.0
+  O  O12  1  0.99997200  0.37236500  0.77604700  1.0
+  O  O13  1  0.49999300  0.34834200  0.05816200  1.0
+  O  O14  1  0.50005200  0.66977500  0.94485700  1.0
+  O  O15  1  0.00002800  0.86756000  0.71958000  1.0
+  O  O16  1  0.49993800  0.17124900  0.56414000  1.0
+  O  O17  1  0.00032600  0.96129600  0.03933900  1.0
+  O  O18  1  0.49999600  0.83307500  0.44240600  1.0

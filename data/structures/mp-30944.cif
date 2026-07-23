@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_Ce4Ga5Br2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.55730409
+_cell_length_b   11.54071846
+_cell_length_c   4.26187461
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   93.38889630
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ce4Ga5Br2
+_chemical_formula_sum   'Ce8 Ga10 Br4'
+_cell_volume   567.45305776
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.67429815  0.03940103  0.50000000  1.0
+  Ce  Ce1  1  0.32579353  0.95988573  0.50000000  1.0
+  Ce  Ce2  1  0.03974635  0.67370821  0.50000000  1.0
+  Ce  Ce3  1  0.96015445  0.32614760  0.50000000  1.0
+  Ce  Ce4  1  0.72925867  0.72953973  0.00000000  1.0
+  Ce  Ce5  1  0.27063748  0.27094142  0.00000000  1.0
+  Ce  Ce6  1  0.36975087  0.63010008  0.00000000  1.0
+  Ce  Ce7  1  0.62997925  0.36965591  0.00000000  1.0
+  Ga  Ga8  1  0.57905316  0.57917964  0.50000000  1.0
+  Ga  Ga9  1  0.42103397  0.42104543  0.50000000  1.0
+  Ga  Ga10  1  0.53803520  0.90030070  -0.00000000  1.0
+  Ga  Ga11  1  0.46127453  0.09995941  0.00000000  1.0
+  Ga  Ga12  1  0.89956898  0.53797170  0.00000000  1.0
+  Ga  Ga13  1  0.09978459  0.46186582  -0.00000000  1.0
+  Ga  Ga14  1  0.51200194  0.78272566  0.50000000  1.0
+  Ga  Ga15  1  0.48921797  0.21802351  0.50000000  1.0
+  Ga  Ga16  1  0.21771212  0.48858365  0.50000000  1.0
+  Ga  Ga17  1  0.78178950  0.51106810  0.50000000  1.0
+  Br  Br18  1  0.12423247  0.12392128  0.50000000  1.0
+  Br  Br19  1  0.87627666  0.87583809  0.50000000  1.0
+  Br  Br20  1  0.82483863  0.17617825  0.00000000  1.0
+  Br  Br21  1  0.17556152  0.82395806  0.00000000  1.0

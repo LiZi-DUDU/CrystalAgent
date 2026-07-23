@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Mg6ZnCr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.94931600
+_cell_length_b   6.19418900
+_cell_length_c   10.68904000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mg6ZnCr
+_chemical_formula_sum   'Mg12 Zn2 Cr2'
+_cell_volume   327.69388565
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.00000000  0.74374500  0.91296000  1.0
+  Mg  Mg1  1  0.00000000  0.25625500  0.91296000  1.0
+  Mg  Mg2  1  0.00000000  0.50000000  0.16691600  1.0
+  Mg  Mg3  1  0.50000000  0.75603300  0.08502500  1.0
+  Mg  Mg4  1  0.50000000  0.24396700  0.08502500  1.0
+  Mg  Mg5  1  0.50000000  0.50000000  0.33382700  1.0
+  Mg  Mg6  1  0.00000000  0.24374500  0.41296000  1.0
+  Mg  Mg7  1  0.00000000  0.75625500  0.41296000  1.0
+  Mg  Mg8  1  0.00000000  0.00000000  0.66691600  1.0
+  Mg  Mg9  1  0.50000000  0.25603300  0.58502500  1.0
+  Mg  Mg10  1  0.50000000  0.74396700  0.58502500  1.0
+  Mg  Mg11  1  0.50000000  0.00000000  0.83382700  1.0
+  Zn  Zn12  1  0.00000000  0.50000000  0.67238500  1.0
+  Zn  Zn13  1  0.00000000  0.00000000  0.17238500  1.0
+  Cr  Cr14  1  0.50000000  0.50000000  0.83090200  1.0
+  Cr  Cr15  1  0.50000000  0.00000000  0.33090200  1.0

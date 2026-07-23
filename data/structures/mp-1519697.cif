@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_PrMg(BiO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.78063277
+_cell_length_b   5.90977488
+_cell_length_c   5.78063376
+_cell_angle_alpha   60.72152954
+_cell_angle_beta   89.99774936
+_cell_angle_gamma   119.27846495
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   PrMg(BiO3)2
+_chemical_formula_sum   'Pr1 Mg1 Bi2 O6'
+_cell_volume   142.62773487
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pr  Pr0  1  0.50000000  0.00000000  0.50000000  1.0
+  Mg  Mg1  1  0.00000000  0.00000000  0.00000000  1.0
+  Bi  Bi2  1  0.75001852  0.50003705  0.74998148  1.0
+  Bi  Bi3  1  0.24998148  0.49996295  0.25001852  1.0
+  O  O4  1  0.23333884  0.46667768  0.76666116  1.0
+  O  O5  1  0.76666116  0.53332232  0.23333884  1.0
+  O  O6  1  0.33266273  -0.00000000  0.13039107  1.0
+  O  O7  1  0.66733727  0.00000000  0.86960893  1.0
+  O  O8  1  0.13040744  0.00000000  0.66736317  1.0
+  O  O9  1  0.86959256  -0.00000000  0.33263683  1.0

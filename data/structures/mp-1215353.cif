@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Zr4GeSb7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.98843743
+_cell_length_b   7.33006374
+_cell_length_c   9.66199861
+_cell_angle_alpha   89.57302259
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr4GeSb7
+_chemical_formula_sum   'Zr4 Ge1 Sb7'
+_cell_volume   282.46552252
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  -0.00000000  0.75796723  0.66001721  1.0
+  Zr  Zr1  1  -0.00000000  0.26449494  0.83128506  1.0
+  Zr  Zr2  1  0.50000000  0.24091439  0.34181931  1.0
+  Zr  Zr3  1  0.50000000  0.74040039  0.16515517  1.0
+  Ge  Ge4  1  -0.00000000  0.36817574  0.54442578  1.0
+  Sb  Sb5  1  -0.00000000  0.43048459  0.15028148  1.0
+  Sb  Sb6  1  -0.00000000  0.92663837  0.35580551  1.0
+  Sb  Sb7  1  0.50000000  0.57170229  0.84992588  1.0
+  Sb  Sb8  1  0.50000000  0.08212680  0.64069776  1.0
+  Sb  Sb9  1  -0.00000000  0.86982090  0.95402128  1.0
+  Sb  Sb10  1  0.50000000  0.61254970  0.46196202  1.0
+  Sb  Sb11  1  0.50000000  0.13472465  0.04460354  1.0

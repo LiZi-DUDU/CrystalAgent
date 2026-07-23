@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_LuZnPt
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.98205369
+_cell_length_b   6.82772683
+_cell_length_c   8.12488809
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LuZnPt
+_chemical_formula_sum   'Lu4 Zn4 Pt4'
+_cell_volume   220.90250274
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.25000000  0.54967675  0.18284778  1.0
+  Lu  Lu1  1  0.75000000  0.45032325  0.81715222  1.0
+  Lu  Lu2  1  0.75000000  0.95032325  0.68284778  1.0
+  Lu  Lu3  1  0.25000000  0.04967675  0.31715222  1.0
+  Zn  Zn4  1  0.25000000  0.62987311  0.56222810  1.0
+  Zn  Zn5  1  0.75000000  0.37012689  0.43777190  1.0
+  Zn  Zn6  1  0.75000000  0.87012689  0.06222810  1.0
+  Zn  Zn7  1  0.25000000  0.12987311  0.93777190  1.0
+  Pt  Pt8  1  0.25000000  0.74450148  0.87386142  1.0
+  Pt  Pt9  1  0.75000000  0.25549852  0.12613858  1.0
+  Pt  Pt10  1  0.75000000  0.75549852  0.37386142  1.0
+  Pt  Pt11  1  0.25000000  0.24450148  0.62613858  1.0

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Pr2SbO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.00872248
+_cell_length_b   8.04190154
+_cell_length_c   7.50141502
+_cell_angle_alpha   105.52179753
+_cell_angle_beta   105.47867341
+_cell_angle_gamma   90.00129789
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Pr2SbO2
+_chemical_formula_sum   'Pr4 Sb2 O4'
+_cell_volume   223.89210543
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pr  Pr0  1  0.33683861  0.16845854  0.67440182  1.0
+  Pr  Pr1  1  0.33684659  0.66850893  0.67446847  1.0
+  Pr  Pr2  1  0.66316139  0.33154146  0.32559818  1.0
+  Pr  Pr3  1  0.66315341  0.83149107  0.32553153  1.0
+  Sb  Sb4  1  0.00007925  0.00015638  0.99999044  1.0
+  Sb  Sb5  1  0.99992075  0.49984362  0.00000956  1.0
+  O  O6  1  0.25028018  0.37523675  0.50067492  1.0
+  O  O7  1  0.25024517  0.87516874  0.50056275  1.0
+  O  O8  1  0.74971982  0.12476325  0.49932508  1.0
+  O  O9  1  0.74975483  0.62483126  0.49943725  1.0

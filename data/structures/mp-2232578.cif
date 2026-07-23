@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Na2Nd2MgTi2O8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.68066135
+_cell_length_b   3.68066135
+_cell_length_c   16.39388516
+_cell_angle_alpha   94.51669586
+_cell_angle_beta   94.51669586
+_cell_angle_gamma   89.83070648
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2Nd2MgTi2O8
+_chemical_formula_sum   'Na2 Nd2 Mg1 Ti2 O8'
+_cell_volume   220.71387256
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.32526188  0.32526188  0.54335010  1.0
+  Na  Na1  1  0.78174250  0.78174250  0.41517280  1.0
+  Nd  Nd2  1  0.68748719  0.68748719  0.15413068  1.0
+  Nd  Nd3  1  0.10981534  0.10981534  0.97971947  1.0
+  Mg  Mg4  1  0.40451276  0.40451276  0.77402611  1.0
+  Ti  Ti5  1  0.23636626  0.23636626  0.29126861  1.0
+  Ti  Ti6  1  0.86706555  0.86706555  0.66818561  1.0
+  O  O7  1  0.64922687  0.64922687  0.00858984  1.0
+  O  O8  1  0.18222788  0.18222788  0.11851744  1.0
+  O  O9  1  0.82967234  0.82967234  0.55869782  1.0
+  O  O10  1  0.27341013  0.27341013  0.40064127  1.0
+  O  O11  1  0.72401041  0.22282536  0.25583948  1.0
+  O  O12  1  0.22282536  0.72401041  0.25583948  1.0
+  O  O13  1  0.87968636  0.38026016  0.70637814  1.0
+  O  O14  1  0.38026016  0.87968636  0.70637814  1.0

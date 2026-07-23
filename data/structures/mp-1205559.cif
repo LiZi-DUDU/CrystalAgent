@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_YbInBr3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.60833185
+_cell_length_b   8.60833185
+_cell_length_c   10.73531721
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   155.74950681
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YbInBr3
+_chemical_formula_sum   'Yb2 In2 Br6'
+_cell_volume   326.74264447
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Yb  Yb0  1  0.00000000  0.00000000  0.00000000  1.0
+  Yb  Yb1  1  0.00000000  0.00000000  0.50000000  1.0
+  In  In2  1  0.27271439  0.72728561  0.25000000  1.0
+  In  In3  1  0.72728561  0.27271439  0.75000000  1.0
+  Br  Br4  1  0.62314794  0.37685206  0.03700537  1.0
+  Br  Br5  1  0.37685206  0.62314794  0.96299463  1.0
+  Br  Br6  1  0.37685206  0.62314794  0.53700537  1.0
+  Br  Br7  1  0.62314794  0.37685206  0.46299463  1.0
+  Br  Br8  1  0.96346962  0.03653038  0.25000000  1.0
+  Br  Br9  1  0.03653038  0.96346962  0.75000000  1.0

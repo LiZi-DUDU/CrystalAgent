@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_NaMgFe(SeO4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.27080621
+_cell_length_b   5.34735820
+_cell_length_c   7.01823502
+_cell_angle_alpha   88.14316109
+_cell_angle_beta   92.70554027
+_cell_angle_gamma   67.85384300
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaMgFe(SeO4)2
+_chemical_formula_sum   'Na1 Mg1 Fe1 Se2 O8'
+_cell_volume   182.74114243
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.00568108  0.99139049  0.52509699  1.0
+  Mg  Mg1  1  0.38872689  0.27224566  0.28620225  1.0
+  Fe  Fe2  1  0.00724180  0.97395618  0.97986277  1.0
+  Se  Se3  1  0.34674850  0.35020482  0.77517618  1.0
+  Se  Se4  1  0.62697087  0.66369304  0.20615838  1.0
+  O  O5  1  0.76531308  0.32836852  0.27185114  1.0
+  O  O6  1  0.24087494  0.30896399  0.54428677  1.0
+  O  O7  1  0.23810168  0.69619212  0.77905396  1.0
+  O  O8  1  0.29156428  0.68877338  0.20157163  1.0
+  O  O9  1  0.76394240  0.72177935  0.01078335  1.0
+  O  O10  1  0.70059284  0.22512047  0.77778654  1.0
+  O  O11  1  0.24551857  0.17513009  0.04425320  1.0
+  O  O12  1  0.65372307  0.86668189  0.37569483  1.0

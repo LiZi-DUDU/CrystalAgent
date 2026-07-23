@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Lu5Re2C7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.10525798
+_cell_length_b   8.10525798
+_cell_length_c   3.33040360
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   121.66490717
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Lu5Re2C7
+_chemical_formula_sum   'Lu5 Re2 C7'
+_cell_volume   186.22066629
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.33721157  0.07815970  0.50000000  1.0
+  Lu  Lu1  1  0.66278843  0.92184030  0.50000000  1.0
+  Lu  Lu2  1  0.07815970  0.33721157  0.50000000  1.0
+  Lu  Lu3  1  0.92184030  0.66278843  0.50000000  1.0
+  Lu  Lu4  1  0.50000000  0.50000000  0.00000000  1.0
+  Re  Re5  1  0.28415164  0.71584836  0.00000000  1.0
+  Re  Re6  1  0.71584836  0.28415164  0.00000000  1.0
+  C  C7  1  0.17088856  0.17088856  -0.00000000  1.0
+  C  C8  1  0.82911144  0.82911144  0.00000000  1.0
+  C  C9  1  0.00000000  0.00000000  0.00000000  1.0
+  C  C10  1  0.37751250  0.62248750  0.50000000  1.0
+  C  C11  1  0.62248750  0.37751250  0.50000000  1.0
+  C  C12  1  0.50000000  0.00000000  0.00000000  1.0
+  C  C13  1  0.00000000  0.50000000  0.00000000  1.0

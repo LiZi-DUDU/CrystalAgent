@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_Eu2MgTiO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.88628499
+_cell_length_b   3.96494182
+_cell_length_c   8.31764869
+_cell_angle_alpha   90.03448278
+_cell_angle_beta   103.51008670
+_cell_angle_gamma   89.99999648
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Eu2MgTiO4
+_chemical_formula_sum   'Eu2 Mg1 Ti1 O4'
+_cell_volume   124.61924275
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Eu  Eu0  1  0.39814693  0.59344475  0.79629486  1.0
+  Eu  Eu1  1  0.62489735  0.58941784  0.24979371  1.0
+  Mg  Mg2  1  0.79085234  0.09359899  0.58170469  1.0
+  Ti  Ti3  1  0.01833044  0.09272325  0.03666088  1.0
+  O  O4  1  0.13516789  0.10032002  0.27033577  1.0
+  O  O5  1  0.77128130  0.59375234  0.54256261  1.0
+  O  O6  1  0.00432233  0.59415043  0.00864466  1.0
+  O  O7  1  0.50700141  0.09259239  0.01400282  1.0

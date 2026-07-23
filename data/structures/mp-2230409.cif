@@ -1,0 +1,45 @@
+# generated using pymatgen
+data_La2MgFe2(TeO6)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.68084564
+_cell_length_b   5.58095349
+_cell_length_c   7.97262307
+_cell_angle_alpha   90.45574939
+_cell_angle_beta   89.83502040
+_cell_angle_gamma   94.34229389
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La2MgFe2(TeO6)2
+_chemical_formula_sum   'La2 Mg1 Fe2 Te2 O12'
+_cell_volume   252.03411100
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.05733400  0.00318200  0.24347700  1.0
+  La  La1  1  0.44215600  0.48423800  0.75035600  1.0
+  Mg  Mg2  1  0.95768400  0.98804000  0.72486600  1.0
+  Fe  Fe3  1  0.51974800  0.98708700  0.00827700  1.0
+  Fe  Fe4  1  0.98539500  0.50848400  0.48707000  1.0
+  Te  Te5  1  0.51535000  0.98919400  0.50342800  1.0
+  Te  Te6  1  0.97721600  0.50768400  0.99531800  1.0
+  O  O7  1  0.00094100  0.61963700  0.75962000  1.0
+  O  O8  1  0.14333300  0.22153500  0.92580800  1.0
+  O  O9  1  0.22853500  0.15912500  0.56493700  1.0
+  O  O10  1  0.27236200  0.70566100  0.03021400  1.0
+  O  O11  1  0.31489600  0.69478900  0.48154600  1.0
+  O  O12  1  0.47926800  0.06661300  0.27185400  1.0
+  O  O13  1  0.57000000  0.91128200  0.74195500  1.0
+  O  O14  1  0.71314000  0.28013900  0.56112300  1.0
+  O  O15  1  0.68577000  0.31485300  0.95459000  1.0
+  O  O16  1  0.81339300  0.83901600  0.46992400  1.0
+  O  O17  1  0.81102500  0.78837500  0.04753000  1.0
+  O  O18  1  0.98864500  0.41027100  0.22848100  1.0

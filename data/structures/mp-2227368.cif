@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Ba2MgCuTeO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.49666559
+_cell_length_b   7.01424864
+_cell_length_c   6.26878706
+_cell_angle_alpha   122.72626918
+_cell_angle_beta   119.12807689
+_cell_angle_gamma   101.21670167
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2MgCuTeO6
+_chemical_formula_sum   'Ba2 Mg1 Cu1 Te1 O6'
+_cell_volume   189.52351394
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.68153091  0.28398651  0.51206690  1.0
+  Ba  Ba1  1  0.31846909  0.71601349  0.48793310  1.0
+  Mg  Mg2  1  -0.00000000  -0.00000000  0.50000000  1.0
+  Cu  Cu3  1  -0.00000000  -0.00000000  -0.00000000  1.0
+  Te  Te4  1  0.50000000  0.50000000  -0.00000000  1.0
+  O  O5  1  0.63038633  0.81766968  0.04196512  1.0
+  O  O6  1  0.16384202  0.43965617  0.84942198  1.0
+  O  O7  1  0.83615798  0.56034383  0.15057802  1.0
+  O  O8  1  0.36961467  0.18233032  0.95803488  1.0
+  O  O9  1  0.25024162  0.11735838  0.42471964  1.0
+  O  O10  1  0.74975738  0.88264162  0.57528036  1.0

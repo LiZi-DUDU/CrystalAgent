@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_MgTi4(FeO4)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.97701457
+_cell_length_b   6.45343674
+_cell_length_c   6.97112501
+_cell_angle_alpha   109.80137095
+_cell_angle_beta   114.59175759
+_cell_angle_gamma   106.69499044
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgTi4(FeO4)3
+_chemical_formula_sum   'Mg1 Ti4 Fe3 O12'
+_cell_volume   232.46933131
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.85353324  0.44154997  0.59885965  1.0
+  Ti  Ti1  1  0.96651655  0.98613442  0.49937247  1.0
+  Ti  Ti2  1  0.95921914  0.46154910  0.03001709  1.0
+  Ti  Ti3  1  0.44150923  0.46782021  0.50466007  1.0
+  Ti  Ti4  1  0.48646740  0.01779678  0.01990954  1.0
+  Fe  Fe5  1  0.42889151  0.49937301  -0.02400406  1.0
+  Fe  Fe6  1  0.13584328  0.64297667  0.51615757  1.0
+  Fe  Fe7  1  0.48821910  0.94359601  0.45334141  1.0
+  O  O8  1  0.50539728  0.80050823  0.68964139  1.0
+  O  O9  1  0.10517741  0.79812226  0.29994408  1.0
+  O  O10  1  0.88613230  0.18915943  0.69545729  1.0
+  O  O11  1  0.19098700  0.30926883  0.51447783  1.0
+  O  O12  1  0.29160014  0.50043137  0.20454793  1.0
+  O  O13  1  0.70108753  0.48579552  0.78879416  1.0
+  O  O14  1  0.81222203  0.30192754  0.13465967  1.0
+  O  O15  1  0.68095879  0.88319688  0.20561425  1.0
+  O  O16  1  0.50018011  0.19351833  0.30942345  1.0
+  O  O17  1  0.21826908  0.69531499  0.86245748  1.0
+  O  O18  1  0.84794655  0.69960351  0.50337635  1.0
+  O  O19  1  0.31234433  0.11985894  0.81829738  1.0

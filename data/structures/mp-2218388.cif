@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Dy2MgV2O8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.07777236
+_cell_length_b   5.16567705
+_cell_length_c   7.93749376
+_cell_angle_alpha   105.57085375
+_cell_angle_beta   105.13961296
+_cell_angle_gamma   100.35236476
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Dy2MgV2O8
+_chemical_formula_sum   'Dy2 Mg1 V2 O8'
+_cell_volume   186.48227660
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.59592835  0.84627385  0.19178822  1.0
+  Dy  Dy1  1  0.42355869  0.17353928  0.84667384  1.0
+  Mg  Mg2  1  0.26722551  0.51683216  0.53351854  1.0
+  V  V3  1  0.07210857  0.32235159  0.14406044  1.0
+  V  V4  1  0.93148984  0.68142014  0.86247258  1.0
+  O  O5  1  0.36080371  0.62645093  0.33186164  1.0
+  O  O6  1  0.97142984  0.20596898  0.33178555  1.0
+  O  O7  1  0.20082201  0.48606412  0.94523030  1.0
+  O  O8  1  0.74462292  0.95944504  0.94517117  1.0
+  O  O9  1  0.59065049  0.43036800  0.69321656  1.0
+  O  O10  1  0.10324881  0.76280646  0.69330963  1.0
+  O  O11  1  0.79883573  0.51970928  0.07552711  1.0
+  O  O12  1  0.27677554  0.05627015  0.07538439  1.0

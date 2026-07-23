@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_EuIBr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.79349331
+_cell_length_b   8.42823777
+_cell_length_c   9.77024448
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   EuIBr
+_chemical_formula_sum   'Eu4 I4 Br4'
+_cell_volume   394.72472951
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Eu  Eu0  1  0.75000000  0.22625156  0.87180097  1.0
+  Eu  Eu1  1  0.25000000  0.77374844  0.12819903  1.0
+  Eu  Eu2  1  0.75000000  0.72625156  0.62819903  1.0
+  Eu  Eu3  1  0.25000000  0.27374844  0.37180097  1.0
+  I  I4  1  0.75000000  0.97345767  0.33301262  1.0
+  I  I5  1  0.25000000  0.02654233  0.66698738  1.0
+  I  I6  1  0.75000000  0.47345767  0.16698738  1.0
+  I  I7  1  0.25000000  0.52654233  0.83301262  1.0
+  Br  Br8  1  0.25000000  0.14478684  0.06479360  1.0
+  Br  Br9  1  0.75000000  0.85521316  0.93520640  1.0
+  Br  Br10  1  0.25000000  0.64478684  0.43520640  1.0
+  Br  Br11  1  0.75000000  0.35521316  0.56479360  1.0

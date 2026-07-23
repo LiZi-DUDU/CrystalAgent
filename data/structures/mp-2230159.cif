@@ -1,0 +1,45 @@
+# generated using pymatgen
+data_Ba2Nd2Mg(Fe2O5)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.93494642
+_cell_length_b   7.80678623
+_cell_length_c   9.89696533
+_cell_angle_alpha   90.18530051
+_cell_angle_beta   79.27737561
+_cell_angle_gamma   90.36439161
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2Nd2Mg(Fe2O5)2
+_chemical_formula_sum   'Ba2 Nd2 Mg1 Fe4 O10'
+_cell_volume   298.71250751
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.75101140  0.00250646  0.96230821  1.0
+  Ba  Ba1  1  0.97298883  0.99052191  0.44528338  1.0
+  Nd  Nd2  1  0.17228466  0.49661900  0.10166776  1.0
+  Nd  Nd3  1  0.96644334  0.50178092  0.50007622  1.0
+  Mg  Mg4  1  0.79176917  0.50005832  0.85470259  1.0
+  Fe  Fe5  1  0.57111393  0.25417866  0.28098960  1.0
+  Fe  Fe6  1  0.37288675  0.22835613  0.69420791  1.0
+  Fe  Fe7  1  0.58276919  0.74672695  0.26461717  1.0
+  Fe  Fe8  1  0.37118708  0.77187244  0.69557347  1.0
+  O  O9  1  0.86203582  0.68727351  0.71558360  1.0
+  O  O10  1  0.70856657  0.33386150  0.02204625  1.0
+  O  O11  1  0.06388850  0.67668834  0.28734480  1.0
+  O  O12  1  0.86669076  0.31318074  0.71312157  1.0
+  O  O13  1  0.54955051  -0.00170458  0.25600081  1.0
+  O  O14  1  0.06590923  0.31135087  0.28479027  1.0
+  O  O15  1  0.70857298  0.66969145  0.03203657  1.0
+  O  O16  1  0.46886533  0.70328836  0.49518869  1.0
+  O  O17  1  0.33598883  0.00064741  0.78601314  1.0
+  O  O18  1  0.46747713  0.30476961  0.49504600  1.0

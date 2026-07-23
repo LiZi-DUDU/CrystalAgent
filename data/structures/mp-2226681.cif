@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_MgFeAuO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.09208554
+_cell_length_b   3.09883274
+_cell_length_c   8.36102493
+_cell_angle_alpha   79.77745186
+_cell_angle_beta   79.34408600
+_cell_angle_gamma   60.07199525
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgFeAuO2
+_chemical_formula_sum   'Mg1 Fe1 Au1 O2'
+_cell_volume   67.89143374
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.90626200  0.90913600  0.27834000  1.0
+  Fe  Fe1  1  0.01458500  0.02160100  0.94923000  1.0
+  Au  Au2  1  0.47809300  0.48802600  0.55578700  1.0
+  O  O3  1  0.38044700  0.38466800  0.85443800  1.0
+  O  O4  1  0.61644600  0.61323600  0.15387200  1.0

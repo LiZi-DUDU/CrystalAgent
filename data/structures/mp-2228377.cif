@@ -1,0 +1,45 @@
+# generated using pymatgen
+data_MgTi3Nb3O12
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.46215910
+_cell_length_b   5.72217235
+_cell_length_c   5.81979418
+_cell_angle_alpha   75.02451379
+_cell_angle_beta   68.43402279
+_cell_angle_gamma   70.50131194
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgTi3Nb3O12
+_chemical_formula_sum   'Mg1 Ti3 Nb3 O12'
+_cell_volume   215.22670722
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.50045900  0.00295300  0.48841000  1.0
+  Ti  Ti1  1  0.69540900  0.35811500  0.31856800  1.0
+  Ti  Ti2  1  0.14185700  0.34920100  0.35002300  1.0
+  Ti  Ti3  1  0.00625900  0.00336900  0.00382200  1.0
+  Nb  Nb4  1  0.84828200  0.65796900  0.65842000  1.0
+  Nb  Nb5  1  0.31201000  0.61689100  0.68226100  1.0
+  Nb  Nb6  1  0.51973900  0.97681000  0.98652300  1.0
+  O  O7  1  0.68471400  0.06584400  0.62016900  1.0
+  O  O8  1  0.33834200  0.35576200  0.96163900  1.0
+  O  O9  1  0.62161400  0.61000200  0.54955900  1.0
+  O  O10  1  0.98127200  0.23874000  0.21423900  1.0
+  O  O11  1  0.31893100  0.90309300  0.85475400  1.0
+  O  O12  1  0.70171300  0.08043200  0.12951600  1.0
+  O  O13  1  0.01568200  0.77531400  0.78624100  1.0
+  O  O14  1  0.38175000  0.38194300  0.43514400  1.0
+  O  O15  1  0.32295500  0.94635100  0.34948700  1.0
+  O  O16  1  0.66581000  0.61165200  0.04334500  1.0
+  O  O17  1  0.00264400  0.27500200  0.70596100  1.0
+  O  O18  1  0.02091500  0.70722600  0.27858700  1.0

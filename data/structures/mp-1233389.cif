@@ -1,0 +1,49 @@
+# generated using pymatgen
+data_Rb4Ca(Se2O7)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.09876946
+_cell_length_b   8.47898358
+_cell_length_c   8.10346824
+_cell_angle_alpha   92.38944596
+_cell_angle_beta   86.49357494
+_cell_angle_gamma   58.19161198
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Rb4Ca(Se2O7)2
+_chemical_formula_sum   'Rb4 Ca1 Se4 O14'
+_cell_volume   470.20674450
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.14861300  0.58977500  0.28342500  1.0
+  Rb  Rb1  1  0.49740700  0.78912600  0.12268700  1.0
+  Rb  Rb2  1  0.76047300  0.49588100  0.64790800  1.0
+  Rb  Rb3  1  0.63714700  0.14797300  0.96468300  1.0
+  Ca  Ca4  1  0.33937700  0.22522300  0.60063200  1.0
+  Se  Se5  1  0.71457800  0.12706900  0.41550100  1.0
+  Se  Se6  1  0.95068100  0.29305900  0.12910800  1.0
+  Se  Se7  1  0.27547300  0.90234800  0.61965900  1.0
+  Se  Se8  1  0.08392600  0.66873300  0.84629400  1.0
+  O  O9  1  0.63104000  0.22005600  0.61979100  1.0
+  O  O10  1  0.78091800  0.39606100  0.99630600  1.0
+  O  O11  1  0.38062000  0.73083400  0.46441100  1.0
+  O  O12  1  0.29469000  0.57338000  0.93181500  1.0
+  O  O13  1  0.49184300  0.21687100  0.33367500  1.0
+  O  O14  1  0.89622600  0.44065900  0.29517300  1.0
+  O  O15  1  0.45615300  0.92306200  0.70222800  1.0
+  O  O16  1  0.10761600  0.52331100  0.68384500  1.0
+  O  O17  1  0.80971200  0.89868100  0.40889800  1.0
+  O  O18  1  0.17776400  0.20433900  0.04241000  1.0
+  O  O19  1  0.13907300  0.11324200  0.54086900  1.0
+  O  O20  1  0.89656400  0.71471400  0.97960600  1.0
+  O  O21  1  0.93958400  0.10443900  0.18809500  1.0
+  O  O22  1  0.02385500  0.87616200  0.77464700  1.0

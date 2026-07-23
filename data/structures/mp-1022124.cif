@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Mg6CuNi
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.72474800
+_cell_length_b   6.13660900
+_cell_length_c   10.23842800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mg6CuNi
+_chemical_formula_sum   'Mg12 Cu2 Ni2'
+_cell_volume   296.85227600
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.50000000  0.25075900  0.58461700  1.0
+  Mg  Mg1  1  0.50000000  0.74924100  0.58461700  1.0
+  Mg  Mg2  1  0.00000000  0.24597500  0.40950600  1.0
+  Mg  Mg3  1  0.00000000  0.75402500  0.40950600  1.0
+  Mg  Mg4  1  0.00000000  0.00000000  0.67184100  1.0
+  Mg  Mg5  1  0.00000000  0.00000000  0.17412700  1.0
+  Mg  Mg6  1  0.50000000  0.75075900  0.08461700  1.0
+  Mg  Mg7  1  0.50000000  0.24924100  0.08461700  1.0
+  Mg  Mg8  1  0.00000000  0.74597500  0.90950600  1.0
+  Mg  Mg9  1  0.00000000  0.25402500  0.90950600  1.0
+  Mg  Mg10  1  0.00000000  0.50000000  0.17184100  1.0
+  Mg  Mg11  1  0.00000000  0.50000000  0.67412700  1.0
+  Cu  Cu12  1  0.50000000  0.00000000  0.83284000  1.0
+  Cu  Cu13  1  0.50000000  0.50000000  0.33284000  1.0
+  Ni  Ni14  1  0.50000000  0.00000000  0.33295000  1.0
+  Ni  Ni15  1  0.50000000  0.50000000  0.83295000  1.0

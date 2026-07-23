@@ -1,0 +1,80 @@
+{
+  "overall": {
+    "formation_energy": {
+      "router": 0.1122,
+      "single_best": 0.1672,
+      "ensemble": 0.1143
+    },
+    "band_gap": {
+      "router": 0.4741,
+      "single_best": 0.4886,
+      "ensemble": 0.5348
+    }
+  },
+  "by_crystal_system": {
+    "formation_energy": {
+      "三斜": {
+        "router": 0.1461,
+        "single_best": 0.2497
+      },
+      "三方": {
+        "router": 0.0928,
+        "single_best": 0.162
+      },
+      "六方": {
+        "router": 0.0753,
+        "single_best": 0.0928
+      },
+      "单斜": {
+        "router": 0.089,
+        "single_best": 0.1922
+      },
+      "四方": {
+        "router": 0.1013,
+        "single_best": 0.123
+      },
+      "正交": {
+        "router": 0.1561,
+        "single_best": 0.1561
+      },
+      "立方": {
+        "router": 0.0847,
+        "single_best": 0.1228
+      }
+    },
+    "band_gap": {
+      "三斜": {
+        "router": 0.7047,
+        "single_best": 0.7978
+      },
+      "三方": {
+        "router": 0.4372,
+        "single_best": 0.4372
+      },
+      "六方": {
+        "router": 0.1891,
+        "single_best": 0.1891
+      },
+      "单斜": {
+        "router": 0.6817,
+        "single_best": 0.6817
+      },
+      "四方": {
+        "router": 0.2893,
+        "single_best": 0.2893
+      },
+      "正交": {
+        "router": 0.4224,
+        "single_best": 0.4224
+      },
+      "立方": {
+        "router": 0.2446,
+        "single_best": 0.2446
+      }
+    }
+  },
+  "routing_accuracy": {
+    "formation_energy": 0.3196,
+    "band_gap": 0.3982
+  }
+}

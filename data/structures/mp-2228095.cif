@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_SrMgCoO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.21244146
+_cell_length_b   3.40179686
+_cell_length_c   5.66832847
+_cell_angle_alpha   75.72000615
+_cell_angle_beta   108.81335328
+_cell_angle_gamma   89.18972990
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrMgCoO3
+_chemical_formula_sum   'Sr1 Mg1 Co1 O3'
+_cell_volume   74.12155363
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.36036330  0.62584568  0.54306791  1.0
+  Mg  Mg1  1  0.68253848  0.31776851  0.15929495  1.0
+  Co  Co2  1  0.04965610  0.93357934  0.91576082  1.0
+  O  O3  1  -0.12210701  0.14896712  0.53930093  1.0
+  O  O4  1  0.18232805  0.33122268  0.14623003  1.0
+  O  O5  1  0.58055408  -0.09071632  -0.05365464  1.0

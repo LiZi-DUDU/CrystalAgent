@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_MgCo4(CuO4)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.29568436
+_cell_length_b   6.29018273
+_cell_length_c   6.22668101
+_cell_angle_alpha   109.41220928
+_cell_angle_beta   109.14576573
+_cell_angle_gamma   110.05986791
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgCo4(CuO4)3
+_chemical_formula_sum   'Mg1 Co4 Cu3 O12'
+_cell_volume   189.33015167
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.91459500  0.95796500  0.94543300  1.0
+  Co  Co1  1  0.98664500  0.99258200  0.47502900  1.0
+  Co  Co2  1  0.98697300  0.49359400  0.97439700  1.0
+  Co  Co3  1  0.47790800  0.48403500  0.46429800  1.0
+  Co  Co4  1  0.47613600  0.99284700  0.97315700  1.0
+  Cu  Cu5  1  0.48586700  0.49378100  0.97161000  1.0
+  Cu  Cu6  1  0.98234600  0.48976800  0.47156600  1.0
+  Cu  Cu7  1  0.48498200  0.99102900  0.47448600  1.0
+  O  O8  1  0.80276700  0.30255000  0.10458900  1.0
+  O  O9  1  0.16301700  0.67425800  0.83711300  1.0
+  O  O10  1  0.82043300  0.69294000  0.50913600  1.0
+  O  O11  1  0.30521400  0.47737600  0.15569700  1.0
+  O  O12  1  0.47003000  0.16209200  0.28137200  1.0
+  O  O13  1  0.12022600  0.81902100  0.28655600  1.0
+  O  O14  1  0.68447900  0.85947500  0.14534800  1.0
+  O  O15  1  0.50619400  0.82253600  0.67180200  1.0
+  O  O16  1  0.14497000  0.28832900  0.43480100  1.0
+  O  O17  1  0.67094700  0.51825800  0.79067800  1.0
+  O  O18  1  0.85033100  0.16029300  0.66473000  1.0
+  O  O19  1  0.29094200  0.12935400  0.79528500  1.0

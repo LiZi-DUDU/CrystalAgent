@@ -1,0 +1,45 @@
+# generated using pymatgen
+data_MgCr2Ag6(ClO4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.44404102
+_cell_length_b   7.57088601
+_cell_length_c   7.57092701
+_cell_angle_alpha   90.00003009
+_cell_angle_beta   90.00713392
+_cell_angle_gamma   90.00585920
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgCr2Ag6(ClO4)2
+_chemical_formula_sum   'Mg1 Cr2 Ag6 Cl2 O8'
+_cell_volume   312.04494380
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.50001700  0.25003600  0.74998300  1.0
+  Cr  Cr1  1  0.00000900  0.74985600  0.25012300  1.0
+  Cr  Cr2  1  0.00001100  0.25010200  0.74992700  1.0
+  Ag  Ag3  1  0.12379600  0.24989000  0.24995400  1.0
+  Ag  Ag4  1  0.49996400  0.52550700  0.47452400  1.0
+  Ag  Ag5  1  0.50004900  0.97456100  0.47446300  1.0
+  Ag  Ag6  1  0.87617500  0.75010200  0.75004600  1.0
+  Ag  Ag7  1  0.50000900  0.97454000  0.02548600  1.0
+  Ag  Ag8  1  0.49993700  0.52552700  0.02545300  1.0
+  Cl  Cl9  1  0.35208800  0.75012300  0.75003400  1.0
+  Cl  Cl10  1  0.64790100  0.24993000  0.24993200  1.0
+  O  O11  1  0.18348000  0.57035800  0.25007300  1.0
+  O  O12  1  0.22743200  0.25007600  0.92760400  1.0
+  O  O13  1  0.18349800  0.92942000  0.25007500  1.0
+  O  O14  1  0.22744800  0.25008200  0.57231000  1.0
+  O  O15  1  0.81650300  0.74987200  0.42959600  1.0
+  O  O16  1  0.77257100  0.42772400  0.74993900  1.0
+  O  O17  1  0.77259000  0.07242300  0.74993900  1.0
+  O  O18  1  0.81652700  0.74987000  0.07053800  1.0

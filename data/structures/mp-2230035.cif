@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_MgTi2Nb2(CuO4)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.99024233
+_cell_length_b   6.59189707
+_cell_length_c   6.60831568
+_cell_angle_alpha   108.65629945
+_cell_angle_beta   111.16010126
+_cell_angle_gamma   110.06190493
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgTi2Nb2(CuO4)3
+_chemical_formula_sum   'Mg1 Ti2 Nb2 Cu3 O12'
+_cell_volume   229.99077245
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.71083914  0.53717915  0.12429877  1.0
+  Ti  Ti1  1  0.55391181  0.99869187  0.01146547  1.0
+  Ti  Ti2  1  0.02569581  0.53323252  0.99373041  1.0
+  Nb  Nb3  1  0.04393066  0.02716949  0.56046814  1.0
+  Nb  Nb4  1  0.49855872  0.47665058  0.48378295  1.0
+  Cu  Cu5  1  0.35154344  0.51544275  0.91416091  1.0
+  Cu  Cu6  1  0.51712256  0.99920314  0.50966025  1.0
+  Cu  Cu7  1  0.01776702  0.50760183  0.50790789  1.0
+  O  O8  1  0.82317865  0.30362630  0.13968626  1.0
+  O  O9  1  0.49512084  0.17785600  0.31502256  1.0
+  O  O10  1  0.89590968  0.18726827  0.70095310  1.0
+  O  O11  1  0.30301578  0.49631956  0.20302175  1.0
+  O  O12  1  0.68878304  0.85692605  0.17570260  1.0
+  O  O13  1  0.80914719  0.68501983  0.49502236  1.0
+  O  O14  1  0.21038160  0.31738964  0.51753065  1.0
+  O  O15  1  0.34191254  0.15071699  0.84600712  1.0
+  O  O16  1  0.72638878  0.50681684  0.81797926  1.0
+  O  O17  1  0.09835904  0.79914349  0.30820648  1.0
+  O  O18  1  0.52115699  0.82534447  0.70497207  1.0
+  O  O19  1  0.18727674  0.70840123  0.87875299  1.0

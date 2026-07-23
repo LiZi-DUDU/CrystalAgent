@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_YAlAu
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.45938904
+_cell_length_b   7.18064298
+_cell_length_c   7.75991450
+_cell_angle_alpha   89.99998733
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YAlAu
+_chemical_formula_sum   'Y4 Al4 Au4'
+_cell_volume   248.48239968
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.25000000  0.00681312  0.29920263  1.0
+  Y  Y1  1  0.25000000  0.50681333  0.20079602  1.0
+  Y  Y2  1  0.75000000  0.99318312  0.70075800  1.0
+  Y  Y3  1  0.75000000  0.49318339  0.79924208  1.0
+  Al  Al4  1  0.25000000  0.17720616  0.92139295  1.0
+  Al  Al5  1  0.25000000  0.67720675  0.57860647  1.0
+  Al  Al6  1  0.75000000  0.82281923  0.07861776  1.0
+  Al  Al7  1  0.75000000  0.32281810  0.42138417  1.0
+  Au  Au8  1  0.25000000  0.28774396  0.59261755  1.0
+  Au  Au9  1  0.25000000  0.78774187  0.90738256  1.0
+  Au  Au10  1  0.75000000  0.71223246  0.40734775  1.0
+  Au  Au11  1  0.75000000  0.21223951  0.09265207  1.0

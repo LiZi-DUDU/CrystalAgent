@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_MgTi2(NiO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.39554739
+_cell_length_b   5.78859825
+_cell_length_c   5.34889349
+_cell_angle_alpha   123.52966043
+_cell_angle_beta   62.97116338
+_cell_angle_gamma   116.37537012
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgTi2(NiO3)2
+_chemical_formula_sum   'Mg1 Ti2 Ni2 O6'
+_cell_volume   119.77705238
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.70142436  0.20205315  0.33823504  1.0
+  Ti  Ti1  1  0.24563583  0.49685288  0.12882799  1.0
+  Ti  Ti2  1  0.59413609  0.90251567  0.69313253  1.0
+  Ni  Ni3  1  0.12423557  0.03071585  0.45891713  1.0
+  Ni  Ni4  1  0.88531878  0.55534476  0.85544566  1.0
+  O  O5  1  0.11395182  0.32711336  0.39283613  1.0
+  O  O6  1  0.60903306  0.77865713  0.26192519  1.0
+  O  O7  1  0.27353807  0.77281306  0.98062739  1.0
+  O  O8  1  0.87491320  0.23205341  0.93763220  1.0
+  O  O9  1  0.48385911  0.24386015  0.77069275  1.0
+  O  O10  1  0.84780311  0.67463059  0.54807699  1.0

@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Mg14CuC
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.34179524
+_cell_length_b   6.69980825
+_cell_length_c   9.31462377
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   121.88570822
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mg14CuC
+_chemical_formula_sum   'Mg14 Cu1 C1'
+_cell_volume   336.04738839
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.18365784  0.34182842  0.62500000  1.0
+  Mg  Mg1  1  0.17897801  0.83948851  0.62500000  1.0
+  Mg  Mg2  1  0.78972518  0.40698528  0.12500000  1.0
+  Mg  Mg3  1  0.65411332  0.32795211  0.62500000  1.0
+  Mg  Mg4  1  0.78972518  0.88273890  0.12500000  1.0
+  Mg  Mg5  1  0.65411332  0.82616021  0.62500000  1.0
+  Mg  Mg6  1  0.30395342  0.12476069  0.30521902  1.0
+  Mg  Mg7  1  0.30395342  0.12476069  0.94478098  1.0
+  Mg  Mg8  1  0.30395342  0.67919373  0.30521902  1.0
+  Mg  Mg9  1  0.30395342  0.67919373  0.94478098  1.0
+  Mg  Mg10  1  0.82592017  0.16296059  0.37573353  1.0
+  Mg  Mg11  1  0.82592017  0.16296059  0.87426647  1.0
+  Mg  Mg12  1  0.81708255  0.65854177  0.37673419  1.0
+  Mg  Mg13  1  0.81708255  0.65854177  0.87326581  1.0
+  Cu  Cu14  1  0.15819928  0.32909914  0.12500000  1.0
+  C  C15  1  0.08966871  0.79483386  0.12500000  1.0

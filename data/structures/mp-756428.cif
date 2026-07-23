@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_LaTh4O10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.89023105
+_cell_length_b   6.88978003
+_cell_length_c   6.88556035
+_cell_angle_alpha   99.59883362
+_cell_angle_beta   99.55649701
+_cell_angle_gamma   131.86450685
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaTh4O10
+_chemical_formula_sum   'La1 Th4 O10'
+_cell_volume   222.24861181
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.49999620  0.49999731  0.99999229  1.0
+  Th  Th1  1  0.89962309  0.70030132  0.59988789  1.0
+  Th  Th2  1  0.10037667  0.29969684  0.40010849  1.0
+  Th  Th3  1  0.70027147  0.10035908  0.80072160  1.0
+  Th  Th4  1  0.29973118  0.89964693  0.19928470  1.0
+  O  O5  1  0.03970973  0.14297427  0.69365307  1.0
+  O  O6  1  0.55064356  0.65385954  0.69346970  1.0
+  O  O7  1  0.85725244  0.55085139  0.89685742  1.0
+  O  O8  1  0.25005561  0.75007379  0.50007769  1.0
+  O  O9  1  0.74995316  0.24992385  0.49992917  1.0
+  O  O10  1  0.44936242  0.34614408  0.30652789  1.0
+  O  O11  1  0.96028065  0.85702253  0.30634240  1.0
+  O  O12  1  0.34592068  0.03942021  0.89670637  1.0
+  O  O13  1  0.14275178  0.44915512  0.10314269  1.0
+  O  O14  1  0.65407136  0.96057472  0.10329862  1.0

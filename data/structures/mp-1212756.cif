@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_EuBrCl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.53471328
+_cell_length_b   7.83440084
+_cell_length_c   9.08518649
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   EuBrCl
+_chemical_formula_sum   'Eu4 Br4 Cl4'
+_cell_volume   322.76725389
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Eu  Eu0  1  0.75000000  0.76812025  0.87471306  1.0
+  Eu  Eu1  1  0.25000000  0.23187975  0.12528694  1.0
+  Eu  Eu2  1  0.25000000  0.73187975  0.37471306  1.0
+  Eu  Eu3  1  0.75000000  0.26812025  0.62528694  1.0
+  Br  Br4  1  0.75000000  0.02751577  0.33181266  1.0
+  Br  Br5  1  0.25000000  0.97248423  0.66818734  1.0
+  Br  Br6  1  0.25000000  0.47248423  0.83181266  1.0
+  Br  Br7  1  0.75000000  0.52751577  0.16818734  1.0
+  Cl  Cl8  1  0.75000000  0.64415777  0.56600850  1.0
+  Cl  Cl9  1  0.25000000  0.35584223  0.43399150  1.0
+  Cl  Cl10  1  0.25000000  0.85584223  0.06600850  1.0
+  Cl  Cl11  1  0.75000000  0.14415777  0.93399150  1.0

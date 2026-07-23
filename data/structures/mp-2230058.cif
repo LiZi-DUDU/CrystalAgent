@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Sr4MgFe4O11
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.58301158
+_cell_length_b   7.13096667
+_cell_length_c   7.13105054
+_cell_angle_alpha   112.67759251
+_cell_angle_beta   89.95822759
+_cell_angle_gamma   90.03654582
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr4MgFe4O11
+_chemical_formula_sum   'Sr4 Mg1 Fe4 O11'
+_cell_volume   261.95435100
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.99977600  0.68993700  0.31032400  1.0
+  Sr  Sr1  1  0.99975500  0.25511600  0.74492600  1.0
+  Sr  Sr2  1  0.50051400  0.02818100  0.97166500  1.0
+  Sr  Sr3  1  0.49973800  0.49719400  0.50277300  1.0
+  Mg  Mg4  1  0.00174900  0.89549400  0.10448200  1.0
+  Fe  Fe5  1  0.49967600  0.99640100  0.48153800  1.0
+  Fe  Fe6  1  0.49966500  0.51836600  0.00364500  1.0
+  Fe  Fe7  1  0.99976600  0.27037200  0.25343200  1.0
+  Fe  Fe8  1  0.99977100  0.74653400  0.72965500  1.0
+  O  O9  1  0.23845800  0.90337600  0.64435600  1.0
+  O  O10  1  0.23784100  0.07855100  0.30116800  1.0
+  O  O11  1  0.76379800  0.69950000  0.92277900  1.0
+  O  O12  1  0.76009900  0.35706700  0.09873400  1.0
+  O  O13  1  0.76374400  0.07730100  0.30056200  1.0
+  O  O14  1  0.76003700  0.90115000  0.64283500  1.0
+  O  O15  1  0.23854800  0.35567900  0.09672100  1.0
+  O  O16  1  0.23788100  0.69887800  0.92144900  1.0
+  O  O17  1  0.00058800  0.48533700  0.51460800  1.0
+  O  O18  1  0.49741500  0.71257500  0.28728900  1.0
+  O  O19  1  0.50117300  0.28669400  0.71335200  1.0
