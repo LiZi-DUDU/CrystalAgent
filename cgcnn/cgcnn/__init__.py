@@ -1,0 +1,1 @@
+"""Bundled CGCNN inference implementation."""

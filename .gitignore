@@ -1,0 +1,50 @@
+# Secrets and local configuration
+.env
+*.env
+!.env.example
+*.key
+
+# Python/editor caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Generated datasets, logs and benchmark outputs
+data/structures/*
+!data/structures/.gitkeep
+data/benchmark/
+data/case_studies/
+data/routing_table/train_meta.json
+data/routing_table/eval_meta.json
+data/routing_table/errors_cache*.json
+data/routing_table/eval_results.json
+logs/
+LLM4Mat-Bench/
+
+# Generated figures and manuscripts are intentionally excluded
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.tif
+*.tiff
+*.pdf
+*.doc
+*.docx
+article/
+figures/
+plot_*.py
+**/plot_*.py
+
+# Model/download caches, except the small frozen artifacts committed below
+*.npz
+*.npy
+*.ckpt
+*.pth
+*.pt
+!data/chgnet_finetune/model_108056.pt
+!cgcnn/pre_trained/*.pth.tar

@@ -1,0 +1,1655 @@
+{
+  "nodes": [
+    {
+      "id": "Model:MEGNet",
+      "type": "Model",
+      "architecture": "GNN",
+      "training_data": "Materials Project",
+      "speed": "fast",
+      "supported_props": [
+        "formation_energy",
+        "band_gap"
+      ],
+      "element_coverage": "broad",
+      "is_available": true,
+      "paper": "Chen et al. 2019",
+      "notes": "引入全局状态向量，同时支持晶体和分子",
+      "label": "MEGNet"
+    },
+    {
+      "id": "Model:M3GNet",
+      "type": "Model",
+      "architecture": "GNN",
+      "training_data": "Materials Project",
+      "speed": "fast",
+      "supported_props": [
+        "formation_energy"
+      ],
+      "element_coverage": "broad",
+      "is_available": true,
+      "paper": "Chen et al. 2022",
+      "notes": "势能面模型，形成能预测精度高",
+      "label": "M3GNet"
+    },
+    {
+      "id": "Model:ALIGNN",
+      "type": "Model",
+      "architecture": "GNN",
+      "training_data": "JARVIS-DFT",
+      "speed": "fast",
+      "supported_props": [
+        "formation_energy",
+        "band_gap"
+      ],
+      "element_coverage": "broad",
+      "is_available": true,
+      "paper": "Choudhary & DeCost 2021",
+      "notes": "显式编码键角信息，带隙预测综合最优",
+      "label": "ALIGNN"
+    },
+    {
+      "id": "Model:CHGNet",
+      "type": "Model",
+      "architecture": "Charge-aware GNN",
+      "training_data": "Materials Project MPtrj",
+      "speed": "fast",
+      "supported_props": [
+        "band_gap"
+      ],
+      "element_coverage": "broad",
+      "is_available": true,
+      "paper": "Deng et al. 2023",
+      "notes": "电荷感知GNN，冻结骨干+MLP带隙预测头",
+      "label": "CHGNet"
+    },
+    {
+      "id": "Model:SevenNet",
+      "type": "Model",
+      "architecture": "E(3)-equivariant",
+      "training_data": "MP + OMat24",
+      "speed": "fast",
+      "supported_props": [
+        "formation_energy"
+      ],
+      "element_coverage": "broad",
+      "is_available": true,
+      "paper": "Park et al. 2024",
+      "notes": "通用等变势，需元素参考能换算得到形成能",
+      "label": "SevenNet"
+    },
+    {
+      "id": "Model:MACE",
+      "type": "Model",
+      "architecture": "Many-body ACE",
+      "training_data": "Materials Project MPtrj",
+      "speed": "medium",
+      "supported_props": [
+        "formation_energy"
+      ],
+      "element_coverage": "broad",
+      "is_available": true,
+      "paper": "Batatia et al. 2024",
+      "notes": "通用多体势，需元素参考能换算得到形成能",
+      "label": "MACE"
+    },
+    {
+      "id": "Model:CGCNN",
+      "type": "Model",
+      "architecture": "GNN",
+      "training_data": "Materials Project",
+      "speed": "slow",
+      "supported_props": [
+        "formation_energy",
+        "band_gap",
+        "bulk_modulus",
+        "shear_modulus"
+      ],
+      "element_coverage": "broad",
+      "is_available": true,
+      "paper": "Xie & Grossman 2018",
+      "notes": "经典模型，支持性质种类最多",
+      "label": "CGCNN"
+    },
+    {
+      "id": "Property:formation_energy",
+      "type": "Property",
+      "unit": "eV/atom",
+      "description": "每原子形成能（相对于元素参考态）；负值仅表示相对于元素形成放热，不等同于对所有竞争相热力学稳定",
+      "elemental_reference_threshold": 0.0,
+      "label": "formation_energy"
+    },
+    {
+      "id": "Property:band_gap",
+      "type": "Property",
+      "unit": "eV",
+      "description": "预测电子带隙；接近零的预测与金属或半金属行为相符，但也可能受模型与泛函误差影响",
+      "near_zero_threshold": 0.1,
+      "label": "band_gap"
+    },
+    {
+      "id": "Property:bulk_modulus",
+      "type": "Property",
+      "unit": "log(GPa)",
+      "description": "体模量（Voigt-Reuss-Hill平均），衡量材料抗压缩能力",
+      "label": "bulk_modulus"
+    },
+    {
+      "id": "Property:shear_modulus",
+      "type": "Property",
+      "unit": "log(GPa)",
+      "description": "剪切模量（Voigt-Reuss-Hill平均），衡量材料抗剪切能力",
+      "label": "shear_modulus"
+    },
+    {
+      "id": "Property:refractive_index",
+      "type": "Property",
+      "unit": "unitless",
+      "description": "Optical refractive index n, related to band gap and dielectric constant",
+      "label": "refractive_index"
+    },
+    {
+      "id": "Property:dielectric_constant",
+      "type": "Property",
+      "unit": "unitless",
+      "description": "Static dielectric constant; wide-gap materials tend to have lower epsilon",
+      "label": "dielectric_constant"
+    },
+    {
+      "id": "Property:density",
+      "type": "Property",
+      "unit": "g/cm3",
+      "description": "Theoretical crystal density; high density implies large bulk modulus (Birch law)",
+      "label": "density"
+    },
+    {
+      "id": "Property:thermodynamic_stability",
+      "type": "Property",
+      "unit": "meV/atom",
+      "description": "Energy above convex hull; <100 meV/atom considered stable",
+      "stability_threshold": 100.0,
+      "label": "thermodynamic_stability"
+    },
+    {
+      "id": "Property:synthesis_feasibility",
+      "type": "Property",
+      "unit": "score",
+      "description": "Predicted synthesizability score combining thermodynamics and literature",
+      "label": "synthesis_feasibility"
+    },
+    {
+      "id": "Property:speed_of_sound",
+      "type": "Property",
+      "unit": "m/s",
+      "description": "Longitudinal speed of sound, derived from bulk modulus + shear modulus + density",
+      "label": "speed_of_sound"
+    },
+    {
+      "id": "Property:poisson_ratio",
+      "type": "Property",
+      "unit": "dimensionless",
+      "description": "泊松比，描述横向应变与轴向应变之比",
+      "label": "poisson_ratio"
+    },
+    {
+      "id": "Property:fermi_energy",
+      "type": "Property",
+      "unit": "eV",
+      "description": "费米能级",
+      "label": "fermi_energy"
+    },
+    {
+      "id": "CrystalSystem:三斜",
+      "type": "CrystalSystem",
+      "symmetry_level": "lowest",
+      "typical_materials": [
+        "CuAl2O4变体",
+        "矿物feldspar"
+      ],
+      "train_count": 16898,
+      "count_split": "routing-construction",
+      "label": "三斜"
+    },
+    {
+      "id": "CrystalSystem:单斜",
+      "type": "CrystalSystem",
+      "symmetry_level": "low",
+      "typical_materials": [
+        "单斜ZrO2",
+        "VO2低温相"
+      ],
+      "train_count": 25439,
+      "count_split": "routing-construction",
+      "label": "单斜"
+    },
+    {
+      "id": "CrystalSystem:正交",
+      "type": "CrystalSystem",
+      "symmetry_level": "medium",
+      "typical_materials": [
+        "正交BaTiO3",
+        "GaN正交相"
+      ],
+      "train_count": 22715,
+      "count_split": "routing-construction",
+      "label": "正交"
+    },
+    {
+      "id": "CrystalSystem:四方",
+      "type": "CrystalSystem",
+      "symmetry_level": "medium",
+      "typical_materials": [
+        "四方BaTiO3",
+        "TiO2金红石"
+      ],
+      "train_count": 11766,
+      "count_split": "routing-construction",
+      "label": "四方"
+    },
+    {
+      "id": "CrystalSystem:三方",
+      "type": "CrystalSystem",
+      "symmetry_level": "medium_high",
+      "typical_materials": [
+        "α-Al2O3",
+        "α-Fe2O3"
+      ],
+      "train_count": 9099,
+      "count_split": "routing-construction",
+      "label": "三方"
+    },
+    {
+      "id": "CrystalSystem:六方",
+      "type": "CrystalSystem",
+      "symmetry_level": "high",
+      "typical_materials": [
+        "GaN纤锌矿",
+        "MoS2 2H相"
+      ],
+      "train_count": 7474,
+      "count_split": "routing-construction",
+      "label": "六方"
+    },
+    {
+      "id": "CrystalSystem:立方",
+      "type": "CrystalSystem",
+      "symmetry_level": "highest",
+      "typical_materials": [
+        "NaCl",
+        "Si",
+        "Cu"
+      ],
+      "train_count": 14668,
+      "count_split": "routing-construction",
+      "label": "立方"
+    },
+    {
+      "id": "Tool:spglib",
+      "type": "Tool",
+      "function": "从结构文件确定空间群和晶系",
+      "input": "Structure",
+      "output": "crystal_system, space_group",
+      "is_available": true,
+      "label": "spglib"
+    },
+    {
+      "id": "Tool:CifParser",
+      "type": "Tool",
+      "function": "解析CIF/POSCAR格式的结构文件",
+      "input": "file_path",
+      "output": "Structure",
+      "is_available": true,
+      "label": "CifParser"
+    },
+    {
+      "id": "Tool:LLM_parser",
+      "type": "Tool",
+      "function": "从自然语言提取化学式和目标性质",
+      "input": "natural_language",
+      "output": "formula, target_properties",
+      "is_available": true,
+      "label": "LLM_parser"
+    },
+    {
+      "id": "Tool:polymorph_checker",
+      "type": "Tool",
+      "function": "检测化学式是否存在多态性",
+      "input": "formula",
+      "output": "polymorphs_list",
+      "is_available": true,
+      "label": "polymorph_checker"
+    },
+    {
+      "id": "Tool:FeatureExtractor",
+      "type": "Tool",
+      "function": "Extract atomic, bonding, and structural features for GNN input",
+      "input": "Structure",
+      "output": "graph_features",
+      "is_available": true,
+      "category": "feature_engineering",
+      "label": "FeatureExtractor"
+    },
+    {
+      "id": "Tool:StructureOptimizer",
+      "type": "Tool",
+      "function": "Optimize atomic positions and cell parameters before prediction",
+      "input": "Structure",
+      "output": "Structure_optimized",
+      "is_available": false,
+      "category": "preprocessing",
+      "label": "StructureOptimizer"
+    },
+    {
+      "id": "Tool:StructureVisualizer",
+      "type": "Tool",
+      "function": "Generate 3D crystal structure visualization for reports",
+      "input": "Structure",
+      "output": "image",
+      "is_available": false,
+      "category": "visualization",
+      "label": "StructureVisualizer"
+    },
+    {
+      "id": "Tool:EnsembleAggregator",
+      "type": "Tool",
+      "function": "Aggregate multi-model predictions with inverse-MAE weighting",
+      "input": "predictions_list",
+      "output": "ensemble_prediction",
+      "is_available": true,
+      "category": "postprocessing",
+      "label": "EnsembleAggregator"
+    },
+    {
+      "id": "Tool:ConvexHull",
+      "type": "Tool",
+      "function": "Compute energy above convex hull for thermodynamic stability assessment",
+      "input": "formation_energy, composition",
+      "output": "energy_above_hull",
+      "is_available": false,
+      "category": "analysis",
+      "notes": "Requires Materials Project API for phase diagram data",
+      "label": "ConvexHull"
+    },
+    {
+      "id": "Tool:UncertaintyEstimator",
+      "type": "Tool",
+      "function": "Estimate prediction uncertainty from model disagreement and training coverage",
+      "input": "predictions, model_info",
+      "output": "uncertainty_score",
+      "is_available": true,
+      "category": "postprocessing",
+      "notes": "PBE-level band gap predictions systematically underestimate by 30-50%",
+      "label": "UncertaintyEstimator"
+    },
+    {
+      "id": "Tool:MLP_BandgapHead",
+      "type": "Tool",
+      "function": "Apply the supervised regression head to frozen CHGNet representations",
+      "input": "CHGNet representation",
+      "output": "band_gap",
+      "is_available": true,
+      "category": "model_head",
+      "label": "MLP_BandgapHead"
+    },
+    {
+      "id": "Tool:ElementReference",
+      "type": "Tool",
+      "function": "Provide elemental reference energies fitted on the routing-construction split",
+      "input": "composition",
+      "output": "elemental_reference_energy",
+      "is_available": true,
+      "category": "energy_reference",
+      "label": "ElementReference"
+    },
+    {
+      "id": "Tool:EnergyConverter",
+      "type": "Tool",
+      "function": "Convert model total energy to per-atom formation energy using frozen elemental references",
+      "input": "total_energy, composition, elemental_reference_energy",
+      "output": "formation_energy",
+      "is_available": true,
+      "category": "postprocessing",
+      "label": "EnergyConverter"
+    }
+  ],
+  "graph": {
+    "schema_version": "2.1",
+    "route_split": "routing-construction",
+    "route_matrix": "data/routing_table/mae_matrix.json",
+    "route_manifest": "data/routing_table/result.json",
+    "built_at_utc": "2026-08-28T04:39:54.551592+00:00"
+  },
+  "edges": [
+    {
+      "source": "Model:MEGNet",
+      "target": "Property:formation_energy",
+      "key": 0,
+      "relation": "PREDICTS"
+    },
+    {
+      "source": "Model:MEGNet",
+      "target": "Property:band_gap",
+      "key": 0,
+      "relation": "PREDICTS"
+    },
+    {
+      "source": "Model:MEGNet",
+      "target": "Tool:CifParser",
+      "key": 0,
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "Model:MEGNet",
+      "target": "Tool:spglib",
+      "key": 0,
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "Model:MEGNet",
+      "target": "Tool:FeatureExtractor",
+      "key": 0,
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "Model:M3GNet",
+      "target": "Property:formation_energy",
+      "key": 0,
+      "relation": "PREDICTS"
+    },
+    {
+      "source": "Model:M3GNet",
+      "target": "Tool:CifParser",
+      "key": 0,
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "Model:M3GNet",
+      "target": "Tool:spglib",
+      "key": 0,
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "Model:M3GNet",
+      "target": "Tool:FeatureExtractor",
+      "key": 0,
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "Model:ALIGNN",
+      "target": "Property:formation_energy",
+      "key": 0,
+      "relation": "PREDICTS"
+    },
+    {
+      "source": "Model:ALIGNN",
+      "target": "Property:band_gap",
+      "key": 0,
+      "relation": "PREDICTS"
+    },
+    {
+      "source": "Model:ALIGNN",
+      "target": "Tool:CifParser",
+      "key": 0,
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "Model:ALIGNN",
+      "target": "Tool:spglib",
+      "key": 0,
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "Model:ALIGNN",
+      "target": "Tool:FeatureExtractor",
+      "key": 0,
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "Model:CHGNet",
+      "target": "Property:band_gap",
+      "key": 0,
+      "relation": "PREDICTS"
+    },
+    {
+      "source": "Model:CHGNet",
+      "target": "Tool:CifParser",
+      "key": 0,
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "Model:CHGNet",
+      "target": "Tool:spglib",
+      "key": 0,
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "Model:CHGNet",
+      "target": "Tool:FeatureExtractor",
+      "key": 0,
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "Model:CHGNet",
+      "target": "Tool:MLP_BandgapHead",
+      "key": 0,
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "Model:SevenNet",
+      "target": "Property:formation_energy",
+      "key": 0,
+      "relation": "PREDICTS"
+    },
+    {
+      "source": "Model:SevenNet",
+      "target": "Tool:CifParser",
+      "key": 0,
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "Model:SevenNet",
+      "target": "Tool:spglib",
+      "key": 0,
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "Model:SevenNet",
+      "target": "Tool:ElementReference",
+      "key": 0,
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "Model:SevenNet",
+      "target": "Tool:EnergyConverter",
+      "key": 0,
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "Model:MACE",
+      "target": "Property:formation_energy",
+      "key": 0,
+      "relation": "PREDICTS"
+    },
+    {
+      "source": "Model:MACE",
+      "target": "Tool:CifParser",
+      "key": 0,
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "Model:MACE",
+      "target": "Tool:spglib",
+      "key": 0,
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "Model:MACE",
+      "target": "Tool:ElementReference",
+      "key": 0,
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "Model:MACE",
+      "target": "Tool:EnergyConverter",
+      "key": 0,
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "Model:CGCNN",
+      "target": "Property:formation_energy",
+      "key": 0,
+      "relation": "PREDICTS"
+    },
+    {
+      "source": "Model:CGCNN",
+      "target": "Property:band_gap",
+      "key": 0,
+      "relation": "PREDICTS"
+    },
+    {
+      "source": "Model:CGCNN",
+      "target": "Property:bulk_modulus",
+      "key": 0,
+      "relation": "PREDICTS"
+    },
+    {
+      "source": "Model:CGCNN",
+      "target": "Property:shear_modulus",
+      "key": 0,
+      "relation": "PREDICTS"
+    },
+    {
+      "source": "Model:CGCNN",
+      "target": "Tool:CifParser",
+      "key": 0,
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "Model:CGCNN",
+      "target": "Tool:spglib",
+      "key": 0,
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "Model:CGCNN",
+      "target": "Tool:FeatureExtractor",
+      "key": 0,
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "Property:formation_energy",
+      "target": "Property:band_gap",
+      "key": 0,
+      "relation": "PHYSICALLY_IMPLIES",
+      "condition": "formation_energy > 0",
+      "implication": "正形成能表示相对于所用元素参考态形成吸热；不能仅据此判断对竞争相的稳定性或带隙结果是否有效",
+      "action": "warn"
+    },
+    {
+      "source": "Property:formation_energy",
+      "target": "Property:thermodynamic_stability",
+      "key": 0,
+      "relation": "PHYSICALLY_IMPLIES",
+      "condition": "formation_energy < 0",
+      "implication": "负形成能表示相对于元素参考态形成放热，但不能代替凸包能或有限温度自由能来判定相稳定性",
+      "action": "note"
+    },
+    {
+      "source": "Property:formation_energy",
+      "target": "Property:synthesis_feasibility",
+      "key": 0,
+      "relation": "PHYSICALLY_IMPLIES",
+      "condition": "formation_energy > 0",
+      "implication": "正形成能相对于元素参考态不利；不能仅由该值推断可合成性或具体合成路径",
+      "action": "warn"
+    },
+    {
+      "source": "Property:band_gap",
+      "target": "Property:dielectric_constant",
+      "key": 0,
+      "relation": "PHYSICALLY_IMPLIES",
+      "condition": "band_gap > 0.5",
+      "implication": "Band gap inversely correlates with dielectric constant; wide-gap materials have lower epsilon",
+      "action": "note"
+    },
+    {
+      "source": "Property:band_gap",
+      "target": "Property:synthesis_feasibility",
+      "key": 0,
+      "relation": "PHYSICALLY_IMPLIES",
+      "condition": "band_gap < 0",
+      "implication": "Negative (metallic) band gap may indicate model failure for this structure type",
+      "action": "warn"
+    },
+    {
+      "source": "Property:bulk_modulus",
+      "target": "Property:shear_modulus",
+      "key": 0,
+      "relation": "PHYSICALLY_IMPLIES",
+      "condition": "always",
+      "implication": "体模量和剪切模量通常一起预测，用于计算泊松比",
+      "action": "suggest"
+    },
+    {
+      "source": "Property:bulk_modulus",
+      "target": "Property:speed_of_sound",
+      "key": 0,
+      "relation": "PHYSICALLY_IMPLIES",
+      "condition": "always",
+      "implication": "Bulk and shear moduli + density determine acoustic wave speeds",
+      "action": "derive"
+    },
+    {
+      "source": "Property:shear_modulus",
+      "target": "Property:speed_of_sound",
+      "key": 0,
+      "relation": "PHYSICALLY_IMPLIES",
+      "condition": "always",
+      "implication": "Shear modulus determines transverse sound velocity",
+      "action": "derive"
+    },
+    {
+      "source": "Property:density",
+      "target": "Property:bulk_modulus",
+      "key": 0,
+      "relation": "PHYSICALLY_IMPLIES",
+      "condition": "density > 5",
+      "implication": "High density materials tend to have large bulk modulus (Birch law)",
+      "action": "prioritize"
+    },
+    {
+      "source": "Property:thermodynamic_stability",
+      "target": "Property:synthesis_feasibility",
+      "key": 0,
+      "relation": "PHYSICALLY_IMPLIES",
+      "condition": "thermodynamic_stability > 100",
+      "implication": "Energy above hull >100 meV/atom: material likely unstable and difficult to synthesize",
+      "action": "warn"
+    },
+    {
+      "source": "data/routing_table/result.json",
+      "target": "Model:SevenNet",
+      "key": "BEST_FOR:formation_energy",
+      "relation": "BEST_FOR",
+      "property": "formation_energy",
+      "mae": 0.14041431726374287,
+      "sample_count": 16898,
+      "split": "routing-construction",
+      "frozen": true
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:SevenNet",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.14041431726374287,
+      "sample_count": 16898,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:MACE",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.14136221887280168,
+      "sample_count": 16898,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:M3GNet",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.1721,
+      "sample_count": 16898,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:MEGNet",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.1414,
+      "sample_count": 16898,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:MEGNet",
+      "key": "HAS_COVERAGE:band_gap",
+      "relation": "HAS_COVERAGE",
+      "property": "band_gap",
+      "mae": 0.7097,
+      "sample_count": 16898,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:ALIGNN",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.242,
+      "sample_count": 16898,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:ALIGNN",
+      "key": "HAS_COVERAGE:band_gap",
+      "relation": "HAS_COVERAGE",
+      "property": "band_gap",
+      "mae": 0.7924,
+      "sample_count": 16898,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:CGCNN",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.1887,
+      "sample_count": 16898,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:CGCNN",
+      "key": "HAS_COVERAGE:band_gap",
+      "relation": "HAS_COVERAGE",
+      "property": "band_gap",
+      "mae": 0.8427,
+      "sample_count": 16898,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/result.json",
+      "target": "Model:CHGNet",
+      "key": "BEST_FOR:band_gap",
+      "relation": "BEST_FOR",
+      "property": "band_gap",
+      "mae": 0.4266,
+      "sample_count": 16898,
+      "split": "routing-construction",
+      "frozen": true
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:CHGNet",
+      "key": "HAS_COVERAGE:band_gap",
+      "relation": "HAS_COVERAGE",
+      "property": "band_gap",
+      "mae": 0.4266,
+      "sample_count": 16898,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/result.json",
+      "target": "Model:MEGNet",
+      "key": "BEST_FOR:formation_energy",
+      "relation": "BEST_FOR",
+      "property": "formation_energy",
+      "mae": 0.092,
+      "sample_count": 25439,
+      "split": "routing-construction",
+      "frozen": true
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:MEGNet",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.092,
+      "sample_count": 25439,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:MEGNet",
+      "key": "HAS_COVERAGE:band_gap",
+      "relation": "HAS_COVERAGE",
+      "property": "band_gap",
+      "mae": 0.7211,
+      "sample_count": 25439,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:MACE",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.13687362490199856,
+      "sample_count": 25439,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:SevenNet",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.13594132174246118,
+      "sample_count": 25439,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:M3GNet",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.1293,
+      "sample_count": 25439,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:ALIGNN",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.1924,
+      "sample_count": 25439,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:ALIGNN",
+      "key": "HAS_COVERAGE:band_gap",
+      "relation": "HAS_COVERAGE",
+      "property": "band_gap",
+      "mae": 0.6885,
+      "sample_count": 25439,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:CGCNN",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.1235,
+      "sample_count": 25439,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:CGCNN",
+      "key": "HAS_COVERAGE:band_gap",
+      "relation": "HAS_COVERAGE",
+      "property": "band_gap",
+      "mae": 0.7898,
+      "sample_count": 25439,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/result.json",
+      "target": "Model:CHGNet",
+      "key": "BEST_FOR:band_gap",
+      "relation": "BEST_FOR",
+      "property": "band_gap",
+      "mae": 0.4828,
+      "sample_count": 25439,
+      "split": "routing-construction",
+      "frozen": true
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:CHGNet",
+      "key": "HAS_COVERAGE:band_gap",
+      "relation": "HAS_COVERAGE",
+      "property": "band_gap",
+      "mae": 0.4828,
+      "sample_count": 25439,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/result.json",
+      "target": "Model:SevenNet",
+      "key": "BEST_FOR:formation_energy",
+      "relation": "BEST_FOR",
+      "property": "formation_energy",
+      "mae": 0.11810093192265093,
+      "sample_count": 22715,
+      "split": "routing-construction",
+      "frozen": true
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:SevenNet",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.11810093192265093,
+      "sample_count": 22715,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:MACE",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.11892856274560817,
+      "sample_count": 22715,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:M3GNet",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.1965,
+      "sample_count": 22715,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:MEGNet",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.2276,
+      "sample_count": 22715,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:MEGNet",
+      "key": "HAS_COVERAGE:band_gap",
+      "relation": "HAS_COVERAGE",
+      "property": "band_gap",
+      "mae": 0.4918,
+      "sample_count": 22715,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:ALIGNN",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.1529,
+      "sample_count": 22715,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:ALIGNN",
+      "key": "HAS_COVERAGE:band_gap",
+      "relation": "HAS_COVERAGE",
+      "property": "band_gap",
+      "mae": 0.4318,
+      "sample_count": 22715,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:CGCNN",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.219,
+      "sample_count": 22715,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:CGCNN",
+      "key": "HAS_COVERAGE:band_gap",
+      "relation": "HAS_COVERAGE",
+      "property": "band_gap",
+      "mae": 0.7349,
+      "sample_count": 22715,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/result.json",
+      "target": "Model:CHGNet",
+      "key": "BEST_FOR:band_gap",
+      "relation": "BEST_FOR",
+      "property": "band_gap",
+      "mae": 0.3516,
+      "sample_count": 22715,
+      "split": "routing-construction",
+      "frozen": true
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:CHGNet",
+      "key": "HAS_COVERAGE:band_gap",
+      "relation": "HAS_COVERAGE",
+      "property": "band_gap",
+      "mae": 0.3516,
+      "sample_count": 22715,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/result.json",
+      "target": "Model:M3GNet",
+      "key": "BEST_FOR:formation_energy",
+      "relation": "BEST_FOR",
+      "property": "formation_energy",
+      "mae": 0.1114,
+      "sample_count": 11766,
+      "split": "routing-construction",
+      "frozen": true
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:M3GNet",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.1114,
+      "sample_count": 11766,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:MACE",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.11814873156118529,
+      "sample_count": 11766,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:SevenNet",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.117583491705312,
+      "sample_count": 11766,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:MEGNet",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.1213,
+      "sample_count": 11766,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:MEGNet",
+      "key": "HAS_COVERAGE:band_gap",
+      "relation": "HAS_COVERAGE",
+      "property": "band_gap",
+      "mae": 0.4378,
+      "sample_count": 11766,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:ALIGNN",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.1257,
+      "sample_count": 11766,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/result.json",
+      "target": "Model:ALIGNN",
+      "key": "BEST_FOR:band_gap",
+      "relation": "BEST_FOR",
+      "property": "band_gap",
+      "mae": 0.3033,
+      "sample_count": 11766,
+      "split": "routing-construction",
+      "frozen": true
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:ALIGNN",
+      "key": "HAS_COVERAGE:band_gap",
+      "relation": "HAS_COVERAGE",
+      "property": "band_gap",
+      "mae": 0.3033,
+      "sample_count": 11766,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:CGCNN",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.1681,
+      "sample_count": 11766,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:CGCNN",
+      "key": "HAS_COVERAGE:band_gap",
+      "relation": "HAS_COVERAGE",
+      "property": "band_gap",
+      "mae": 0.8547,
+      "sample_count": 11766,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:CHGNet",
+      "key": "HAS_COVERAGE:band_gap",
+      "relation": "HAS_COVERAGE",
+      "property": "band_gap",
+      "mae": 0.3348,
+      "sample_count": 11766,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/result.json",
+      "target": "Model:MEGNet",
+      "key": "BEST_FOR:formation_energy",
+      "relation": "BEST_FOR",
+      "property": "formation_energy",
+      "mae": 0.0956,
+      "sample_count": 9099,
+      "split": "routing-construction",
+      "frozen": true
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:MEGNet",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.0956,
+      "sample_count": 9099,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:MEGNet",
+      "key": "HAS_COVERAGE:band_gap",
+      "relation": "HAS_COVERAGE",
+      "property": "band_gap",
+      "mae": 0.5411,
+      "sample_count": 9099,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:MACE",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.15212078963924794,
+      "sample_count": 9099,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:SevenNet",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.15115881870571038,
+      "sample_count": 9099,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:M3GNet",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.1277,
+      "sample_count": 9099,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:ALIGNN",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.1645,
+      "sample_count": 9099,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/result.json",
+      "target": "Model:ALIGNN",
+      "key": "BEST_FOR:band_gap",
+      "relation": "BEST_FOR",
+      "property": "band_gap",
+      "mae": 0.4186,
+      "sample_count": 9099,
+      "split": "routing-construction",
+      "frozen": true
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:ALIGNN",
+      "key": "HAS_COVERAGE:band_gap",
+      "relation": "HAS_COVERAGE",
+      "property": "band_gap",
+      "mae": 0.4186,
+      "sample_count": 9099,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:CGCNN",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.1173,
+      "sample_count": 9099,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:CGCNN",
+      "key": "HAS_COVERAGE:band_gap",
+      "relation": "HAS_COVERAGE",
+      "property": "band_gap",
+      "mae": 0.7357,
+      "sample_count": 9099,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:CHGNet",
+      "key": "HAS_COVERAGE:band_gap",
+      "relation": "HAS_COVERAGE",
+      "property": "band_gap",
+      "mae": 0.4444,
+      "sample_count": 9099,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/result.json",
+      "target": "Model:MEGNet",
+      "key": "BEST_FOR:formation_energy",
+      "relation": "BEST_FOR",
+      "property": "formation_energy",
+      "mae": 0.0767,
+      "sample_count": 7474,
+      "split": "routing-construction",
+      "frozen": true
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:MEGNet",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.0767,
+      "sample_count": 7474,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:MEGNet",
+      "key": "HAS_COVERAGE:band_gap",
+      "relation": "HAS_COVERAGE",
+      "property": "band_gap",
+      "mae": 0.2502,
+      "sample_count": 7473,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:MACE",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.11035518151122131,
+      "sample_count": 7474,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:SevenNet",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.10962353094271336,
+      "sample_count": 7474,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:M3GNet",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.0864,
+      "sample_count": 7474,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:ALIGNN",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.0991,
+      "sample_count": 7474,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/result.json",
+      "target": "Model:ALIGNN",
+      "key": "BEST_FOR:band_gap",
+      "relation": "BEST_FOR",
+      "property": "band_gap",
+      "mae": 0.1952,
+      "sample_count": 7473,
+      "split": "routing-construction",
+      "frozen": true
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:ALIGNN",
+      "key": "HAS_COVERAGE:band_gap",
+      "relation": "HAS_COVERAGE",
+      "property": "band_gap",
+      "mae": 0.1952,
+      "sample_count": 7473,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:CGCNN",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.1058,
+      "sample_count": 7474,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:CGCNN",
+      "key": "HAS_COVERAGE:band_gap",
+      "relation": "HAS_COVERAGE",
+      "property": "band_gap",
+      "mae": 0.6727,
+      "sample_count": 7473,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:CHGNet",
+      "key": "HAS_COVERAGE:band_gap",
+      "relation": "HAS_COVERAGE",
+      "property": "band_gap",
+      "mae": 0.2166,
+      "sample_count": 7473,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/result.json",
+      "target": "Model:M3GNet",
+      "key": "BEST_FOR:formation_energy",
+      "relation": "BEST_FOR",
+      "property": "formation_energy",
+      "mae": 0.0855,
+      "sample_count": 14668,
+      "split": "routing-construction",
+      "frozen": true
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:M3GNet",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.0855,
+      "sample_count": 14668,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:MACE",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.10799259032205161,
+      "sample_count": 14668,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:SevenNet",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.10683226638531419,
+      "sample_count": 14668,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:MEGNet",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.0909,
+      "sample_count": 14668,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:MEGNet",
+      "key": "HAS_COVERAGE:band_gap",
+      "relation": "HAS_COVERAGE",
+      "property": "band_gap",
+      "mae": 0.4026,
+      "sample_count": 14666,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:ALIGNN",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.1249,
+      "sample_count": 14668,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/result.json",
+      "target": "Model:ALIGNN",
+      "key": "BEST_FOR:band_gap",
+      "relation": "BEST_FOR",
+      "property": "band_gap",
+      "mae": 0.2628,
+      "sample_count": 14666,
+      "split": "routing-construction",
+      "frozen": true
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:ALIGNN",
+      "key": "HAS_COVERAGE:band_gap",
+      "relation": "HAS_COVERAGE",
+      "property": "band_gap",
+      "mae": 0.2628,
+      "sample_count": 14666,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:CGCNN",
+      "key": "HAS_COVERAGE:formation_energy",
+      "relation": "HAS_COVERAGE",
+      "property": "formation_energy",
+      "mae": 0.1242,
+      "sample_count": 14668,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:CGCNN",
+      "key": "HAS_COVERAGE:band_gap",
+      "relation": "HAS_COVERAGE",
+      "property": "band_gap",
+      "mae": 0.8103,
+      "sample_count": 14666,
+      "split": "routing-construction"
+    },
+    {
+      "source": "data/routing_table/mae_matrix.json",
+      "target": "Model:CHGNet",
+      "key": "HAS_COVERAGE:band_gap",
+      "relation": "HAS_COVERAGE",
+      "property": "band_gap",
+      "mae": 0.3362,
+      "sample_count": 14666,
+      "split": "routing-construction"
+    },
+    {
+      "source": "Tool:LLM_parser",
+      "target": "Property:formation_energy",
+      "key": 0,
+      "relation": "CAN_IDENTIFY"
+    },
+    {
+      "source": "Tool:LLM_parser",
+      "target": "Property:band_gap",
+      "key": 0,
+      "relation": "CAN_IDENTIFY"
+    },
+    {
+      "source": "Tool:LLM_parser",
+      "target": "Property:bulk_modulus",
+      "key": 0,
+      "relation": "CAN_IDENTIFY"
+    },
+    {
+      "source": "Tool:LLM_parser",
+      "target": "Property:shear_modulus",
+      "key": 0,
+      "relation": "CAN_IDENTIFY"
+    },
+    {
+      "source": "Tool:LLM_parser",
+      "target": "Property:refractive_index",
+      "key": 0,
+      "relation": "CAN_IDENTIFY"
+    },
+    {
+      "source": "Tool:LLM_parser",
+      "target": "Property:dielectric_constant",
+      "key": 0,
+      "relation": "CAN_IDENTIFY"
+    },
+    {
+      "source": "Tool:LLM_parser",
+      "target": "Property:density",
+      "key": 0,
+      "relation": "CAN_IDENTIFY"
+    },
+    {
+      "source": "Tool:LLM_parser",
+      "target": "Property:thermodynamic_stability",
+      "key": 0,
+      "relation": "CAN_IDENTIFY"
+    },
+    {
+      "source": "Tool:LLM_parser",
+      "target": "Property:synthesis_feasibility",
+      "key": 0,
+      "relation": "CAN_IDENTIFY"
+    },
+    {
+      "source": "Tool:LLM_parser",
+      "target": "Property:speed_of_sound",
+      "key": 0,
+      "relation": "CAN_IDENTIFY"
+    },
+    {
+      "source": "Tool:LLM_parser",
+      "target": "Property:poisson_ratio",
+      "key": 0,
+      "relation": "CAN_IDENTIFY"
+    },
+    {
+      "source": "Tool:LLM_parser",
+      "target": "Property:fermi_energy",
+      "key": 0,
+      "relation": "CAN_IDENTIFY"
+    }
+  ]
+}

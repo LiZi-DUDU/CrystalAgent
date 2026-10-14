@@ -1,0 +1,124 @@
+"""
+SevenNet 模型接口 → 形成能
+"""
+import sys
+from pathlib import Path
+
+backend_dir = str(Path(__file__).resolve().parents[1])
+if backend_dir not in sys.path:
+    sys.path.insert(0, backend_dir)
+from models.base import BasePredictor
+from pymatgen.core import Structure
+
+REF_ENERGIES = {
+    'Ac': -4.09777,
+    'Ag': -2.85214,
+    'Al': -3.80905,
+    'Ar': -0.06026,
+    'As': -4.69969,
+    'Au': -3.23184,
+    'B': -6.76815,
+    'Ba': -1.94861,
+    'Be': -3.81037,
+    'Bi': -3.9884,
+    'Br': -1.24566,
+    'C': -9.28536,
+    'Ca': -1.94924,
+    'Cd': -0.94305,
+    'Ce': -5.85529,
+    'Cl': -1.38638,
+    'Co': -6.83736,
+    'Cr': -9.08418,
+    'Cs': -0.84289,
+    'Cu': -4.1285,
+    'Dy': -4.58047,
+    'Er': -4.5523,
+    'Eu': -10.27129,
+    'F': -1.27793,
+    'Fe': -7.89773,
+    'Ga': -3.06645,
+    'Gd': -14.17379,
+    'Ge': -4.70802,
+    'H': -3.44839,
+    'He': -0.00853,
+    'Hf': -10.0129,
+    'Hg': -0.28634,
+    'Ho': -4.58687,
+    'I': -1.23443,
+    'In': -2.70862,
+    'Ir': -8.8177,
+    'K': -1.12843,
+    'Kr': -0.06041,
+    'La': -4.89034,
+    'Li': -1.63324,
+    'Lu': -4.50657,
+    'Mg': -1.63272,
+    'Mn': -8.53304,
+    'Mo': -10.39167,
+    'N': -8.18387,
+    'Na': -1.41942,
+    'Nb': -10.24453,
+    'Nd': -4.76058,
+    'Ne': 0.05639,
+    'Ni': -5.51638,
+    'Np': -12.71828,
+    'O': -4.05419,
+    'Os': -11.17522,
+    'P': -5.58553,
+    'Pa': -9.47213,
+    'Pb': -3.75901,
+    'Pd': -5.16581,
+    'Pm': -4.68875,
+    'Pr': -4.77614,
+    'Pt': -5.99758,
+    'Pu': -14.23125,
+    'Rb': -0.9704,
+    'Re': -12.51678,
+    'Rh': -7.33297,
+    'Ru': -9.27679,
+    'S': -3.8384,
+    'Sb': -4.12093,
+    'Sc': -6.3271,
+    'Se': -3.27038,
+    'Si': -5.5807,
+    'Sm': -4.69208,
+    'Sn': -4.09966,
+    'Sr': -1.6529,
+    'Ta': -11.96846,
+    'Tb': -4.60088,
+    'Tc': -10.3571,
+    'Te': -3.08898,
+    'Th': -7.37032,
+    'Ti': -8.02347,
+    'Tl': -2.31782,
+    'Tm': -4.45262,
+    'U': -11.24785,
+    'V': -8.40373,
+    'W': -11.77182,
+    'Xe': -0.2105,
+    'Y': -6.48911,
+    'Yb': -1.25693,
+    'Zn': -1.24,
+    'Zr': -8.58637,
+}
+
+
+class SevenNetPredictor(BasePredictor):
+    name = "SevenNet"
+
+    def __init__(self):
+        from sevenn.calculator import SevenNetCalculator
+        self.calc = SevenNetCalculator(model='7net-0', device='auto')
+        self._loaded = True
+
+    def predict(self, structure, property_name):
+        if property_name != "formation_energy":
+            raise ValueError("SevenNet only supports formation_energy")
+        atoms = structure.to_ase_atoms()
+        atoms.calc = self.calc
+        total_energy = float(atoms.get_potential_energy())
+        comp = structure.composition
+        n_atoms = comp.num_atoms
+        e_ref = sum(comp[str(el)] * REF_ENERGIES.get(str(el), 0) for el in comp.elements)
+        e_form = total_energy / n_atoms - e_ref / n_atoms
+        return {"value": round(float(e_form), 4), "unit": "eV/atom"}

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CrystalAgent</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', system-ui, sans-serif; background: #0f172a; color: #e2e8f0; min-height: 100vh; }
+header { background: linear-gradient(135deg, #1e3a5f, #0f172a); padding: 24px 40px; border-bottom: 1px solid #1e3a5f; display: flex; align-items: center; gap: 16px; }
+header h1 { font-size: 24px; color: #60a5fa; }
+header span { font-size: 13px; color: #64748b; }
+.container { max-width: 1400px; margin: 0 auto; padding: 24px 40px; display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.card { background: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 24px; }
+.card h2 { font-size: 16px; color: #94a3b8; margin-bottom: 16px; text-transform: uppercase; letter-spacing: 1px; }
+.form-group { margin-bottom: 16px; }
+.form-group label { display: block; font-size: 13px; color: #94a3b8; margin-bottom: 6px; }
+textarea, input[type="text"] { width: 100%; padding: 10px 14px; background: #0f172a; border: 1px solid #334155; border-radius: 8px; color: #e2e8f0; font-size: 14px; resize: vertical; }
+textarea:focus, input:focus { outline: none; border-color: #60a5fa; }
+/* file upload */
+.file-upload { position: relative; }
+.file-upload input[type="file"] { position: absolute; inset: 0; opacity: 0; cursor: pointer; }
+.file-upload .dropzone { padding: 28px; border: 2px dashed #334155; border-radius: 8px; text-align: center; color: #64748b; transition: .2s; cursor: pointer; }
+.file-upload .dropzone:hover { border-color: #60a5fa; color: #93c5fd; }
+.file-upload .dropzone .name { color: #60a5fa; font-weight: 600; margin-top: 4px; font-size: 13px; }
+/* buttons */
+.btn { padding: 10px 24px; border-radius: 8px; font-size: 14px; font-weight: 600; cursor: pointer; border: none; transition: .2s; }
+.btn-primary { background: #2563eb; color: #fff; width: 100%; }
+.btn-primary:hover { background: #1d4ed8; }
+.btn-primary:disabled { background: #334155; color: #64748b; cursor: not-allowed; }
+.btn-sm { padding: 6px 14px; font-size: 12px; background: #334155; color: #e2e8f0; }
+/* result panels */
+.result-section { margin-top: 20px; }
+.result-section h3 { font-size: 14px; color: #60a5fa; margin-bottom: 8px; border-bottom: 1px solid #334155; padding-bottom: 6px; }
+.pred-item { display: flex; justify-content: space-between; align-items: center; padding: 8px 0; border-bottom: 1px solid #1e293b; font-size: 13px; }
+.pred-item .val { font-weight: 700; color: #fbbf24; font-size: 16px; }
+.pred-item .meta { color: #64748b; font-size: 11px; }
+.report-box { background: #0f172a; border: 1px solid #334155; border-radius: 8px; padding: 16px; max-height: 500px; overflow-y: auto; font-size: 13px; line-height: 1.7; white-space: pre-wrap; color: #cbd5e1; }
+.routing-table { max-height: 600px; overflow-y: auto; }
+.routing-table table { width: 100%; border-collapse: collapse; font-size: 12px; }
+.routing-table th { position: sticky; top: 0; background: #0f172a; padding: 8px 6px; text-align: left; color: #94a3b8; font-size: 11px; text-transform: uppercase; }
+.routing-table td { padding: 6px; border-bottom: 1px solid #1e293b; }
+.routing-table tr:hover td { background: #1e293b; }
+.warning { color: #fbbf24; font-size: 12px; margin-top: 4px; }
+.error { color: #ef4444; font-size: 12px; }
+.spinner { display: inline-block; width: 16px; height: 16px; border: 2px solid #64748b; border-top-color: #60a5fa; border-radius: 50%; animation: spin .6s linear infinite; margin-right: 8px; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.full { grid-column: 1 / -1; }
+@media(max-width:900px) { .container { grid-template-columns: 1fr; } }
+.formula-row { display: flex; gap: 8px; }
+.formula-row input { flex: 1; }
+.formula-row .btn-sm { flex-shrink: 0; }
+.candidate-list { margin-top: 8px; max-height: 150px; overflow-y: auto; }
+.candidate-item { padding: 8px 12px; border: 1px solid #334155; border-radius: 6px; margin-bottom: 4px; cursor: pointer; font-size: 12px; display: flex; justify-content: space-between; transition: .2s; }
+.candidate-item:hover { border-color: #60a5fa; background: #1e3a5f; }
+.candidate-item.selected { border-color: #2563eb; background: #1e3a5f; }
+.candidate-item .mp-id { color: #60a5fa; font-weight: 600; }
+.candidate-item .cs { color: #94a3b8; }
+.divider { text-align: center; color: #64748b; font-size: 12px; margin: 16px 0; border-top: 1px solid #334155; padding-top: 8px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>CrystalAgent</h1>
+  <span>Knowledge Graph-Driven Crystal Property Prediction</span>
+</header>
+<div class="container">
+
+<!-- LEFT: Input -->
+<div class="card">
+  <h2>Prediction Input</h2>
+  <div class="form-group">
+    <label>Natural Language Query</label>
+    <textarea id="userInput" rows="3" placeholder="e.g. Predict formation energy of SiO2">Predict formation energy of SiO2</textarea>
+  </div>
+  <!-- Formula Search -->
+<div class="form-group">
+    <label>Chemical Formula</label>
+    <div class="formula-row">
+      <input type="text" id="formulaInput" placeholder="e.g. SiO2, BaTiO3">
+      <button class="btn-sm" onclick="searchFormula()">Search</button>
+    </div>
+    <div class="candidate-list" id="candidateList"></div>
+    <input type="hidden" id="selectedMpId">
+</div>
+<div class="divider">OR upload CIF</div>
+<div class="form-group">
+    <label>Upload CIF Structure File</label>
+    <div class="file-upload" id="fileUpload">
+      <input type="file" id="cifFile" accept=".cif">
+      <div class="dropzone" id="dropzone">
+        Click or drag .cif file here
+      </div>
+    </div>
+  </div>
+  <button class="btn btn-primary" id="predictBtn" onclick="runPredict()">
+    <span id="btnText">Predict</span>
+  </button>
+  <div id="predictStatus" style="margin-top:8px;"></div>
+
+  <div class="result-section" id="predictResult" style="display:none;">
+    <h3>Prediction Result</h3>
+    <div id="predictions"></div>
+    <div class="result-section" id="reportSection" style="display:none;">
+      <h3>Detailed Report</h3>
+      <div class="report-box" id="reportContent"></div>
+    </div>
+  </div>
+</div>
+
+<!-- RIGHT: Routing Table -->
+<div class="card">
+  <h2>Knowledge Graph - Routing Table</h2>
+  <button class="btn btn-sm" onclick="loadRoutingTable()">Refresh</button>
+  <div class="routing-table" id="routingTable" style="margin-top:12px;">
+    Click "Refresh" to load
+  </div>
+</div>
+
+</div>
+<script>
+let selectedMpId = null;
+async function searchFormula() {
+  const f = document.getElementById('formulaInput').value.trim();
+  if (!f) return;
+  const list = document.getElementById('candidateList');
+  list.innerHTML = `<span class="spinner"></span>`;
+  try {
+    const fd = new FormData(); fd.append('formula', f);
+    const r = await fetch('/search_cif', { method:'POST', body:fd });
+    const d = await r.json();
+    if (!d.candidates || !d.candidates.length) { list.innerHTML = 'No results'; return; }
+    list.innerHTML = d.candidates.map(c => {
+      const sel = selectedMpId === c.mp_id ? ' selected' : '';
+      return `<div class="candidate-item${sel}" onclick="selectCandidate('${c.mp_id}')"><span class="mp-id">${c.mp_id}</span><span class="cs">${c.crystal_system} (#${c.space_group_number})</span></div>`;
+    }).join('');
+  } catch(e) { list.innerHTML = 'Error: ' + e; }
+}
+function selectCandidate(mpId) {
+  selectedMpId = mpId;
+  document.getElementById('selectedMpId').value = mpId;
+  document.getElementById('cifFile').value = '';
+  document.getElementById('dropzone').innerHTML = 'Click or drag .cif file here';
+  searchFormula();
+}
+
+// File upload UI
+const dropzone = document.getElementById('dropzone');
+const cifFile = document.getElementById('cifFile');
+cifFile.addEventListener('change', function() {
+  dropzone.innerHTML = 'Selected: <span class="name">' + (this.files[0]?.name || 'none') + '</span>';
+});
+dropzone.addEventListener('dragover', e => { e.preventDefault(); dropzone.style.borderColor='#60a5fa'; });
+dropzone.addEventListener('dragleave', () => { dropzone.style.borderColor=''; });
+dropzone.addEventListener('drop', e => {
+  e.preventDefault(); dropzone.style.borderColor='';
+  if(e.dataTransfer.files.length){ cifFile.files = e.dataTransfer.files; dropzone.innerHTML = 'Selected: <span class="name">' + e.dataTransfer.files[0].name + '</span>'; }
+});
+
+async function runPredict() {
+  const btn = document.getElementById('predictBtn');
+  const btnText = document.getElementById('btnText');
+  btn.disabled = true;
+  btnText.innerHTML = '<span class="spinner"></span>Predicting...';
+  document.getElementById('predictStatus').innerHTML = '';
+  document.getElementById('predictResult').style.display = 'none';
+
+  const form = new FormData();
+  form.append('user_input', document.getElementById('userInput').value);
+  if(cifFile.files[0]) form.append('structure_file', cifFile.files[0]);
+
+  try {
+    const r = await fetch('/predict', { method: 'POST', body: form });
+    const data = await r.json();
+
+    if(data.error) {
+      document.getElementById('predictStatus').innerHTML = '<span class="error">Error: ' + data.error + '</span>';
+      btn.disabled = false; btnText.textContent = 'Predict'; return;
+    }
+
+    document.getElementById('predictResult').style.display = 'block';
+    let html = '';
+    if(data.formula) html += '<div class="pred-item"><span>Formula</span><span>' + data.formula + '</span></div>';
+    if(data.crystal_system) html += '<div class="pred-item"><span>Crystal System</span><span>' + data.crystal_system + '</span></div>';
+    if(data.space_group) html += '<div class="pred-item"><span>Space Group</span><span>' + data.space_group + '</span></div>';
+    html += '<div style="height:8px;"></div>';
+
+    if(data.predictions) {
+      for(const [prop, info] of Object.entries(data.predictions)) {
+        const val = info.value !== null ? info.value.toFixed(4) : 'N/A';
+        const color = info.value !== null ? '#fbbf24' : '#ef4444';
+        html += '<div class="pred-item">';
+        html += '<div><strong>' + prop + '</strong><br><span class="meta">Model: ' + info.model + ' | MAE: ' + info.mae + ' | ' + info.mode + '</span></div>';
+        html += '<div class="val" style="color:' + color + '">' + val + ' ' + (info.unit||'') + '</div>';
+        html += '</div>';
+        if(info.warnings && info.warnings.length) {
+          info.warnings.forEach(w => { html += '<div class="warning">' + w + '</div>'; });
+        }
+      }
+    }
+    document.getElementById('predictions').innerHTML = html;
+
+    if(data.report) {
+      document.getElementById('reportSection').style.display = 'block';
+      document.getElementById('reportContent').textContent = data.report;
+    }
+  } catch(e) {
+    document.getElementById('predictStatus').innerHTML = '<span class="error">Network error: ' + e.message + '</span>';
+  }
+  btn.disabled = false; btnText.textContent = 'Predict';
+}
+
+async function loadRoutingTable() {
+  const el = document.getElementById('routingTable');
+  el.innerHTML = '<span class="spinner"></span> Loading...';
+  try {
+    const r = await fetch('/routing_table');
+    const data = await r.json();
+    const keys = Object.keys(data);
+    if(!keys.length) { el.innerHTML = '<span class="warning">No routing data</span>'; return; }
+    let html = '<table><tr><th>System</th><th>Property</th><th>Best Model</th><th>MAE</th><th>Samples</th></tr>';
+    for(const [k, v] of Object.entries(data)) {
+      const parts = k.split('_');
+      const sys = parts[0]; const prop = parts.slice(1).join('_');
+      const info = v.models ? Object.entries(v.models)[0] : null;
+      html += '<tr><td>' + sys + '</td><td>' + prop + '</td><td>' + (info?info[0]:'ensemble') + '</td><td>' + (info?info[1]:'?') + '</td><td>' + (v.sample_count||'?') + '</td></tr>';
+    }
+    html += '</table>';
+    el.innerHTML = html;
+  } catch(e) { el.innerHTML = '<span class="error">Failed: ' + e.message + '</span>'; }
+}
+
+loadRoutingTable();
+</script>
+</body>
+</html>

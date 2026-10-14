@@ -1,0 +1,27 @@
+# Tested with Python 3.10.20 and CUDA 12.4.
+fastapi==0.139.2
+uvicorn==0.51.0
+python-multipart==0.0.32
+openai==2.46.0
+pydantic==2.13.4
+
+numpy==1.26.4
+scipy==1.15.3
+scikit-learn==1.7.2
+networkx==3.4.2
+pymatgen==2025.10.7
+spglib==2.7.0
+ase==3.29.0
+mp-api==0.45.13
+tqdm
+
+torch==2.2.1
+matgl==1.1.2
+alignn==2026.5.20
+jarvis-tools==2026.6.12
+chgnet==0.4.2
+mace-torch==0.3.5
+sevenn==0.10.4
+
+# The evaluated server used dgl 2.5.0+cu124. Install the matching DGL wheel
+# for your CUDA runtime before installing this file.

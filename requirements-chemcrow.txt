@@ -1,0 +1,5 @@
+# Install in a separate Python 3.10 environment.
+chemcrow==0.3.24
+langchain==0.0.275
+rmrkl==0.0.3
+openai==2.46.0
