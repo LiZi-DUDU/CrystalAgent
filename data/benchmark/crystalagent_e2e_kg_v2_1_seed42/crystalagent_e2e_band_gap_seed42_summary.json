@@ -1,0 +1,48 @@
+{
+  "property": "band_gap",
+  "unit": "eV",
+  "source_csv": "/root/autodl-tmp/crystal_agent/LLM4Mat-Bench/test.csv",
+  "subset_seed": 42,
+  "n": 1000,
+  "ordered_material_id_sha256": "ae41b0fe2e617db343dd3f6af8bfcc80c2911b3eac420c727cf228c5a35e4921",
+  "kg_schema": "2.1",
+  "route_split": "routing-construction",
+  "prediction_success_n": 1000,
+  "prediction_coverage": 1.0,
+  "physically_valid_n": 1000,
+  "physically_valid_coverage": 1.0,
+  "end_to_end_success_n": 1000,
+  "end_to_end_coverage": 1.0,
+  "mae": 0.39586699999999997,
+  "rmse": 0.7234798368303017,
+  "mae_bootstrap_95_ci": [
+    0.35849721499999976,
+    0.43429941000000033
+  ],
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 20260828,
+  "route_model_counts": {
+    "ALIGNN": 389,
+    "CHGNet": 611
+  },
+  "crystal_system_counts": {
+    "三斜": 165,
+    "三方": 71,
+    "六方": 69,
+    "单斜": 244,
+    "四方": 115,
+    "正交": 202,
+    "立方": 134
+  },
+  "failure_stage_counts": {},
+  "timing_seconds": {
+    "total": 7899.643999999997,
+    "mean_per_structure": 7.899644,
+    "median_per_structure": 7.49
+  },
+  "notes": [
+    "MAE and RMSE use finite predictions within the predefined physical range.",
+    "End-to-end success additionally requires successful LLM parsing and report generation.",
+    "The two properties use separately sampled property-specific seed-42 subsets."
+  ]
+}

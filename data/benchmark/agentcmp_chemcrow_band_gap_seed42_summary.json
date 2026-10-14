@@ -1,0 +1,10 @@
+{
+  "n": 1000,
+  "coverage": 0.934,
+  "mae": 1.3858,
+  "rmse": 2.087,
+  "agent": "chemcrow",
+  "property": "band_gap",
+  "n_run": 1000,
+  "timestamp": "2026-08-19 20:03:11"
+}

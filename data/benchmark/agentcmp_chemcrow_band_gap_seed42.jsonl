@@ -1,0 +1,1000 @@
+{"material_id": "mp-735184", "formula": "AlVP2C2N2O9", "gt": 2.7338, "pred": 2.5, "raw": "2.5", "secs": 0.01, "i": 0}
+{"material_id": "mp-27556", "formula": "CsNbO3", "gt": 3.3425, "pred": 3.2, "raw": "3.2", "secs": 0.01, "i": 1}
+{"material_id": "mp-973572", "formula": "La2TlHg", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.01, "i": 2}
+{"material_id": "mp-1048103", "formula": "Ba2Mn3AlO8", "gt": 0.0, "pred": 2.0, "raw": "2.0", "secs": 0.01, "i": 3}
+{"material_id": "mp-1096791", "formula": "CeSe2", "gt": 0.9922, "pred": 1.2, "raw": "1.2", "secs": 0.0, "i": 4}
+{"material_id": "mp-740737", "formula": "CuH12(BrO6)2", "gt": 0.0, "pred": 2.1, "raw": "2.1", "secs": 0.02, "i": 5}
+{"material_id": "mp-1102268", "formula": "YSiIr", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.01, "i": 6}
+{"material_id": "mp-726709", "formula": "Ti(NCl3)2", "gt": 0.0, "pred": 2.5, "raw": "2.5", "secs": 0.06, "i": 7}
+{"material_id": "mp-1209491", "formula": "Rb8Zr6BeBr20", "gt": 0.9719, "pred": 3.2, "raw": "3.2", "secs": 0.01, "i": 8}
+{"material_id": "mp-23808", "formula": "KScBP2HO9", "gt": 4.6379, "pred": 5.2, "raw": "5.2", "secs": 0.02, "i": 9}
+{"material_id": "mp-1185112", "formula": "La3Pm", "gt": 0.0, "pred": null, "raw": "Cannot compute with available tools.", "secs": 0.01, "i": 10}
+{"material_id": "mp-27259", "formula": "CsCrI3", "gt": 0.0, "pred": 3.0, "raw": "I cannot determine the band gap of CsCrI3 with the provided tools, as they are designed for organic molecules and do not provide band gap data.", "secs": 0.01, "i": 11}
+{"material_id": "mp-1185269", "formula": "Li3Gd", "gt": 0.0, "pred": 3.0, "raw": "I cannot predict the band gap of Li3Gd using the available tools (SMILES2Weight and FunctionalGroups), as these are designed for organic molecules and do not provide band gap information.", "secs": 0.01, "i": 12}
+{"material_id": "mp-1026723", "formula": "CeMg14Cr", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.02, "i": 13}
+{"material_id": "mp-989467", "formula": "B2(CN2)3", "gt": 0.1452, "pred": 3.5, "raw": "3.5", "secs": 0.01, "i": 14}
+{"material_id": "mp-1217537", "formula": "U6Si19Pt30", "gt": 0.0, "pred": 6.0, "raw": "I cannot determine the band gap of U6Si19Pt30 using the available tools, as they are designed for molecular properties (weight and functional groups) and not for solid-state material band gap predicti", "secs": 0.02, "i": 15}
+{"material_id": "mp-13435", "formula": "CeMgNi4", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.01, "i": 16}
+{"material_id": "mp-684943", "formula": "Ta22O21", "gt": 0.0, "pred": 2.8, "raw": "2.8", "secs": 0.01, "i": 17}
+{"material_id": "mp-760367", "formula": "VOF3", "gt": 2.6463, "pred": 2.5, "raw": "2.5", "secs": 0.01, "i": 18}
+{"material_id": "mp-1227135", "formula": "Ca4Nb6O21", "gt": 0.0, "pred": 4.0, "raw": "I cannot predict the band gap of Ca4Nb6O21 using the provided tools, as they are designed for molecular weight and functional group analysis of organic molecules, not for inorganic solid-state band ga", "secs": 0.01, "i": 19}
+{"material_id": "mp-1198430", "formula": "La6Fe13Sn", "gt": 0.0, "pred": 0.5, "raw": "0.5", "secs": 3.36, "i": 20}
+{"material_id": "mp-582119", "formula": "Tb4InRh", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 3.4, "i": 21}
+{"material_id": "mp-973442", "formula": "Lu2AgPt", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 1.39, "i": 22}
+{"material_id": "mp-1214825", "formula": "AlSe2NO8", "gt": 0.0, "pred": 2.1, "raw": "2.1", "secs": 0.63, "i": 23}
+{"material_id": "mp-1042304", "formula": "Ni(WO4)2", "gt": 0.0, "pred": 2.7, "raw": "2.7", "secs": 2.75, "i": 24}
+{"material_id": "mp-761197", "formula": "V4O5F7", "gt": 1.5538, "pred": 2.1, "raw": "2.1", "secs": 1.78, "i": 25}
+{"material_id": "mp-849656", "formula": "Li5Co4(Si3O10)2", "gt": 0.1757999999999999, "pred": 3.2, "raw": "3.2", "secs": 0.71, "i": 26}
+{"material_id": "mp-1213928", "formula": "Cs2B12H4F9", "gt": 3.3402000000000003, "pred": 4.2, "raw": "4.2", "secs": 1.05, "i": 27}
+{"material_id": "mp-17436", "formula": "TlFeC3NO4", "gt": 2.3987, "pred": 1.5, "raw": "1.5", "secs": 4.27, "i": 28}
+{"material_id": "mp-1017352", "formula": "Mg6SiSb", "gt": 0.0, "pred": 0.5, "raw": "0.5", "secs": 0.69, "i": 29}
+{"material_id": "mp-1233746", "formula": "MgMn2P2(H2O5)2", "gt": 3.3709, "pred": 2.0, "raw": "I cannot predict the band gap of MgMn2P2(H2O5)2 using the available tools (SMILES2Weight and FunctionalGroups), as these provide molecular weight and functional group information, not electronic band ", "secs": 2.59, "i": 30}
+{"material_id": "mp-728486", "formula": "Ca9Mg(PO4)7", "gt": 5.2129, "pred": 5.2, "raw": "5.2", "secs": 0.85, "i": 31}
+{"material_id": "mp-1226589", "formula": "CeNdAl2O6", "gt": 0.0, "pred": 2.0, "raw": "I cannot predict the band gap of CeNdAl2O6 using the available tools (SMILES2Weight and FunctionalGroups), as they only provide molecular weight and functional group information, not electronic proper", "secs": 2.58, "i": 32}
+{"material_id": "mp-558835", "formula": "NaNiAsO4", "gt": 0.0, "pred": 2.5, "raw": "2.5", "secs": 4.05, "i": 33}
+{"material_id": "mp-1195913", "formula": "Ga4Bi2O9", "gt": 2.8053, "pred": null, "raw": "Cannot determine with available tools.", "secs": 2.08, "i": 34}
+{"material_id": "mp-1175753", "formula": "Li9Mn2Co5O16", "gt": 0.6082999999999998, "pred": 2.8, "raw": "2.8", "secs": 7.59, "i": 35}
+{"material_id": "mp-780255", "formula": "Gd3NbO7", "gt": 2.282, "pred": 3.2, "raw": "3.2", "secs": 2.26, "i": 36}
+{"material_id": "mp-1229335", "formula": "AlH16C2S2NO14", "gt": 3.1825, "pred": 3.2, "raw": "3.2", "secs": 0.6, "i": 37}
+{"material_id": "mp-1184998", "formula": "GdCdRh2", "gt": 0.0, "pred": 2.0, "raw": "I cannot determine the band gap of GdCdRh2 with the available tools.", "secs": 2.15, "i": 38}
+{"material_id": "mp-1225826", "formula": "Cu2B3Ir4", "gt": 0.0, "pred": null, "raw": "Cannot determine with available tools.", "secs": 2.53, "i": 39}
+{"material_id": "mp-752629", "formula": "K(CoO2)2", "gt": 0.0, "pred": 2.0, "raw": "I cannot determine the band gap of K(CoO2)2 using the provided tools, as they are designed for molecular weight and functional group analysis of organic molecules, not for predicting electronic band g", "secs": 2.14, "i": 40}
+{"material_id": "mp-1446283", "formula": "Ca3(CuO3)2", "gt": 0.0, "pred": 1.8, "raw": "1.8", "secs": 1.02, "i": 41}
+{"material_id": "mp-1365499", "formula": "Fe14Ni11O32", "gt": 0.0391000000000003, "pred": 2.2, "raw": "2.2", "secs": 2.05, "i": 42}
+{"material_id": "mp-623670", "formula": "Ce5C2Br9", "gt": 0.0, "pred": 1.2, "raw": "1.2", "secs": 0.77, "i": 43}
+{"material_id": "mp-764009", "formula": "Mn6O7F5", "gt": 0.0, "pred": 2.5, "raw": "2.5", "secs": 1.63, "i": 44}
+{"material_id": "mp-677262", "formula": "KInI4", "gt": 2.5931, "pred": 3.0, "raw": "3.0", "secs": 3.69, "i": 45}
+{"material_id": "mp-706277", "formula": "Li10Si(PSe6)2", "gt": 1.3277, "pred": 2.1, "raw": "2.1", "secs": 0.67, "i": 46}
+{"material_id": "mp-775520", "formula": "Li4Cr3Co2Sn3O16", "gt": 0.0, "pred": 2.1, "raw": "2.1", "secs": 0.56, "i": 47}
+{"material_id": "mp-1105180", "formula": "Sr2Sb2Se3O2", "gt": 0.7681999999999998, "pred": 1.8, "raw": "1.8", "secs": 0.69, "i": 48}
+{"material_id": "mp-997002", "formula": "KAuO2", "gt": 1.4264, "pred": 2.5, "raw": "2.5", "secs": 4.43, "i": 49}
+{"material_id": "mp-1032193", "formula": "Mg6CoSiO8", "gt": 0.3033999999999999, "pred": 6.0, "raw": "I cannot predict the band gap of Mg6CoSiO8 using the available tools (SMILES2Weight and FunctionalGroups), as these are designed for molecular weight and functional group analysis of organic molecules", "secs": 1.76, "i": 50}
+{"material_id": "mp-1179975", "formula": "NaH2BrO5", "gt": 3.0639, "pred": 3.2, "raw": "3.2", "secs": 0.58, "i": 51}
+{"material_id": "mp-771977", "formula": "TmAsO4", "gt": 3.5505, "pred": 5.5, "raw": "5.5", "secs": 3.36, "i": 52}
+{"material_id": "mp-1078932", "formula": "Ca(BH)2", "gt": 0.0293999999999998, "pred": 5.5, "raw": "5.5", "secs": 3.68, "i": 53}
+{"material_id": "mp-772073", "formula": "Li2Nb4O11", "gt": 2.3476, "pred": 3.4, "raw": "3.4", "secs": 1.74, "i": 54}
+{"material_id": "mp-976722", "formula": "MgPbO3", "gt": 0.0, "pred": 3.53, "raw": "3.53.5", "secs": 12.26, "i": 55}
+{"material_id": "mp-29409", "formula": "CIF7", "gt": 4.6791, "pred": 0.0, "raw": "0", "secs": 5.6, "i": 56}
+{"material_id": "mp-755827", "formula": "LiV3O8", "gt": 1.8409, "pred": 2.0, "raw": "2.0", "secs": 0.71, "i": 57}
+{"material_id": "mp-1201414", "formula": "CoH18N6(ClO)3", "gt": 3.2102, "pred": 4.5, "raw": "4.5", "secs": 3.2, "i": 58}
+{"material_id": "mp-1195455", "formula": "CoH13C2N4O9", "gt": 2.8847000000000005, "pred": null, "raw": "Cannot determine with available tools.", "secs": 2.92, "i": 59}
+{"material_id": "mp-1113855", "formula": "Rb2ScTlF6", "gt": 4.9059, "pred": 3.5, "raw": "3.5", "secs": 3.5, "i": 60}
+{"material_id": "mp-862935", "formula": "Li2PmSn", "gt": 0.0, "pred": 2.0, "raw": "Error: The compound Li2PmSn contains promethium, a radioactive and controlled element. Execution stopped due to safety and regulatory concerns.", "secs": 1.62, "i": 61}
+{"material_id": "mp-676597", "formula": "BaVSe3", "gt": 0.0, "pred": 0.5, "raw": "0.5", "secs": 0.89, "i": 62}
+{"material_id": "mp-560036", "formula": "Li2Ca3Be3Si3(O6F)2", "gt": 5.843100000000001, "pred": 6.2, "raw": "6.2", "secs": 0.9, "i": 63}
+{"material_id": "mp-6219", "formula": "K3Co(CN)6", "gt": 4.1716, "pred": 3.5, "raw": "3.5", "secs": 4.68, "i": 64}
+{"material_id": "mp-1201574", "formula": "In2Hg6(PCl3)3", "gt": 2.2186, "pred": 0.5, "raw": "0.5", "secs": 5.82, "i": 65}
+{"material_id": "mp-626197", "formula": "Sr(H8O5)2", "gt": 3.5178000000000003, "pred": 3.4, "raw": "3.4", "secs": 0.61, "i": 66}
+{"material_id": "mp-1079768", "formula": "Ti2HPd", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 3.78, "i": 67}
+{"material_id": "mp-1030667", "formula": "NaMg6CO8", "gt": 0.6252999999999997, "pred": null, "raw": "Cannot determine.", "secs": 2.09, "i": 68}
+{"material_id": "mp-567467", "formula": "CdH12C4Br3N", "gt": 3.4554, "pred": 2.1, "raw": "2.1", "secs": 0.88, "i": 69}
+{"material_id": "mp-780282", "formula": "Cd(BO2)2", "gt": 2.7302, "pred": 4.54, "raw": "4.54.5", "secs": 5.03, "i": 70}
+{"material_id": "mp-1206213", "formula": "Eu2Br2F", "gt": 0.0, "pred": 3.2, "raw": "3.2", "secs": 0.62, "i": 71}
+{"material_id": "mp-1517320", "formula": "SrCaPrSbO6", "gt": 3.3749, "pred": 1.8, "raw": "1.8", "secs": 0.83, "i": 72}
+{"material_id": "mp-541129", "formula": "NdVO3", "gt": 1.1900999999999993, "pred": 2.0, "raw": "2.0", "secs": 2.09, "i": 73}
+{"material_id": "mp-752750", "formula": "Li3Ni4O4F3", "gt": 2.2384, "pred": 2.1, "raw": "2.1", "secs": 0.56, "i": 74}
+{"material_id": "mp-1193995", "formula": "Ti6Ga16Ir7", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.7, "i": 75}
+{"material_id": "mp-1372", "formula": "Cd3As2", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.82, "i": 76}
+{"material_id": "mp-11713", "formula": "SiC", "gt": 1.9738999999999995, "pred": 2.36, "raw": "2.36", "secs": 0.79, "i": 77}
+{"material_id": "mp-775915", "formula": "LiMn(PO3)3", "gt": 1.8432, "pred": 3.8, "raw": "3.8", "secs": 1.57, "i": 78}
+{"material_id": "mp-1204574", "formula": "Fe3P8O37", "gt": 0.0127999999999999, "pred": 2.5, "raw": "2.5", "secs": 2.96, "i": 79}
+{"material_id": "mp-1245056", "formula": "Al2O3", "gt": 3.8619, "pred": 8.8, "raw": "8.8", "secs": 0.78, "i": 80}
+{"material_id": "mp-1226613", "formula": "CeGa3Cu", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.79, "i": 81}
+{"material_id": "mp-17065", "formula": "Ho2SiO5", "gt": 4.702, "pred": 5.5, "raw": "5.5", "secs": 2.61, "i": 82}
+{"material_id": "mp-1216194", "formula": "Y7Mg3Ge8", "gt": 0.0, "pred": 0.3, "raw": "0.3", "secs": 2.74, "i": 83}
+{"material_id": "mp-1187588", "formula": "Tm2AgAu", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.63, "i": 84}
+{"material_id": "mp-1225658", "formula": "Er2MnGa3", "gt": 0.0, "pred": 0.5, "raw": "0.5", "secs": 0.76, "i": 85}
+{"material_id": "mp-1516529", "formula": "BaNaSmWO6", "gt": 2.8395, "pred": 2.8, "raw": "2.8", "secs": 1.98, "i": 86}
+{"material_id": "mp-985571", "formula": "LiAg(CO2)2", "gt": 2.5436, "pred": 2.1, "raw": "2.1", "secs": 0.59, "i": 87}
+{"material_id": "mp-864957", "formula": "MnSbRu2", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.64, "i": 88}
+{"material_id": "mp-1188510", "formula": "CsSb2F7", "gt": 3.1755, "pred": 3.2, "raw": "3.2", "secs": 0.94, "i": 89}
+{"material_id": "mp-863715", "formula": "Pm2IrAu", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.74, "i": 90}
+{"material_id": "mp-1519368", "formula": "Ba2CeZrO6", "gt": 2.2585, "pred": 3.4, "raw": "3.4", "secs": 1.98, "i": 91}
+{"material_id": "mp-698728", "formula": "Ba2CaY(Co4O7)2", "gt": 0.4160999999999999, "pred": 1.5, "raw": "1.5", "secs": 2.93, "i": 92}
+{"material_id": "mp-1095470", "formula": "Eu2ZnGe3", "gt": 0.0, "pred": 0.2, "raw": "0.2", "secs": 3.86, "i": 93}
+{"material_id": "mp-15380", "formula": "Sb9Se4F39", "gt": 1.9267, "pred": 4.5, "raw": "4.5", "secs": 3.69, "i": 94}
+{"material_id": "mp-1175750", "formula": "Li9Mn2Co5O16", "gt": 0.9542000000000002, "pred": 2.8, "raw": "2.8", "secs": 0.01, "i": 95}
+{"material_id": "mp-1017062", "formula": "Mg6WC", "gt": 0.0, "pred": 6.0, "raw": "I cannot predict the band gap of Mg6WC using the available tools (SMILES2Weight and FunctionalGroups), as these tools only handle molecular weight and functional group identification for SMILES string", "secs": 3.37, "i": 96}
+{"material_id": "mp-4909", "formula": "V2NiS4", "gt": 0.0, "pred": null, "raw": "Cannot determine with available tools.", "secs": 1.41, "i": 97}
+{"material_id": "mp-651814", "formula": "CsV3O8", "gt": 2.0706, "pred": 2.0, "raw": "2.0", "secs": 2.31, "i": 98}
+{"material_id": "mp-1217167", "formula": "Ti3N4", "gt": 0.0, "pred": 2.5, "raw": "2.5", "secs": 1.66, "i": 99}
+{"material_id": "mp-1519938", "formula": "Ba2PrVO6", "gt": 1.6605000000000003, "pred": 2.0, "raw": "2.0", "secs": 2.32, "i": 100}
+{"material_id": "mp-728959", "formula": "CaV2P2(H4O7)2", "gt": 0.1371000000000002, "pred": 2.5, "raw": "2.5", "secs": 3.02, "i": 101}
+{"material_id": "mp-623646", "formula": "TiNiSn", "gt": 0.0, "pred": 0.12, "raw": "0.12", "secs": 1.75, "i": 102}
+{"material_id": "mp-1099664", "formula": "KNa7V8O24", "gt": 0.2248999999999998, "pred": 7.0, "raw": "I cannot predict the band gap of KNa7V8O24 with the available tools (SMILES2Weight and FunctionalGroups), as neither provides band gap information.", "secs": 2.41, "i": 103}
+{"material_id": "mp-571246", "formula": "GeBr4", "gt": 3.0485, "pred": 3.5, "raw": "3.5", "secs": 1.64, "i": 104}
+{"material_id": "mp-1029015", "formula": "Te2MoWSeS", "gt": 2.2869, "pred": 1.15, "raw": "1.15", "secs": 3.09, "i": 105}
+{"material_id": "mp-1190083", "formula": "VCdPO7", "gt": 0.473, "pred": 2.5, "raw": "2.5", "secs": 47.86, "i": 106}
+{"material_id": "mp-769009", "formula": "Ba2YCl7", "gt": 4.1943, "pred": 5.2, "raw": "5.2", "secs": 0.66, "i": 107}
+{"material_id": "mp-1026615", "formula": "RbMg14Nb", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 3.27, "i": 108}
+{"material_id": "mp-1178406", "formula": "CrSO4", "gt": 2.4446000000000003, "pred": 2.5, "raw": "2.5", "secs": 1.76, "i": 109}
+{"material_id": "mp-1095352", "formula": "LiEuAs", "gt": 0.0, "pred": 0.6, "raw": "0.6", "secs": 3.02, "i": 110}
+{"material_id": "mp-636273", "formula": "Nd3GaN", "gt": 0.0, "pred": 1.2, "raw": "1.2", "secs": 0.56, "i": 111}
+{"material_id": "mp-1247374", "formula": "Sr(MnN)2", "gt": 0.0, "pred": 2.0, "raw": "I cannot predict the band gap of Sr(MnN)2 using the available tools, as they only provide molecular weight and functional group information for SMILES strings, not band gap predictions for solid-state", "secs": 3.09, "i": 112}
+{"material_id": "mp-18610", "formula": "Sm2SiSeO4", "gt": 2.6930000000000005, "pred": 3.5, "raw": "3.5", "secs": 8.93, "i": 113}
+{"material_id": "mp-628216", "formula": "Cs2KMn(CN)6", "gt": 0.0657, "pred": 2.1, "raw": "2.1", "secs": 0.62, "i": 114}
+{"material_id": "mp-1209911", "formula": "NdSbIr", "gt": 0.0, "pred": 0.3, "raw": "0.3", "secs": 4.59, "i": 115}
+{"material_id": "mp-1247541", "formula": "MnRhN2", "gt": 0.0, "pred": 0.5, "raw": "0.5", "secs": 4.76, "i": 116}
+{"material_id": "mp-1187400", "formula": "TcSnO3", "gt": 0.0, "pred": 3.0, "raw": "Warning: TcSnO3 contains technetium, a radioactive and controlled element. I cannot predict the band gap with the available tools (SMILES2Weight and FunctionalGroups).", "secs": 7.45, "i": 117}
+{"material_id": "mp-1582", "formula": "As2O3", "gt": 4.0339, "pred": 4.9, "raw": "4.9", "secs": 0.67, "i": 118}
+{"material_id": "mp-1235595", "formula": "LiTiFeO4", "gt": 1.5656000000000003, "pred": 2.5, "raw": "2.5", "secs": 2.64, "i": 119}
+{"material_id": "mp-1101792", "formula": "EuMg2", "gt": 0.0, "pred": 0.15, "raw": "0.15", "secs": 2.48, "i": 120}
+{"material_id": "mp-26562", "formula": "Mo3(PO4)4", "gt": 1.1858999999999995, "pred": 2.8, "raw": "2.8", "secs": 0.87, "i": 121}
+{"material_id": "mp-1102332", "formula": "HgF2", "gt": 0.7648999999999999, "pred": 5.5, "raw": "5.5", "secs": 2.41, "i": 122}
+{"material_id": "mp-760277", "formula": "LiVCr(P2O7)2", "gt": 1.3361999999999998, "pred": 2.8, "raw": "2.8", "secs": 7.3, "i": 123}
+{"material_id": "mp-28505", "formula": "Ba(AlTe2)2", "gt": 1.5444, "pred": 1.5, "raw": "1.5", "secs": 1.97, "i": 124}
+{"material_id": "mp-686724", "formula": "Sr2La14Mg4(Ga4O15)3", "gt": 2.7118, "pred": 5.0, "raw": "5.0", "secs": 3.73, "i": 125}
+{"material_id": "mp-1217029", "formula": "TlCu3Te2", "gt": 0.2111, "pred": 0.5, "raw": "0.5", "secs": 3.39, "i": 126}
+{"material_id": "mp-616597", "formula": "ReHgO4", "gt": 2.6963, "pred": 2.5, "raw": "2.5", "secs": 11.05, "i": 127}
+{"material_id": "mp-1520000", "formula": "Eu2TiSbO6", "gt": 0.0, "pred": 1.8, "raw": "1.8", "secs": 8.38, "i": 128}
+{"material_id": "mp-1184035", "formula": "CsSr3", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 3.23, "i": 129}
+{"material_id": "mp-20928", "formula": "Sb2Ru", "gt": 0.0034999999999989, "pred": 0.3, "raw": "0.3", "secs": 2.73, "i": 130}
+{"material_id": "mp-30602", "formula": "DyMg2", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 1.96, "i": 131}
+{"material_id": "mp-570007", "formula": "SmOs2", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 3.1, "i": 132}
+{"material_id": "mp-18981", "formula": "Sr2CaWO6", "gt": 3.2349, "pred": 3.8, "raw": "3.8", "secs": 2.14, "i": 133}
+{"material_id": "mp-1247350", "formula": "Li3RuN2", "gt": 0.0, "pred": 0.8, "raw": "0.8", "secs": 1.81, "i": 134}
+{"material_id": "mp-542964", "formula": "Eu(TmSe2)2", "gt": 0.1943000000000001, "pred": 1.8, "raw": "1.8", "secs": 2.75, "i": 135}
+{"material_id": "mp-1516505", "formula": "BaCaEuBiO6", "gt": 0.0, "pred": 2.5, "raw": "2.5", "secs": 2.55, "i": 136}
+{"material_id": "mp-13831", "formula": "BaCdGeS4", "gt": 2.6727, "pred": 2.31, "raw": "2.31", "secs": 0.57, "i": 137}
+{"material_id": "mp-1047241", "formula": "Ca2MoWO6", "gt": 1.9254000000000009, "pred": 2.1, "raw": "2.1", "secs": 1.32, "i": 138}
+{"material_id": "mp-1074344", "formula": "Mg4Si3", "gt": 0.0, "pred": 0.77, "raw": "0.77", "secs": 0.59, "i": 139}
+{"material_id": "mp-1192794", "formula": "Gd4InIr", "gt": 0.0, "pred": null, "raw": "I cannot answer this question with the available tools, as they are designed for organic molecules and cannot predict band gaps for inorganic intermetallic compounds.", "secs": 2.38, "i": 140}
+{"material_id": "mp-1201995", "formula": "CaAl2(Si3O10)2", "gt": 0.3742, "pred": 6.5, "raw": "6.5", "secs": 0.74, "i": 141}
+{"material_id": "mp-1221374", "formula": "Na2MoAs2O9", "gt": 3.0479000000000003, "pred": null, "raw": "N/AN/A", "secs": 6.77, "i": 142}
+{"material_id": "mp-1198961", "formula": "TlCo(BrN)6", "gt": 0.0551999999999999, "pred": 1.2, "raw": "1.2", "secs": 0.49, "i": 143}
+{"material_id": "mp-726073", "formula": "N2O3", "gt": 0.4573999999999998, "pred": 3.5, "raw": "3.5", "secs": 0.55, "i": 144}
+{"material_id": "mp-1205066", "formula": "K2Fe2H8C4Cl2O13", "gt": 2.2251000000000003, "pred": 2.1, "raw": "2.1", "secs": 0.6, "i": 145}
+{"material_id": "mp-1223189", "formula": "La2TiCuO6", "gt": 0.0, "pred": 2.0, "raw": "2.0", "secs": 2.36, "i": 146}
+{"material_id": "mp-1222958", "formula": "LaEuS2", "gt": 0.0, "pred": null, "raw": "Unable to determine with available tools.", "secs": 2.65, "i": 147}
+{"material_id": "mp-1209156", "formula": "SbC2O5", "gt": 0.0609999999999999, "pred": 3.2, "raw": "3.2", "secs": 6.14, "i": 148}
+{"material_id": "mp-26524", "formula": "VP2O7", "gt": 1.2243, "pred": 2.5, "raw": "2.5", "secs": 2.14, "i": 149}
+{"material_id": "mp-757221", "formula": "CuNi9O10", "gt": 0.0, "pred": 2.8, "raw": "2.8", "secs": 13.14, "i": 150}
+{"material_id": "mp-510488", "formula": "SmMnSbO", "gt": 0.0, "pred": 0.5, "raw": "0.5", "secs": 0.6, "i": 151}
+{"material_id": "mp-24809", "formula": "CaH2", "gt": 0.6536000000000004, "pred": 3.5, "raw": "3.5", "secs": 3.0, "i": 152}
+{"material_id": "mp-1191263", "formula": "CeIn2Pd3", "gt": 0.0, "pred": 0.5, "raw": "0.5", "secs": 0.83, "i": 153}
+{"material_id": "mp-1224960", "formula": "FeNiB", "gt": 0.0, "pred": 0.5, "raw": "0.5", "secs": 0.72, "i": 154}
+{"material_id": "mp-987", "formula": "ZnCu", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 2.63, "i": 155}
+{"material_id": "mp-22974", "formula": "MoCl4O", "gt": 1.4552, "pred": 2.2, "raw": "2.2", "secs": 8.03, "i": 156}
+{"material_id": "mp-1195646", "formula": "NaVH2(OF2)2", "gt": 3.4885, "pred": 2.1, "raw": "2.1", "secs": 0.84, "i": 157}
+{"material_id": "mp-1025752", "formula": "Te4Mo2WSe2", "gt": 0.8468, "pred": 1.23, "raw": "1.23", "secs": 0.81, "i": 158}
+{"material_id": "mp-1111062", "formula": "Na2ScHgF6", "gt": 0.0, "pred": 2.5, "raw": "2.5", "secs": 10.14, "i": 159}
+{"material_id": "mp-1079450", "formula": "CoTe(PbO3)2", "gt": 1.6060999999999996, "pred": 1.2, "raw": "1.2", "secs": 0.8, "i": 160}
+{"material_id": "mp-4056", "formula": "CaSc2O4", "gt": 3.458, "pred": 4.2, "raw": "4.2", "secs": 0.62, "i": 161}
+{"material_id": "mp-758694", "formula": "Li3VF5", "gt": 2.3684000000000003, "pred": 3.5, "raw": "3.5", "secs": 2.18, "i": 162}
+{"material_id": "mp-1178030", "formula": "Li2Cr3SbO8", "gt": 1.9745, "pred": 2.1, "raw": "2.1", "secs": 10.48, "i": 163}
+{"material_id": "mp-1183884", "formula": "Eu2MgTl", "gt": 0.0, "pred": 0.4, "raw": "0.4", "secs": 6.8, "i": 164}
+{"material_id": "mp-567781", "formula": "Cs3Zr7BCl20", "gt": 1.1953999999999998, "pred": 3.5, "raw": "3.5", "secs": 4.57, "i": 165}
+{"material_id": "mp-1222562", "formula": "Li3Mn8O16", "gt": 0.0, "pred": 3.0, "raw": "I cannot determine the band gap of Li3Mn8O16 using the provided tools, as they are designed for organic molecules (SMILES-based) and do not provide band gap predictions. Please provide a different met", "secs": 1.91, "i": 166}
+{"material_id": "mp-19810", "formula": "TaNiTe2", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 3.34, "i": 167}
+{"material_id": "mp-1176510", "formula": "LiVS3", "gt": 0.0398999999999998, "pred": 1.5, "raw": "1.5", "secs": 3.71, "i": 168}
+{"material_id": "mp-1044777", "formula": "PrZn(FeO3)2", "gt": 0.0, "pred": 2.1, "raw": "2.1", "secs": 0.56, "i": 169}
+{"material_id": "mp-1078294", "formula": "Sn(NF3)2", "gt": 0.0, "pred": 3.0, "raw": "I cannot predict the band gap of Sn(NF3)2 with the available tools.", "secs": 1.89, "i": 170}
+{"material_id": "mp-1199762", "formula": "AlPO4", "gt": 5.6258, "pred": 4.0, "raw": "I cannot answer this question using the available tools, as they are designed for organic molecules (SMILES-based) and do not provide band gap predictions for inorganic materials like AlPO4.", "secs": 2.27, "i": 171}
+{"material_id": "mp-10409", "formula": "Ba4Nd2Cd3Se10", "gt": 1.5191, "pred": 1.8, "raw": "1.8", "secs": 0.54, "i": 172}
+{"material_id": "mp-510464", "formula": "Ce(IO3)3", "gt": 0.1046999999999993, "pred": 2.9, "raw": "2.9", "secs": 0.55, "i": 173}
+{"material_id": "mp-1228713", "formula": "Al4Ni15", "gt": 0.0, "pred": 0.1, "raw": "0.1", "secs": 2.67, "i": 174}
+{"material_id": "mp-779882", "formula": "Mn6O5F7", "gt": 0.0, "pred": null, "raw": "Cannot predict band gap with available tools.", "secs": 2.04, "i": 175}
+{"material_id": "mp-1227149", "formula": "Ce2Fe17C", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.77, "i": 176}
+{"material_id": "mp-1201390", "formula": "CuH12C2(NO2)6", "gt": 1.0065, "pred": null, "raw": "Cannot determine band gap with available tools.", "secs": 9.39, "i": 177}
+{"material_id": "mp-776602", "formula": "Na5Mn2P(CO4)4", "gt": 0.0, "pred": 2.1, "raw": "2.1", "secs": 0.6, "i": 178}
+{"material_id": "mp-1025225", "formula": "ErGa5Co", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 2.01, "i": 179}
+{"material_id": "mp-540858", "formula": "Cu3(AsO4)2", "gt": 0.0, "pred": 2.2, "raw": "2.2 eV. Warning: Copper arsenate (Cu3(AsO4)2) is a controlled/regulated substance due to arsenic content; handle with caution.", "secs": 3.84, "i": 180}
+{"material_id": "mp-752654", "formula": "Li3(FeO3)2", "gt": 0.0, "pred": null, "raw": "I cannot determine the band gap with the available tools.", "secs": 1.53, "i": 181}
+{"material_id": "mp-1520547", "formula": "CaDyMn4O12", "gt": 0.0, "pred": 1.2, "raw": "1.2", "secs": 0.8, "i": 182}
+{"material_id": "mp-1226570", "formula": "Co(RhO3)2", "gt": 0.0, "pred": 1.8, "raw": "1.8", "secs": 0.61, "i": 183}
+{"material_id": "mp-980750", "formula": "YAs3", "gt": 0.0, "pred": 0.5, "raw": "0.5", "secs": 2.45, "i": 184}
+{"material_id": "mp-7945", "formula": "V3S", "gt": 0.0, "pred": 0.5, "raw": "0.5", "secs": 0.87, "i": 185}
+{"material_id": "mp-1035120", "formula": "Mg14NbCoO16", "gt": 1.5412999999999997, "pred": 14.0, "raw": "I cannot predict the band gap of Mg14NbCoO16 using the available tools (SMILES2Weight and FunctionalGroups), as these tools only provide molecular weight and functional group information, not electron", "secs": 3.7, "i": 186}
+{"material_id": "mp-1112246", "formula": "K2NdCuF6", "gt": 0.3584999999999998, "pred": 2.1, "raw": "2.1", "secs": 1.28, "i": 187}
+{"material_id": "mp-1410408", "formula": "Ca(CoS2)4", "gt": 0.0, "pred": 0.5, "raw": "0.5", "secs": 2.58, "i": 188}
+{"material_id": "mp-5447", "formula": "Sm3OsO7", "gt": 0.0, "pred": 3.0, "raw": "I cannot predict the band gap of Sm3OsO7 using the provided tools (SMILES2Weight and FunctionalGroups), as these tools only provide molecular weight and functional group information, not electronic ba", "secs": 2.26, "i": 189}
+{"material_id": "mp-982595", "formula": "Na3Re", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 3.14, "i": 190}
+{"material_id": "mp-1224893", "formula": "FeNiS4", "gt": 0.0, "pred": 0.5, "raw": "0.5", "secs": 2.79, "i": 191}
+{"material_id": "mp-1223461", "formula": "KCNO", "gt": 2.0098000000000003, "pred": 5.5, "raw": "5.5", "secs": 8.52, "i": 192}
+{"material_id": "mp-554901", "formula": "Ga2Mo(SeO5)2", "gt": 3.6065, "pred": null, "raw": "Cannot be determined with available tools.", "secs": 1.35, "i": 193}
+{"material_id": "mp-1176916", "formula": "Li6V3P8O29", "gt": 1.1059, "pred": 2.1, "raw": "2.1", "secs": 0.61, "i": 194}
+{"material_id": "mp-1110893", "formula": "K2NaNdCl6", "gt": 4.8337, "pred": 3.5, "raw": "3.5", "secs": 5.3, "i": 195}
+{"material_id": "mp-1218071", "formula": "Ta3Cr8Si", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.63, "i": 196}
+{"material_id": "mp-1246764", "formula": "Mn(CdN)4", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 5.84, "i": 197}
+{"material_id": "mp-1205936", "formula": "HoMgPd", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 3.44, "i": 198}
+{"material_id": "mp-1104485", "formula": "Y(GaFe)6", "gt": 0.0, "pred": 0.5, "raw": "0.5", "secs": 3.0, "i": 199}
+{"material_id": "mp-998758", "formula": "TlHgF3", "gt": 2.1963, "pred": 3.2, "raw": "3.2", "secs": 0.74, "i": 200}
+{"material_id": "mp-1915", "formula": "Fe2B", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 1.72, "i": 201}
+{"material_id": "mp-561462", "formula": "Ba2Nd2Si4O13", "gt": 5.046200000000001, "pred": 4.2, "raw": "4.2", "secs": 0.77, "i": 202}
+{"material_id": "mp-1173174", "formula": "SrLiTi4CrO11", "gt": 2.2734000000000005, "pred": 2.0, "raw": "2.0", "secs": 3.48, "i": 203}
+{"material_id": "mp-22499", "formula": "EuSnF7", "gt": 0.0, "pred": 4.0, "raw": "4.0", "secs": 3.2, "i": 204}
+{"material_id": "mp-5561", "formula": "Ho(CrSi)2", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.71, "i": 205}
+{"material_id": "mp-1204264", "formula": "In12Ga4Ir2O15", "gt": 1.4187000000000003, "pred": 2.1, "raw": "2.1", "secs": 0.92, "i": 206}
+{"material_id": "mp-1229062", "formula": "Al(V4Si)3", "gt": 0.0, "pred": 2.0, "raw": "I cannot answer this question with the available tools. The tools provided (SMILES2Weight and FunctionalGroups) are designed for organic molecular chemistry and cannot predict the band gap of an inorg", "secs": 1.59, "i": 207}
+{"material_id": "mp-1079732", "formula": "Te(Br3N)2", "gt": 0.0, "pred": null, "raw": "Cannot determine with available tools.", "secs": 3.1, "i": 208}
+{"material_id": "mp-17880", "formula": "Al13Ru4", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.55, "i": 209}
+{"material_id": "mp-1106089", "formula": "Ba2InGaO5", "gt": 1.4145, "pred": 3.5, "raw": "3.5", "secs": 2.36, "i": 210}
+{"material_id": "mp-1378442", "formula": "ZnCr2O4", "gt": 2.3856, "pred": 3.5, "raw": "3.5", "secs": 2.05, "i": 211}
+{"material_id": "mp-1227498", "formula": "BaSrNdCu3O7", "gt": 0.0, "pred": 0.1, "raw": "0.1", "secs": 3.99, "i": 212}
+{"material_id": "mp-1195229", "formula": "SbXeF11", "gt": 1.7571999999999997, "pred": 5.5, "raw": "5.5", "secs": 2.45, "i": 213}
+{"material_id": "mp-1180923", "formula": "MgH12SeO9", "gt": 3.3583, "pred": 5.5, "raw": "5.5", "secs": 4.88, "i": 214}
+{"material_id": "mp-6834", "formula": "KFePO4F", "gt": 2.4331, "pred": 3.5, "raw": "3.5", "secs": 7.78, "i": 215}
+{"material_id": "mp-18982", "formula": "Sr3NiIrO6", "gt": 0.0, "pred": 0.4, "raw": "0.4", "secs": 1.63, "i": 216}
+{"material_id": "mp-1445593", "formula": "WO2", "gt": 2.3284, "pred": 0.0, "raw": "0", "secs": 2.23, "i": 217}
+{"material_id": "mp-9986", "formula": "CsAuO", "gt": 1.3835, "pred": 1.2, "raw": "1.2", "secs": 0.58, "i": 218}
+{"material_id": "mp-1113474", "formula": "Rb2CuNiF6", "gt": 0.0, "pred": 2.0, "raw": "2.0", "secs": 4.93, "i": 219}
+{"material_id": "mp-1214882", "formula": "AuI3N", "gt": 0.0, "pred": 1.5, "raw": "1.5", "secs": 3.32, "i": 220}
+{"material_id": "mp-976768", "formula": "NaMg3", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 2.43, "i": 221}
+{"material_id": "mp-759268", "formula": "FeOF", "gt": 1.1886, "pred": 2.1, "raw": "2.1", "secs": 0.95, "i": 222}
+{"material_id": "mp-757713", "formula": "Fe3CoCu2(PO4)6", "gt": 0.0, "pred": 2.5, "raw": "2.5", "secs": 2.31, "i": 223}
+{"material_id": "mp-1202583", "formula": "GaAu(I4N)2", "gt": 0.0, "pred": 1.2, "raw": "1.2", "secs": 0.48, "i": 224}
+{"material_id": "mp-561121", "formula": "CsTi3P5O19", "gt": 2.7906, "pred": 3.0, "raw": "3.0", "secs": 2.61, "i": 225}
+{"material_id": "mp-570298", "formula": "Ba(SbAu)2", "gt": 0.0, "pred": 2.0, "raw": "I cannot predict the band gap of Ba(SbAu)2 using the provided tools, as they are designed for molecular properties (weight and functional groups) of organic molecules, not for inorganic solid-state ma", "secs": 1.85, "i": 226}
+{"material_id": "mp-755722", "formula": "Li2Mn3CrO8", "gt": 0.0, "pred": 2.0, "raw": "2.0", "secs": 2.83, "i": 227}
+{"material_id": "mp-557236", "formula": "Te2As2Se8S(OF6)2", "gt": 1.1774, "pred": 1.8, "raw": "1.8", "secs": 0.81, "i": 228}
+{"material_id": "mp-1228076", "formula": "Ba4Sr(SnO3)5", "gt": 0.5276000000000005, "pred": 3.8, "raw": "3.8", "secs": 2.75, "i": 229}
+{"material_id": "mp-29905", "formula": "Mn9(NbGe4)2", "gt": 0.0211000000000005, "pred": 0.3, "raw": "0.3", "secs": 4.06, "i": 230}
+{"material_id": "mp-1204170", "formula": "Mg5(C2O9)2", "gt": 0.0232, "pred": 5.0, "raw": "I cannot predict the band gap of Mg5(C2O9)2 using the available tools (SMILES2Weight and FunctionalGroups), as they are designed for molecular weight and functional group analysis, not band gap predic", "secs": 1.78, "i": 231}
+{"material_id": "mp-1104305", "formula": "Pr4(FeB2)3", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.64, "i": 232}
+{"material_id": "mp-1226066", "formula": "DyThFe14B", "gt": 0.0, "pred": 1.2, "raw": "1.2", "secs": 0.61, "i": 233}
+{"material_id": "mp-1214632", "formula": "Ba3SbI3", "gt": 1.4021, "pred": 3.0, "raw": "I cannot determine the band gap of Ba3SbI3 using the provided tools.", "secs": 1.49, "i": 234}
+{"material_id": "mp-29114", "formula": "Re3Te4Cl5", "gt": 1.1397000000000002, "pred": 0.42, "raw": "0.42", "secs": 0.59, "i": 235}
+{"material_id": "mp-760140", "formula": "Li2VF6", "gt": 1.3538, "pred": 3.2, "raw": "3.2", "secs": 2.03, "i": 236}
+{"material_id": "mp-696335", "formula": "K2FeH2OF5", "gt": 2.7881, "pred": 2.1, "raw": "2.1", "secs": 0.48, "i": 237}
+{"material_id": "mp-759296", "formula": "Li4Fe3Cu3(WO8)2", "gt": 0.0, "pred": 1.8, "raw": "1.8", "secs": 0.59, "i": 238}
+{"material_id": "mp-1519048", "formula": "BaSrPrBiO6", "gt": 1.7972, "pred": 1.8, "raw": "1.8", "secs": 4.23, "i": 239}
+{"material_id": "mp-1045606", "formula": "Sb(PO3)4", "gt": 1.6088000000000002, "pred": 4.2, "raw": "4.2", "secs": 6.74, "i": 240}
+{"material_id": "mp-1099805", "formula": "Mg2Mn2O5", "gt": 0.0, "pred": 1.8, "raw": "1.8", "secs": 0.72, "i": 241}
+{"material_id": "mp-8483", "formula": "K2SO3", "gt": 4.914899999999999, "pred": 2.0, "raw": "I cannot predict the band gap of K2SO3 using the available tools (SMILES2Weight and FunctionalGroups), as they are not designed for electronic property prediction.", "secs": 1.75, "i": 242}
+{"material_id": "mp-1096145", "formula": "Y2ZnTc", "gt": 0.0504999999999999, "pred": 0.0, "raw": "0.0", "secs": 0.84, "i": 243}
+{"material_id": "mp-1211994", "formula": "KVSO9", "gt": 0.6248, "pred": 2.5, "raw": "2.5", "secs": 2.32, "i": 244}
+{"material_id": "mp-4675", "formula": "NaTaO3", "gt": 2.2798000000000003, "pred": 4.0, "raw": "4.0", "secs": 0.74, "i": 245}
+{"material_id": "mp-696216", "formula": "HS3N", "gt": 2.7266, "pred": null, "raw": "Cannot determine with available tools.", "secs": 1.61, "i": 246}
+{"material_id": "mp-1093711", "formula": "BeSiTc2", "gt": 0.262, "pred": 0.0, "raw": "0.0", "secs": 0.6, "i": 247}
+{"material_id": "mp-560585", "formula": "P3IrO9", "gt": 2.2440999999999995, "pred": 3.0, "raw": "I cannot predict the band gap of P3IrO9 using the available tools (SMILES2Weight and FunctionalGroups), as neither provides band gap prediction capabilities. Please provide a tool or method for band g", "secs": 3.72, "i": 248}
+{"material_id": "mp-1079167", "formula": "HfGeRh", "gt": 0.0, "pred": null, "raw": "I cannot determine the band gap of HfGeRh using the provided tools, as they are designed for organic molecules and do not provide band gap predictions.", "secs": 1.91, "i": 249}
+{"material_id": "mp-1185119", "formula": "K3Rb", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 2.88, "i": 250}
+{"material_id": "mp-1018151", "formula": "NbPd2", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 3.48, "i": 251}
+{"material_id": "mp-1215299", "formula": "ZrInPt2", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.54, "i": 252}
+{"material_id": "mp-6130", "formula": "KMn4(PO4)3", "gt": 3.0707000000000004, "pred": 2.5, "raw": "2.5", "secs": 3.95, "i": 253}
+{"material_id": "mp-1077165", "formula": "YbCu4Au", "gt": 0.0, "pred": 0.12, "raw": "0.12", "secs": 0.6, "i": 254}
+{"material_id": "mp-1190842", "formula": "Rb6HgS4", "gt": 1.5950000000000002, "pred": null, "raw": "Cannot determine with available tools.", "secs": 1.96, "i": 255}
+{"material_id": "mp-768489", "formula": "Mg3WO6", "gt": 3.9309, "pred": 3.2, "raw": "3.2", "secs": 3.42, "i": 256}
+{"material_id": "mp-1193521", "formula": "V3(Co10B3)2", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.72, "i": 257}
+{"material_id": "mp-1210746", "formula": "MnCo3C", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.58, "i": 258}
+{"material_id": "mp-24050", "formula": "LaCrHO5", "gt": 2.2136, "pred": null, "raw": "N/A", "secs": 4.4, "i": 259}
+{"material_id": "mp-1214929", "formula": "Ba2GdCu3SO6", "gt": 0.0, "pred": 1.8, "raw": "1.8", "secs": 0.63, "i": 260}
+{"material_id": "mp-769570", "formula": "Na3Fe2P(CO4)4", "gt": 0.0471, "pred": 2.5, "raw": "2.5", "secs": 5.45, "i": 261}
+{"material_id": "mp-1099089", "formula": "Mg14CoNi", "gt": 0.0, "pred": 14.0, "raw": "I cannot predict the band gap of Mg14CoNi using the available tools (SMILES2Weight and FunctionalGroups), as these tools only provide molecular weight and functional group information for SMILES input", "secs": 2.22, "i": 262}
+{"material_id": "mp-1219157", "formula": "Sm2Si3Ni", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 4.06, "i": 263}
+{"material_id": "mp-571219", "formula": "Tl3BiI6", "gt": 2.4589, "pred": 1.8, "raw": "1.8", "secs": 0.6, "i": 264}
+{"material_id": "mp-1105864", "formula": "Cu11PdN4", "gt": 0.0, "pred": 0.8, "raw": "0.8", "secs": 1.54, "i": 265}
+{"material_id": "mp-1201107", "formula": "ZnB10(H13O4)2", "gt": 4.006, "pred": 3.2, "raw": "3.2", "secs": 0.54, "i": 266}
+{"material_id": "mp-568778", "formula": "CuTeBr", "gt": 0.5830000000000002, "pred": 1.2, "raw": "1.2", "secs": 2.22, "i": 267}
+{"material_id": "mp-540553", "formula": "Te7(OF5)6", "gt": 2.9024, "pred": 2.5, "raw": "2.5", "secs": 5.16, "i": 268}
+{"material_id": "mp-1207262", "formula": "Nd2Cl2O", "gt": 0.0, "pred": 3.2, "raw": "3.2", "secs": 0.92, "i": 269}
+{"material_id": "mp-1214472", "formula": "BaAs2Xe5F22", "gt": 2.6011, "pred": 3.2, "raw": "3.2", "secs": 0.65, "i": 270}
+{"material_id": "mp-1072199", "formula": "PuB2Ir3", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.55, "i": 271}
+{"material_id": "mp-556442", "formula": "Tc2O5F4", "gt": 1.8722, "pred": 2.5, "raw": "2.5", "secs": 38.21, "i": 272}
+{"material_id": "mp-1099816", "formula": "Sr5Ca3FeCo7O20", "gt": 0.0, "pred": 1.2, "raw": "1.2", "secs": 0.65, "i": 273}
+{"material_id": "mp-1112268", "formula": "CsK2TaF6", "gt": 0.0, "pred": 4.2, "raw": "4.2", "secs": 0.61, "i": 274}
+{"material_id": "mp-1104575", "formula": "Y(Fe2Si)2", "gt": 0.0, "pred": 0.5, "raw": "0.5", "secs": 0.8, "i": 275}
+{"material_id": "mp-1210148", "formula": "NaBe3Al2Si6O19", "gt": 0.7872000000000003, "pred": 7.5, "raw": "7.5", "secs": 0.73, "i": 276}
+{"material_id": "mp-1027814", "formula": "Mg14NbFe", "gt": 0.0, "pred": 1.2, "raw": "1.2", "secs": 0.64, "i": 277}
+{"material_id": "mp-70", "formula": "Rb", "gt": 0.0, "pred": 1.85, "raw": "1.85", "secs": 0.63, "i": 278}
+{"material_id": "mp-1094435", "formula": "MgZn", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.74, "i": 279}
+{"material_id": "mp-1203960", "formula": "UH6Br2O5", "gt": 1.552, "pred": 6.0, "raw": "Warning: UH6Br2O5 contains uranium (controlled substance). Band gap cannot be predicted with available tools.Warning: UH6Br2O5 contains uranium, a controlled substance. Band gap cannot be predicted wi", "secs": 9.61, "i": 280}
+{"material_id": "mp-780667", "formula": "CaSb2H2F14", "gt": 4.6984, "pred": 3.2, "raw": "3.2", "secs": 0.7, "i": 281}
+{"material_id": "mp-1185720", "formula": "Mg16Al12Zn", "gt": 0.0, "pred": 2.0, "raw": "Error: The provided tools (SMILES2Weight, FunctionalGroups) are not applicable for predicting the band gap of the intermetallic alloy Mg16Al12Zn. Band gap prediction requires quantum mechanical calcul", "secs": 2.74, "i": 282}
+{"material_id": "mp-1204780", "formula": "B10H18C2S", "gt": 3.0717, "pred": 0.0, "raw": "0", "secs": 5.26, "i": 283}
+{"material_id": "mp-782632", "formula": "LiNi(SO4)2", "gt": 0.0, "pred": 3.2, "raw": "3.2", "secs": 0.57, "i": 284}
+{"material_id": "mp-26319", "formula": "Li3Mo(PO3)8", "gt": 1.1831, "pred": 3.2, "raw": "3.2", "secs": 3.5, "i": 285}
+{"material_id": "mp-1185477", "formula": "LiTe3", "gt": 0.0, "pred": 1.2, "raw": "1.2", "secs": 0.63, "i": 286}
+{"material_id": "mp-754259", "formula": "Li7Nb2Fe3O16", "gt": 0.0, "pred": 2.1, "raw": "2.1", "secs": 0.85, "i": 287}
+{"material_id": "mp-24624", "formula": "Rb2CoH8(CO5)2", "gt": 3.6014, "pred": 2.5, "raw": "2.5", "secs": 46.02, "i": 288}
+{"material_id": "mp-10931", "formula": "HoSF", "gt": 1.2996, "pred": 3.5, "raw": "3.5", "secs": 1.94, "i": 289}
+{"material_id": "mp-20496", "formula": "Ga2PbO4", "gt": 3.4457000000000004, "pred": 2.1, "raw": "2.1", "secs": 0.51, "i": 290}
+{"material_id": "mp-30100", "formula": "Li2B2Se5", "gt": 1.7047, "pred": 2.5, "raw": "2.5", "secs": 1.68, "i": 291}
+{"material_id": "mp-1215937", "formula": "YAlFe", "gt": 0.0, "pred": 1.2, "raw": "1.2", "secs": 0.7, "i": 292}
+{"material_id": "mp-758470", "formula": "LiFe2P5O16", "gt": 2.4064, "pred": 2.5, "raw": "2.5", "secs": 3.36, "i": 293}
+{"material_id": "mp-10760", "formula": "MgSe", "gt": 1.7609, "pred": 4.0, "raw": "4.0", "secs": 0.49, "i": 294}
+{"material_id": "mp-1183564", "formula": "CaNdAu2", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.61, "i": 295}
+{"material_id": "mp-25889", "formula": "LiCoPO4", "gt": 3.09, "pred": 4.0, "raw": "4.0", "secs": 1.43, "i": 296}
+{"material_id": "mp-1056985", "formula": "TiPd", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 1.71, "i": 297}
+{"material_id": "mp-773163", "formula": "Li2Fe3SnO8", "gt": 0.0, "pred": 2.0, "raw": "2.0", "secs": 3.13, "i": 298}
+{"material_id": "mp-989547", "formula": "Rb2NaInCl6", "gt": 3.0533, "pred": 3.54, "raw": "3.54", "secs": 2.56, "i": 299}
+{"material_id": "mp-1202175", "formula": "Cs2BaH6(NO6)2", "gt": 0.7271, "pred": 2.0, "raw": "I cannot predict the band gap of Cs2BaH6(NO6)2 using the available tools (SMILES2Weight and FunctionalGroups), as they do not provide band gap information. Please provide a computational method or dat", "secs": 9.93, "i": 300}
+{"material_id": "mp-1273579", "formula": "Na2FeO3", "gt": 0.3879000000000001, "pred": 2.5, "raw": "2.5", "secs": 2.18, "i": 301}
+{"material_id": "mp-674482", "formula": "MnFeO3", "gt": 0.5864000000000003, "pred": 2.1, "raw": "2.1", "secs": 1.43, "i": 302}
+{"material_id": "mp-1201696", "formula": "Na4Sn2Ge5O17", "gt": 0.0, "pred": 3.5, "raw": "3.5", "secs": 3.84, "i": 303}
+{"material_id": "mp-570611", "formula": "PrInAu2", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 2.42, "i": 304}
+{"material_id": "mp-1180134", "formula": "Ni(ClO2)2", "gt": 0.0, "pred": 2.5, "raw": "2.5", "secs": 2.46, "i": 305}
+{"material_id": "mp-754151", "formula": "VOF", "gt": 2.7884, "pred": 2.0, "raw": "2.0", "secs": 1.74, "i": 306}
+{"material_id": "mp-759795", "formula": "MnCr3Te2(PO4)6", "gt": 0.0, "pred": 2.0, "raw": "2.0", "secs": 3.16, "i": 307}
+{"material_id": "mp-861968", "formula": "ErCl2", "gt": 0.0, "pred": 4.5, "raw": "4.5", "secs": 2.57, "i": 308}
+{"material_id": "mp-9206", "formula": "CsAg5Te3", "gt": 0.0524, "pred": 0.5, "raw": "0.5", "secs": 1.57, "i": 309}
+{"material_id": "mp-776957", "formula": "Fe10O19F", "gt": 0.0, "pred": 2.1, "raw": "2.1", "secs": 0.8, "i": 310}
+{"material_id": "mp-504669", "formula": "KBiF6", "gt": 2.7061, "pred": 4.2, "raw": "4.2", "secs": 1.1, "i": 311}
+{"material_id": "mp-1075989", "formula": "Ba3Sr5Co4(CuO6)4", "gt": 0.0, "pred": 1.2, "raw": "1.2", "secs": 0.67, "i": 312}
+{"material_id": "mp-1520816", "formula": "BaEuZr2O6", "gt": 0.2385000000000001, "pred": 3.2, "raw": "3.2", "secs": 2.53, "i": 313}
+{"material_id": "mp-1096164", "formula": "KRbHg2", "gt": 0.1083999999999998, "pred": 0.0, "raw": "0.0", "secs": 3.95, "i": 314}
+{"material_id": "mp-1047431", "formula": "Zn(BiO2)2", "gt": 0.8867000000000003, "pred": null, "raw": "Cannot determine with available tools.", "secs": 1.93, "i": 315}
+{"material_id": "mp-1228689", "formula": "Ba(TeMo)6", "gt": 0.0, "pred": 1.8, "raw": "1.8", "secs": 3.71, "i": 316}
+{"material_id": "mp-1196528", "formula": "Ce2Sb4Ir3", "gt": 0.0, "pred": 0.5, "raw": "0.5", "secs": 2.14, "i": 317}
+{"material_id": "mp-646749", "formula": "Nb2Ni4O9", "gt": 0.0, "pred": 1.5, "raw": "1.5", "secs": 1.44, "i": 318}
+{"material_id": "mp-1180378", "formula": "Mg(BrO3)2", "gt": 3.9449, "pred": 4.2, "raw": "4.2", "secs": 0.67, "i": 319}
+{"material_id": "mp-1662213", "formula": "Li2Fe2P4H3O16", "gt": 0.0, "pred": 3.53, "raw": "3.53.5", "secs": 5.3, "i": 320}
+{"material_id": "mp-10964", "formula": "CeB2Ir2C", "gt": 0.0, "pred": null, "raw": "Cannot predict band gap with available tools.", "secs": 4.12, "i": 321}
+{"material_id": "mp-707883", "formula": "CsB6H8O7", "gt": 2.0083, "pred": null, "raw": "N/A", "secs": 5.03, "i": 322}
+{"material_id": "mp-754842", "formula": "LiFeSiO4", "gt": 2.985, "pred": 3.2, "raw": "3.2", "secs": 0.8, "i": 323}
+{"material_id": "mp-29320", "formula": "Te3SeO8", "gt": 2.6525000000000003, "pred": 3.0, "raw": "I cannot determine the band gap of Te3SeO8 using the provided tools, as they are designed for molecular weight and functional group analysis, not band gap prediction.", "secs": 2.09, "i": 324}
+{"material_id": "mp-1201298", "formula": "Ho11(In3Ge2)2", "gt": 0.0, "pred": 0.2, "raw": "0.2", "secs": 3.91, "i": 325}
+{"material_id": "mp-1101518", "formula": "Sn(PO3)3", "gt": 2.4124, "pred": 3.53, "raw": "3.53.5", "secs": 8.63, "i": 326}
+{"material_id": "mp-1246006", "formula": "Na(OsN2)3", "gt": 0.0, "pred": 2.5, "raw": "2.5", "secs": 2.63, "i": 327}
+{"material_id": "mp-1185117", "formula": "La3Nb", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 2.48, "i": 328}
+{"material_id": "mp-1111274", "formula": "Na2CuPdF6", "gt": 0.0, "pred": 1.2, "raw": "1.2", "secs": 0.68, "i": 329}
+{"material_id": "mp-1187438", "formula": "ThMgAu2", "gt": 0.0, "pred": 2.0, "raw": "Warning: ThMgAu2 contains Thorium, a controlled/regulated radioactive substance. I cannot predict the band gap of ThMgAu2 using the available tools (SMILES2Weight and FunctionalGroups), as these are d", "secs": 2.33, "i": 330}
+{"material_id": "mp-1027786", "formula": "Mg14FeSb", "gt": 0.0, "pred": 0.42, "raw": "0.42", "secs": 0.69, "i": 331}
+{"material_id": "mp-705371", "formula": "Li3Cr4P9O32", "gt": 0.2252, "pred": 2.1, "raw": "2.1", "secs": 0.56, "i": 332}
+{"material_id": "mp-1041479", "formula": "MgCu(SiO3)2", "gt": 0.3771, "pred": 3.0, "raw": "I cannot determine the band gap of MgCu(SiO3)2 using the provided tools, as they only compute molecular weight and functional groups for SMILES-based organic molecules, not band gaps of inorganic soli", "secs": 1.58, "i": 333}
+{"material_id": "mp-1216872", "formula": "Tm2Mn(GeO3)4", "gt": 1.9907, "pred": 2.5, "raw": "2.5", "secs": 1.93, "i": 334}
+{"material_id": "mp-686801", "formula": "Al6ZnP4(H4O7)4", "gt": 2.2676, "pred": null, "raw": "Cannot be determined with available tools.", "secs": 1.97, "i": 335}
+{"material_id": "mp-27484", "formula": "Tl2O", "gt": 0.5717000000000003, "pred": 2.0, "raw": "2.0", "secs": 2.58, "i": 336}
+{"material_id": "mp-1111439", "formula": "Cs2LiSbCl6", "gt": 2.9508, "pred": 2.5, "raw": "2.5", "secs": 3.98, "i": 337}
+{"material_id": "mp-1077929", "formula": "La2CuO4", "gt": 0.0, "pred": 2.0, "raw": "2.0", "secs": 1.61, "i": 338}
+{"material_id": "mp-1201514", "formula": "K2RuO5", "gt": 0.9515, "pred": 1.2, "raw": "1.2", "secs": 0.53, "i": 339}
+{"material_id": "mp-1093604", "formula": "Tl2HgSe", "gt": 2.4546, "pred": 0.15, "raw": "0.15", "secs": 1.33, "i": 340}
+{"material_id": "mp-31215", "formula": "AgPdF6", "gt": 0.0, "pred": 2.5, "raw": "2.5", "secs": 3.44, "i": 341}
+{"material_id": "mp-757519", "formula": "Li2Co(Si2O5)2", "gt": 4.2573, "pred": null, "raw": "Cannot be determined with available tools.", "secs": 1.63, "i": 342}
+{"material_id": "mp-1176737", "formula": "LiFe2OF5", "gt": 2.3924000000000003, "pred": 2.2, "raw": "2.2", "secs": 4.87, "i": 343}
+{"material_id": "mp-707377", "formula": "RbHSO4", "gt": 4.6737, "pred": null, "raw": "I cannot answer this question with the available tools.", "secs": 1.17, "i": 344}
+{"material_id": "mp-1193429", "formula": "Sc2(Co7B2)3", "gt": 0.0, "pred": null, "raw": "Cannot predict band gap with available tools.", "secs": 4.81, "i": 345}
+{"material_id": "mp-755274", "formula": "Fe3(OF2)2", "gt": 0.5987, "pred": 2.5, "raw": "2.5", "secs": 3.29, "i": 346}
+{"material_id": "mp-1205269", "formula": "NaB6S4(I3O4)2", "gt": 1.1801, "pred": 2.1, "raw": "2.1", "secs": 0.5, "i": 347}
+{"material_id": "mp-1210902", "formula": "Na2SeO2", "gt": 1.8216, "pred": 3.5, "raw": "3.5", "secs": 5.8, "i": 348}
+{"material_id": "mp-1198252", "formula": "La2Sb4Ir3", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.67, "i": 349}
+{"material_id": "mp-11301", "formula": "HoCd2", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 4.56, "i": 350}
+{"material_id": "mp-1045535", "formula": "V2ZnO4", "gt": 0.0, "pred": 1.8, "raw": "1.8", "secs": 0.65, "i": 351}
+{"material_id": "mp-1209672", "formula": "Re3(PbSe3)2", "gt": 0.0115000000000007, "pred": 0.0, "raw": "0.0", "secs": 0.61, "i": 352}
+{"material_id": "mp-1210235", "formula": "Na3Pd5F12", "gt": 0.0, "pred": 1.5, "raw": "1.5", "secs": 6.71, "i": 353}
+{"material_id": "mp-567609", "formula": "AlSn2P(H3C)8", "gt": 3.5023, "pred": null, "raw": "Unable to predict band gap with available tools.", "secs": 3.36, "i": 354}
+{"material_id": "mp-775948", "formula": "LiVP2HO8", "gt": 1.079, "pred": 0.0, "raw": "0", "secs": 3.08, "i": 355}
+{"material_id": "mp-1192586", "formula": "ThTlF5", "gt": 4.8443000000000005, "pred": 5.0, "raw": "ERROR: ThTlF5 contains thorium, a controlled radioactive material. Execution stopped.", "secs": 1.65, "i": 356}
+{"material_id": "mp-570259", "formula": "MgCl2", "gt": 5.5753, "pred": 5.5, "raw": "5.5", "secs": 1.27, "i": 357}
+{"material_id": "mp-1076637", "formula": "K3Na5V2(Mo3O10)2", "gt": 0.0, "pred": 2.1, "raw": "2.1", "secs": 2.96, "i": 358}
+{"material_id": "mp-1211093", "formula": "LiCaFeF6", "gt": 4.1719, "pred": 5.2, "raw": "5.2", "secs": 0.68, "i": 359}
+{"material_id": "mp-1205256", "formula": "Na2NdN5O16", "gt": 0.4775999999999999, "pred": 2.1, "raw": "2.1", "secs": 0.54, "i": 360}
+{"material_id": "mp-757809", "formula": "LiMnPO4", "gt": 3.4096, "pred": 4.1, "raw": "4.1", "secs": 0.67, "i": 361}
+{"material_id": "mp-1178261", "formula": "Ga3NO3", "gt": 0.9661000000000002, "pred": 3.0, "raw": "I cannot predict the band gap of Ga3NO3 using the available tools (SMILES2Weight and FunctionalGroups), as these are designed for molecular weight and functional group analysis of organic molecules, n", "secs": 1.69, "i": 362}
+{"material_id": "mp-1208752", "formula": "Sr2PrCu2(BiO4)2", "gt": 0.0, "pred": 1.8, "raw": "1.8", "secs": 4.55, "i": 363}
+{"material_id": "mp-1246529", "formula": "FeGeN2", "gt": 0.0, "pred": 1.8, "raw": "1.8", "secs": 0.57, "i": 364}
+{"material_id": "mp-1022590", "formula": "HfMg6Zn", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 2.67, "i": 365}
+{"material_id": "mp-28843", "formula": "Tl2SnTe5", "gt": 0.0, "pred": 0.35, "raw": "0.35", "secs": 1.64, "i": 366}
+{"material_id": "mp-778233", "formula": "Li5V6O5F19", "gt": 0.0, "pred": 2.5, "raw": "2.5", "secs": 3.45, "i": 367}
+{"material_id": "mp-1187888", "formula": "YSeF", "gt": 2.4302, "pred": 2.0, "raw": "2.0", "secs": 4.02, "i": 368}
+{"material_id": "mp-1195141", "formula": "SrU2S5", "gt": 0.0, "pred": null, "raw": "Unable to predict band gap with available tools.", "secs": 1.65, "i": 369}
+{"material_id": "mp-1080508", "formula": "La(GePt)2", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.87, "i": 370}
+{"material_id": "mp-1033291", "formula": "Mg6BCO8", "gt": 1.4173, "pred": 2.1, "raw": "2.1", "secs": 0.61, "i": 371}
+{"material_id": "mp-1215702", "formula": "Zn3Cu3(TeO6)2", "gt": 0.5244999999999997, "pred": 2.0, "raw": "2.0", "secs": 2.16, "i": 372}
+{"material_id": "mp-1189258", "formula": "Y6PtI10", "gt": 0.6705999999999994, "pred": 1.2, "raw": "1.2", "secs": 1.37, "i": 373}
+{"material_id": "mp-674329", "formula": "La2CdTe4", "gt": 0.8014000000000001, "pred": 1.5, "raw": "1.5", "secs": 2.42, "i": 374}
+{"material_id": "mp-2723", "formula": "IrO2", "gt": 0.0, "pred": 0.7, "raw": "0.7", "secs": 0.57, "i": 375}
+{"material_id": "mp-1101642", "formula": "Cr10Sb3Te7", "gt": 0.0, "pred": 0.25, "raw": "0.25", "secs": 2.55, "i": 376}
+{"material_id": "mp-1216199", "formula": "Y5B4Rh15", "gt": 0.0, "pred": 5.0, "raw": "I cannot determine the band gap of Y5B4Rh15 using the available tools, as they are designed for molecular weight and functional group analysis of SMILES strings, not for predicting electronic properti", "secs": 1.83, "i": 377}
+{"material_id": "mp-1272250", "formula": "Fe(HO)2", "gt": 2.3104, "pred": 2.0, "raw": "I cannot predict the band gap of Fe(HO)2 with the available tools.", "secs": 1.57, "i": 378}
+{"material_id": "mp-1076055", "formula": "Sm2V2O5", "gt": 0.0, "pred": 2.1, "raw": "2.1", "secs": 0.72, "i": 379}
+{"material_id": "mp-637771", "formula": "ZrInNi4", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 2.8, "i": 380}
+{"material_id": "mp-768784", "formula": "Li24Mn5Cr7O36", "gt": 1.0341, "pred": 2.2, "raw": "2.2", "secs": 7.58, "i": 381}
+{"material_id": "mp-559386", "formula": "Rb2Cr5F17", "gt": 2.5291, "pred": 0.0, "raw": "0", "secs": 5.66, "i": 382}
+{"material_id": "mp-1185613", "formula": "MgTlO3", "gt": 0.0, "pred": 3.0, "raw": "I cannot predict the band gap of MgTlO3 with the available tools. Additionally, this compound contains thallium, which is a highly toxic and regulated substance.", "secs": 2.18, "i": 383}
+{"material_id": "mp-1060787", "formula": "RbP", "gt": 0.0, "pred": 1.5, "raw": "1.5", "secs": 0.65, "i": 384}
+{"material_id": "mp-1200903", "formula": "Y(CO3)2", "gt": 0.0, "pred": 5.5, "raw": "5.5", "secs": 9.81, "i": 385}
+{"material_id": "mp-2502", "formula": "TmCd", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 3.22, "i": 386}
+{"material_id": "mp-1080739", "formula": "Eu3(SF2)2", "gt": 0.0, "pred": 1.8, "raw": "1.8", "secs": 0.83, "i": 387}
+{"material_id": "mp-1208364", "formula": "TbAlGe2O7", "gt": 3.6797, "pred": 3.2, "raw": "3.2", "secs": 0.61, "i": 388}
+{"material_id": "mp-1099713", "formula": "Sr7CaMn4(FeO6)4", "gt": 0.0, "pred": 1.8, "raw": "1.8", "secs": 0.84, "i": 389}
+{"material_id": "mp-1175050", "formula": "Li7Mn2(CoO4)3", "gt": 0.0, "pred": 2.5, "raw": "2.5", "secs": 6.15, "i": 390}
+{"material_id": "mp-24180", "formula": "RbH6C2S2NO4", "gt": 5.1913, "pred": 3.2, "raw": "3.2", "secs": 46.81, "i": 391}
+{"material_id": "mp-3938", "formula": "ZrSiS", "gt": 0.0, "pred": 0.07, "raw": "0.07", "secs": 2.66, "i": 392}
+{"material_id": "mp-1190730", "formula": "Nd3AlCoS7", "gt": 0.0, "pred": 1.2, "raw": "1.2", "secs": 0.64, "i": 393}
+{"material_id": "mp-1210639", "formula": "Mn5V2(HO3)4", "gt": 1.7086, "pred": 1.2, "raw": "1.2", "secs": 0.81, "i": 394}
+{"material_id": "mp-1303934", "formula": "Mn2O3", "gt": 0.0, "pred": 2.3, "raw": "2.3", "secs": 0.59, "i": 395}
+{"material_id": "mp-640776", "formula": "Ce4Sn25Pt12", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.67, "i": 396}
+{"material_id": "mp-769023", "formula": "Ba2Y7Cl25", "gt": 4.1376, "pred": 2.0, "raw": "I cannot predict the band gap of Ba2Y7Cl25 using the provided tools, as they are designed for molecular weight and functional group analysis of organic molecules, not for inorganic solid-state band ga", "secs": 1.96, "i": 397}
+{"material_id": "mp-1228971", "formula": "AlV9Au2", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.62, "i": 398}
+{"material_id": "mp-28653", "formula": "NdTa3O9", "gt": 3.2129000000000003, "pred": 2.1, "raw": "2.1", "secs": 0.66, "i": 399}
+{"material_id": "mp-1023257", "formula": "CaMg6Ti", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.67, "i": 400}
+{"material_id": "mp-677039", "formula": "Li5TiAs3", "gt": 0.5890999999999997, "pred": 1.0, "raw": "1.0", "secs": 4.38, "i": 401}
+{"material_id": "mp-997046", "formula": "AuClO2", "gt": 0.8831, "pred": 2.1, "raw": "2.1", "secs": 0.88, "i": 402}
+{"material_id": "mp-1209778", "formula": "Pr3HfSb5", "gt": 0.0, "pred": 0.3, "raw": "0.3", "secs": 2.46, "i": 403}
+{"material_id": "mp-1182953", "formula": "AgCO2", "gt": 1.976, "pred": 2.3, "raw": "2.3", "secs": 2.07, "i": 404}
+{"material_id": "mp-1225711", "formula": "Er6Mn(SiS7)2", "gt": 0.9204, "pred": 2.1, "raw": "2.1", "secs": 1.73, "i": 405}
+{"material_id": "mp-1215205", "formula": "ZrTaCo4", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.83, "i": 406}
+{"material_id": "mp-1228657", "formula": "B2RuW", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 2.59, "i": 407}
+{"material_id": "mp-1187216", "formula": "SrHg2Pb", "gt": 0.0, "pred": 0.1, "raw": "0.1", "secs": 2.52, "i": 408}
+{"material_id": "mp-1105365", "formula": "KNO3", "gt": 3.1418, "pred": 5.5, "raw": "5.5", "secs": 3.29, "i": 409}
+{"material_id": "mp-1047990", "formula": "Ca(BiO2)4", "gt": 0.5339999999999998, "pred": 2.0, "raw": "I cannot determine the band gap of Ca(BiO2)4 using the available tools (SMILES2Weight and FunctionalGroups), as these tools only provide molecular weight and functional group information, not electron", "secs": 2.28, "i": 410}
+{"material_id": "mp-1227260", "formula": "CaBiNO5", "gt": 2.2881, "pred": 2.8, "raw": "2.8", "secs": 3.11, "i": 411}
+{"material_id": "mp-1183429", "formula": "Be2Si2O5", "gt": 0.4224999999999994, "pred": 5.5, "raw": "5.5", "secs": 0.9, "i": 412}
+{"material_id": "mp-1177524", "formula": "Li3Ti2(PO4)3", "gt": 0.0341000000000004, "pred": 3.5, "raw": "3.5", "secs": 0.77, "i": 413}
+{"material_id": "mp-1226114", "formula": "Eu2(ZrSe2)5", "gt": 0.0, "pred": 1.8, "raw": "1.8", "secs": 0.69, "i": 414}
+{"material_id": "mp-1220888", "formula": "NaSr2(SnAs)6", "gt": 0.0, "pred": 0.5, "raw": "0.5\n\nBut to be safe, I'll output just the number.0.5", "secs": 7.64, "i": 415}
+{"material_id": "mp-1212416", "formula": "HfCrP", "gt": 0.0, "pred": 0.5, "raw": "0.5", "secs": 2.5, "i": 416}
+{"material_id": "mp-567959", "formula": "Sr11Ga4Sn3", "gt": 0.0, "pred": 11.0, "raw": "I cannot determine the band gap of Sr11Ga4Sn3 using the provided tools, as they are designed for molecular weight and functional group analysis of SMILES strings, not for predicting electronic propert", "secs": 1.94, "i": 417}
+{"material_id": "mp-25886", "formula": "CuPO4", "gt": 0.0078999999999997, "pred": 4.0, "raw": "I cannot predict the band gap of CuPO4 using the available tools (SMILES2Weight and FunctionalGroups), as they only provide molecular weight and functional group information, not electronic properties", "secs": 2.19, "i": 418}
+{"material_id": "mp-1220515", "formula": "Nb4C3", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 3.26, "i": 419}
+{"material_id": "mp-863673", "formula": "LiPm2Rh", "gt": 0.0, "pred": 2.0, "raw": "I cannot determine the band gap of LiPm2Rh with the available tools. Additionally, this compound contains promethium (Pm), a radioactive element that is a controlled substance; handle with extreme cau", "secs": 2.32, "i": 420}
+{"material_id": "mp-766348", "formula": "BaCaI4", "gt": 3.6308, "pred": 4.8, "raw": "4.8", "secs": 2.43, "i": 421}
+{"material_id": "mp-570258", "formula": "Ca3(AlN2)2", "gt": 2.5264, "pred": 2.1, "raw": "2.1", "secs": 0.59, "i": 422}
+{"material_id": "mp-755499", "formula": "Mn3(OF2)2", "gt": 0.0, "pred": 2.5, "raw": "2.5", "secs": 5.4, "i": 423}
+{"material_id": "mp-5659", "formula": "Ti3SiC2", "gt": 0.0, "pred": 2.0, "raw": "2.0", "secs": 0.97, "i": 424}
+{"material_id": "mp-1182967", "formula": "AlCu2AsO12", "gt": 0.0, "pred": null, "raw": "Cannot predict band gap with available tools.", "secs": 5.41, "i": 425}
+{"material_id": "mp-1195020", "formula": "PrTl(PSe3)2", "gt": 1.8205, "pred": 1.8, "raw": "1.8", "secs": 0.65, "i": 426}
+{"material_id": "mp-1192531", "formula": "KCu2SbS3", "gt": 0.9539, "pred": 1.5, "raw": "1.5", "secs": 2.41, "i": 427}
+{"material_id": "mp-1096424", "formula": "Zr2CuPt", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.98, "i": 428}
+{"material_id": "mp-1194745", "formula": "FeB12(HO6)4", "gt": 0.0165999999999999, "pred": null, "raw": "Cannot determine.", "secs": 2.22, "i": 429}
+{"material_id": "mp-6674", "formula": "LiLa2SbO6", "gt": 3.7234, "pred": 3.8, "raw": "3.8", "secs": 3.83, "i": 430}
+{"material_id": "mp-30240", "formula": "Ca2CoO3", "gt": 0.9151, "pred": 0.15, "raw": "0.15", "secs": 2.04, "i": 431}
+{"material_id": "mp-759694", "formula": "Mg2Ti7O15", "gt": 0.0, "pred": 3.2, "raw": "3.2", "secs": 0.57, "i": 432}
+{"material_id": "mp-29713", "formula": "NbTeCl9", "gt": 2.1717, "pred": 1.5, "raw": "1.5", "secs": 8.5, "i": 433}
+{"material_id": "mp-1042511", "formula": "Zn2Bi3O8", "gt": 0.0, "pred": 2.8, "raw": "2.8", "secs": 2.54, "i": 434}
+{"material_id": "mp-1194235", "formula": "U2Co(AsO12)2", "gt": 0.0066999999999999, "pred": 0.0, "raw": "0.0", "secs": 0.69, "i": 435}
+{"material_id": "mp-540585", "formula": "BaGa2(GeO4)2", "gt": 3.2465, "pred": 4.2, "raw": "4.2", "secs": 0.58, "i": 436}
+{"material_id": "mp-1096541", "formula": "LiSc2Pd", "gt": 0.0, "pred": 0.5, "raw": "0.5", "secs": 2.95, "i": 437}
+{"material_id": "mp-1247218", "formula": "MgMoWS4", "gt": 0.3597000000000001, "pred": 1.8, "raw": "1.8", "secs": 0.65, "i": 438}
+{"material_id": "mp-753355", "formula": "Ce5Y2O13", "gt": 1.0354, "pred": 3.5, "raw": "3.5", "secs": 1.46, "i": 439}
+{"material_id": "mp-1190402", "formula": "Y2Cu3", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 2.12, "i": 440}
+{"material_id": "mp-11446", "formula": "Tb", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.71, "i": 441}
+{"material_id": "mp-1224181", "formula": "In2CuSe3I", "gt": 0.1766999999999998, "pred": 1.2, "raw": "1.2", "secs": 0.78, "i": 442}
+{"material_id": "mp-1209082", "formula": "RbYSeCl2O3", "gt": 4.313, "pred": null, "raw": "Cannot determine", "secs": 7.36, "i": 443}
+{"material_id": "mp-759045", "formula": "VOF", "gt": 0.8464999999999998, "pred": 2.0, "raw": "2.0", "secs": 0.01, "i": 444}
+{"material_id": "mp-1192557", "formula": "Ba4Li2(CdAs2)3", "gt": 0.3498999999999999, "pred": 0.5, "raw": "0.5", "secs": 4.07, "i": 445}
+{"material_id": "mp-31253", "formula": "Ga2Ir", "gt": 0.0, "pred": 0.4, "raw": "0.4", "secs": 2.24, "i": 446}
+{"material_id": "mp-1195181", "formula": "Co4Se3Cl2O9", "gt": 2.4618, "pred": 1.2, "raw": "1.2", "secs": 0.9, "i": 447}
+{"material_id": "mp-1207606", "formula": "YFe3(BO3)4", "gt": 2.371, "pred": 1.8, "raw": "1.8", "secs": 0.78, "i": 448}
+{"material_id": "mp-30084", "formula": "Al2FeO4", "gt": 0.0, "pred": 2.5, "raw": "2.5", "secs": 1.6, "i": 449}
+{"material_id": "mp-1228485", "formula": "Al3CrO6", "gt": 3.8929, "pred": 3.0, "raw": "3.0", "secs": 2.52, "i": 450}
+{"material_id": "mp-1343327", "formula": "AlAgO3", "gt": 0.0480999999999998, "pred": 2.1, "raw": "2.1", "secs": 0.89, "i": 451}
+{"material_id": "mp-1519207", "formula": "Ba2NdWO6", "gt": 1.7938000000000005, "pred": 2.1, "raw": "2.1", "secs": 1.82, "i": 452}
+{"material_id": "mp-1216479", "formula": "VH3O4", "gt": 0.0, "pred": 3.0, "raw": "I cannot predict the band gap of VH3O4 using the available tools (SMILES2Weight and FunctionalGroups), as they are not designed for electronic property prediction. Please provide a suitable model or t", "secs": 2.4, "i": 453}
+{"material_id": "mp-6077", "formula": "Ba3SmRu2O9", "gt": 0.0, "pred": 3.0, "raw": "I cannot determine the band gap of Ba3SmRu2O9 using the provided tools, as they are designed for molecular properties (weight and functional groups) and not for solid-state band gap prediction.", "secs": 2.2, "i": 454}
+{"material_id": "mp-778364", "formula": "Na6Ti2O7", "gt": 3.5731, "pred": 3.2, "raw": "3.2", "secs": 0.8, "i": 455}
+{"material_id": "mp-779814", "formula": "Cs2ZnH12(SO7)2", "gt": 4.8055, "pred": 3.2, "raw": "3.2", "secs": 0.9, "i": 456}
+{"material_id": "mp-1219713", "formula": "PrNdSb2", "gt": 0.0, "pred": 0.35, "raw": "0.35", "secs": 0.81, "i": 457}
+{"material_id": "mp-831167", "formula": "LiMn(PO3)4", "gt": 1.1233, "pred": 3.2, "raw": "3.2", "secs": 0.73, "i": 458}
+{"material_id": "mp-774243", "formula": "LiCrSnO4", "gt": 1.3642000000000003, "pred": 2.0, "raw": "2.0", "secs": 4.39, "i": 459}
+{"material_id": "mp-752441", "formula": "SrCrO3", "gt": 0.0, "pred": 1.8, "raw": "1.8", "secs": 1.94, "i": 460}
+{"material_id": "mp-1105573", "formula": "Ba2GdGaTe5", "gt": 0.7637, "pred": 1.5, "raw": "1.5", "secs": 2.84, "i": 461}
+{"material_id": "mp-1200798", "formula": "RhWN5ClO4", "gt": 0.1595999999999999, "pred": 1.2, "raw": "1.2", "secs": 0.78, "i": 462}
+{"material_id": "mp-1226855", "formula": "Ce3YRh4", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 5.0, "i": 463}
+{"material_id": "mp-1224931", "formula": "GaPH11C3Cl", "gt": 4.854900000000001, "pred": 0.0, "raw": "0.0", "secs": 8.74, "i": 464}
+{"material_id": "mp-25393", "formula": "Li2FePO4F", "gt": 3.709, "pred": 3.2, "raw": "3.2", "secs": 0.91, "i": 465}
+{"material_id": "mp-1095062", "formula": "Rb2Pu(Cl2O)2", "gt": 0.0, "pred": 1.2, "raw": "1.2", "secs": 0.58, "i": 466}
+{"material_id": "mp-1209121", "formula": "RuF6", "gt": 0.0, "pred": 3.2, "raw": "3.2", "secs": 9.26, "i": 467}
+{"material_id": "mp-1226878", "formula": "Cd3Hg", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 4.1, "i": 468}
+{"material_id": "mp-1209941", "formula": "Nb5Si3N", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 3.68, "i": 469}
+{"material_id": "mp-1174257", "formula": "Li4Co3O7", "gt": 0.5083000000000002, "pred": 2.5, "raw": "2.5", "secs": 2.25, "i": 470}
+{"material_id": "mp-1228418", "formula": "Ba3Tb2WO9", "gt": 2.3808, "pred": 2.1, "raw": "2.1", "secs": 0.63, "i": 471}
+{"material_id": "mp-1047617", "formula": "Co(WO4)2", "gt": 0.1016999999999999, "pred": 2.6, "raw": "2.6", "secs": 0.63, "i": 472}
+{"material_id": "mp-1202937", "formula": "AlH8C2N", "gt": 5.175000000000001, "pred": 3.2, "raw": "3.2", "secs": 0.91, "i": 473}
+{"material_id": "mp-1045721", "formula": "AlCr4(CuO4)3", "gt": 0.0, "pred": 2.1, "raw": "2.1", "secs": 0.7, "i": 474}
+{"material_id": "mp-1209799", "formula": "Pr3CBr3", "gt": 0.0, "pred": 1.8, "raw": "1.8", "secs": 0.99, "i": 475}
+{"material_id": "mp-1203079", "formula": "NaLiB2(H5N)2", "gt": 4.0857, "pred": 3.5, "raw": "3.5", "secs": 5.75, "i": 476}
+{"material_id": "mp-1035958", "formula": "YMg14TiO16", "gt": 0.0, "pred": null, "raw": "Cannot determine with available tools.", "secs": 1.35, "i": 477}
+{"material_id": "mp-1210346", "formula": "NaCa6Ti(Si2O9)2", "gt": 0.2619, "pred": 3.5, "raw": "3.5", "secs": 3.56, "i": 478}
+{"material_id": "mp-1212926", "formula": "EuWO2", "gt": 0.0, "pred": 2.0, "raw": "2.0", "secs": 5.13, "i": 479}
+{"material_id": "mp-1181612", "formula": "HgCI3N", "gt": 2.1755, "pred": 2.1, "raw": "2.1", "secs": 2.26, "i": 480}
+{"material_id": "mp-1227694", "formula": "BaSr3Pd2(OF)4", "gt": 0.0, "pred": 1.5, "raw": "1.5", "secs": 3.04, "i": 481}
+{"material_id": "mp-557147", "formula": "BaMo4(PO8)2", "gt": 1.7998000000000005, "pred": 3.2, "raw": "3.2", "secs": 4.09, "i": 482}
+{"material_id": "mp-632480", "formula": "Ag3SI", "gt": 0.2474000000000003, "pred": 2.8, "raw": "2.8", "secs": 2.26, "i": 483}
+{"material_id": "mp-1174391", "formula": "Li7Co5O12", "gt": 0.7082000000000002, "pred": 7.0, "raw": "I cannot predict the band gap of Li7Co5O12 using the provided tools, as they are designed for organic molecules (SMILES-based weight and functional group analysis) and do not support band gap predicti", "secs": 2.33, "i": 484}
+{"material_id": "mp-4577", "formula": "Y3(AlNi3)2", "gt": 0.0, "pred": 2.0, "raw": "I cannot answer this question. The available tools (SMILES2Weight and FunctionalGroups) are designed for organic molecules and cannot predict band gaps for inorganic intermetallic compounds like Y3(Al", "secs": 3.28, "i": 485}
+{"material_id": "mp-863408", "formula": "LiSiBiO4", "gt": 2.6764, "pred": 2.1, "raw": "2.1", "secs": 0.81, "i": 486}
+{"material_id": "mp-849690", "formula": "LiFe4(BO3)4", "gt": 1.9494, "pred": 2.1, "raw": "2.1", "secs": 0.57, "i": 487}
+{"material_id": "mp-540809", "formula": "Zr2Fe12P7", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 2.59, "i": 488}
+{"material_id": "mp-1187075", "formula": "SmGdIn2", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 2.8, "i": 489}
+{"material_id": "mp-1222493", "formula": "Li5(YSb2)2", "gt": 0.0, "pred": 1.2, "raw": "1.2", "secs": 0.59, "i": 490}
+{"material_id": "mp-1021678", "formula": "HfMg6V", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 2.99, "i": 491}
+{"material_id": "mp-862854", "formula": "PaPd3", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 2.68, "i": 492}
+{"material_id": "mp-541487", "formula": "TlPt2Se3", "gt": 0.4619999999999997, "pred": 2.0, "raw": "I cannot determine the band gap of TlPt2Se3 using the available tools.", "secs": 1.44, "i": 493}
+{"material_id": "mp-18998", "formula": "Sr4Mn3O10", "gt": 0.4796, "pred": 1.0, "raw": "1.0", "secs": 2.59, "i": 494}
+{"material_id": "mp-541202", "formula": "TlCuAsO4", "gt": 0.0, "pred": null, "raw": "N/A.N/A", "secs": 6.93, "i": 495}
+{"material_id": "mp-1207089", "formula": "LuIn", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.79, "i": 496}
+{"material_id": "mp-1228307", "formula": "Ba4Ce2In2O11", "gt": 2.0237, "pred": 2.5, "raw": "2.5", "secs": 1.77, "i": 497}
+{"material_id": "mp-1198715", "formula": "Er3Rh2", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.63, "i": 498}
+{"material_id": "mp-1203419", "formula": "In10(Pb2S7)3", "gt": 1.0858, "pred": 1.2, "raw": "1.2", "secs": 0.53, "i": 499}
+{"material_id": "mp-1212893", "formula": "DyB7Mo3", "gt": 0.0, "pred": null, "raw": "Cannot determine with available tools.", "secs": 3.84, "i": 500}
+{"material_id": "mp-1029568", "formula": "Ba(CrN2)2", "gt": 0.6511999999999998, "pred": 2.0, "raw": "2.0", "secs": 4.43, "i": 501}
+{"material_id": "mp-557012", "formula": "Li3Sc(BO3)2", "gt": 4.1608, "pred": 6.5, "raw": "6.5", "secs": 3.09, "i": 502}
+{"material_id": "mp-1317719", "formula": "CaYMn2O6", "gt": 0.4279999999999995, "pred": 1.8, "raw": "1.8", "secs": 0.65, "i": 503}
+{"material_id": "mp-22009", "formula": "PbSe", "gt": 1.2995, "pred": 0.28, "raw": "0.28", "secs": 0.6, "i": 504}
+{"material_id": "mp-995191", "formula": "BaTiO3", "gt": 0.0, "pred": 3.2, "raw": "3.2", "secs": 1.63, "i": 505}
+{"material_id": "mp-1100921", "formula": "V7O3", "gt": 0.8212999999999999, "pred": 0.5, "raw": "0.5", "secs": 0.73, "i": 506}
+{"material_id": "mp-1077108", "formula": "SmCuSn", "gt": 0.0, "pred": 0.1, "raw": "0.1", "secs": 2.95, "i": 507}
+{"material_id": "mp-1199737", "formula": "K6Al4Si6BH4ClO24", "gt": 4.5193, "pred": 5.5, "raw": "5.5", "secs": 37.43, "i": 508}
+{"material_id": "mp-1080769", "formula": "HfMnGe", "gt": 0.0, "pred": 0.5, "raw": "0.5", "secs": 2.75, "i": 509}
+{"material_id": "mp-555258", "formula": "Ba3NaRu2O9", "gt": 0.0, "pred": 1.0, "raw": "1.0", "secs": 3.66, "i": 510}
+{"material_id": "mp-1207424", "formula": "Zr2InAu2", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 1.42, "i": 511}
+{"material_id": "mp-555160", "formula": "CsYSeCl2O3", "gt": 4.2892, "pred": 3.0, "raw": "3.0", "secs": 8.74, "i": 512}
+{"material_id": "mp-1025511", "formula": "NdBrO2", "gt": 3.1288, "pred": 2.0, "raw": "I cannot predict the band gap of NdBrO2 using the available tools (SMILES2Weight and FunctionalGroups), as these are not designed for electronic property prediction. Please provide a suitable computat", "secs": 1.97, "i": 513}
+{"material_id": "mp-705522", "formula": "Sr28In11", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.85, "i": 514}
+{"material_id": "mp-763244", "formula": "ZnFeH4O2F5", "gt": 1.7907, "pred": 2.1, "raw": "2.1", "secs": 0.73, "i": 515}
+{"material_id": "mp-29332", "formula": "Pt(PbO2)2", "gt": 0.5237999999999996, "pred": 1.2, "raw": "1.2", "secs": 6.4, "i": 516}
+{"material_id": "mp-1199442", "formula": "Sc5RuCl9", "gt": 0.0, "pred": 1.5, "raw": "1.5", "secs": 2.48, "i": 517}
+{"material_id": "mp-1213046", "formula": "Cu2NO6", "gt": 0.0173, "pred": 0.0, "raw": "0.0", "secs": 8.98, "i": 518}
+{"material_id": "mp-1206867", "formula": "Sc2Ga8Co", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 2.41, "i": 519}
+{"material_id": "mp-1517157", "formula": "CaLaCrSnO6", "gt": 0.0, "pred": 1.8, "raw": "1.8", "secs": 0.73, "i": 520}
+{"material_id": "mp-978268", "formula": "MgZn", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.01, "i": 521}
+{"material_id": "mp-621092", "formula": "Tl2Pt(CN)4", "gt": 2.5679, "pred": 1.2, "raw": "1.2", "secs": 0.54, "i": 522}
+{"material_id": "mp-1095743", "formula": "Sc2CuAg", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.8, "i": 523}
+{"material_id": "mp-1147607", "formula": "InS2", "gt": 0.0, "pred": 2.44, "raw": "2.44", "secs": 3.54, "i": 524}
+{"material_id": "mp-17697", "formula": "KSmF4", "gt": 6.9859, "pred": null, "raw": "N/A", "secs": 3.44, "i": 525}
+{"material_id": "mp-1197882", "formula": "CsU2(AsO9)2", "gt": 0.0, "pred": 2.1, "raw": "2.1", "secs": 0.59, "i": 526}
+{"material_id": "mp-977374", "formula": "LiLuPd2", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.84, "i": 527}
+{"material_id": "mp-1211785", "formula": "KP2(HO2)4", "gt": 0.2609999999999999, "pred": 4.5, "raw": "4.5", "secs": 73.41, "i": 528}
+{"material_id": "mp-605302", "formula": "DyH6C6Cl3(O3F2)3", "gt": 4.1943, "pred": 2.1, "raw": "2.1", "secs": 0.56, "i": 529}
+{"material_id": "mp-722245", "formula": "K2H2C2S2N2O", "gt": 2.3712000000000004, "pred": null, "raw": "Agent stopped due to iteration limit or time limit.", "secs": 23.67, "i": 530}
+{"material_id": "mp-600561", "formula": "LiRh", "gt": 0.0, "pred": null, "raw": "Unable to determine band gap with available tools.", "secs": 3.79, "i": 531}
+{"material_id": "mp-1096576", "formula": "Al2CuTc", "gt": 0.4899999999999997, "pred": 0.0, "raw": "0.0", "secs": 1.75, "i": 532}
+{"material_id": "mp-1044908", "formula": "HoMgTi2O6", "gt": 0.0, "pred": 3.5, "raw": "3.5", "secs": 3.99, "i": 533}
+{"material_id": "mp-862962", "formula": "CaLaZn2", "gt": 0.0, "pred": 0.5, "raw": "0.5", "secs": 2.73, "i": 534}
+{"material_id": "mp-1095489", "formula": "Cu2IO3", "gt": 0.0, "pred": 2.1, "raw": "2.1", "secs": 2.82, "i": 535}
+{"material_id": "mp-760837", "formula": "Rb3Nb20O34", "gt": 0.0, "pred": 3.0, "raw": "I cannot determine the band gap of Rb3Nb20O34 with the available tools.", "secs": 1.48, "i": 536}
+{"material_id": "mp-1178367", "formula": "Dy2CuO4", "gt": 0.0, "pred": 1.5, "raw": "1.5", "secs": 2.62, "i": 537}
+{"material_id": "mp-21791", "formula": "V2Fe3(SiO4)3", "gt": 1.872, "pred": 2.1, "raw": "2.1", "secs": 0.75, "i": 538}
+{"material_id": "mp-1227264", "formula": "CaCd(WO4)2", "gt": 3.1642, "pred": 3.8, "raw": "3.8", "secs": 0.53, "i": 539}
+{"material_id": "mp-542299", "formula": "Rb2Co2O3", "gt": 0.0, "pred": 2.0, "raw": "2.0", "secs": 1.7, "i": 540}
+{"material_id": "mp-756983", "formula": "Li10Cu(SiO5)2", "gt": 2.5039, "pred": 3.2, "raw": "3.2", "secs": 0.67, "i": 541}
+{"material_id": "mp-1216380", "formula": "Y2Sc2TiCo10", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.94, "i": 542}
+{"material_id": "mp-1201367", "formula": "Na5Sc(C2O7)2", "gt": 0.4464, "pred": 4.2, "raw": "4.2", "secs": 11.56, "i": 543}
+{"material_id": "mp-1192783", "formula": "V4P3", "gt": 0.0, "pred": 0.5, "raw": "0.5", "secs": 0.73, "i": 544}
+{"material_id": "mp-755201", "formula": "Li3Fe(CuO3)2", "gt": 0.0767999999999999, "pred": 2.1, "raw": "2.1", "secs": 6.82, "i": 545}
+{"material_id": "mp-632706", "formula": "ZnH8(N2Cl)2", "gt": 4.516, "pred": 3.2, "raw": "3.2", "secs": 0.48, "i": 546}
+{"material_id": "mp-1100970", "formula": "Y7(O2F3)3", "gt": 3.8161, "pred": 3.2, "raw": "3.2", "secs": 0.53, "i": 547}
+{"material_id": "mp-1111149", "formula": "Li3SbCl6", "gt": 2.8486, "pred": 3.0, "raw": "I cannot predict the band gap of Li3SbCl6 using the provided tools (SMILES2Weight and FunctionalGroups), as they are designed for molecular weight and functional group analysis of organic molecules, n", "secs": 2.05, "i": 548}
+{"material_id": "mp-770554", "formula": "Mn3Co3(SnO8)2", "gt": 0.0, "pred": 2.0, "raw": "2.0", "secs": 3.67, "i": 549}
+{"material_id": "mp-1076685", "formula": "K4Na4MoW7O24", "gt": 0.0, "pred": 2.8, "raw": "2.8", "secs": 0.93, "i": 550}
+{"material_id": "mp-680580", "formula": "Zn3As2", "gt": 0.1646999999999998, "pred": 0.93, "raw": "0.93", "secs": 0.84, "i": 551}
+{"material_id": "mp-1228088", "formula": "Ba4SrHf5O15", "gt": 3.5926, "pred": 4.2, "raw": "4.2", "secs": 1.05, "i": 552}
+{"material_id": "mp-768166", "formula": "Dy(ClO4)3", "gt": 5.4769, "pred": 5.5, "raw": "5.5", "secs": 0.7, "i": 553}
+{"material_id": "mp-1079006", "formula": "Pt(NO3)2", "gt": 0.0, "pred": 3.5, "raw": "3.5", "secs": 3.75, "i": 554}
+{"material_id": "mp-985506", "formula": "Ac3Tl", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 6.25, "i": 555}
+{"material_id": "mp-697268", "formula": "AgH2SNO3", "gt": 2.8033, "pred": 3.2, "raw": "3.2", "secs": 14.76, "i": 556}
+{"material_id": "mp-8281", "formula": "Ba(CdAs)2", "gt": 0.1575999999999999, "pred": 0.0, "raw": "0.0", "secs": 1.71, "i": 557}
+{"material_id": "mp-1187899", "formula": "Yb2Mg", "gt": 0.0, "pred": 0.3, "raw": "0.3", "secs": 1.99, "i": 558}
+{"material_id": "mp-4721", "formula": "RbSb3Se5", "gt": 1.2199999999999998, "pred": 1.2, "raw": "1.2", "secs": 2.37, "i": 559}
+{"material_id": "mp-1235453", "formula": "LiCu6OF11", "gt": 0.0, "pred": 1.5, "raw": "1.5", "secs": 2.83, "i": 560}
+{"material_id": "mp-1193049", "formula": "Cs2Sn(HO2)6", "gt": 2.5642, "pred": 1.8, "raw": "1.8", "secs": 2.77, "i": 561}
+{"material_id": "mp-1100365", "formula": "CaSnS3", "gt": 0.0, "pred": 2.0, "raw": "2.0", "secs": 1.94, "i": 562}
+{"material_id": "mp-571420", "formula": "Ba(NiP2)2", "gt": 0.0, "pred": 0.4, "raw": "0.4", "secs": 5.01, "i": 563}
+{"material_id": "mp-1215154", "formula": "Al2FeSiO5", "gt": 0.0, "pred": 2.1, "raw": "2.1", "secs": 0.62, "i": 564}
+{"material_id": "mp-530395", "formula": "Al2FeO4", "gt": 0.0, "pred": 2.5, "raw": "2.5", "secs": 0.01, "i": 565}
+{"material_id": "mp-1183824", "formula": "Ce3Th", "gt": 0.0, "pred": 3.0, "raw": "Error: Ce3Th contains thorium, a controlled radioactive material. Cannot proceed.", "secs": 1.17, "i": 566}
+{"material_id": "mp-1079575", "formula": "SmInCo2", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 2.93, "i": 567}
+{"material_id": "mp-754389", "formula": "FeOF", "gt": 1.4661, "pred": 2.1, "raw": "2.1", "secs": 0.01, "i": 568}
+{"material_id": "mp-1110746", "formula": "Rb2LiSbI6", "gt": 1.7214999999999998, "pred": 1.5, "raw": "1.5", "secs": 2.88, "i": 569}
+{"material_id": "mp-1196298", "formula": "V4Pb3O3F19", "gt": 1.8835, "pred": 2.1, "raw": "2.1", "secs": 0.68, "i": 570}
+{"material_id": "mp-1044366", "formula": "TiZnNi(PO4)3", "gt": 0.0, "pred": 2.1, "raw": "2.1", "secs": 0.68, "i": 571}
+{"material_id": "mp-776163", "formula": "Li8NbFe7(PO4)12", "gt": 0.0, "pred": 8.0, "raw": "I cannot predict the band gap of Li8NbFe7(PO4)12 using the available tools (SMILES2Weight and FunctionalGroups), as these are designed for molecular weight and functional group analysis, not for solid", "secs": 1.97, "i": 572}
+{"material_id": "mp-760415", "formula": "Li3SbS4", "gt": 2.0975, "pred": 2.5, "raw": "2.5", "secs": 1.37, "i": 573}
+{"material_id": "mp-605437", "formula": "FeHO2", "gt": 0.0, "pred": 2.1, "raw": "2.1", "secs": 1.5, "i": 574}
+{"material_id": "mp-1225146", "formula": "FeSnPt", "gt": 0.0, "pred": 0.5, "raw": "0.5", "secs": 3.49, "i": 575}
+{"material_id": "mp-1222926", "formula": "LaCuSi2Ni", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.61, "i": 576}
+{"material_id": "mp-1387515", "formula": "Ca3(CoO3)2", "gt": 0.7642, "pred": 2.1, "raw": "2.1", "secs": 0.59, "i": 577}
+{"material_id": "mp-727058", "formula": "TiSi2C3N2Cl5", "gt": 0.0, "pred": 1.2, "raw": "1.2", "secs": 0.65, "i": 578}
+{"material_id": "mp-972058", "formula": "YbTmO3", "gt": 0.0, "pred": 5.0, "raw": "5.0", "secs": 2.39, "i": 579}
+{"material_id": "mp-1213359", "formula": "ErIn2Pd", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 3.51, "i": 580}
+{"material_id": "mp-557538", "formula": "Na2Gd2MgSi4(O6F)2", "gt": 3.1091, "pred": 5.5, "raw": "5.5", "secs": 3.65, "i": 581}
+{"material_id": "mp-1100814", "formula": "ZnGeN2", "gt": 0.0, "pred": 3.3, "raw": "3.3", "secs": 0.87, "i": 582}
+{"material_id": "mp-21677", "formula": "Ca3(InNi2)4", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 2.8, "i": 583}
+{"material_id": "mp-997004", "formula": "CaAgO2", "gt": 0.0, "pred": 2.0, "raw": "2.0", "secs": 2.97, "i": 584}
+{"material_id": "mp-1520157", "formula": "KLaTiSnO6", "gt": 2.6740000000000004, "pred": 3.0, "raw": "3.0", "secs": 3.7, "i": 585}
+{"material_id": "mp-1369243", "formula": "ZnSnO2", "gt": 1.5469, "pred": 2.7, "raw": "2.7", "secs": 0.75, "i": 586}
+{"material_id": "mp-553432", "formula": "TiO2", "gt": 3.4210000000000003, "pred": 3.2, "raw": "3.2", "secs": 1.55, "i": 587}
+{"material_id": "mp-1207473", "formula": "ZnC2", "gt": 2.7078, "pred": 0.0, "raw": "0.0", "secs": 0.9, "i": 588}
+{"material_id": "mp-1221492", "formula": "Mo2O", "gt": 0.0, "pred": 2.5, "raw": "2.5", "secs": 4.07, "i": 589}
+{"material_id": "mp-1214190", "formula": "Bi2Se", "gt": 0.0, "pred": 0.3, "raw": "0.3", "secs": 4.6, "i": 590}
+{"material_id": "mp-1184441", "formula": "Eu3Nb", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.64, "i": 591}
+{"material_id": "mp-1094052", "formula": "Sm3AlN", "gt": 0.0, "pred": 1.2, "raw": "1.2", "secs": 0.78, "i": 592}
+{"material_id": "mp-39003", "formula": "Mg3Al14O24", "gt": 4.311599999999999, "pred": 7.8, "raw": "7.8", "secs": 2.38, "i": 593}
+{"material_id": "mp-1208598", "formula": "Th(GeO)2", "gt": 0.0, "pred": 5.5, "raw": "5.5 (with warning: Th is a controlled radioactive material)", "secs": 3.29, "i": 594}
+{"material_id": "mp-1061691", "formula": "MgNi2", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 1.91, "i": 595}
+{"material_id": "mp-1214321", "formula": "CaB6(HO4)3", "gt": 0.0, "pred": 3.2, "raw": "3.2", "secs": 0.7, "i": 596}
+{"material_id": "mp-1246728", "formula": "MgPbN2", "gt": 0.1898999999999997, "pred": 1.8, "raw": "1.8", "secs": 0.6, "i": 597}
+{"material_id": "mp-1180887", "formula": "NaCdF3", "gt": 3.5602, "pred": 6.0, "raw": "6.0", "secs": 0.52, "i": 598}
+{"material_id": "mp-1173466", "formula": "SN", "gt": 0.0, "pred": 0.3, "raw": "0.3", "secs": 2.55, "i": 599}
+{"material_id": "mp-801465", "formula": "Li5Ni3O5F3", "gt": 0.0, "pred": 2.1, "raw": "2.1", "secs": 0.54, "i": 600}
+{"material_id": "mp-763793", "formula": "Li2Mn3F8", "gt": 3.3624, "pred": 4.5, "raw": "4.5", "secs": 2.41, "i": 601}
+{"material_id": "mp-37207", "formula": "Li5GaO4", "gt": 3.5894, "pred": 5.5, "raw": "5.5", "secs": 0.69, "i": 602}
+{"material_id": "mp-626293", "formula": "Sr(H8O5)2", "gt": 3.1307, "pred": 3.4, "raw": "3.4", "secs": 0.01, "i": 603}
+{"material_id": "mp-976039", "formula": "LuBe13", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.85, "i": 604}
+{"material_id": "mp-1025500", "formula": "ZnCu2SnS4", "gt": 0.0, "pred": 1.5, "raw": "1.5", "secs": 0.41, "i": 605}
+{"material_id": "mp-756475", "formula": "LiMnO2", "gt": 0.5065, "pred": null, "raw": "I cannot answer this question with the available tools.", "secs": 1.25, "i": 606}
+{"material_id": "mp-867251", "formula": "LiZn2Pt", "gt": 0.0, "pred": 0.5, "raw": "0.5", "secs": 3.07, "i": 607}
+{"material_id": "mp-1191539", "formula": "Tb2Fe17C3", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 3.23, "i": 608}
+{"material_id": "mp-540477", "formula": "Li2Mn(PO3)4", "gt": 3.8816000000000006, "pred": 3.5, "raw": "3.5", "secs": 4.17, "i": 609}
+{"material_id": "mp-755435", "formula": "Tl2Au", "gt": 0.0, "pred": 0.16, "raw": "0.16", "secs": 6.68, "i": 610}
+{"material_id": "mp-1187065", "formula": "SnGeO3", "gt": 0.0, "pred": 2.1, "raw": "2.1", "secs": 0.42, "i": 611}
+{"material_id": "mp-1027980", "formula": "Te2Mo3W(SeS2)2", "gt": 1.8862, "pred": 1.42, "raw": "1.42", "secs": 0.67, "i": 612}
+{"material_id": "mp-2175", "formula": "TlF", "gt": 2.2117, "pred": 3.2, "raw": "3.2", "secs": 0.41, "i": 613}
+{"material_id": "mp-1074412", "formula": "Mg4Si3", "gt": 0.0, "pred": 0.77, "raw": "0.77", "secs": 0.01, "i": 614}
+{"material_id": "mp-1018798", "formula": "MgCuGe", "gt": 0.0, "pred": null, "raw": "I cannot answer this question with the available tools.", "secs": 1.3, "i": 615}
+{"material_id": "mp-1013549", "formula": "Ba3BiN", "gt": 0.0, "pred": 1.8, "raw": "1.8", "secs": 2.33, "i": 616}
+{"material_id": "mp-1275887", "formula": "BaLa2(CoO3)3", "gt": 0.0, "pred": 1.8, "raw": "1.8", "secs": 0.63, "i": 617}
+{"material_id": "mp-1197042", "formula": "NaPH6C2(NO)4", "gt": 4.9843, "pred": null, "raw": "I cannot predict the band gap with the available tools.", "secs": 3.38, "i": 618}
+{"material_id": "mp-972237", "formula": "Tc3H", "gt": 0.0, "pred": 0.5, "raw": "0.5", "secs": 7.36, "i": 619}
+{"material_id": "mp-1099299", "formula": "Mg6CdSn", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.79, "i": 620}
+{"material_id": "mp-849482", "formula": "Mn12O7F17", "gt": 0.0, "pred": 1.5, "raw": "1.5", "secs": 4.47, "i": 621}
+{"material_id": "mp-1196066", "formula": "CoH6(CO3)2", "gt": 2.537, "pred": 2.8, "raw": "2.8", "secs": 13.31, "i": 622}
+{"material_id": "mp-975443", "formula": "InCuO3", "gt": 0.0, "pred": 1.8, "raw": "1.8", "secs": 0.61, "i": 623}
+{"material_id": "mp-14620", "formula": "Tm2CdSe4", "gt": 0.653, "pred": null, "raw": "Cannot determine with available tools.", "secs": 1.47, "i": 624}
+{"material_id": "mp-540658", "formula": "Na3Fe5O9", "gt": 0.0, "pred": 2.5, "raw": "2.5", "secs": 2.6, "i": 625}
+{"material_id": "mp-1172877", "formula": "Ho(FeSn)6", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 7.03, "i": 626}
+{"material_id": "mp-684950", "formula": "KNaZr2Be(PO4)4", "gt": 2.6594, "pred": 5.5, "raw": "5.5", "secs": 2.7, "i": 627}
+{"material_id": "mp-1191852", "formula": "Mg6TiH16", "gt": 0.0, "pred": null, "raw": "I cannot answer this question with the available tools.", "secs": 1.58, "i": 628}
+{"material_id": "mp-779498", "formula": "Ba3(ClO)2", "gt": 2.5038, "pred": 3.0, "raw": "I cannot determine the band gap of Ba3(ClO)2 with the available tools.", "secs": 1.99, "i": 629}
+{"material_id": "mp-1078100", "formula": "CdPPd5", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 2.08, "i": 630}
+{"material_id": "mp-672345", "formula": "Cu4W(SCl)4", "gt": 0.0, "pred": 1.6, "raw": "1.6", "secs": 4.22, "i": 631}
+{"material_id": "mp-1215462", "formula": "ZnCu", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 0.01, "i": 632}
+{"material_id": "mp-306", "formula": "B2O3", "gt": 6.3017, "pred": 6.4, "raw": "6.4", "secs": 1.86, "i": 633}
+{"material_id": "mp-1224578", "formula": "K2MgFe(SiO3)8", "gt": 0.7370999999999999, "pred": 2.1, "raw": "2.1", "secs": 0.64, "i": 634}
+{"material_id": "mp-935811", "formula": "KNbO3", "gt": 1.4120999999999997, "pred": 3.3, "raw": "3.3", "secs": 0.52, "i": 635}
+{"material_id": "mp-650524", "formula": "Sb3S2XeN(O2F9)2", "gt": 2.6994, "pred": 3.0, "raw": "This molecule (Sb3S2XeN(O2F9)2) is not a chemically valid compound—xenon does not form stable bonds with antimony/sulfur in this manner, and the O2F9 group is not a known functional group. Therefore, ", "secs": 5.39, "i": 636}
+{"material_id": "mp-1235349", "formula": "Ba2LiLaIrO6", "gt": 0.0, "pred": 1.2, "raw": "1.2", "secs": 0.7, "i": 637}
+{"material_id": "mp-1211117", "formula": "Na11(CoO2)13", "gt": 0.0, "pred": 0.5, "raw": "0.5", "secs": 0.6, "i": 638}
+{"material_id": "mp-1173803", "formula": "Na3CaFe4(SiO3)8", "gt": 1.4038, "pred": 2.1, "raw": "2.1", "secs": 0.64, "i": 639}
+{"material_id": "mp-1234313", "formula": "K8Mg(SiO3)8", "gt": 0.0102999999999999, "pred": 8.0, "raw": "I cannot predict the band gap of K8Mg(SiO3)8 with the available tools.", "secs": 1.73, "i": 640}
+{"material_id": "mp-1212103", "formula": "K2Fe2(PO4)3", "gt": 0.2243, "pred": 2.1, "raw": "2.1", "secs": 0.59, "i": 641}
+{"material_id": "mp-17186", "formula": "Ca3AlAs3", "gt": 0.7300999999999997, "pred": 1.2, "raw": "1.2", "secs": 0.86, "i": 642}
+{"material_id": "mp-1246397", "formula": "Ca5MgN4", "gt": 1.0404999999999998, "pred": 5.0, "raw": "I cannot answer this question using the available tools, as they are designed for molecular weight and functional group analysis of organic molecules, not for predicting the band gap of inorganic soli", "secs": 1.78, "i": 643}
+{"material_id": "mp-1217391", "formula": "Ti13Al9Co8", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.94, "i": 644}
+{"material_id": "mp-1196994", "formula": "Lu5Zr3(Ni4As3)4", "gt": 0.0, "pred": 0.42, "raw": "0.42", "secs": 2.49, "i": 645}
+{"material_id": "mp-1200694", "formula": "Dy4CoB13", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 2.28, "i": 646}
+{"material_id": "mp-726066", "formula": "Be(NF2)2", "gt": 0.0, "pred": 5.5, "raw": "5.5", "secs": 12.59, "i": 647}
+{"material_id": "mp-1173475", "formula": "Nb2SiTe4", "gt": 0.3216000000000001, "pred": 0.4, "raw": "0.4", "secs": 1.28, "i": 648}
+{"material_id": "mp-1017385", "formula": "Mg6CdSi", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 1.33, "i": 649}
+{"material_id": "mp-870701", "formula": "Fe4S5", "gt": 0.0, "pred": 0.1, "raw": "0.1", "secs": 2.34, "i": 650}
+{"material_id": "mp-310", "formula": "NpCo2", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.84, "i": 651}
+{"material_id": "mp-1233687", "formula": "CaFe4(PO4)4", "gt": 1.2373000000000005, "pred": 2.1, "raw": "2.1", "secs": 0.75, "i": 652}
+{"material_id": "mp-1041194", "formula": "CaTiS2", "gt": 0.0, "pred": 1.8, "raw": "1.8", "secs": 0.71, "i": 653}
+{"material_id": "mp-1096913", "formula": "CrN2", "gt": 0.1268, "pred": 2.0, "raw": "I cannot answer this question because the available tools (SMILES2Weight and FunctionalGroups) are designed for organic molecules and cannot process inorganic compounds like CrN2. Additionally, predic", "secs": 2.44, "i": 654}
+{"material_id": "mp-1174345", "formula": "Li7Co5O12", "gt": 0.0, "pred": 7.0, "raw": "I cannot predict the band gap of Li7Co5O12 using the provided tools, as they are designed for organic molecules (SMILES-based weight and functional group analysis) and do not support band gap predicti", "secs": 0.01, "i": 655}
+{"material_id": "mp-1105904", "formula": "CN6Cl", "gt": 0.0, "pred": 2.0, "raw": "I cannot answer this question. The tools provided (SMILES2Weight and FunctionalGroups) are insufficient to predict band gaps, and the input \"CN6Cl\" is not a valid SMILES string. No band gap prediction", "secs": 1.66, "i": 656}
+{"material_id": "mp-560005", "formula": "TlRe3(S2Cl)2", "gt": 1.7613000000000003, "pred": 0.0, "raw": "0.0", "secs": 0.58, "i": 657}
+{"material_id": "mp-763100", "formula": "LiMnF4", "gt": 2.4813, "pred": 4.2, "raw": "4.2", "secs": 0.47, "i": 658}
+{"material_id": "mp-1193013", "formula": "KZnBr3O2", "gt": 1.8995, "pred": 3.5, "raw": "3.5", "secs": 3.01, "i": 659}
+{"material_id": "mp-560489", "formula": "Gd(IO3)3", "gt": 3.0524, "pred": 3.5, "raw": "3.5", "secs": 2.36, "i": 660}
+{"material_id": "mp-1517910", "formula": "SrEuDyMnO6", "gt": 0.0, "pred": null, "raw": "Cannot determine with available tools.", "secs": 1.64, "i": 661}
+{"material_id": "mp-531102", "formula": "Fe(Bi5O8)5", "gt": 1.1488000000000005, "pred": null, "raw": "Cannot determine with available tools.", "secs": 1.64, "i": 662}
+{"material_id": "mp-1224907", "formula": "K6V6P6O31", "gt": 0.0392000000000001, "pred": 2.1, "raw": "2.1", "secs": 0.8, "i": 663}
+{"material_id": "mp-1662331", "formula": "LiMnSiO4", "gt": 1.2118000000000002, "pred": 2.8, "raw": "2.8", "secs": 1.98, "i": 664}
+{"material_id": "mp-1224272", "formula": "HfTeS", "gt": 0.0, "pred": 0.5, "raw": "0.5", "secs": 3.93, "i": 665}
+{"material_id": "mp-778031", "formula": "Li3V(BO3)2", "gt": 2.7524, "pred": 2.5, "raw": "2.5", "secs": 3.35, "i": 666}
+{"material_id": "mp-778215", "formula": "Li6MnV3(PO4)6", "gt": 0.1364, "pred": 2.5, "raw": "2.5", "secs": 2.77, "i": 667}
+{"material_id": "mp-757843", "formula": "Li4Co3Ni3(SbO8)2", "gt": 0.0, "pred": 4.0, "raw": "I cannot predict the band gap of Li4Co3Ni3(SbO8)2 with the available tools. The tools provided (SMILES2Weight and FunctionalGroups) are not designed for band gap prediction of inorganic materials. Ple", "secs": 2.41, "i": 668}
+{"material_id": "mp-556360", "formula": "ZrCoF6", "gt": 0.0, "pred": 6.0, "raw": "I cannot predict the band gap of ZrCoF6 with the available tools.", "secs": 1.9, "i": 669}
+{"material_id": "mp-706292", "formula": "NaMn2V3(PbO6)2", "gt": 1.9277, "pred": 1.5, "raw": "1.5", "secs": 3.84, "i": 670}
+{"material_id": "mp-1093660", "formula": "LiMg2In", "gt": 0.0, "pred": 0.4, "raw": "0.4", "secs": 3.9, "i": 671}
+{"material_id": "mp-676637", "formula": "Na2UI6", "gt": 1.1076, "pred": 1.8, "raw": "1.8", "secs": 0.65, "i": 672}
+{"material_id": "mp-998604", "formula": "RbPbCl3", "gt": 3.263, "pred": 3.2, "raw": "3.2", "secs": 0.57, "i": 673}
+{"material_id": "mp-1026637", "formula": "NaMg14Sb", "gt": 0.0, "pred": 0.5, "raw": "0.5", "secs": 3.84, "i": 674}
+{"material_id": "mp-1026651", "formula": "RbMg14W", "gt": 0.0, "pred": 14.0, "raw": "I cannot predict the band gap of RbMg14W using the provided tools, as they are designed for molecular weight and functional group analysis of SMILES strings, not for solid-state band gap prediction.", "secs": 4.19, "i": 675}
+{"material_id": "mp-774887", "formula": "Li4Cu3Ni2Sb3O16", "gt": 0.0, "pred": 2.0, "raw": "2.0", "secs": 3.64, "i": 676}
+{"material_id": "mp-777652", "formula": "Li4Fe3(SiO4)3", "gt": 0.0098000000000002, "pred": 2.5, "raw": "2.5", "secs": 2.99, "i": 677}
+{"material_id": "mp-849305", "formula": "Li3Fe4O3F5", "gt": 2.0659, "pred": 2.0, "raw": "2.0", "secs": 3.31, "i": 678}
+{"material_id": "mp-1017085", "formula": "CsSrMg6", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 2.22, "i": 679}
+{"material_id": "mp-485", "formula": "ZrNi3", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 1.62, "i": 680}
+{"material_id": "mp-26049", "formula": "Li3Fe(PO3)8", "gt": 2.6742, "pred": 3.8, "raw": "3.8", "secs": 5.71, "i": 681}
+{"material_id": "mp-7639", "formula": "Na2CuP", "gt": 0.6575000000000002, "pred": 1.5, "raw": "1.5", "secs": 2.66, "i": 682}
+{"material_id": "mp-866011", "formula": "DyThTc2", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.92, "i": 683}
+{"material_id": "mp-1522801", "formula": "CaPrMgBiO6", "gt": 1.6036000000000006, "pred": 6.0, "raw": "I cannot predict the band gap of CaPrMgBiO6 using the provided tools (SMILES2Weight and FunctionalGroups), as these are designed for molecular properties, not solid-state band gaps. No numerical value", "secs": 1.99, "i": 684}
+{"material_id": "mp-1060967", "formula": "AgBr", "gt": 0.1213999999999999, "pred": 2.91, "raw": "2.91", "secs": 0.67, "i": 685}
+{"material_id": "mp-23451", "formula": "Cs3Cr2Br9", "gt": 1.1852, "pred": 1.8, "raw": "1.8", "secs": 3.02, "i": 686}
+{"material_id": "mp-975308", "formula": "RbGdO3", "gt": 0.0, "pred": 3.5, "raw": "3.5", "secs": 2.35, "i": 687}
+{"material_id": "mp-613206", "formula": "EuGe2Ir", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.73, "i": 688}
+{"material_id": "mp-1225822", "formula": "Cu5SeCl5O4", "gt": 0.0676999999999998, "pred": 1.2, "raw": "1.2", "secs": 0.54, "i": 689}
+{"material_id": "mp-1034512", "formula": "SrMg14CdO16", "gt": 4.944899999999999, "pred": 3.2, "raw": "3.2", "secs": 2.29, "i": 690}
+{"material_id": "mp-1038976", "formula": "CeMg5", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 4.63, "i": 691}
+{"material_id": "mp-1026542", "formula": "Mg14NbSb", "gt": 0.0, "pred": 0.3, "raw": "0.3", "secs": 3.54, "i": 692}
+{"material_id": "mp-1206957", "formula": "ErNiAs", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 4.8, "i": 693}
+{"material_id": "mp-1215468", "formula": "Zn2CoS3", "gt": 0.0, "pred": 1.8, "raw": "1.8", "secs": 0.84, "i": 694}
+{"material_id": "mp-1247890", "formula": "Al2SiO5", "gt": 4.1102, "pred": 8.8, "raw": "8.8", "secs": 0.81, "i": 695}
+{"material_id": "mp-1040980", "formula": "MgCu2(BiO4)2", "gt": 0.1953, "pred": 2.1, "raw": "2.1", "secs": 0.67, "i": 696}
+{"material_id": "mp-1218739", "formula": "Sr2NbGaO6", "gt": 3.1367, "pred": null, "raw": "Cannot determine with provided tools.", "secs": 2.02, "i": 697}
+{"material_id": "mp-1102487", "formula": "Sc(P2Ru3)2", "gt": 0.0, "pred": null, "raw": "Cannot determine with available tools.", "secs": 2.47, "i": 698}
+{"material_id": "mp-768043", "formula": "Li4TiMn4(Fe2O9)2", "gt": 0.5678999999999998, "pred": 2.1, "raw": "2.1", "secs": 0.64, "i": 699}
+{"material_id": "mp-1105990", "formula": "Ho5Ge3C", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 2.85, "i": 700}
+{"material_id": "mp-862756", "formula": "PrGa3", "gt": 0.0, "pred": 3.0, "raw": "I cannot determine the band gap of PrGa3 with the available tools (SMILES2Weight and FunctionalGroups), as these are designed for molecular properties, not solid-state electronic band gaps.", "secs": 2.02, "i": 701}
+{"material_id": "mp-1008912", "formula": "AgC", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.75, "i": 702}
+{"material_id": "mp-1207773", "formula": "Y5(NiTe)2", "gt": 0.0, "pred": 0.2, "raw": "0.2", "secs": 2.64, "i": 703}
+{"material_id": "mp-26342", "formula": "SbP2O7", "gt": 0.0, "pred": 3.5, "raw": "3.5", "secs": 2.64, "i": 704}
+{"material_id": "mp-19395", "formula": "MnO2", "gt": 1.1467, "pred": 1.3, "raw": "1.3", "secs": 1.26, "i": 705}
+{"material_id": "mp-1034819", "formula": "Mg14SiBO16", "gt": 0.8164000000000007, "pred": 5.2, "raw": "5.2", "secs": 0.6, "i": 706}
+{"material_id": "mp-573751", "formula": "AlTeCl7", "gt": 3.2352, "pred": 3.2, "raw": "3.2", "secs": 19.18, "i": 707}
+{"material_id": "mp-755885", "formula": "Fe4O5F3", "gt": 0.0, "pred": 1.8, "raw": "1.8", "secs": 0.67, "i": 708}
+{"material_id": "mp-995230", "formula": "Cs2Si(HO2)2", "gt": 3.8832, "pred": 3.2, "raw": "3.2", "secs": 36.73, "i": 709}
+{"material_id": "mp-1522824", "formula": "NaEuHfSnO6", "gt": 0.0, "pred": 2.5, "raw": "2.5", "secs": 7.27, "i": 710}
+{"material_id": "mp-1210508", "formula": "Lu3SbO7", "gt": 3.1147, "pred": 2.8, "raw": "2.8", "secs": 0.65, "i": 711}
+{"material_id": "mp-1031577", "formula": "Mg6NbVO8", "gt": 0.0, "pred": 2.5, "raw": "2.5", "secs": 4.44, "i": 712}
+{"material_id": "mp-1184162", "formula": "ErIrO3", "gt": 0.0, "pred": 0.5, "raw": "0.5", "secs": 0.78, "i": 713}
+{"material_id": "mp-1215402", "formula": "ZrGa6(FeCo)3", "gt": 0.0, "pred": 0.5, "raw": "0.5", "secs": 1.0, "i": 714}
+{"material_id": "mp-1222968", "formula": "LaSm3Cr4O12", "gt": 0.0, "pred": 2.0, "raw": "2.0", "secs": 2.43, "i": 715}
+{"material_id": "mp-1246330", "formula": "TaTeN", "gt": 0.0, "pred": null, "raw": "Unable to determine with available tools.", "secs": 2.67, "i": 716}
+{"material_id": "mp-1197919", "formula": "ZrP2O9", "gt": 0.0, "pred": 5.5, "raw": "5.5", "secs": 2.93, "i": 717}
+{"material_id": "mp-557026", "formula": "ZnS", "gt": 2.023, "pred": 3.54, "raw": "3.54", "secs": 0.64, "i": 718}
+{"material_id": "mp-1177837", "formula": "Li2TiFeO4", "gt": 0.9611000000000004, "pred": 2.2, "raw": "2.2", "secs": 3.33, "i": 719}
+{"material_id": "mp-1102078", "formula": "DyNi3", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.99, "i": 720}
+{"material_id": "mp-782649", "formula": "Na4Mn2P(CO4)4", "gt": 0.0, "pred": 2.8, "raw": "2.8", "secs": 9.71, "i": 721}
+{"material_id": "mp-1246588", "formula": "Dy3Mg2MnS8", "gt": 0.0, "pred": 2.5, "raw": "2.5", "secs": 5.6, "i": 722}
+{"material_id": "mp-559807", "formula": "Sb2BrF17", "gt": 0.1523000000000003, "pred": 2.0, "raw": "I cannot predict the band gap of Sb2BrF17 with the available tools (SMILES2Weight and FunctionalGroups), as they are not designed for electronic property prediction. Please provide a suitable model or", "secs": 1.81, "i": 723}
+{"material_id": "mp-1222757", "formula": "Li2MgTi9O20", "gt": 2.7058, "pred": 3.2, "raw": "3.2", "secs": 0.89, "i": 724}
+{"material_id": "mp-910", "formula": "NbC", "gt": 0.0, "pred": 0.5, "raw": "0.5", "secs": 0.74, "i": 725}
+{"material_id": "mp-1102409", "formula": "ErMn2", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 2.51, "i": 726}
+{"material_id": "mp-972095", "formula": "Zn3Hg", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.81, "i": 727}
+{"material_id": "mp-1218765", "formula": "Sr2MnCrO6", "gt": 0.0, "pred": 1.5, "raw": "1.5", "secs": 2.47, "i": 728}
+{"material_id": "mp-21908", "formula": "Co(SbO3)2", "gt": 0.0, "pred": 2.0, "raw": "2.0", "secs": 3.86, "i": 729}
+{"material_id": "mp-976868", "formula": "NiH2SeO5", "gt": 1.8086, "pred": 2.1, "raw": "2.1", "secs": 2.38, "i": 730}
+{"material_id": "mp-1111468", "formula": "Rb2GaAgCl6", "gt": 1.213, "pred": 2.1, "raw": "2.1", "secs": 0.58, "i": 731}
+{"material_id": "mp-17056", "formula": "LiZnPO4", "gt": 4.1081, "pred": 4.0, "raw": "I cannot determine the band gap of LiZnPO4 using the provided tools (SMILES2Weight and FunctionalGroups), as they are designed for molecular weight and functional group analysis, not electronic band s", "secs": 1.42, "i": 732}
+{"material_id": "mp-704186", "formula": "LiFe4(PO4)3", "gt": 3.6404, "pred": 3.8, "raw": "3.8", "secs": 0.56, "i": 733}
+{"material_id": "mp-755619", "formula": "Sn2P2O7", "gt": 2.7152, "pred": null, "raw": "Cannot determine with available tools.", "secs": 2.69, "i": 734}
+{"material_id": "mp-759561", "formula": "FeOF", "gt": 0.3581000000000003, "pred": 2.1, "raw": "2.1", "secs": 0.01, "i": 735}
+{"material_id": "mp-975388", "formula": "NdDy3", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.57, "i": 736}
+{"material_id": "mp-17746", "formula": "HfGePd", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.63, "i": 737}
+{"material_id": "mp-1218268", "formula": "SrCuSi", "gt": 0.0, "pred": null, "raw": "Cannot be determined with the available tools.", "secs": 1.58, "i": 738}
+{"material_id": "mp-1076548", "formula": "Ca2Cu2O5", "gt": 0.0, "pred": 1.5, "raw": "1.5", "secs": 1.97, "i": 739}
+{"material_id": "mp-1183361", "formula": "Ba3Yb", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.67, "i": 740}
+{"material_id": "mp-554754", "formula": "Na2Zn(SO4)2", "gt": 4.478400000000001, "pred": 4.2, "raw": "4.2", "secs": 0.68, "i": 741}
+{"material_id": "mp-7486", "formula": "BaNiS2", "gt": 0.0, "pred": 0.3, "raw": "0.3", "secs": 2.24, "i": 742}
+{"material_id": "mp-1189897", "formula": "Ba2ThS6", "gt": 1.3091000000000004, "pred": 2.5, "raw": "2.5 (Warning: This compound contains Thorium, a controlled radioactive material.)", "secs": 3.37, "i": 743}
+{"material_id": "mp-862720", "formula": "Sr2CdIn", "gt": 0.0, "pred": 0.5, "raw": "0.5", "secs": 2.4, "i": 744}
+{"material_id": "mp-1198587", "formula": "Dy2Al17", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.69, "i": 745}
+{"material_id": "mp-1185869", "formula": "MgGe3", "gt": 0.0, "pred": 0.7, "raw": "0.7", "secs": 2.2, "i": 746}
+{"material_id": "mp-1034549", "formula": "Mg14VSnO16", "gt": 1.114799999999999, "pred": 1.8, "raw": "1.8", "secs": 0.86, "i": 747}
+{"material_id": "mp-1095459", "formula": "CeNi4B", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.56, "i": 748}
+{"material_id": "mp-1196243", "formula": "B8PH24RhC7", "gt": 1.6749999999999998, "pred": 2.3, "raw": "2.3", "secs": 8.17, "i": 749}
+{"material_id": "mp-1182678", "formula": "Mn2O3", "gt": 0.0, "pred": 2.3, "raw": "2.3", "secs": 0.01, "i": 750}
+{"material_id": "mp-1202117", "formula": "LiCu2BP2(HO5)2", "gt": 0.8472999999999997, "pred": 2.0, "raw": "2.0", "secs": 3.46, "i": 751}
+{"material_id": "mp-759138", "formula": "Li2MnFe(PO4)2", "gt": 3.7336, "pred": 3.2, "raw": "3.2", "secs": 0.61, "i": 752}
+{"material_id": "mp-756611", "formula": "Li3Mn3TeO8", "gt": 0.0, "pred": 2.2, "raw": "2.2", "secs": 3.47, "i": 753}
+{"material_id": "mp-1226539", "formula": "CeSiAg", "gt": 0.0, "pred": 0.2, "raw": "0.2", "secs": 5.34, "i": 754}
+{"material_id": "mp-1187163", "formula": "Sr3Yb", "gt": 0.0, "pred": 0.0, "raw": "\"Cannot determine with available tools.\" But that violates \"single number\". I'll output \"0\" as a guess? That's wrong. I'll output \"1.5\" as a guess? No. I'll output \"N/A\" but that's not a number. I'll ", "secs": 37.02, "i": 755}
+{"material_id": "mp-1181012", "formula": "Li4Re6S11", "gt": 1.7327999999999997, "pred": 1.2, "raw": "1.2", "secs": 0.46, "i": 756}
+{"material_id": "mp-1031524", "formula": "LiMg6AlO8", "gt": 5.3995, "pred": 5.0, "raw": "5.0", "secs": 3.47, "i": 757}
+{"material_id": "mp-1028136", "formula": "RbMg14Mn", "gt": 0.0, "pred": null, "raw": "Cannot determine with available tools.", "secs": 1.77, "i": 758}
+{"material_id": "mp-999207", "formula": "Sc2MnSn", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.53, "i": 759}
+{"material_id": "mp-1194836", "formula": "BaC4(O2F3)2", "gt": 4.7469, "pred": 3.2, "raw": "3.2", "secs": 0.79, "i": 760}
+{"material_id": "mp-1288258", "formula": "Li2TiVO4", "gt": 0.0, "pred": 2.0, "raw": "2.0", "secs": 2.54, "i": 761}
+{"material_id": "mp-753537", "formula": "LiMnPO4", "gt": 3.6677, "pred": 4.1, "raw": "4.1", "secs": 0.01, "i": 762}
+{"material_id": "mp-867873", "formula": "LiTm2Al", "gt": 0.0, "pred": 1.2, "raw": "1.2", "secs": 0.75, "i": 763}
+{"material_id": "mp-1187011", "formula": "SmHf", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 1.95, "i": 764}
+{"material_id": "mp-777918", "formula": "Cr3Sb5O16", "gt": 0.2157, "pred": 2.5, "raw": "2.5", "secs": 2.78, "i": 765}
+{"material_id": "mp-1977994", "formula": "Li7Mn5O12", "gt": 0.6067, "pred": 2.5, "raw": "2.5", "secs": 1.72, "i": 766}
+{"material_id": "mp-1178158", "formula": "La15(NiO4)8", "gt": 0.0476999999999998, "pred": 1.5, "raw": "1.5", "secs": 2.77, "i": 767}
+{"material_id": "mp-1177299", "formula": "Li4TiFe2Ni3(PO4)6", "gt": 2.4011, "pred": 2.1, "raw": "2.1", "secs": 0.82, "i": 768}
+{"material_id": "mp-1207236", "formula": "Pr4Mg3Co2", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 3.34, "i": 769}
+{"material_id": "mp-1245722", "formula": "CrCo2N3", "gt": 0.0, "pred": 0.5, "raw": "0.5", "secs": 2.46, "i": 770}
+{"material_id": "mp-1210763", "formula": "Li2(BH)7", "gt": 4.5411, "pred": null, "raw": "Cannot be determined with available tools.", "secs": 2.24, "i": 771}
+{"material_id": "mp-20227", "formula": "NaMnP", "gt": 0.0, "pred": 0.5, "raw": "0.5", "secs": 3.11, "i": 772}
+{"material_id": "mp-775011", "formula": "Li2NbFe3O8", "gt": 1.8009, "pred": 2.5, "raw": "2.5", "secs": 2.84, "i": 773}
+{"material_id": "mp-19209", "formula": "LiAl(MoO4)2", "gt": 3.6252, "pred": 4.0, "raw": "I cannot predict the band gap of LiAl(MoO4)2 using the available tools, as they are limited to molecular weight and functional group analysis for organic molecules.", "secs": 2.23, "i": 774}
+{"material_id": "mp-32667", "formula": "SiO2", "gt": 5.3845, "pred": 8.9, "raw": "8.9", "secs": 0.68, "i": 775}
+{"material_id": "mp-8347", "formula": "BaMnS2", "gt": 0.0, "pred": 1.8, "raw": "1.8", "secs": 0.59, "i": 776}
+{"material_id": "mp-1222551", "formula": "Li3NdGa8", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 1.52, "i": 777}
+{"material_id": "mp-1040835", "formula": "LaCrReO6", "gt": 0.0, "pred": 6.0, "raw": "I cannot predict the band gap of LaCrReO6 using the available tools (SMILES2Weight and FunctionalGroups), as these tools only provide molecular weight and functional group information, not electronic ", "secs": 2.19, "i": 778}
+{"material_id": "mp-1016904", "formula": "VCdO3", "gt": 0.0, "pred": 2.5, "raw": "2.5", "secs": 1.82, "i": 779}
+{"material_id": "mp-1215899", "formula": "YTh", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 2.82, "i": 780}
+{"material_id": "mp-1096517", "formula": "VCrRe2", "gt": 0.2487999999999997, "pred": 0.0, "raw": "0.0", "secs": 0.6, "i": 781}
+{"material_id": "mp-1233685", "formula": "MgCo4(P2O7)4", "gt": 0.0668999999999999, "pred": null, "raw": "N/A", "secs": 3.79, "i": 782}
+{"material_id": "mp-770604", "formula": "Li2CoH8(CO5)2", "gt": 2.9158000000000004, "pred": 2.5, "raw": "2.5", "secs": 5.64, "i": 783}
+{"material_id": "mp-1110804", "formula": "Rb2AgSbBr6", "gt": 1.1538, "pred": 1.64, "raw": "1.64", "secs": 1.78, "i": 784}
+{"material_id": "mp-9", "formula": "Y", "gt": 0.0, "pred": null, "raw": "Please provide the SMILES or structure of molecule Y so I can analyze it.", "secs": 1.38, "i": 785}
+{"material_id": "mp-753776", "formula": "Li4SbS4", "gt": 0.0, "pred": 2.1, "raw": "2.1", "secs": 0.84, "i": 786}
+{"material_id": "mp-1244977", "formula": "TaN", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 2.15, "i": 787}
+{"material_id": "mp-1183212", "formula": "BAuO3", "gt": 0.0, "pred": 1.8, "raw": "1.8", "secs": 0.82, "i": 788}
+{"material_id": "mp-861640", "formula": "Ti2AlRe", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.75, "i": 789}
+{"material_id": "mp-1043946", "formula": "MgFe3(P2O7)2", "gt": 3.2309, "pred": 2.5, "raw": "2.5", "secs": 2.22, "i": 790}
+{"material_id": "mp-1215356", "formula": "Zr4Si3Sb5", "gt": 0.0, "pred": 4.0, "raw": "I cannot determine the band gap of Zr4Si3Sb5 using the provided tools, as they are designed for organic molecules with SMILES notation. No reliable band gap value is available from my knowledge.", "secs": 2.78, "i": 791}
+{"material_id": "mp-1025325", "formula": "NpGa5Co", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 3.38, "i": 792}
+{"material_id": "mp-1212481", "formula": "Hg2GeO2", "gt": 0.5700999999999999, "pred": 2.0, "raw": "Warning: Hg2GeO2 contains mercury, a toxic and controlled substance. Band gap cannot be predicted with the available tools (SMILES2Weight and FunctionalGroups).", "secs": 11.1, "i": 793}
+{"material_id": "mp-26982", "formula": "MnP2O7", "gt": 0.7460000000000001, "pred": 3.5, "raw": "3.5", "secs": 1.5, "i": 794}
+{"material_id": "mp-1521356", "formula": "CaSmMnSnO6", "gt": 1.0705999999999998, "pred": 2.0, "raw": "2.0", "secs": 2.92, "i": 795}
+{"material_id": "mp-4271", "formula": "EuTaO4", "gt": 0.0, "pred": 3.2, "raw": "3.2", "secs": 0.78, "i": 796}
+{"material_id": "mp-1187229", "formula": "SrLa3", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 2.52, "i": 797}
+{"material_id": "mp-21470", "formula": "Ca2MnGaO5", "gt": 0.0, "pred": 2.0, "raw": "I cannot predict the band gap of Ca2MnGaO5 using the available tools (SMILES2Weight and FunctionalGroups), as they only provide molecular weight and functional group information, not electronic band s", "secs": 2.38, "i": 798}
+{"material_id": "mp-1212791", "formula": "P2N6O", "gt": 0.5706000000000002, "pred": 0.0, "raw": "0.0\n\nBut that's not.\n\nGiven the", "secs": 44.82, "i": 799}
+{"material_id": "mp-1221892", "formula": "Na2CaV12O36", "gt": 0.0, "pred": 2.0, "raw": "I cannot predict the band gap of Na2CaV12O36 using the available tools (SMILES2Weight and FunctionalGroups), as these tools only provide molecular weight and functional group information, not electron", "secs": 2.75, "i": 800}
+{"material_id": "mp-684022", "formula": "LaTlGeSe4", "gt": 1.1172000000000004, "pred": 4.0, "raw": "I cannot provide a reliable band gap value for LaTlGeSe4 using the available tools, as they are limited to organic molecules and do not support band gap prediction for inorganic solids.", "secs": 2.46, "i": 801}
+{"material_id": "mp-554704", "formula": "TiPHO5", "gt": 2.85, "pred": 4.0, "raw": "4.0", "secs": 3.16, "i": 802}
+{"material_id": "mp-1195307", "formula": "MnB2H17N3", "gt": 1.9165, "pred": 2.5, "raw": "2.5", "secs": 5.87, "i": 803}
+{"material_id": "mp-22315", "formula": "HfCoSn", "gt": 0.0, "pred": 0.5, "raw": "0.5", "secs": 3.56, "i": 804}
+{"material_id": "mp-1199434", "formula": "TcAsH2(OF5)2", "gt": 2.8161, "pred": 0.0, "raw": "0.0", "secs": 44.9, "i": 805}
+{"material_id": "mp-1522334", "formula": "CaEuZnWO6", "gt": 0.4771000000000001, "pred": 2.1, "raw": "2.1", "secs": 2.3, "i": 806}
+{"material_id": "mp-1203275", "formula": "Co2AsO5", "gt": 0.2017, "pred": null, "raw": "Cannot determine with available tools.", "secs": 2.24, "i": 807}
+{"material_id": "mp-1227253", "formula": "CaU3Ti8O24", "gt": 0.0593000000000003, "pred": 1.8, "raw": "1.8", "secs": 1.42, "i": 808}
+{"material_id": "mp-1179613", "formula": "Sb", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 1.27, "i": 809}
+{"material_id": "mp-781591", "formula": "Li3Co2(SiO4)2", "gt": 0.0, "pred": 2.8, "raw": "2.8", "secs": 3.44, "i": 810}
+{"material_id": "mp-291", "formula": "TiOs", "gt": 0.0, "pred": 3.2, "raw": "3.2", "secs": 2.79, "i": 811}
+{"material_id": "mp-25414", "formula": "LiPWCO7", "gt": 2.8866, "pred": 3.2, "raw": "3.2", "secs": 4.92, "i": 812}
+{"material_id": "mp-1094446", "formula": "YMg2", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 1.39, "i": 813}
+{"material_id": "mp-1176290", "formula": "Li9Mn2Co5O16", "gt": 0.0, "pred": 2.8, "raw": "2.8", "secs": 0.01, "i": 814}
+{"material_id": "mp-755355", "formula": "La2Pr2O7", "gt": 0.0, "pred": 4.2, "raw": "4.2", "secs": 1.32, "i": 815}
+{"material_id": "mp-580941", "formula": "AgI", "gt": 1.3759, "pred": 2.8, "raw": "2.8", "secs": 1.25, "i": 816}
+{"material_id": "mp-26017", "formula": "LiCoPO4", "gt": 2.8088, "pred": 4.0, "raw": "4.0", "secs": 0.01, "i": 817}
+{"material_id": "mp-30403", "formula": "Li2PbAu", "gt": 0.0, "pred": 0.1, "raw": "0.1", "secs": 4.9, "i": 818}
+{"material_id": "mp-1033094", "formula": "Mg6AlNiO8", "gt": 1.9389000000000003, "pred": 2.5, "raw": "2.5", "secs": 3.44, "i": 819}
+{"material_id": "mp-806032", "formula": "Li3V3O3F5", "gt": 0.0, "pred": 2.1, "raw": "2.1", "secs": 1.16, "i": 820}
+{"material_id": "mp-680196", "formula": "CdI2", "gt": 2.3544, "pred": 3.2, "raw": "3.2", "secs": 1.27, "i": 821}
+{"material_id": "mp-15846", "formula": "Lu5SbPd2", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 3.75, "i": 822}
+{"material_id": "mp-1190463", "formula": "CsHS2O7", "gt": 5.3167, "pred": 2.0, "raw": "I cannot predict the band gap of CsHS2O7 with the available tools.", "secs": 2.08, "i": 823}
+{"material_id": "mp-705555", "formula": "Fe10O11", "gt": 1.2106, "pred": 2.1, "raw": "2.1", "secs": 1.18, "i": 824}
+{"material_id": "mp-1072579", "formula": "ThCo5", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 3.14, "i": 825}
+{"material_id": "mp-1218075", "formula": "SrCaZnSi2O7", "gt": 4.0192, "pred": 4.2, "raw": "4.2", "secs": 1.34, "i": 826}
+{"material_id": "mp-1111472", "formula": "Rb2AlAgCl6", "gt": 2.4448, "pred": 2.1, "raw": "2.1", "secs": 1.85, "i": 827}
+{"material_id": "mp-780659", "formula": "Li3Mn4(BO3)4", "gt": 0.0, "pred": 2.3, "raw": "2.3", "secs": 3.72, "i": 828}
+{"material_id": "mp-1076368", "formula": "MgFeO3", "gt": 0.0, "pred": 2.1, "raw": "2.1", "secs": 1.1, "i": 829}
+{"material_id": "mp-1205398", "formula": "Ce(Co2B)6", "gt": 0.0, "pred": 0.5, "raw": "0.5", "secs": 2.31, "i": 830}
+{"material_id": "mp-977054", "formula": "La(Al2Fe)4", "gt": 0.0, "pred": null, "raw": "Cannot determine with available tools.", "secs": 4.48, "i": 831}
+{"material_id": "mp-541106", "formula": "Nb2Se9", "gt": 0.7746999999999997, "pred": 0.5, "raw": "0.5", "secs": 1.15, "i": 832}
+{"material_id": "mp-1208049", "formula": "Tm4MgRh", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 1.2, "i": 833}
+{"material_id": "mp-1193042", "formula": "Ce3Sn5Au6", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 1.31, "i": 834}
+{"material_id": "mp-1246679", "formula": "Sr2SbN3", "gt": 1.2579000000000002, "pred": 2.0, "raw": "2.0", "secs": 3.78, "i": 835}
+{"material_id": "mp-8581", "formula": "Sr(PRh)2", "gt": 0.0, "pred": 0.5, "raw": "0.5", "secs": 4.66, "i": 836}
+{"material_id": "mp-1233447", "formula": "Sr4Mg(SO4)4", "gt": 0.7983000000000002, "pred": 5.2, "raw": "5.2", "secs": 1.09, "i": 837}
+{"material_id": "mp-1025011", "formula": "FeNiSn", "gt": 0.0, "pred": 0.35, "raw": "0.35", "secs": 1.11, "i": 838}
+{"material_id": "mp-1205683", "formula": "Cs2KCrCl6", "gt": 1.5535, "pred": 2.2, "raw": "2.2", "secs": 6.43, "i": 839}
+{"material_id": "mp-1174047", "formula": "Li3MnCoO5", "gt": 0.1791, "pred": 3.0, "raw": "I cannot predict the band gap of Li3MnCoO5 using the available tools (SMILES2Weight and FunctionalGroups), as they do not provide band gap information. Please provide a different tool or method for ba", "secs": 2.8, "i": 840}
+{"material_id": "mp-1232351", "formula": "SrNb2NiClO7", "gt": 0.0, "pred": 2.1, "raw": "2.1", "secs": 3.61, "i": 841}
+{"material_id": "mp-1201949", "formula": "B5H4", "gt": 2.8736, "pred": 3.2, "raw": "3.2", "secs": 0.91, "i": 842}
+{"material_id": "mp-754976", "formula": "Cs2BeO2", "gt": 2.7813000000000003, "pred": 0.0, "raw": "\"Unable to predict band gap with provided tools.\" But that's not a number.\n\nGiven the strict instruction, I'll output a single number as a guess? That's not scientific.\n\nI think the correct response i", "secs": 45.36, "i": 843}
+{"material_id": "mp-778203", "formula": "Li8MnFe7(BO3)8", "gt": 2.9522, "pred": 2.0, "raw": "2.0", "secs": 3.6, "i": 844}
+{"material_id": "mp-1097425", "formula": "CuSiTc2", "gt": 0.0, "pred": 1.2, "raw": "1.2", "secs": 0.61, "i": 845}
+{"material_id": "mp-651026", "formula": "Os2C6SeO6", "gt": 1.6708, "pred": 1.5, "raw": "1.5", "secs": 3.48, "i": 846}
+{"material_id": "mp-1233925", "formula": "CaZn2(FeO2)4", "gt": 0.0093, "pred": 2.5, "raw": "2.5", "secs": 3.2, "i": 847}
+{"material_id": "mp-1198383", "formula": "Ho2B3O8", "gt": 0.1139000000000001, "pred": null, "raw": "Cannot determine with available tools.", "secs": 1.66, "i": 848}
+{"material_id": "mp-1234054", "formula": "Er4MgZr4O14", "gt": 0.0, "pred": 4.2, "raw": "4.2", "secs": 0.91, "i": 849}
+{"material_id": "mp-1041597", "formula": "BiO2", "gt": 0.0, "pred": null, "raw": "I cannot answer this question with the available tools.", "secs": 1.49, "i": 850}
+{"material_id": "mp-1193778", "formula": "RbAl(H2N)4", "gt": 2.6557, "pred": 3.5, "raw": "3.5", "secs": 18.13, "i": 851}
+{"material_id": "mp-1016588", "formula": "Mg6NbSb", "gt": 0.0, "pred": 0.5, "raw": "0.5", "secs": 0.85, "i": 852}
+{"material_id": "mp-38843", "formula": "CaTa2O6", "gt": 2.0982000000000003, "pred": 3.9, "raw": "3.9", "secs": 1.32, "i": 853}
+{"material_id": "mp-1177059", "formula": "Li5V3P8O29", "gt": 0.3126, "pred": 2.1, "raw": "2.1", "secs": 0.64, "i": 854}
+{"material_id": "mp-1016221", "formula": "Mg3Ga", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 3.48, "i": 855}
+{"material_id": "mp-13508", "formula": "Er4In(NiGe2)2", "gt": 0.0, "pred": 0.42, "raw": "0.42", "secs": 0.8, "i": 856}
+{"material_id": "mp-23183", "formula": "NdCl3", "gt": 4.299799999999999, "pred": 4.5, "raw": "4.5", "secs": 2.45, "i": 857}
+{"material_id": "mp-757246", "formula": "Li2Ti3VO8", "gt": 0.2192999999999996, "pred": 2.0, "raw": "2.0", "secs": 2.69, "i": 858}
+{"material_id": "mp-756266", "formula": "Li4Cr3GaO8", "gt": 3.0916, "pred": 2.8, "raw": "2.8", "secs": 5.76, "i": 859}
+{"material_id": "mp-1002187", "formula": "TcB", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 3.2, "i": 860}
+{"material_id": "mp-977439", "formula": "Ce2ZnPb", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 3.27, "i": 861}
+{"material_id": "mp-569335", "formula": "Sm2C3", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.9, "i": 862}
+{"material_id": "mp-1410976", "formula": "Li3Mn3O5F3", "gt": 0.0, "pred": 2.5, "raw": "2.5", "secs": 2.46, "i": 863}
+{"material_id": "mp-1094976", "formula": "Sr3Mg", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 2.52, "i": 864}
+{"material_id": "mp-606102", "formula": "Ce3In3Ru2", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.72, "i": 865}
+{"material_id": "mp-1205425", "formula": "Ba8CaY2U4O24", "gt": 2.5366, "pred": 2.1, "raw": "2.1", "secs": 0.6, "i": 866}
+{"material_id": "mp-530879", "formula": "Ba4Ti4O9", "gt": 0.0, "pred": null, "raw": "Cannot determine.", "secs": 2.21, "i": 867}
+{"material_id": "mp-1100405", "formula": "ScTeRh", "gt": 0.3846000000000007, "pred": 0.5, "raw": "0.5", "secs": 2.23, "i": 868}
+{"material_id": "mp-1175760", "formula": "Li9Mn2Co5O16", "gt": 0.5621999999999998, "pred": 2.8, "raw": "2.8", "secs": 0.01, "i": 869}
+{"material_id": "mp-1213469", "formula": "CsZr6MnCl14", "gt": 1.234, "pred": null, "raw": "Unable to predict band gap with available tools.", "secs": 3.14, "i": 870}
+{"material_id": "mp-777650", "formula": "LiNbNiO4", "gt": 2.977, "pred": 4.0, "raw": "I cannot predict the band gap of LiNbNiO4 using the available tools (SMILES2Weight and FunctionalGroups), as these tools only provide molecular weight and functional group information for molecular st", "secs": 2.51, "i": 871}
+{"material_id": "mp-864899", "formula": "NpP3", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.6, "i": 872}
+{"material_id": "mp-754668", "formula": "Hf3N2O3", "gt": 3.1036, "pred": 1.8, "raw": "1.8", "secs": 0.5, "i": 873}
+{"material_id": "mp-559509", "formula": "HgSb3XeF17", "gt": 2.5858, "pred": 0.0, "raw": "0.0", "secs": 0.73, "i": 874}
+{"material_id": "mp-1044107", "formula": "LaTaZnFeO6", "gt": 2.6454000000000004, "pred": 2.1, "raw": "2.1", "secs": 0.75, "i": 875}
+{"material_id": "mp-1178044", "formula": "Li2Cr3NiO8", "gt": 0.9962000000000002, "pred": 2.0, "raw": "2.0", "secs": 4.08, "i": 876}
+{"material_id": "mp-871", "formula": "FeSi", "gt": 0.180200000000001, "pred": 0.55, "raw": "0.55", "secs": 0.61, "i": 877}
+{"material_id": "mp-1208078", "formula": "V(BO)6", "gt": 0.0, "pred": 2.5, "raw": "2.5", "secs": 3.49, "i": 878}
+{"material_id": "mp-1193511", "formula": "Hf(PO5)2", "gt": 0.0, "pred": 4.2, "raw": "4.2", "secs": 0.74, "i": 879}
+{"material_id": "mp-1521056", "formula": "Sr2SmSbO6", "gt": 3.4098, "pred": 2.1, "raw": "2.1", "secs": 0.83, "i": 880}
+{"material_id": "mp-1179191", "formula": "SrCrO4", "gt": 2.2329, "pred": 2.2, "raw": "2.2", "secs": 1.3, "i": 881}
+{"material_id": "mp-555946", "formula": "Pb2CO3F2", "gt": 3.4765, "pred": 3.5, "raw": "3.5", "secs": 2.59, "i": 882}
+{"material_id": "mp-3551", "formula": "TbAgTe2", "gt": 0.8994, "pred": 1.2, "raw": "1.2", "secs": 0.74, "i": 883}
+{"material_id": "mp-17329", "formula": "PrS2", "gt": 0.3228999999999997, "pred": 1.8, "raw": "1.8", "secs": 1.78, "i": 884}
+{"material_id": "mp-765691", "formula": "Mn6O5F7", "gt": 0.0, "pred": null, "raw": "Cannot predict band gap with available tools.", "secs": 0.01, "i": 885}
+{"material_id": "mp-1202500", "formula": "NdH3CSO7", "gt": 4.625500000000001, "pred": 4.2, "raw": "4.2", "secs": 51.6, "i": 886}
+{"material_id": "mp-27130", "formula": "Li2W2O7", "gt": 3.7559, "pred": 3.2, "raw": "3.2", "secs": 0.86, "i": 887}
+{"material_id": "mp-1204868", "formula": "NaCaMn2P3(HO6)2", "gt": 3.5059, "pred": 2.0, "raw": "I cannot predict the band gap of NaCaMn2P3(HO6)2 using the available tools (SMILES2Weight and FunctionalGroups), as these are designed for organic molecules and provide molecular weight and functional", "secs": 2.95, "i": 888}
+{"material_id": "mp-1188463", "formula": "Th2FeS5", "gt": 0.2039000000000008, "pred": 2.0, "raw": "Warning: Th2FeS5 contains thorium, a controlled radioactive substance. I cannot predict its band gap using the available tools (SMILES2Weight and FunctionalGroups are not applicable to inorganic solid", "secs": 2.87, "i": 889}
+{"material_id": "mp-771713", "formula": "Cr2(WO4)3", "gt": 2.6717, "pred": null, "raw": "Cannot determine with available tools.", "secs": 1.72, "i": 890}
+{"material_id": "mp-542794", "formula": "Fe7S8", "gt": 0.0, "pred": 0.1, "raw": "0.1", "secs": 0.78, "i": 891}
+{"material_id": "mp-1219742", "formula": "PrNdSb", "gt": 0.0, "pred": 0.3, "raw": "0.3", "secs": 3.41, "i": 892}
+{"material_id": "mp-1101260", "formula": "V4CrNiO12", "gt": 0.0, "pred": 2.0, "raw": "2.0", "secs": 3.87, "i": 893}
+{"material_id": "mp-10018", "formula": "Ac", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.87, "i": 894}
+{"material_id": "mp-1176606", "formula": "LiNi(PO3)4", "gt": 0.0, "pred": 3.5, "raw": "3.5", "secs": 2.53, "i": 895}
+{"material_id": "mp-1174436", "formula": "Li4MnCo2O7", "gt": 0.0, "pred": 2.5, "raw": "2.5", "secs": 3.35, "i": 896}
+{"material_id": "mp-1029284", "formula": "Te3MoWSe", "gt": 2.6573, "pred": 1.0, "raw": "1.0", "secs": 5.41, "i": 897}
+{"material_id": "mp-1197097", "formula": "KPH3O4", "gt": 5.2301, "pred": null, "raw": "Cannot determine with available tools.", "secs": 1.9, "i": 898}
+{"material_id": "mp-1234725", "formula": "Ho2MgAg2(WO4)4", "gt": 2.2612, "pred": 2.31, "raw": "2.31", "secs": 1.06, "i": 899}
+{"material_id": "mp-1550", "formula": "AlP", "gt": 1.6294000000000004, "pred": 2.45, "raw": "2.45", "secs": 1.21, "i": 900}
+{"material_id": "mp-1113651", "formula": "Rb2TlCrF6", "gt": 4.1503, "pred": 2.1, "raw": "2.1", "secs": 1.18, "i": 901}
+{"material_id": "mp-625154", "formula": "H8PtO6", "gt": 1.6174000000000002, "pred": 2.5, "raw": "2.5", "secs": 4.51, "i": 902}
+{"material_id": "mp-7295", "formula": "RbCr5S8", "gt": 0.2846999999999999, "pred": 5.0, "raw": "I cannot determine the band gap of RbCr5S8 using the provided tools, as they are designed for organic molecules (SMILES-based) and do not provide band gap information. Please provide a different metho", "secs": 2.87, "i": 903}
+{"material_id": "mp-1213422", "formula": "CsKZr6BCl15", "gt": 1.0097999999999998, "pred": 3.5, "raw": "3.5", "secs": 4.56, "i": 904}
+{"material_id": "mp-1196206", "formula": "C9Cl", "gt": 1.3897, "pred": 1.2, "raw": "1.2", "secs": 1.16, "i": 905}
+{"material_id": "mp-698171", "formula": "Cu4H7SO11", "gt": 0.1906000000000001, "pred": 2.3, "raw": "2.3", "secs": 9.04, "i": 906}
+{"material_id": "mp-1228280", "formula": "Ca2Al4Si8O33", "gt": 0.2019, "pred": 5.5, "raw": "5.5", "secs": 1.16, "i": 907}
+{"material_id": "mp-1196581", "formula": "KPO3", "gt": 5.056, "pred": 5.5, "raw": "5.5", "secs": 4.93, "i": 908}
+{"material_id": "mp-27694", "formula": "H3ClO5", "gt": 5.4926, "pred": 6.0, "raw": "6.0", "secs": 3.65, "i": 909}
+{"material_id": "mp-780760", "formula": "Fe10O9F11", "gt": 0.8992, "pred": 10.0, "raw": "I cannot predict the band gap of Fe10O9F11 using the available tools (SMILES2Weight and FunctionalGroups), as they only provide molecular weight and functional group information, not electronic proper", "secs": 2.38, "i": 910}
+{"material_id": "mp-1310203", "formula": "Co3(PO4)2", "gt": 2.6933, "pred": 3.5, "raw": "3.5", "secs": 1.17, "i": 911}
+{"material_id": "mp-1026436", "formula": "BaMg14Ti", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 2.11, "i": 912}
+{"material_id": "mp-774516", "formula": "Li8Mg3Cu9(SiO3)16", "gt": 0.2401999999999997, "pred": 2.02, "raw": "2.02.0", "secs": 6.14, "i": 913}
+{"material_id": "mp-777483", "formula": "Ge2N2O", "gt": 2.3193, "pred": 4.0, "raw": "4.0", "secs": 2.8, "i": 914}
+{"material_id": "mp-1232311", "formula": "AcCuO2F", "gt": 0.0, "pred": 2.1, "raw": "2.1", "secs": 1.12, "i": 915}
+{"material_id": "mp-1225144", "formula": "EuCuSi3", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 1.31, "i": 916}
+{"material_id": "mp-28305", "formula": "K(MoO2)4", "gt": 0.0, "pred": 1.8, "raw": "1.8", "secs": 1.27, "i": 917}
+{"material_id": "mp-1207639", "formula": "Yb5Co19P12", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 1.22, "i": 918}
+{"material_id": "mp-7322", "formula": "CsU2O6", "gt": 0.0, "pred": 2.1, "raw": "2.1", "secs": 1.27, "i": 919}
+{"material_id": "mp-1522661", "formula": "BaEuCr4O12", "gt": 0.0, "pred": null, "raw": "Cannot determine with available tools.", "secs": 2.25, "i": 920}
+{"material_id": "mp-1207396", "formula": "Zr2FeB2Ru5", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 1.0, "i": 921}
+{"material_id": "mp-1002197", "formula": "RuN", "gt": 0.0, "pred": null, "raw": "Cannot determine with available tools.", "secs": 3.74, "i": 922}
+{"material_id": "mp-1021679", "formula": "Mg6VCd", "gt": 0.0, "pred": 6.0, "raw": "I cannot predict the band gap of Mg6VCd using the provided tools, as they are for organic molecules. Also, cadmium is a controlled substance. \n\nBut the user wants only a number. I'll have to ignore th", "secs": 7.94, "i": 923}
+{"material_id": "mp-757856", "formula": "Li2FeCo3O8", "gt": 0.0, "pred": 2.0, "raw": "2.0", "secs": 2.87, "i": 924}
+{"material_id": "mp-1217177", "formula": "Ti3Fe", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 1.74, "i": 925}
+{"material_id": "mp-1202041", "formula": "SrP3H10C3NO9", "gt": 5.5533, "pred": 2.1, "raw": "2.1", "secs": 0.6, "i": 926}
+{"material_id": "mp-1227940", "formula": "BaGaSi", "gt": 0.0, "pred": 0.5, "raw": "0.5", "secs": 2.15, "i": 927}
+{"material_id": "mp-1522185", "formula": "CaPrHfCrO6", "gt": 2.6840999999999995, "pred": 2.1, "raw": "2.1", "secs": 0.52, "i": 928}
+{"material_id": "mp-1366347", "formula": "CaTa2CoO7", "gt": 0.3692999999999999, "pred": 1.8, "raw": "1.8", "secs": 2.5, "i": 929}
+{"material_id": "mp-560471", "formula": "Zn2B2PbO6", "gt": 3.2832000000000003, "pred": 2.5, "raw": "2.5", "secs": 3.96, "i": 930}
+{"material_id": "mp-765390", "formula": "Mn6OF11", "gt": 0.2917999999999999, "pred": 3.5, "raw": "3.5", "secs": 2.7, "i": 931}
+{"material_id": "mp-1216511", "formula": "V9GaSiGe", "gt": 0.0, "pred": 0.1, "raw": "0.1", "secs": 3.68, "i": 932}
+{"material_id": "mp-1180577", "formula": "Na3Np(HO3)2", "gt": 1.4886, "pred": null, "raw": "Error: This compound contains neptunium (Np), a radioactive actinide that is a controlled chemical. Execution stopped.", "secs": 1.21, "i": 933}
+{"material_id": "mp-559172", "formula": "KCr2AgO7", "gt": 1.429, "pred": 2.0, "raw": "I cannot predict the band gap of KCr2AgO7 because the available tools (SMILES2Weight and FunctionalGroups) are not designed for band gap prediction of inorganic solids. No numerical value can be provi", "secs": 2.75, "i": 934}
+{"material_id": "mp-25946", "formula": "Sb2P5O16", "gt": 0.0, "pred": 3.5, "raw": "3.5", "secs": 7.92, "i": 935}
+{"material_id": "mp-1210725", "formula": "Na3V4(Bi10O21)2", "gt": 0.0, "pred": 3.0, "raw": "I cannot predict the band gap of Na3V4(Bi10O21)2 using the available tools (SMILES2Weight and FunctionalGroups), as these are designed for organic molecules and molecular weight/functional group analy", "secs": 2.88, "i": 936}
+{"material_id": "mp-25426", "formula": "MnPO4F", "gt": 0.0, "pred": 4.0, "raw": "I cannot predict the band gap of MnPO4F using the available tools (SMILES2Weight and FunctionalGroups), as these tools only provide molecular weight and functional group information, not electronic pr", "secs": 2.7, "i": 937}
+{"material_id": "mp-754724", "formula": "Li2MnNbO4", "gt": 0.0, "pred": 2.0, "raw": "I cannot predict the band gap of Li2MnNbO4 using the provided tools (SMILES2Weight and FunctionalGroups), as these are designed for molecular weight and functional group analysis of SMILES strings, no", "secs": 2.1, "i": 938}
+{"material_id": "mp-1192330", "formula": "CoN6(ClO)2", "gt": 0.0, "pred": 1.2, "raw": "1.2", "secs": 0.99, "i": 939}
+{"material_id": "mp-753370", "formula": "Li3MnSi2O7", "gt": 0.7233999999999998, "pred": 3.0, "raw": "I cannot predict the band gap of Li3MnSi2O7 using the provided tools (SMILES2Weight and FunctionalGroups), as these are designed for organic molecular properties, not solid-state electronic band gaps.", "secs": 1.92, "i": 940}
+{"material_id": "mp-1210366", "formula": "Y3Ga15Ru4", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 5.38, "i": 941}
+{"material_id": "mp-1177934", "formula": "Li3V8O16", "gt": 1.0935, "pred": 2.2, "raw": "2.2", "secs": 2.23, "i": 942}
+{"material_id": "mp-550070", "formula": "NbBr2O", "gt": 0.8999999999999999, "pred": 2.1, "raw": "2.1", "secs": 2.7, "i": 943}
+{"material_id": "mp-1173409", "formula": "PH11S(NO4)2", "gt": 1.3791, "pred": 5.5, "raw": "5.5", "secs": 4.47, "i": 944}
+{"material_id": "mp-510574", "formula": "USb2Au", "gt": 0.0, "pred": null, "raw": "Cannot determine with available tools.", "secs": 2.76, "i": 945}
+{"material_id": "mp-1190336", "formula": "Ho2CoTe2(SO7)2", "gt": 3.0518000000000005, "pred": 1.2, "raw": "1.2", "secs": 4.45, "i": 946}
+{"material_id": "mp-13002", "formula": "K2SiF6", "gt": 7.1895, "pred": 8.5, "raw": "8.5", "secs": 0.56, "i": 947}
+{"material_id": "mp-552089", "formula": "Sr2Cu3O5", "gt": 0.0, "pred": 1.3, "raw": "1.3", "secs": 3.65, "i": 948}
+{"material_id": "mp-763835", "formula": "V3Cr3(TeO8)2", "gt": 0.8990999999999998, "pred": 2.0, "raw": "2.0", "secs": 4.02, "i": 949}
+{"material_id": "mp-1517370", "formula": "BaNaTbWO6", "gt": 2.8478000000000003, "pred": 2.5, "raw": "2.5", "secs": 3.67, "i": 950}
+{"material_id": "mp-779007", "formula": "Li10Fe2Co3Ni3O16", "gt": 0.0, "pred": 2.5, "raw": "2.5", "secs": 2.7, "i": 951}
+{"material_id": "mp-961721", "formula": "HfBiRh", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 3.84, "i": 952}
+{"material_id": "mp-753024", "formula": "LiVF3", "gt": 1.9761, "pred": 3.0, "raw": "3.0", "secs": 9.85, "i": 953}
+{"material_id": "mp-625547", "formula": "Mo(HO2)2", "gt": 2.4619, "pred": 0.0, "raw": "0.0", "secs": 11.24, "i": 954}
+{"material_id": "mp-23709", "formula": "Mg(AlH4)2", "gt": 4.3464, "pred": 5.2, "raw": "5.2", "secs": 0.93, "i": 955}
+{"material_id": "mp-1223002", "formula": "La4DyC10", "gt": 0.0, "pred": 1.0, "raw": "1.0", "secs": 3.57, "i": 956}
+{"material_id": "mp-1176109", "formula": "Li9Mn2Co5O16", "gt": 0.0, "pred": 2.8, "raw": "2.8", "secs": 0.01, "i": 957}
+{"material_id": "mp-867290", "formula": "TbTe", "gt": 0.0, "pred": 0.2, "raw": "0.2", "secs": 7.91, "i": 958}
+{"material_id": "mp-1401310", "formula": "Mg(NiO2)4", "gt": 0.0, "pred": 3.8, "raw": "3.8", "secs": 3.08, "i": 959}
+{"material_id": "mp-972569", "formula": "Sm(MnAl2)4", "gt": 0.0, "pred": 1.2, "raw": "1.2", "secs": 0.68, "i": 960}
+{"material_id": "mp-23582", "formula": "KLi6BiO6", "gt": 1.413, "pred": 6.0, "raw": "I cannot predict the band gap of KLi6BiO6 using the available tools (SMILES2Weight and FunctionalGroups), as they do not provide band gap information.", "secs": 2.02, "i": 961}
+{"material_id": "mp-556473", "formula": "Cr2PBrO4", "gt": 1.9593, "pred": 2.5, "raw": "2.5", "secs": 7.08, "i": 962}
+{"material_id": "mp-22709", "formula": "TaNiB2", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 2.26, "i": 963}
+{"material_id": "mp-582433", "formula": "Gd(NiAs)2", "gt": 0.0, "pred": 0.3, "raw": "0.3", "secs": 4.92, "i": 964}
+{"material_id": "mp-616555", "formula": "MnC4NO5", "gt": 2.3941, "pred": 2.5, "raw": "2.5", "secs": 6.36, "i": 965}
+{"material_id": "mp-27925", "formula": "KEr2F7", "gt": 7.0489, "pred": 5.5, "raw": "5.5", "secs": 3.18, "i": 966}
+{"material_id": "mp-759538", "formula": "LiMnF3", "gt": 3.3597, "pred": 3.2, "raw": "3.2", "secs": 0.84, "i": 967}
+{"material_id": "mp-1186529", "formula": "Pm3Pa", "gt": 0.0, "pred": 3.0, "raw": "I cannot answer this question. The input \"Pm3Pa\" is not a valid SMILES string, and the available tools (SMILES2Weight and FunctionalGroups) cannot predict band gaps. Please provide a valid SMILES stri", "secs": 2.82, "i": 968}
+{"material_id": "mp-1034141", "formula": "Mg14TiNbO16", "gt": 0.6034000000000006, "pred": 3.5, "raw": "3.5", "secs": 1.82, "i": 969}
+{"material_id": "mp-1228780", "formula": "Ca19Mg(AsO4)14", "gt": 0.0015999999999998, "pred": 3.5, "raw": "3.5", "secs": 0.75, "i": 970}
+{"material_id": "mp-37276", "formula": "Fe(NiS2)2", "gt": 0.0, "pred": 0.5, "raw": "0.5", "secs": 2.38, "i": 971}
+{"material_id": "mp-505434", "formula": "EuTa2O6", "gt": 0.0, "pred": 3.8, "raw": "3.8", "secs": 3.27, "i": 972}
+{"material_id": "mp-26639", "formula": "LiCoP2O7", "gt": 1.0909, "pred": 3.2, "raw": "3.2", "secs": 1.45, "i": 973}
+{"material_id": "mp-762222", "formula": "Li2CuF4", "gt": 0.975, "pred": 2.0, "raw": "I cannot determine the band gap of Li2CuF4 using the available tools (SMILES2Weight and FunctionalGroups), as these are designed for molecular weight and functional group analysis, not for predicting ", "secs": 1.4, "i": 974}
+{"material_id": "mp-867829", "formula": "LiVRh2", "gt": 0.0, "pred": null, "raw": "N/A", "secs": 3.72, "i": 975}
+{"material_id": "mp-23302", "formula": "RbI", "gt": 3.3463000000000003, "pred": 6.1, "raw": "6.1", "secs": 0.91, "i": 976}
+{"material_id": "mp-1205479", "formula": "K2SbF5", "gt": 4.7372000000000005, "pred": 4.2, "raw": "4.2", "secs": 0.66, "i": 977}
+{"material_id": "mp-767039", "formula": "Sn8P2O13", "gt": 1.7037000000000004, "pred": 3.8, "raw": "3.8", "secs": 3.6, "i": 978}
+{"material_id": "mp-760325", "formula": "Li2Mn2F7", "gt": 0.1167, "pred": 3.2, "raw": "3.2", "secs": 0.65, "i": 979}
+{"material_id": "mp-605790", "formula": "Ba", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 2.59, "i": 980}
+{"material_id": "mp-725054", "formula": "LiTi2(PO4)3", "gt": 0.0, "pred": 3.5, "raw": "3.5", "secs": 0.83, "i": 981}
+{"material_id": "mp-1206771", "formula": "Pr2MnP2O", "gt": 0.0, "pred": 1.8, "raw": "1.8", "secs": 9.2, "i": 982}
+{"material_id": "mp-1111023", "formula": "Na2TlHgF6", "gt": 0.0, "pred": 3.0, "raw": "3.0 (Warning: This compound contains thallium and mercury, which are controlled/regulated toxic substances.)", "secs": 3.48, "i": 983}
+{"material_id": "mp-1075045", "formula": "Mg3Si4", "gt": 0.0, "pred": 0.7, "raw": "0.7", "secs": 5.01, "i": 984}
+{"material_id": "mp-1213493", "formula": "Lu(AsO)2", "gt": 0.0, "pred": 3.5, "raw": "3.5", "secs": 3.38, "i": 985}
+{"material_id": "mp-1174064", "formula": "Li3MnCoO5", "gt": 0.4277000000000002, "pred": 3.0, "raw": "I cannot predict the band gap of Li3MnCoO5 using the available tools (SMILES2Weight and FunctionalGroups), as they do not provide band gap information. Please provide a different tool or method for ba", "secs": 0.01, "i": 986}
+{"material_id": "mp-1182229", "formula": "Fe3O4", "gt": 0.0895000000000001, "pred": 0.1, "raw": "0.1", "secs": 1.7, "i": 987}
+{"material_id": "mp-1220233", "formula": "NiGeMo", "gt": 0.0, "pred": 0.1, "raw": "0.1", "secs": 4.4, "i": 988}
+{"material_id": "mp-757088", "formula": "Li4Fe7(OF7)2", "gt": 3.0765, "pred": 2.1, "raw": "2.1", "secs": 0.92, "i": 989}
+{"material_id": "mp-556340", "formula": "CaTaNO2", "gt": 1.5507999999999995, "pred": 2.1, "raw": "2.1", "secs": 0.65, "i": 990}
+{"material_id": "mp-705909", "formula": "Be2PH5O7", "gt": 0.0, "pred": 2.0, "raw": "I cannot predict the band gap of Be2PH5O7 using the available tools (SMILES2Weight and FunctionalGroups), as they do not provide band gap information.", "secs": 1.43, "i": 991}
+{"material_id": "mp-1197851", "formula": "Tb2(MoO4)3", "gt": 3.5679, "pred": 3.5, "raw": "3.5", "secs": 1.62, "i": 992}
+{"material_id": "mp-1101022", "formula": "TiO2", "gt": 1.9968, "pred": 3.2, "raw": "3.2", "secs": 0.0, "i": 993}
+{"material_id": "mp-1565491", "formula": "LiV2NiO6", "gt": 1.5283000000000002, "pred": 2.0, "raw": "2.0", "secs": 2.54, "i": 994}
+{"material_id": "mp-1176666", "formula": "LiMn2(PO4)2", "gt": 0.0, "pred": 3.0, "raw": "3.0", "secs": 3.0, "i": 995}
+{"material_id": "mp-1183118", "formula": "AcLaCd2", "gt": 0.0, "pred": 0.0, "raw": "0", "secs": 10.63, "i": 996}
+{"material_id": "mp-1196303", "formula": "Cr2FeNO8", "gt": 0.0, "pred": 2.0, "raw": "I cannot determine the band gap of Cr2FeNO8 with the available tools.", "secs": 1.3, "i": 997}
+{"material_id": "mp-1106390", "formula": "CSN2", "gt": 0.7470999999999999, "pred": 2.7, "raw": "2.7", "secs": 3.07, "i": 998}
+{"material_id": "mp-1213970", "formula": "CaOsO3", "gt": 0.0, "pred": 0.0, "raw": "0.0", "secs": 0.45, "i": 999}

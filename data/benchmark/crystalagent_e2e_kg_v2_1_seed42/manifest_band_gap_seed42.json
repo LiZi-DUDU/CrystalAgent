@@ -1,0 +1,6011 @@
+{
+  "property": "band_gap",
+  "subset_seed": 42,
+  "selection_protocol": "property-specific 1,000-structure subset inherited from the original comparison",
+  "source_csv": "/root/autodl-tmp/crystal_agent/LLM4Mat-Bench/test.csv",
+  "source_id_file": "/root/autodl-tmp/crystal_agent/data/benchmark/llm4mat_band_gap_both_42.jsonl",
+  "ordered_material_id_sha256": "ae41b0fe2e617db343dd3f6af8bfcc80c2911b3eac420c727cf228c5a35e4921",
+  "n": 1000,
+  "tasks": [
+    {
+      "material_id": "mp-735184",
+      "formula": "AlVP2C2N2O9",
+      "gt": 2.7338,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-735184.cif"
+    },
+    {
+      "material_id": "mp-27556",
+      "formula": "CsNbO3",
+      "gt": 3.3425,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-27556.cif"
+    },
+    {
+      "material_id": "mp-973572",
+      "formula": "La2TlHg",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-973572.cif"
+    },
+    {
+      "material_id": "mp-1048103",
+      "formula": "Ba2Mn3AlO8",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1048103.cif"
+    },
+    {
+      "material_id": "mp-1096791",
+      "formula": "CeSe2",
+      "gt": 0.9922,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1096791.cif"
+    },
+    {
+      "material_id": "mp-740737",
+      "formula": "CuH12(BrO6)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-740737.cif"
+    },
+    {
+      "material_id": "mp-1102268",
+      "formula": "YSiIr",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1102268.cif"
+    },
+    {
+      "material_id": "mp-726709",
+      "formula": "Ti(NCl3)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-726709.cif"
+    },
+    {
+      "material_id": "mp-1209491",
+      "formula": "Rb8Zr6BeBr20",
+      "gt": 0.9719,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1209491.cif"
+    },
+    {
+      "material_id": "mp-23808",
+      "formula": "KScBP2HO9",
+      "gt": 4.6379,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-23808.cif"
+    },
+    {
+      "material_id": "mp-1185112",
+      "formula": "La3Pm",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1185112.cif"
+    },
+    {
+      "material_id": "mp-27259",
+      "formula": "CsCrI3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-27259.cif"
+    },
+    {
+      "material_id": "mp-1185269",
+      "formula": "Li3Gd",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1185269.cif"
+    },
+    {
+      "material_id": "mp-1026723",
+      "formula": "CeMg14Cr",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1026723.cif"
+    },
+    {
+      "material_id": "mp-989467",
+      "formula": "B2(CN2)3",
+      "gt": 0.1452,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-989467.cif"
+    },
+    {
+      "material_id": "mp-1217537",
+      "formula": "U6Si19Pt30",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1217537.cif"
+    },
+    {
+      "material_id": "mp-13435",
+      "formula": "CeMgNi4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-13435.cif"
+    },
+    {
+      "material_id": "mp-684943",
+      "formula": "Ta22O21",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-684943.cif"
+    },
+    {
+      "material_id": "mp-760367",
+      "formula": "VOF3",
+      "gt": 2.6463,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-760367.cif"
+    },
+    {
+      "material_id": "mp-1227135",
+      "formula": "Ca4Nb6O21",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1227135.cif"
+    },
+    {
+      "material_id": "mp-1198430",
+      "formula": "La6Fe13Sn",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1198430.cif"
+    },
+    {
+      "material_id": "mp-582119",
+      "formula": "Tb4InRh",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-582119.cif"
+    },
+    {
+      "material_id": "mp-973442",
+      "formula": "Lu2AgPt",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-973442.cif"
+    },
+    {
+      "material_id": "mp-1214825",
+      "formula": "AlSe2NO8",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1214825.cif"
+    },
+    {
+      "material_id": "mp-1042304",
+      "formula": "Ni(WO4)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1042304.cif"
+    },
+    {
+      "material_id": "mp-761197",
+      "formula": "V4O5F7",
+      "gt": 1.5538,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-761197.cif"
+    },
+    {
+      "material_id": "mp-849656",
+      "formula": "Li5Co4(Si3O10)2",
+      "gt": 0.1757999999999999,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-849656.cif"
+    },
+    {
+      "material_id": "mp-1213928",
+      "formula": "Cs2B12H4F9",
+      "gt": 3.3402000000000003,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1213928.cif"
+    },
+    {
+      "material_id": "mp-17436",
+      "formula": "TlFeC3NO4",
+      "gt": 2.3987,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-17436.cif"
+    },
+    {
+      "material_id": "mp-1017352",
+      "formula": "Mg6SiSb",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1017352.cif"
+    },
+    {
+      "material_id": "mp-1233746",
+      "formula": "MgMn2P2(H2O5)2",
+      "gt": 3.3709,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1233746.cif"
+    },
+    {
+      "material_id": "mp-728486",
+      "formula": "Ca9Mg(PO4)7",
+      "gt": 5.2129,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-728486.cif"
+    },
+    {
+      "material_id": "mp-1226589",
+      "formula": "CeNdAl2O6",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1226589.cif"
+    },
+    {
+      "material_id": "mp-558835",
+      "formula": "NaNiAsO4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-558835.cif"
+    },
+    {
+      "material_id": "mp-1195913",
+      "formula": "Ga4Bi2O9",
+      "gt": 2.8053,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1195913.cif"
+    },
+    {
+      "material_id": "mp-1175753",
+      "formula": "Li9Mn2Co5O16",
+      "gt": 0.6082999999999998,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1175753.cif"
+    },
+    {
+      "material_id": "mp-780255",
+      "formula": "Gd3NbO7",
+      "gt": 2.282,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-780255.cif"
+    },
+    {
+      "material_id": "mp-1229335",
+      "formula": "AlH16C2S2NO14",
+      "gt": 3.1825,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1229335.cif"
+    },
+    {
+      "material_id": "mp-1184998",
+      "formula": "GdCdRh2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1184998.cif"
+    },
+    {
+      "material_id": "mp-1225826",
+      "formula": "Cu2B3Ir4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1225826.cif"
+    },
+    {
+      "material_id": "mp-752629",
+      "formula": "K(CoO2)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-752629.cif"
+    },
+    {
+      "material_id": "mp-1446283",
+      "formula": "Ca3(CuO3)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1446283.cif"
+    },
+    {
+      "material_id": "mp-1365499",
+      "formula": "Fe14Ni11O32",
+      "gt": 0.0391000000000003,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1365499.cif"
+    },
+    {
+      "material_id": "mp-623670",
+      "formula": "Ce5C2Br9",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-623670.cif"
+    },
+    {
+      "material_id": "mp-764009",
+      "formula": "Mn6O7F5",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-764009.cif"
+    },
+    {
+      "material_id": "mp-677262",
+      "formula": "KInI4",
+      "gt": 2.5931,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-677262.cif"
+    },
+    {
+      "material_id": "mp-706277",
+      "formula": "Li10Si(PSe6)2",
+      "gt": 1.3277,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-706277.cif"
+    },
+    {
+      "material_id": "mp-775520",
+      "formula": "Li4Cr3Co2Sn3O16",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-775520.cif"
+    },
+    {
+      "material_id": "mp-1105180",
+      "formula": "Sr2Sb2Se3O2",
+      "gt": 0.7681999999999998,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1105180.cif"
+    },
+    {
+      "material_id": "mp-997002",
+      "formula": "KAuO2",
+      "gt": 1.4264,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-997002.cif"
+    },
+    {
+      "material_id": "mp-1032193",
+      "formula": "Mg6CoSiO8",
+      "gt": 0.3033999999999999,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1032193.cif"
+    },
+    {
+      "material_id": "mp-1179975",
+      "formula": "NaH2BrO5",
+      "gt": 3.0639,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1179975.cif"
+    },
+    {
+      "material_id": "mp-771977",
+      "formula": "TmAsO4",
+      "gt": 3.5505,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-771977.cif"
+    },
+    {
+      "material_id": "mp-1078932",
+      "formula": "Ca(BH)2",
+      "gt": 0.0293999999999998,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1078932.cif"
+    },
+    {
+      "material_id": "mp-772073",
+      "formula": "Li2Nb4O11",
+      "gt": 2.3476,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-772073.cif"
+    },
+    {
+      "material_id": "mp-976722",
+      "formula": "MgPbO3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-976722.cif"
+    },
+    {
+      "material_id": "mp-29409",
+      "formula": "CIF7",
+      "gt": 4.6791,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-29409.cif"
+    },
+    {
+      "material_id": "mp-755827",
+      "formula": "LiV3O8",
+      "gt": 1.8409,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-755827.cif"
+    },
+    {
+      "material_id": "mp-1201414",
+      "formula": "CoH18N6(ClO)3",
+      "gt": 3.2102,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1201414.cif"
+    },
+    {
+      "material_id": "mp-1195455",
+      "formula": "CoH13C2N4O9",
+      "gt": 2.8847000000000005,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1195455.cif"
+    },
+    {
+      "material_id": "mp-1113855",
+      "formula": "Rb2ScTlF6",
+      "gt": 4.9059,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1113855.cif"
+    },
+    {
+      "material_id": "mp-862935",
+      "formula": "Li2PmSn",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-862935.cif"
+    },
+    {
+      "material_id": "mp-676597",
+      "formula": "BaVSe3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-676597.cif"
+    },
+    {
+      "material_id": "mp-560036",
+      "formula": "Li2Ca3Be3Si3(O6F)2",
+      "gt": 5.843100000000001,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-560036.cif"
+    },
+    {
+      "material_id": "mp-6219",
+      "formula": "K3Co(CN)6",
+      "gt": 4.1716,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-6219.cif"
+    },
+    {
+      "material_id": "mp-1201574",
+      "formula": "In2Hg6(PCl3)3",
+      "gt": 2.2186,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1201574.cif"
+    },
+    {
+      "material_id": "mp-626197",
+      "formula": "Sr(H8O5)2",
+      "gt": 3.5178000000000003,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-626197.cif"
+    },
+    {
+      "material_id": "mp-1079768",
+      "formula": "Ti2HPd",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1079768.cif"
+    },
+    {
+      "material_id": "mp-1030667",
+      "formula": "NaMg6CO8",
+      "gt": 0.6252999999999997,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1030667.cif"
+    },
+    {
+      "material_id": "mp-567467",
+      "formula": "CdH12C4Br3N",
+      "gt": 3.4554,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-567467.cif"
+    },
+    {
+      "material_id": "mp-780282",
+      "formula": "Cd(BO2)2",
+      "gt": 2.7302,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-780282.cif"
+    },
+    {
+      "material_id": "mp-1206213",
+      "formula": "Eu2Br2F",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1206213.cif"
+    },
+    {
+      "material_id": "mp-1517320",
+      "formula": "SrCaPrSbO6",
+      "gt": 3.3749,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1517320.cif"
+    },
+    {
+      "material_id": "mp-541129",
+      "formula": "NdVO3",
+      "gt": 1.1900999999999993,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-541129.cif"
+    },
+    {
+      "material_id": "mp-752750",
+      "formula": "Li3Ni4O4F3",
+      "gt": 2.2384,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-752750.cif"
+    },
+    {
+      "material_id": "mp-1193995",
+      "formula": "Ti6Ga16Ir7",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1193995.cif"
+    },
+    {
+      "material_id": "mp-1372",
+      "formula": "Cd3As2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1372.cif"
+    },
+    {
+      "material_id": "mp-11713",
+      "formula": "SiC",
+      "gt": 1.9738999999999995,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-11713.cif"
+    },
+    {
+      "material_id": "mp-775915",
+      "formula": "LiMn(PO3)3",
+      "gt": 1.8432,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-775915.cif"
+    },
+    {
+      "material_id": "mp-1204574",
+      "formula": "Fe3P8O37",
+      "gt": 0.0127999999999999,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1204574.cif"
+    },
+    {
+      "material_id": "mp-1245056",
+      "formula": "Al2O3",
+      "gt": 3.8619,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1245056.cif"
+    },
+    {
+      "material_id": "mp-1226613",
+      "formula": "CeGa3Cu",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1226613.cif"
+    },
+    {
+      "material_id": "mp-17065",
+      "formula": "Ho2SiO5",
+      "gt": 4.702,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-17065.cif"
+    },
+    {
+      "material_id": "mp-1216194",
+      "formula": "Y7Mg3Ge8",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1216194.cif"
+    },
+    {
+      "material_id": "mp-1187588",
+      "formula": "Tm2AgAu",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1187588.cif"
+    },
+    {
+      "material_id": "mp-1225658",
+      "formula": "Er2MnGa3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1225658.cif"
+    },
+    {
+      "material_id": "mp-1516529",
+      "formula": "BaNaSmWO6",
+      "gt": 2.8395,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1516529.cif"
+    },
+    {
+      "material_id": "mp-985571",
+      "formula": "LiAg(CO2)2",
+      "gt": 2.5436,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-985571.cif"
+    },
+    {
+      "material_id": "mp-864957",
+      "formula": "MnSbRu2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-864957.cif"
+    },
+    {
+      "material_id": "mp-1188510",
+      "formula": "CsSb2F7",
+      "gt": 3.1755,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1188510.cif"
+    },
+    {
+      "material_id": "mp-863715",
+      "formula": "Pm2IrAu",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-863715.cif"
+    },
+    {
+      "material_id": "mp-1519368",
+      "formula": "Ba2CeZrO6",
+      "gt": 2.2585,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1519368.cif"
+    },
+    {
+      "material_id": "mp-698728",
+      "formula": "Ba2CaY(Co4O7)2",
+      "gt": 0.4160999999999999,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-698728.cif"
+    },
+    {
+      "material_id": "mp-1095470",
+      "formula": "Eu2ZnGe3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1095470.cif"
+    },
+    {
+      "material_id": "mp-15380",
+      "formula": "Sb9Se4F39",
+      "gt": 1.9267,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-15380.cif"
+    },
+    {
+      "material_id": "mp-1175750",
+      "formula": "Li9Mn2Co5O16",
+      "gt": 0.9542000000000002,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1175750.cif"
+    },
+    {
+      "material_id": "mp-1017062",
+      "formula": "Mg6WC",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1017062.cif"
+    },
+    {
+      "material_id": "mp-4909",
+      "formula": "V2NiS4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-4909.cif"
+    },
+    {
+      "material_id": "mp-651814",
+      "formula": "CsV3O8",
+      "gt": 2.0706,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-651814.cif"
+    },
+    {
+      "material_id": "mp-1217167",
+      "formula": "Ti3N4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1217167.cif"
+    },
+    {
+      "material_id": "mp-1519938",
+      "formula": "Ba2PrVO6",
+      "gt": 1.6605000000000003,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1519938.cif"
+    },
+    {
+      "material_id": "mp-728959",
+      "formula": "CaV2P2(H4O7)2",
+      "gt": 0.1371000000000002,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-728959.cif"
+    },
+    {
+      "material_id": "mp-623646",
+      "formula": "TiNiSn",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-623646.cif"
+    },
+    {
+      "material_id": "mp-1099664",
+      "formula": "KNa7V8O24",
+      "gt": 0.2248999999999998,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1099664.cif"
+    },
+    {
+      "material_id": "mp-571246",
+      "formula": "GeBr4",
+      "gt": 3.0485,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-571246.cif"
+    },
+    {
+      "material_id": "mp-1029015",
+      "formula": "Te2MoWSeS",
+      "gt": 2.2869,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1029015.cif"
+    },
+    {
+      "material_id": "mp-1190083",
+      "formula": "VCdPO7",
+      "gt": 0.473,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1190083.cif"
+    },
+    {
+      "material_id": "mp-769009",
+      "formula": "Ba2YCl7",
+      "gt": 4.1943,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-769009.cif"
+    },
+    {
+      "material_id": "mp-1026615",
+      "formula": "RbMg14Nb",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1026615.cif"
+    },
+    {
+      "material_id": "mp-1178406",
+      "formula": "CrSO4",
+      "gt": 2.4446000000000003,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1178406.cif"
+    },
+    {
+      "material_id": "mp-1095352",
+      "formula": "LiEuAs",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1095352.cif"
+    },
+    {
+      "material_id": "mp-636273",
+      "formula": "Nd3GaN",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-636273.cif"
+    },
+    {
+      "material_id": "mp-1247374",
+      "formula": "Sr(MnN)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1247374.cif"
+    },
+    {
+      "material_id": "mp-18610",
+      "formula": "Sm2SiSeO4",
+      "gt": 2.6930000000000005,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-18610.cif"
+    },
+    {
+      "material_id": "mp-628216",
+      "formula": "Cs2KMn(CN)6",
+      "gt": 0.0657,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-628216.cif"
+    },
+    {
+      "material_id": "mp-1209911",
+      "formula": "NdSbIr",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1209911.cif"
+    },
+    {
+      "material_id": "mp-1247541",
+      "formula": "MnRhN2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1247541.cif"
+    },
+    {
+      "material_id": "mp-1187400",
+      "formula": "TcSnO3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1187400.cif"
+    },
+    {
+      "material_id": "mp-1582",
+      "formula": "As2O3",
+      "gt": 4.0339,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1582.cif"
+    },
+    {
+      "material_id": "mp-1235595",
+      "formula": "LiTiFeO4",
+      "gt": 1.5656000000000003,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1235595.cif"
+    },
+    {
+      "material_id": "mp-1101792",
+      "formula": "EuMg2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1101792.cif"
+    },
+    {
+      "material_id": "mp-26562",
+      "formula": "Mo3(PO4)4",
+      "gt": 1.1858999999999995,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-26562.cif"
+    },
+    {
+      "material_id": "mp-1102332",
+      "formula": "HgF2",
+      "gt": 0.7648999999999999,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1102332.cif"
+    },
+    {
+      "material_id": "mp-760277",
+      "formula": "LiVCr(P2O7)2",
+      "gt": 1.3361999999999998,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-760277.cif"
+    },
+    {
+      "material_id": "mp-28505",
+      "formula": "Ba(AlTe2)2",
+      "gt": 1.5444,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-28505.cif"
+    },
+    {
+      "material_id": "mp-686724",
+      "formula": "Sr2La14Mg4(Ga4O15)3",
+      "gt": 2.7118,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-686724.cif"
+    },
+    {
+      "material_id": "mp-1217029",
+      "formula": "TlCu3Te2",
+      "gt": 0.2111,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1217029.cif"
+    },
+    {
+      "material_id": "mp-616597",
+      "formula": "ReHgO4",
+      "gt": 2.6963,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-616597.cif"
+    },
+    {
+      "material_id": "mp-1520000",
+      "formula": "Eu2TiSbO6",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1520000.cif"
+    },
+    {
+      "material_id": "mp-1184035",
+      "formula": "CsSr3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1184035.cif"
+    },
+    {
+      "material_id": "mp-20928",
+      "formula": "Sb2Ru",
+      "gt": 0.0034999999999989,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-20928.cif"
+    },
+    {
+      "material_id": "mp-30602",
+      "formula": "DyMg2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-30602.cif"
+    },
+    {
+      "material_id": "mp-570007",
+      "formula": "SmOs2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-570007.cif"
+    },
+    {
+      "material_id": "mp-18981",
+      "formula": "Sr2CaWO6",
+      "gt": 3.2349,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-18981.cif"
+    },
+    {
+      "material_id": "mp-1247350",
+      "formula": "Li3RuN2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1247350.cif"
+    },
+    {
+      "material_id": "mp-542964",
+      "formula": "Eu(TmSe2)2",
+      "gt": 0.1943000000000001,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-542964.cif"
+    },
+    {
+      "material_id": "mp-1516505",
+      "formula": "BaCaEuBiO6",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1516505.cif"
+    },
+    {
+      "material_id": "mp-13831",
+      "formula": "BaCdGeS4",
+      "gt": 2.6727,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-13831.cif"
+    },
+    {
+      "material_id": "mp-1047241",
+      "formula": "Ca2MoWO6",
+      "gt": 1.9254000000000009,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1047241.cif"
+    },
+    {
+      "material_id": "mp-1074344",
+      "formula": "Mg4Si3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1074344.cif"
+    },
+    {
+      "material_id": "mp-1192794",
+      "formula": "Gd4InIr",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1192794.cif"
+    },
+    {
+      "material_id": "mp-1201995",
+      "formula": "CaAl2(Si3O10)2",
+      "gt": 0.3742,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1201995.cif"
+    },
+    {
+      "material_id": "mp-1221374",
+      "formula": "Na2MoAs2O9",
+      "gt": 3.0479000000000003,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1221374.cif"
+    },
+    {
+      "material_id": "mp-1198961",
+      "formula": "TlCo(BrN)6",
+      "gt": 0.0551999999999999,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1198961.cif"
+    },
+    {
+      "material_id": "mp-726073",
+      "formula": "N2O3",
+      "gt": 0.4573999999999998,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-726073.cif"
+    },
+    {
+      "material_id": "mp-1205066",
+      "formula": "K2Fe2H8C4Cl2O13",
+      "gt": 2.2251000000000003,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1205066.cif"
+    },
+    {
+      "material_id": "mp-1223189",
+      "formula": "La2TiCuO6",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1223189.cif"
+    },
+    {
+      "material_id": "mp-1222958",
+      "formula": "LaEuS2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1222958.cif"
+    },
+    {
+      "material_id": "mp-1209156",
+      "formula": "SbC2O5",
+      "gt": 0.0609999999999999,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1209156.cif"
+    },
+    {
+      "material_id": "mp-26524",
+      "formula": "VP2O7",
+      "gt": 1.2243,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-26524.cif"
+    },
+    {
+      "material_id": "mp-757221",
+      "formula": "CuNi9O10",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-757221.cif"
+    },
+    {
+      "material_id": "mp-510488",
+      "formula": "SmMnSbO",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-510488.cif"
+    },
+    {
+      "material_id": "mp-24809",
+      "formula": "CaH2",
+      "gt": 0.6536000000000004,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-24809.cif"
+    },
+    {
+      "material_id": "mp-1191263",
+      "formula": "CeIn2Pd3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1191263.cif"
+    },
+    {
+      "material_id": "mp-1224960",
+      "formula": "FeNiB",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1224960.cif"
+    },
+    {
+      "material_id": "mp-987",
+      "formula": "ZnCu",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-987.cif"
+    },
+    {
+      "material_id": "mp-22974",
+      "formula": "MoCl4O",
+      "gt": 1.4552,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-22974.cif"
+    },
+    {
+      "material_id": "mp-1195646",
+      "formula": "NaVH2(OF2)2",
+      "gt": 3.4885,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1195646.cif"
+    },
+    {
+      "material_id": "mp-1025752",
+      "formula": "Te4Mo2WSe2",
+      "gt": 0.8468,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1025752.cif"
+    },
+    {
+      "material_id": "mp-1111062",
+      "formula": "Na2ScHgF6",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1111062.cif"
+    },
+    {
+      "material_id": "mp-1079450",
+      "formula": "CoTe(PbO3)2",
+      "gt": 1.6060999999999996,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1079450.cif"
+    },
+    {
+      "material_id": "mp-4056",
+      "formula": "CaSc2O4",
+      "gt": 3.458,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-4056.cif"
+    },
+    {
+      "material_id": "mp-758694",
+      "formula": "Li3VF5",
+      "gt": 2.3684000000000003,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-758694.cif"
+    },
+    {
+      "material_id": "mp-1178030",
+      "formula": "Li2Cr3SbO8",
+      "gt": 1.9745,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1178030.cif"
+    },
+    {
+      "material_id": "mp-1183884",
+      "formula": "Eu2MgTl",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1183884.cif"
+    },
+    {
+      "material_id": "mp-567781",
+      "formula": "Cs3Zr7BCl20",
+      "gt": 1.1953999999999998,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-567781.cif"
+    },
+    {
+      "material_id": "mp-1222562",
+      "formula": "Li3Mn8O16",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1222562.cif"
+    },
+    {
+      "material_id": "mp-19810",
+      "formula": "TaNiTe2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-19810.cif"
+    },
+    {
+      "material_id": "mp-1176510",
+      "formula": "LiVS3",
+      "gt": 0.0398999999999998,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1176510.cif"
+    },
+    {
+      "material_id": "mp-1044777",
+      "formula": "PrZn(FeO3)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1044777.cif"
+    },
+    {
+      "material_id": "mp-1078294",
+      "formula": "Sn(NF3)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1078294.cif"
+    },
+    {
+      "material_id": "mp-1199762",
+      "formula": "AlPO4",
+      "gt": 5.6258,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1199762.cif"
+    },
+    {
+      "material_id": "mp-10409",
+      "formula": "Ba4Nd2Cd3Se10",
+      "gt": 1.5191,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-10409.cif"
+    },
+    {
+      "material_id": "mp-510464",
+      "formula": "Ce(IO3)3",
+      "gt": 0.1046999999999993,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-510464.cif"
+    },
+    {
+      "material_id": "mp-1228713",
+      "formula": "Al4Ni15",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1228713.cif"
+    },
+    {
+      "material_id": "mp-779882",
+      "formula": "Mn6O5F7",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-779882.cif"
+    },
+    {
+      "material_id": "mp-1227149",
+      "formula": "Ce2Fe17C",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1227149.cif"
+    },
+    {
+      "material_id": "mp-1201390",
+      "formula": "CuH12C2(NO2)6",
+      "gt": 1.0065,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1201390.cif"
+    },
+    {
+      "material_id": "mp-776602",
+      "formula": "Na5Mn2P(CO4)4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-776602.cif"
+    },
+    {
+      "material_id": "mp-1025225",
+      "formula": "ErGa5Co",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1025225.cif"
+    },
+    {
+      "material_id": "mp-540858",
+      "formula": "Cu3(AsO4)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-540858.cif"
+    },
+    {
+      "material_id": "mp-752654",
+      "formula": "Li3(FeO3)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-752654.cif"
+    },
+    {
+      "material_id": "mp-1520547",
+      "formula": "CaDyMn4O12",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1520547.cif"
+    },
+    {
+      "material_id": "mp-1226570",
+      "formula": "Co(RhO3)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1226570.cif"
+    },
+    {
+      "material_id": "mp-980750",
+      "formula": "YAs3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-980750.cif"
+    },
+    {
+      "material_id": "mp-7945",
+      "formula": "V3S",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-7945.cif"
+    },
+    {
+      "material_id": "mp-1035120",
+      "formula": "Mg14NbCoO16",
+      "gt": 1.5412999999999997,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1035120.cif"
+    },
+    {
+      "material_id": "mp-1112246",
+      "formula": "K2NdCuF6",
+      "gt": 0.3584999999999998,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1112246.cif"
+    },
+    {
+      "material_id": "mp-1410408",
+      "formula": "Ca(CoS2)4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1410408.cif"
+    },
+    {
+      "material_id": "mp-5447",
+      "formula": "Sm3OsO7",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-5447.cif"
+    },
+    {
+      "material_id": "mp-982595",
+      "formula": "Na3Re",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-982595.cif"
+    },
+    {
+      "material_id": "mp-1224893",
+      "formula": "FeNiS4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1224893.cif"
+    },
+    {
+      "material_id": "mp-1223461",
+      "formula": "KCNO",
+      "gt": 2.0098000000000003,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1223461.cif"
+    },
+    {
+      "material_id": "mp-554901",
+      "formula": "Ga2Mo(SeO5)2",
+      "gt": 3.6065,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-554901.cif"
+    },
+    {
+      "material_id": "mp-1176916",
+      "formula": "Li6V3P8O29",
+      "gt": 1.1059,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1176916.cif"
+    },
+    {
+      "material_id": "mp-1110893",
+      "formula": "K2NaNdCl6",
+      "gt": 4.8337,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1110893.cif"
+    },
+    {
+      "material_id": "mp-1218071",
+      "formula": "Ta3Cr8Si",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1218071.cif"
+    },
+    {
+      "material_id": "mp-1246764",
+      "formula": "Mn(CdN)4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1246764.cif"
+    },
+    {
+      "material_id": "mp-1205936",
+      "formula": "HoMgPd",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1205936.cif"
+    },
+    {
+      "material_id": "mp-1104485",
+      "formula": "Y(GaFe)6",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1104485.cif"
+    },
+    {
+      "material_id": "mp-998758",
+      "formula": "TlHgF3",
+      "gt": 2.1963,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-998758.cif"
+    },
+    {
+      "material_id": "mp-1915",
+      "formula": "Fe2B",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1915.cif"
+    },
+    {
+      "material_id": "mp-561462",
+      "formula": "Ba2Nd2Si4O13",
+      "gt": 5.046200000000001,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-561462.cif"
+    },
+    {
+      "material_id": "mp-1173174",
+      "formula": "SrLiTi4CrO11",
+      "gt": 2.2734000000000005,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1173174.cif"
+    },
+    {
+      "material_id": "mp-22499",
+      "formula": "EuSnF7",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-22499.cif"
+    },
+    {
+      "material_id": "mp-5561",
+      "formula": "Ho(CrSi)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-5561.cif"
+    },
+    {
+      "material_id": "mp-1204264",
+      "formula": "In12Ga4Ir2O15",
+      "gt": 1.4187000000000003,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1204264.cif"
+    },
+    {
+      "material_id": "mp-1229062",
+      "formula": "Al(V4Si)3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1229062.cif"
+    },
+    {
+      "material_id": "mp-1079732",
+      "formula": "Te(Br3N)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1079732.cif"
+    },
+    {
+      "material_id": "mp-17880",
+      "formula": "Al13Ru4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-17880.cif"
+    },
+    {
+      "material_id": "mp-1106089",
+      "formula": "Ba2InGaO5",
+      "gt": 1.4145,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1106089.cif"
+    },
+    {
+      "material_id": "mp-1378442",
+      "formula": "ZnCr2O4",
+      "gt": 2.3856,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1378442.cif"
+    },
+    {
+      "material_id": "mp-1227498",
+      "formula": "BaSrNdCu3O7",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1227498.cif"
+    },
+    {
+      "material_id": "mp-1195229",
+      "formula": "SbXeF11",
+      "gt": 1.7571999999999997,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1195229.cif"
+    },
+    {
+      "material_id": "mp-1180923",
+      "formula": "MgH12SeO9",
+      "gt": 3.3583,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1180923.cif"
+    },
+    {
+      "material_id": "mp-6834",
+      "formula": "KFePO4F",
+      "gt": 2.4331,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-6834.cif"
+    },
+    {
+      "material_id": "mp-18982",
+      "formula": "Sr3NiIrO6",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-18982.cif"
+    },
+    {
+      "material_id": "mp-1445593",
+      "formula": "WO2",
+      "gt": 2.3284,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1445593.cif"
+    },
+    {
+      "material_id": "mp-9986",
+      "formula": "CsAuO",
+      "gt": 1.3835,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-9986.cif"
+    },
+    {
+      "material_id": "mp-1113474",
+      "formula": "Rb2CuNiF6",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1113474.cif"
+    },
+    {
+      "material_id": "mp-1214882",
+      "formula": "AuI3N",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1214882.cif"
+    },
+    {
+      "material_id": "mp-976768",
+      "formula": "NaMg3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-976768.cif"
+    },
+    {
+      "material_id": "mp-759268",
+      "formula": "FeOF",
+      "gt": 1.1886,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-759268.cif"
+    },
+    {
+      "material_id": "mp-757713",
+      "formula": "Fe3CoCu2(PO4)6",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-757713.cif"
+    },
+    {
+      "material_id": "mp-1202583",
+      "formula": "GaAu(I4N)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1202583.cif"
+    },
+    {
+      "material_id": "mp-561121",
+      "formula": "CsTi3P5O19",
+      "gt": 2.7906,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-561121.cif"
+    },
+    {
+      "material_id": "mp-570298",
+      "formula": "Ba(SbAu)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-570298.cif"
+    },
+    {
+      "material_id": "mp-755722",
+      "formula": "Li2Mn3CrO8",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-755722.cif"
+    },
+    {
+      "material_id": "mp-557236",
+      "formula": "Te2As2Se8S(OF6)2",
+      "gt": 1.1774,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-557236.cif"
+    },
+    {
+      "material_id": "mp-1228076",
+      "formula": "Ba4Sr(SnO3)5",
+      "gt": 0.5276000000000005,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1228076.cif"
+    },
+    {
+      "material_id": "mp-29905",
+      "formula": "Mn9(NbGe4)2",
+      "gt": 0.0211000000000005,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-29905.cif"
+    },
+    {
+      "material_id": "mp-1204170",
+      "formula": "Mg5(C2O9)2",
+      "gt": 0.0232,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1204170.cif"
+    },
+    {
+      "material_id": "mp-1104305",
+      "formula": "Pr4(FeB2)3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1104305.cif"
+    },
+    {
+      "material_id": "mp-1226066",
+      "formula": "DyThFe14B",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1226066.cif"
+    },
+    {
+      "material_id": "mp-1214632",
+      "formula": "Ba3SbI3",
+      "gt": 1.4021,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1214632.cif"
+    },
+    {
+      "material_id": "mp-29114",
+      "formula": "Re3Te4Cl5",
+      "gt": 1.1397000000000002,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-29114.cif"
+    },
+    {
+      "material_id": "mp-760140",
+      "formula": "Li2VF6",
+      "gt": 1.3538,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-760140.cif"
+    },
+    {
+      "material_id": "mp-696335",
+      "formula": "K2FeH2OF5",
+      "gt": 2.7881,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-696335.cif"
+    },
+    {
+      "material_id": "mp-759296",
+      "formula": "Li4Fe3Cu3(WO8)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-759296.cif"
+    },
+    {
+      "material_id": "mp-1519048",
+      "formula": "BaSrPrBiO6",
+      "gt": 1.7972,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1519048.cif"
+    },
+    {
+      "material_id": "mp-1045606",
+      "formula": "Sb(PO3)4",
+      "gt": 1.6088000000000002,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1045606.cif"
+    },
+    {
+      "material_id": "mp-1099805",
+      "formula": "Mg2Mn2O5",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1099805.cif"
+    },
+    {
+      "material_id": "mp-8483",
+      "formula": "K2SO3",
+      "gt": 4.914899999999999,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-8483.cif"
+    },
+    {
+      "material_id": "mp-1096145",
+      "formula": "Y2ZnTc",
+      "gt": 0.0504999999999999,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1096145.cif"
+    },
+    {
+      "material_id": "mp-1211994",
+      "formula": "KVSO9",
+      "gt": 0.6248,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1211994.cif"
+    },
+    {
+      "material_id": "mp-4675",
+      "formula": "NaTaO3",
+      "gt": 2.2798000000000003,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-4675.cif"
+    },
+    {
+      "material_id": "mp-696216",
+      "formula": "HS3N",
+      "gt": 2.7266,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-696216.cif"
+    },
+    {
+      "material_id": "mp-1093711",
+      "formula": "BeSiTc2",
+      "gt": 0.262,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1093711.cif"
+    },
+    {
+      "material_id": "mp-560585",
+      "formula": "P3IrO9",
+      "gt": 2.2440999999999995,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-560585.cif"
+    },
+    {
+      "material_id": "mp-1079167",
+      "formula": "HfGeRh",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1079167.cif"
+    },
+    {
+      "material_id": "mp-1185119",
+      "formula": "K3Rb",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1185119.cif"
+    },
+    {
+      "material_id": "mp-1018151",
+      "formula": "NbPd2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1018151.cif"
+    },
+    {
+      "material_id": "mp-1215299",
+      "formula": "ZrInPt2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1215299.cif"
+    },
+    {
+      "material_id": "mp-6130",
+      "formula": "KMn4(PO4)3",
+      "gt": 3.0707000000000004,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-6130.cif"
+    },
+    {
+      "material_id": "mp-1077165",
+      "formula": "YbCu4Au",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1077165.cif"
+    },
+    {
+      "material_id": "mp-1190842",
+      "formula": "Rb6HgS4",
+      "gt": 1.5950000000000002,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1190842.cif"
+    },
+    {
+      "material_id": "mp-768489",
+      "formula": "Mg3WO6",
+      "gt": 3.9309,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-768489.cif"
+    },
+    {
+      "material_id": "mp-1193521",
+      "formula": "V3(Co10B3)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1193521.cif"
+    },
+    {
+      "material_id": "mp-1210746",
+      "formula": "MnCo3C",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1210746.cif"
+    },
+    {
+      "material_id": "mp-24050",
+      "formula": "LaCrHO5",
+      "gt": 2.2136,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-24050.cif"
+    },
+    {
+      "material_id": "mp-1214929",
+      "formula": "Ba2GdCu3SO6",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1214929.cif"
+    },
+    {
+      "material_id": "mp-769570",
+      "formula": "Na3Fe2P(CO4)4",
+      "gt": 0.0471,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-769570.cif"
+    },
+    {
+      "material_id": "mp-1099089",
+      "formula": "Mg14CoNi",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1099089.cif"
+    },
+    {
+      "material_id": "mp-1219157",
+      "formula": "Sm2Si3Ni",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1219157.cif"
+    },
+    {
+      "material_id": "mp-571219",
+      "formula": "Tl3BiI6",
+      "gt": 2.4589,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-571219.cif"
+    },
+    {
+      "material_id": "mp-1105864",
+      "formula": "Cu11PdN4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1105864.cif"
+    },
+    {
+      "material_id": "mp-1201107",
+      "formula": "ZnB10(H13O4)2",
+      "gt": 4.006,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1201107.cif"
+    },
+    {
+      "material_id": "mp-568778",
+      "formula": "CuTeBr",
+      "gt": 0.5830000000000002,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-568778.cif"
+    },
+    {
+      "material_id": "mp-540553",
+      "formula": "Te7(OF5)6",
+      "gt": 2.9024,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-540553.cif"
+    },
+    {
+      "material_id": "mp-1207262",
+      "formula": "Nd2Cl2O",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1207262.cif"
+    },
+    {
+      "material_id": "mp-1214472",
+      "formula": "BaAs2Xe5F22",
+      "gt": 2.6011,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1214472.cif"
+    },
+    {
+      "material_id": "mp-1072199",
+      "formula": "PuB2Ir3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1072199.cif"
+    },
+    {
+      "material_id": "mp-556442",
+      "formula": "Tc2O5F4",
+      "gt": 1.8722,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-556442.cif"
+    },
+    {
+      "material_id": "mp-1099816",
+      "formula": "Sr5Ca3FeCo7O20",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1099816.cif"
+    },
+    {
+      "material_id": "mp-1112268",
+      "formula": "CsK2TaF6",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1112268.cif"
+    },
+    {
+      "material_id": "mp-1104575",
+      "formula": "Y(Fe2Si)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1104575.cif"
+    },
+    {
+      "material_id": "mp-1210148",
+      "formula": "NaBe3Al2Si6O19",
+      "gt": 0.7872000000000003,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1210148.cif"
+    },
+    {
+      "material_id": "mp-1027814",
+      "formula": "Mg14NbFe",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1027814.cif"
+    },
+    {
+      "material_id": "mp-70",
+      "formula": "Rb",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-70.cif"
+    },
+    {
+      "material_id": "mp-1094435",
+      "formula": "MgZn",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1094435.cif"
+    },
+    {
+      "material_id": "mp-1203960",
+      "formula": "UH6Br2O5",
+      "gt": 1.552,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1203960.cif"
+    },
+    {
+      "material_id": "mp-780667",
+      "formula": "CaSb2H2F14",
+      "gt": 4.6984,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-780667.cif"
+    },
+    {
+      "material_id": "mp-1185720",
+      "formula": "Mg16Al12Zn",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1185720.cif"
+    },
+    {
+      "material_id": "mp-1204780",
+      "formula": "B10H18C2S",
+      "gt": 3.0717,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1204780.cif"
+    },
+    {
+      "material_id": "mp-782632",
+      "formula": "LiNi(SO4)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-782632.cif"
+    },
+    {
+      "material_id": "mp-26319",
+      "formula": "Li3Mo(PO3)8",
+      "gt": 1.1831,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-26319.cif"
+    },
+    {
+      "material_id": "mp-1185477",
+      "formula": "LiTe3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1185477.cif"
+    },
+    {
+      "material_id": "mp-754259",
+      "formula": "Li7Nb2Fe3O16",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-754259.cif"
+    },
+    {
+      "material_id": "mp-24624",
+      "formula": "Rb2CoH8(CO5)2",
+      "gt": 3.6014,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-24624.cif"
+    },
+    {
+      "material_id": "mp-10931",
+      "formula": "HoSF",
+      "gt": 1.2996,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-10931.cif"
+    },
+    {
+      "material_id": "mp-20496",
+      "formula": "Ga2PbO4",
+      "gt": 3.4457000000000004,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-20496.cif"
+    },
+    {
+      "material_id": "mp-30100",
+      "formula": "Li2B2Se5",
+      "gt": 1.7047,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-30100.cif"
+    },
+    {
+      "material_id": "mp-1215937",
+      "formula": "YAlFe",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1215937.cif"
+    },
+    {
+      "material_id": "mp-758470",
+      "formula": "LiFe2P5O16",
+      "gt": 2.4064,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-758470.cif"
+    },
+    {
+      "material_id": "mp-10760",
+      "formula": "MgSe",
+      "gt": 1.7609,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-10760.cif"
+    },
+    {
+      "material_id": "mp-1183564",
+      "formula": "CaNdAu2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1183564.cif"
+    },
+    {
+      "material_id": "mp-25889",
+      "formula": "LiCoPO4",
+      "gt": 3.09,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-25889.cif"
+    },
+    {
+      "material_id": "mp-1056985",
+      "formula": "TiPd",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1056985.cif"
+    },
+    {
+      "material_id": "mp-773163",
+      "formula": "Li2Fe3SnO8",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-773163.cif"
+    },
+    {
+      "material_id": "mp-989547",
+      "formula": "Rb2NaInCl6",
+      "gt": 3.0533,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-989547.cif"
+    },
+    {
+      "material_id": "mp-1202175",
+      "formula": "Cs2BaH6(NO6)2",
+      "gt": 0.7271,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1202175.cif"
+    },
+    {
+      "material_id": "mp-1273579",
+      "formula": "Na2FeO3",
+      "gt": 0.3879000000000001,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1273579.cif"
+    },
+    {
+      "material_id": "mp-674482",
+      "formula": "MnFeO3",
+      "gt": 0.5864000000000003,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-674482.cif"
+    },
+    {
+      "material_id": "mp-1201696",
+      "formula": "Na4Sn2Ge5O17",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1201696.cif"
+    },
+    {
+      "material_id": "mp-570611",
+      "formula": "PrInAu2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-570611.cif"
+    },
+    {
+      "material_id": "mp-1180134",
+      "formula": "Ni(ClO2)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1180134.cif"
+    },
+    {
+      "material_id": "mp-754151",
+      "formula": "VOF",
+      "gt": 2.7884,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-754151.cif"
+    },
+    {
+      "material_id": "mp-759795",
+      "formula": "MnCr3Te2(PO4)6",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-759795.cif"
+    },
+    {
+      "material_id": "mp-861968",
+      "formula": "ErCl2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-861968.cif"
+    },
+    {
+      "material_id": "mp-9206",
+      "formula": "CsAg5Te3",
+      "gt": 0.0524,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-9206.cif"
+    },
+    {
+      "material_id": "mp-776957",
+      "formula": "Fe10O19F",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-776957.cif"
+    },
+    {
+      "material_id": "mp-504669",
+      "formula": "KBiF6",
+      "gt": 2.7061,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-504669.cif"
+    },
+    {
+      "material_id": "mp-1075989",
+      "formula": "Ba3Sr5Co4(CuO6)4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1075989.cif"
+    },
+    {
+      "material_id": "mp-1520816",
+      "formula": "BaEuZr2O6",
+      "gt": 0.2385000000000001,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1520816.cif"
+    },
+    {
+      "material_id": "mp-1096164",
+      "formula": "KRbHg2",
+      "gt": 0.1083999999999998,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1096164.cif"
+    },
+    {
+      "material_id": "mp-1047431",
+      "formula": "Zn(BiO2)2",
+      "gt": 0.8867000000000003,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1047431.cif"
+    },
+    {
+      "material_id": "mp-1228689",
+      "formula": "Ba(TeMo)6",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1228689.cif"
+    },
+    {
+      "material_id": "mp-1196528",
+      "formula": "Ce2Sb4Ir3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1196528.cif"
+    },
+    {
+      "material_id": "mp-646749",
+      "formula": "Nb2Ni4O9",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-646749.cif"
+    },
+    {
+      "material_id": "mp-1180378",
+      "formula": "Mg(BrO3)2",
+      "gt": 3.9449,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1180378.cif"
+    },
+    {
+      "material_id": "mp-1662213",
+      "formula": "Li2Fe2P4H3O16",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1662213.cif"
+    },
+    {
+      "material_id": "mp-10964",
+      "formula": "CeB2Ir2C",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-10964.cif"
+    },
+    {
+      "material_id": "mp-707883",
+      "formula": "CsB6H8O7",
+      "gt": 2.0083,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-707883.cif"
+    },
+    {
+      "material_id": "mp-754842",
+      "formula": "LiFeSiO4",
+      "gt": 2.985,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-754842.cif"
+    },
+    {
+      "material_id": "mp-29320",
+      "formula": "Te3SeO8",
+      "gt": 2.6525000000000003,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-29320.cif"
+    },
+    {
+      "material_id": "mp-1201298",
+      "formula": "Ho11(In3Ge2)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1201298.cif"
+    },
+    {
+      "material_id": "mp-1101518",
+      "formula": "Sn(PO3)3",
+      "gt": 2.4124,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1101518.cif"
+    },
+    {
+      "material_id": "mp-1246006",
+      "formula": "Na(OsN2)3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1246006.cif"
+    },
+    {
+      "material_id": "mp-1185117",
+      "formula": "La3Nb",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1185117.cif"
+    },
+    {
+      "material_id": "mp-1111274",
+      "formula": "Na2CuPdF6",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1111274.cif"
+    },
+    {
+      "material_id": "mp-1187438",
+      "formula": "ThMgAu2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1187438.cif"
+    },
+    {
+      "material_id": "mp-1027786",
+      "formula": "Mg14FeSb",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1027786.cif"
+    },
+    {
+      "material_id": "mp-705371",
+      "formula": "Li3Cr4P9O32",
+      "gt": 0.2252,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-705371.cif"
+    },
+    {
+      "material_id": "mp-1041479",
+      "formula": "MgCu(SiO3)2",
+      "gt": 0.3771,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1041479.cif"
+    },
+    {
+      "material_id": "mp-1216872",
+      "formula": "Tm2Mn(GeO3)4",
+      "gt": 1.9907,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1216872.cif"
+    },
+    {
+      "material_id": "mp-686801",
+      "formula": "Al6ZnP4(H4O7)4",
+      "gt": 2.2676,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-686801.cif"
+    },
+    {
+      "material_id": "mp-27484",
+      "formula": "Tl2O",
+      "gt": 0.5717000000000003,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-27484.cif"
+    },
+    {
+      "material_id": "mp-1111439",
+      "formula": "Cs2LiSbCl6",
+      "gt": 2.9508,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1111439.cif"
+    },
+    {
+      "material_id": "mp-1077929",
+      "formula": "La2CuO4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1077929.cif"
+    },
+    {
+      "material_id": "mp-1201514",
+      "formula": "K2RuO5",
+      "gt": 0.9515,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1201514.cif"
+    },
+    {
+      "material_id": "mp-1093604",
+      "formula": "Tl2HgSe",
+      "gt": 2.4546,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1093604.cif"
+    },
+    {
+      "material_id": "mp-31215",
+      "formula": "AgPdF6",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-31215.cif"
+    },
+    {
+      "material_id": "mp-757519",
+      "formula": "Li2Co(Si2O5)2",
+      "gt": 4.2573,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-757519.cif"
+    },
+    {
+      "material_id": "mp-1176737",
+      "formula": "LiFe2OF5",
+      "gt": 2.3924000000000003,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1176737.cif"
+    },
+    {
+      "material_id": "mp-707377",
+      "formula": "RbHSO4",
+      "gt": 4.6737,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-707377.cif"
+    },
+    {
+      "material_id": "mp-1193429",
+      "formula": "Sc2(Co7B2)3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1193429.cif"
+    },
+    {
+      "material_id": "mp-755274",
+      "formula": "Fe3(OF2)2",
+      "gt": 0.5987,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-755274.cif"
+    },
+    {
+      "material_id": "mp-1205269",
+      "formula": "NaB6S4(I3O4)2",
+      "gt": 1.1801,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1205269.cif"
+    },
+    {
+      "material_id": "mp-1210902",
+      "formula": "Na2SeO2",
+      "gt": 1.8216,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1210902.cif"
+    },
+    {
+      "material_id": "mp-1198252",
+      "formula": "La2Sb4Ir3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1198252.cif"
+    },
+    {
+      "material_id": "mp-11301",
+      "formula": "HoCd2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-11301.cif"
+    },
+    {
+      "material_id": "mp-1045535",
+      "formula": "V2ZnO4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1045535.cif"
+    },
+    {
+      "material_id": "mp-1209672",
+      "formula": "Re3(PbSe3)2",
+      "gt": 0.0115000000000007,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1209672.cif"
+    },
+    {
+      "material_id": "mp-1210235",
+      "formula": "Na3Pd5F12",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1210235.cif"
+    },
+    {
+      "material_id": "mp-567609",
+      "formula": "AlSn2P(H3C)8",
+      "gt": 3.5023,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-567609.cif"
+    },
+    {
+      "material_id": "mp-775948",
+      "formula": "LiVP2HO8",
+      "gt": 1.079,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-775948.cif"
+    },
+    {
+      "material_id": "mp-1192586",
+      "formula": "ThTlF5",
+      "gt": 4.8443000000000005,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1192586.cif"
+    },
+    {
+      "material_id": "mp-570259",
+      "formula": "MgCl2",
+      "gt": 5.5753,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-570259.cif"
+    },
+    {
+      "material_id": "mp-1076637",
+      "formula": "K3Na5V2(Mo3O10)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1076637.cif"
+    },
+    {
+      "material_id": "mp-1211093",
+      "formula": "LiCaFeF6",
+      "gt": 4.1719,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1211093.cif"
+    },
+    {
+      "material_id": "mp-1205256",
+      "formula": "Na2NdN5O16",
+      "gt": 0.4775999999999999,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1205256.cif"
+    },
+    {
+      "material_id": "mp-757809",
+      "formula": "LiMnPO4",
+      "gt": 3.4096,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-757809.cif"
+    },
+    {
+      "material_id": "mp-1178261",
+      "formula": "Ga3NO3",
+      "gt": 0.9661000000000002,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1178261.cif"
+    },
+    {
+      "material_id": "mp-1208752",
+      "formula": "Sr2PrCu2(BiO4)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1208752.cif"
+    },
+    {
+      "material_id": "mp-1246529",
+      "formula": "FeGeN2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1246529.cif"
+    },
+    {
+      "material_id": "mp-1022590",
+      "formula": "HfMg6Zn",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1022590.cif"
+    },
+    {
+      "material_id": "mp-28843",
+      "formula": "Tl2SnTe5",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-28843.cif"
+    },
+    {
+      "material_id": "mp-778233",
+      "formula": "Li5V6O5F19",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-778233.cif"
+    },
+    {
+      "material_id": "mp-1187888",
+      "formula": "YSeF",
+      "gt": 2.4302,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1187888.cif"
+    },
+    {
+      "material_id": "mp-1195141",
+      "formula": "SrU2S5",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1195141.cif"
+    },
+    {
+      "material_id": "mp-1080508",
+      "formula": "La(GePt)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1080508.cif"
+    },
+    {
+      "material_id": "mp-1033291",
+      "formula": "Mg6BCO8",
+      "gt": 1.4173,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1033291.cif"
+    },
+    {
+      "material_id": "mp-1215702",
+      "formula": "Zn3Cu3(TeO6)2",
+      "gt": 0.5244999999999997,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1215702.cif"
+    },
+    {
+      "material_id": "mp-1189258",
+      "formula": "Y6PtI10",
+      "gt": 0.6705999999999994,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1189258.cif"
+    },
+    {
+      "material_id": "mp-674329",
+      "formula": "La2CdTe4",
+      "gt": 0.8014000000000001,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-674329.cif"
+    },
+    {
+      "material_id": "mp-2723",
+      "formula": "IrO2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-2723.cif"
+    },
+    {
+      "material_id": "mp-1101642",
+      "formula": "Cr10Sb3Te7",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1101642.cif"
+    },
+    {
+      "material_id": "mp-1216199",
+      "formula": "Y5B4Rh15",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1216199.cif"
+    },
+    {
+      "material_id": "mp-1272250",
+      "formula": "Fe(HO)2",
+      "gt": 2.3104,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1272250.cif"
+    },
+    {
+      "material_id": "mp-1076055",
+      "formula": "Sm2V2O5",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1076055.cif"
+    },
+    {
+      "material_id": "mp-637771",
+      "formula": "ZrInNi4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-637771.cif"
+    },
+    {
+      "material_id": "mp-768784",
+      "formula": "Li24Mn5Cr7O36",
+      "gt": 1.0341,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-768784.cif"
+    },
+    {
+      "material_id": "mp-559386",
+      "formula": "Rb2Cr5F17",
+      "gt": 2.5291,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-559386.cif"
+    },
+    {
+      "material_id": "mp-1185613",
+      "formula": "MgTlO3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1185613.cif"
+    },
+    {
+      "material_id": "mp-1060787",
+      "formula": "RbP",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1060787.cif"
+    },
+    {
+      "material_id": "mp-1200903",
+      "formula": "Y(CO3)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1200903.cif"
+    },
+    {
+      "material_id": "mp-2502",
+      "formula": "TmCd",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-2502.cif"
+    },
+    {
+      "material_id": "mp-1080739",
+      "formula": "Eu3(SF2)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1080739.cif"
+    },
+    {
+      "material_id": "mp-1208364",
+      "formula": "TbAlGe2O7",
+      "gt": 3.6797,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1208364.cif"
+    },
+    {
+      "material_id": "mp-1099713",
+      "formula": "Sr7CaMn4(FeO6)4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1099713.cif"
+    },
+    {
+      "material_id": "mp-1175050",
+      "formula": "Li7Mn2(CoO4)3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1175050.cif"
+    },
+    {
+      "material_id": "mp-24180",
+      "formula": "RbH6C2S2NO4",
+      "gt": 5.1913,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-24180.cif"
+    },
+    {
+      "material_id": "mp-3938",
+      "formula": "ZrSiS",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-3938.cif"
+    },
+    {
+      "material_id": "mp-1190730",
+      "formula": "Nd3AlCoS7",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1190730.cif"
+    },
+    {
+      "material_id": "mp-1210639",
+      "formula": "Mn5V2(HO3)4",
+      "gt": 1.7086,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1210639.cif"
+    },
+    {
+      "material_id": "mp-1303934",
+      "formula": "Mn2O3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1303934.cif"
+    },
+    {
+      "material_id": "mp-640776",
+      "formula": "Ce4Sn25Pt12",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-640776.cif"
+    },
+    {
+      "material_id": "mp-769023",
+      "formula": "Ba2Y7Cl25",
+      "gt": 4.1376,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-769023.cif"
+    },
+    {
+      "material_id": "mp-1228971",
+      "formula": "AlV9Au2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1228971.cif"
+    },
+    {
+      "material_id": "mp-28653",
+      "formula": "NdTa3O9",
+      "gt": 3.2129000000000003,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-28653.cif"
+    },
+    {
+      "material_id": "mp-1023257",
+      "formula": "CaMg6Ti",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1023257.cif"
+    },
+    {
+      "material_id": "mp-677039",
+      "formula": "Li5TiAs3",
+      "gt": 0.5890999999999997,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-677039.cif"
+    },
+    {
+      "material_id": "mp-997046",
+      "formula": "AuClO2",
+      "gt": 0.8831,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-997046.cif"
+    },
+    {
+      "material_id": "mp-1209778",
+      "formula": "Pr3HfSb5",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1209778.cif"
+    },
+    {
+      "material_id": "mp-1182953",
+      "formula": "AgCO2",
+      "gt": 1.976,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1182953.cif"
+    },
+    {
+      "material_id": "mp-1225711",
+      "formula": "Er6Mn(SiS7)2",
+      "gt": 0.9204,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1225711.cif"
+    },
+    {
+      "material_id": "mp-1215205",
+      "formula": "ZrTaCo4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1215205.cif"
+    },
+    {
+      "material_id": "mp-1228657",
+      "formula": "B2RuW",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1228657.cif"
+    },
+    {
+      "material_id": "mp-1187216",
+      "formula": "SrHg2Pb",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1187216.cif"
+    },
+    {
+      "material_id": "mp-1105365",
+      "formula": "KNO3",
+      "gt": 3.1418,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1105365.cif"
+    },
+    {
+      "material_id": "mp-1047990",
+      "formula": "Ca(BiO2)4",
+      "gt": 0.5339999999999998,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1047990.cif"
+    },
+    {
+      "material_id": "mp-1227260",
+      "formula": "CaBiNO5",
+      "gt": 2.2881,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1227260.cif"
+    },
+    {
+      "material_id": "mp-1183429",
+      "formula": "Be2Si2O5",
+      "gt": 0.4224999999999994,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1183429.cif"
+    },
+    {
+      "material_id": "mp-1177524",
+      "formula": "Li3Ti2(PO4)3",
+      "gt": 0.0341000000000004,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1177524.cif"
+    },
+    {
+      "material_id": "mp-1226114",
+      "formula": "Eu2(ZrSe2)5",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1226114.cif"
+    },
+    {
+      "material_id": "mp-1220888",
+      "formula": "NaSr2(SnAs)6",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1220888.cif"
+    },
+    {
+      "material_id": "mp-1212416",
+      "formula": "HfCrP",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1212416.cif"
+    },
+    {
+      "material_id": "mp-567959",
+      "formula": "Sr11Ga4Sn3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-567959.cif"
+    },
+    {
+      "material_id": "mp-25886",
+      "formula": "CuPO4",
+      "gt": 0.0078999999999997,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-25886.cif"
+    },
+    {
+      "material_id": "mp-1220515",
+      "formula": "Nb4C3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1220515.cif"
+    },
+    {
+      "material_id": "mp-863673",
+      "formula": "LiPm2Rh",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-863673.cif"
+    },
+    {
+      "material_id": "mp-766348",
+      "formula": "BaCaI4",
+      "gt": 3.6308,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-766348.cif"
+    },
+    {
+      "material_id": "mp-570258",
+      "formula": "Ca3(AlN2)2",
+      "gt": 2.5264,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-570258.cif"
+    },
+    {
+      "material_id": "mp-755499",
+      "formula": "Mn3(OF2)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-755499.cif"
+    },
+    {
+      "material_id": "mp-5659",
+      "formula": "Ti3SiC2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-5659.cif"
+    },
+    {
+      "material_id": "mp-1182967",
+      "formula": "AlCu2AsO12",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1182967.cif"
+    },
+    {
+      "material_id": "mp-1195020",
+      "formula": "PrTl(PSe3)2",
+      "gt": 1.8205,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1195020.cif"
+    },
+    {
+      "material_id": "mp-1192531",
+      "formula": "KCu2SbS3",
+      "gt": 0.9539,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1192531.cif"
+    },
+    {
+      "material_id": "mp-1096424",
+      "formula": "Zr2CuPt",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1096424.cif"
+    },
+    {
+      "material_id": "mp-1194745",
+      "formula": "FeB12(HO6)4",
+      "gt": 0.0165999999999999,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1194745.cif"
+    },
+    {
+      "material_id": "mp-6674",
+      "formula": "LiLa2SbO6",
+      "gt": 3.7234,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-6674.cif"
+    },
+    {
+      "material_id": "mp-30240",
+      "formula": "Ca2CoO3",
+      "gt": 0.9151,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-30240.cif"
+    },
+    {
+      "material_id": "mp-759694",
+      "formula": "Mg2Ti7O15",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-759694.cif"
+    },
+    {
+      "material_id": "mp-29713",
+      "formula": "NbTeCl9",
+      "gt": 2.1717,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-29713.cif"
+    },
+    {
+      "material_id": "mp-1042511",
+      "formula": "Zn2Bi3O8",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1042511.cif"
+    },
+    {
+      "material_id": "mp-1194235",
+      "formula": "U2Co(AsO12)2",
+      "gt": 0.0066999999999999,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1194235.cif"
+    },
+    {
+      "material_id": "mp-540585",
+      "formula": "BaGa2(GeO4)2",
+      "gt": 3.2465,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-540585.cif"
+    },
+    {
+      "material_id": "mp-1096541",
+      "formula": "LiSc2Pd",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1096541.cif"
+    },
+    {
+      "material_id": "mp-1247218",
+      "formula": "MgMoWS4",
+      "gt": 0.3597000000000001,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1247218.cif"
+    },
+    {
+      "material_id": "mp-753355",
+      "formula": "Ce5Y2O13",
+      "gt": 1.0354,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-753355.cif"
+    },
+    {
+      "material_id": "mp-1190402",
+      "formula": "Y2Cu3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1190402.cif"
+    },
+    {
+      "material_id": "mp-11446",
+      "formula": "Tb",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-11446.cif"
+    },
+    {
+      "material_id": "mp-1224181",
+      "formula": "In2CuSe3I",
+      "gt": 0.1766999999999998,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1224181.cif"
+    },
+    {
+      "material_id": "mp-1209082",
+      "formula": "RbYSeCl2O3",
+      "gt": 4.313,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1209082.cif"
+    },
+    {
+      "material_id": "mp-759045",
+      "formula": "VOF",
+      "gt": 0.8464999999999998,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-759045.cif"
+    },
+    {
+      "material_id": "mp-1192557",
+      "formula": "Ba4Li2(CdAs2)3",
+      "gt": 0.3498999999999999,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1192557.cif"
+    },
+    {
+      "material_id": "mp-31253",
+      "formula": "Ga2Ir",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-31253.cif"
+    },
+    {
+      "material_id": "mp-1195181",
+      "formula": "Co4Se3Cl2O9",
+      "gt": 2.4618,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1195181.cif"
+    },
+    {
+      "material_id": "mp-1207606",
+      "formula": "YFe3(BO3)4",
+      "gt": 2.371,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1207606.cif"
+    },
+    {
+      "material_id": "mp-30084",
+      "formula": "Al2FeO4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-30084.cif"
+    },
+    {
+      "material_id": "mp-1228485",
+      "formula": "Al3CrO6",
+      "gt": 3.8929,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1228485.cif"
+    },
+    {
+      "material_id": "mp-1343327",
+      "formula": "AlAgO3",
+      "gt": 0.0480999999999998,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1343327.cif"
+    },
+    {
+      "material_id": "mp-1519207",
+      "formula": "Ba2NdWO6",
+      "gt": 1.7938000000000005,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1519207.cif"
+    },
+    {
+      "material_id": "mp-1216479",
+      "formula": "VH3O4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1216479.cif"
+    },
+    {
+      "material_id": "mp-6077",
+      "formula": "Ba3SmRu2O9",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-6077.cif"
+    },
+    {
+      "material_id": "mp-778364",
+      "formula": "Na6Ti2O7",
+      "gt": 3.5731,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-778364.cif"
+    },
+    {
+      "material_id": "mp-779814",
+      "formula": "Cs2ZnH12(SO7)2",
+      "gt": 4.8055,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-779814.cif"
+    },
+    {
+      "material_id": "mp-1219713",
+      "formula": "PrNdSb2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1219713.cif"
+    },
+    {
+      "material_id": "mp-831167",
+      "formula": "LiMn(PO3)4",
+      "gt": 1.1233,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-831167.cif"
+    },
+    {
+      "material_id": "mp-774243",
+      "formula": "LiCrSnO4",
+      "gt": 1.3642000000000003,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-774243.cif"
+    },
+    {
+      "material_id": "mp-752441",
+      "formula": "SrCrO3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-752441.cif"
+    },
+    {
+      "material_id": "mp-1105573",
+      "formula": "Ba2GdGaTe5",
+      "gt": 0.7637,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1105573.cif"
+    },
+    {
+      "material_id": "mp-1200798",
+      "formula": "RhWN5ClO4",
+      "gt": 0.1595999999999999,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1200798.cif"
+    },
+    {
+      "material_id": "mp-1226855",
+      "formula": "Ce3YRh4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1226855.cif"
+    },
+    {
+      "material_id": "mp-1224931",
+      "formula": "GaPH11C3Cl",
+      "gt": 4.854900000000001,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1224931.cif"
+    },
+    {
+      "material_id": "mp-25393",
+      "formula": "Li2FePO4F",
+      "gt": 3.709,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-25393.cif"
+    },
+    {
+      "material_id": "mp-1095062",
+      "formula": "Rb2Pu(Cl2O)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1095062.cif"
+    },
+    {
+      "material_id": "mp-1209121",
+      "formula": "RuF6",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1209121.cif"
+    },
+    {
+      "material_id": "mp-1226878",
+      "formula": "Cd3Hg",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1226878.cif"
+    },
+    {
+      "material_id": "mp-1209941",
+      "formula": "Nb5Si3N",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1209941.cif"
+    },
+    {
+      "material_id": "mp-1174257",
+      "formula": "Li4Co3O7",
+      "gt": 0.5083000000000002,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1174257.cif"
+    },
+    {
+      "material_id": "mp-1228418",
+      "formula": "Ba3Tb2WO9",
+      "gt": 2.3808,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1228418.cif"
+    },
+    {
+      "material_id": "mp-1047617",
+      "formula": "Co(WO4)2",
+      "gt": 0.1016999999999999,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1047617.cif"
+    },
+    {
+      "material_id": "mp-1202937",
+      "formula": "AlH8C2N",
+      "gt": 5.175000000000001,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1202937.cif"
+    },
+    {
+      "material_id": "mp-1045721",
+      "formula": "AlCr4(CuO4)3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1045721.cif"
+    },
+    {
+      "material_id": "mp-1209799",
+      "formula": "Pr3CBr3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1209799.cif"
+    },
+    {
+      "material_id": "mp-1203079",
+      "formula": "NaLiB2(H5N)2",
+      "gt": 4.0857,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1203079.cif"
+    },
+    {
+      "material_id": "mp-1035958",
+      "formula": "YMg14TiO16",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1035958.cif"
+    },
+    {
+      "material_id": "mp-1210346",
+      "formula": "NaCa6Ti(Si2O9)2",
+      "gt": 0.2619,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1210346.cif"
+    },
+    {
+      "material_id": "mp-1212926",
+      "formula": "EuWO2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1212926.cif"
+    },
+    {
+      "material_id": "mp-1181612",
+      "formula": "HgCI3N",
+      "gt": 2.1755,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1181612.cif"
+    },
+    {
+      "material_id": "mp-1227694",
+      "formula": "BaSr3Pd2(OF)4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1227694.cif"
+    },
+    {
+      "material_id": "mp-557147",
+      "formula": "BaMo4(PO8)2",
+      "gt": 1.7998000000000005,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-557147.cif"
+    },
+    {
+      "material_id": "mp-632480",
+      "formula": "Ag3SI",
+      "gt": 0.2474000000000003,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-632480.cif"
+    },
+    {
+      "material_id": "mp-1174391",
+      "formula": "Li7Co5O12",
+      "gt": 0.7082000000000002,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1174391.cif"
+    },
+    {
+      "material_id": "mp-4577",
+      "formula": "Y3(AlNi3)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-4577.cif"
+    },
+    {
+      "material_id": "mp-863408",
+      "formula": "LiSiBiO4",
+      "gt": 2.6764,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-863408.cif"
+    },
+    {
+      "material_id": "mp-849690",
+      "formula": "LiFe4(BO3)4",
+      "gt": 1.9494,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-849690.cif"
+    },
+    {
+      "material_id": "mp-540809",
+      "formula": "Zr2Fe12P7",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-540809.cif"
+    },
+    {
+      "material_id": "mp-1187075",
+      "formula": "SmGdIn2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1187075.cif"
+    },
+    {
+      "material_id": "mp-1222493",
+      "formula": "Li5(YSb2)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1222493.cif"
+    },
+    {
+      "material_id": "mp-1021678",
+      "formula": "HfMg6V",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1021678.cif"
+    },
+    {
+      "material_id": "mp-862854",
+      "formula": "PaPd3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-862854.cif"
+    },
+    {
+      "material_id": "mp-541487",
+      "formula": "TlPt2Se3",
+      "gt": 0.4619999999999997,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-541487.cif"
+    },
+    {
+      "material_id": "mp-18998",
+      "formula": "Sr4Mn3O10",
+      "gt": 0.4796,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-18998.cif"
+    },
+    {
+      "material_id": "mp-541202",
+      "formula": "TlCuAsO4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-541202.cif"
+    },
+    {
+      "material_id": "mp-1207089",
+      "formula": "LuIn",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1207089.cif"
+    },
+    {
+      "material_id": "mp-1228307",
+      "formula": "Ba4Ce2In2O11",
+      "gt": 2.0237,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1228307.cif"
+    },
+    {
+      "material_id": "mp-1198715",
+      "formula": "Er3Rh2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1198715.cif"
+    },
+    {
+      "material_id": "mp-1203419",
+      "formula": "In10(Pb2S7)3",
+      "gt": 1.0858,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1203419.cif"
+    },
+    {
+      "material_id": "mp-1212893",
+      "formula": "DyB7Mo3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1212893.cif"
+    },
+    {
+      "material_id": "mp-1029568",
+      "formula": "Ba(CrN2)2",
+      "gt": 0.6511999999999998,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1029568.cif"
+    },
+    {
+      "material_id": "mp-557012",
+      "formula": "Li3Sc(BO3)2",
+      "gt": 4.1608,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-557012.cif"
+    },
+    {
+      "material_id": "mp-1317719",
+      "formula": "CaYMn2O6",
+      "gt": 0.4279999999999995,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1317719.cif"
+    },
+    {
+      "material_id": "mp-22009",
+      "formula": "PbSe",
+      "gt": 1.2995,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-22009.cif"
+    },
+    {
+      "material_id": "mp-995191",
+      "formula": "BaTiO3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-995191.cif"
+    },
+    {
+      "material_id": "mp-1100921",
+      "formula": "V7O3",
+      "gt": 0.8212999999999999,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1100921.cif"
+    },
+    {
+      "material_id": "mp-1077108",
+      "formula": "SmCuSn",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1077108.cif"
+    },
+    {
+      "material_id": "mp-1199737",
+      "formula": "K6Al4Si6BH4ClO24",
+      "gt": 4.5193,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1199737.cif"
+    },
+    {
+      "material_id": "mp-1080769",
+      "formula": "HfMnGe",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1080769.cif"
+    },
+    {
+      "material_id": "mp-555258",
+      "formula": "Ba3NaRu2O9",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-555258.cif"
+    },
+    {
+      "material_id": "mp-1207424",
+      "formula": "Zr2InAu2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1207424.cif"
+    },
+    {
+      "material_id": "mp-555160",
+      "formula": "CsYSeCl2O3",
+      "gt": 4.2892,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-555160.cif"
+    },
+    {
+      "material_id": "mp-1025511",
+      "formula": "NdBrO2",
+      "gt": 3.1288,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1025511.cif"
+    },
+    {
+      "material_id": "mp-705522",
+      "formula": "Sr28In11",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-705522.cif"
+    },
+    {
+      "material_id": "mp-763244",
+      "formula": "ZnFeH4O2F5",
+      "gt": 1.7907,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-763244.cif"
+    },
+    {
+      "material_id": "mp-29332",
+      "formula": "Pt(PbO2)2",
+      "gt": 0.5237999999999996,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-29332.cif"
+    },
+    {
+      "material_id": "mp-1199442",
+      "formula": "Sc5RuCl9",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1199442.cif"
+    },
+    {
+      "material_id": "mp-1213046",
+      "formula": "Cu2NO6",
+      "gt": 0.0173,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1213046.cif"
+    },
+    {
+      "material_id": "mp-1206867",
+      "formula": "Sc2Ga8Co",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1206867.cif"
+    },
+    {
+      "material_id": "mp-1517157",
+      "formula": "CaLaCrSnO6",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1517157.cif"
+    },
+    {
+      "material_id": "mp-978268",
+      "formula": "MgZn",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-978268.cif"
+    },
+    {
+      "material_id": "mp-621092",
+      "formula": "Tl2Pt(CN)4",
+      "gt": 2.5679,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-621092.cif"
+    },
+    {
+      "material_id": "mp-1095743",
+      "formula": "Sc2CuAg",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1095743.cif"
+    },
+    {
+      "material_id": "mp-1147607",
+      "formula": "InS2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1147607.cif"
+    },
+    {
+      "material_id": "mp-17697",
+      "formula": "KSmF4",
+      "gt": 6.9859,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-17697.cif"
+    },
+    {
+      "material_id": "mp-1197882",
+      "formula": "CsU2(AsO9)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1197882.cif"
+    },
+    {
+      "material_id": "mp-977374",
+      "formula": "LiLuPd2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-977374.cif"
+    },
+    {
+      "material_id": "mp-1211785",
+      "formula": "KP2(HO2)4",
+      "gt": 0.2609999999999999,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1211785.cif"
+    },
+    {
+      "material_id": "mp-605302",
+      "formula": "DyH6C6Cl3(O3F2)3",
+      "gt": 4.1943,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-605302.cif"
+    },
+    {
+      "material_id": "mp-722245",
+      "formula": "K2H2C2S2N2O",
+      "gt": 2.3712000000000004,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-722245.cif"
+    },
+    {
+      "material_id": "mp-600561",
+      "formula": "LiRh",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-600561.cif"
+    },
+    {
+      "material_id": "mp-1096576",
+      "formula": "Al2CuTc",
+      "gt": 0.4899999999999997,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1096576.cif"
+    },
+    {
+      "material_id": "mp-1044908",
+      "formula": "HoMgTi2O6",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1044908.cif"
+    },
+    {
+      "material_id": "mp-862962",
+      "formula": "CaLaZn2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-862962.cif"
+    },
+    {
+      "material_id": "mp-1095489",
+      "formula": "Cu2IO3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1095489.cif"
+    },
+    {
+      "material_id": "mp-760837",
+      "formula": "Rb3Nb20O34",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-760837.cif"
+    },
+    {
+      "material_id": "mp-1178367",
+      "formula": "Dy2CuO4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1178367.cif"
+    },
+    {
+      "material_id": "mp-21791",
+      "formula": "V2Fe3(SiO4)3",
+      "gt": 1.872,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-21791.cif"
+    },
+    {
+      "material_id": "mp-1227264",
+      "formula": "CaCd(WO4)2",
+      "gt": 3.1642,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1227264.cif"
+    },
+    {
+      "material_id": "mp-542299",
+      "formula": "Rb2Co2O3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-542299.cif"
+    },
+    {
+      "material_id": "mp-756983",
+      "formula": "Li10Cu(SiO5)2",
+      "gt": 2.5039,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-756983.cif"
+    },
+    {
+      "material_id": "mp-1216380",
+      "formula": "Y2Sc2TiCo10",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1216380.cif"
+    },
+    {
+      "material_id": "mp-1201367",
+      "formula": "Na5Sc(C2O7)2",
+      "gt": 0.4464,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1201367.cif"
+    },
+    {
+      "material_id": "mp-1192783",
+      "formula": "V4P3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1192783.cif"
+    },
+    {
+      "material_id": "mp-755201",
+      "formula": "Li3Fe(CuO3)2",
+      "gt": 0.0767999999999999,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-755201.cif"
+    },
+    {
+      "material_id": "mp-632706",
+      "formula": "ZnH8(N2Cl)2",
+      "gt": 4.516,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-632706.cif"
+    },
+    {
+      "material_id": "mp-1100970",
+      "formula": "Y7(O2F3)3",
+      "gt": 3.8161,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1100970.cif"
+    },
+    {
+      "material_id": "mp-1111149",
+      "formula": "Li3SbCl6",
+      "gt": 2.8486,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1111149.cif"
+    },
+    {
+      "material_id": "mp-770554",
+      "formula": "Mn3Co3(SnO8)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-770554.cif"
+    },
+    {
+      "material_id": "mp-1076685",
+      "formula": "K4Na4MoW7O24",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1076685.cif"
+    },
+    {
+      "material_id": "mp-680580",
+      "formula": "Zn3As2",
+      "gt": 0.1646999999999998,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-680580.cif"
+    },
+    {
+      "material_id": "mp-1228088",
+      "formula": "Ba4SrHf5O15",
+      "gt": 3.5926,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1228088.cif"
+    },
+    {
+      "material_id": "mp-768166",
+      "formula": "Dy(ClO4)3",
+      "gt": 5.4769,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-768166.cif"
+    },
+    {
+      "material_id": "mp-1079006",
+      "formula": "Pt(NO3)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1079006.cif"
+    },
+    {
+      "material_id": "mp-985506",
+      "formula": "Ac3Tl",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-985506.cif"
+    },
+    {
+      "material_id": "mp-697268",
+      "formula": "AgH2SNO3",
+      "gt": 2.8033,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-697268.cif"
+    },
+    {
+      "material_id": "mp-8281",
+      "formula": "Ba(CdAs)2",
+      "gt": 0.1575999999999999,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-8281.cif"
+    },
+    {
+      "material_id": "mp-1187899",
+      "formula": "Yb2Mg",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1187899.cif"
+    },
+    {
+      "material_id": "mp-4721",
+      "formula": "RbSb3Se5",
+      "gt": 1.2199999999999998,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-4721.cif"
+    },
+    {
+      "material_id": "mp-1235453",
+      "formula": "LiCu6OF11",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1235453.cif"
+    },
+    {
+      "material_id": "mp-1193049",
+      "formula": "Cs2Sn(HO2)6",
+      "gt": 2.5642,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1193049.cif"
+    },
+    {
+      "material_id": "mp-1100365",
+      "formula": "CaSnS3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1100365.cif"
+    },
+    {
+      "material_id": "mp-571420",
+      "formula": "Ba(NiP2)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-571420.cif"
+    },
+    {
+      "material_id": "mp-1215154",
+      "formula": "Al2FeSiO5",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1215154.cif"
+    },
+    {
+      "material_id": "mp-530395",
+      "formula": "Al2FeO4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-530395.cif"
+    },
+    {
+      "material_id": "mp-1183824",
+      "formula": "Ce3Th",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1183824.cif"
+    },
+    {
+      "material_id": "mp-1079575",
+      "formula": "SmInCo2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1079575.cif"
+    },
+    {
+      "material_id": "mp-754389",
+      "formula": "FeOF",
+      "gt": 1.4661,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-754389.cif"
+    },
+    {
+      "material_id": "mp-1110746",
+      "formula": "Rb2LiSbI6",
+      "gt": 1.7214999999999998,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1110746.cif"
+    },
+    {
+      "material_id": "mp-1196298",
+      "formula": "V4Pb3O3F19",
+      "gt": 1.8835,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1196298.cif"
+    },
+    {
+      "material_id": "mp-1044366",
+      "formula": "TiZnNi(PO4)3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1044366.cif"
+    },
+    {
+      "material_id": "mp-776163",
+      "formula": "Li8NbFe7(PO4)12",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-776163.cif"
+    },
+    {
+      "material_id": "mp-760415",
+      "formula": "Li3SbS4",
+      "gt": 2.0975,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-760415.cif"
+    },
+    {
+      "material_id": "mp-605437",
+      "formula": "FeHO2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-605437.cif"
+    },
+    {
+      "material_id": "mp-1225146",
+      "formula": "FeSnPt",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1225146.cif"
+    },
+    {
+      "material_id": "mp-1222926",
+      "formula": "LaCuSi2Ni",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1222926.cif"
+    },
+    {
+      "material_id": "mp-1387515",
+      "formula": "Ca3(CoO3)2",
+      "gt": 0.7642,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1387515.cif"
+    },
+    {
+      "material_id": "mp-727058",
+      "formula": "TiSi2C3N2Cl5",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-727058.cif"
+    },
+    {
+      "material_id": "mp-972058",
+      "formula": "YbTmO3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-972058.cif"
+    },
+    {
+      "material_id": "mp-1213359",
+      "formula": "ErIn2Pd",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1213359.cif"
+    },
+    {
+      "material_id": "mp-557538",
+      "formula": "Na2Gd2MgSi4(O6F)2",
+      "gt": 3.1091,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-557538.cif"
+    },
+    {
+      "material_id": "mp-1100814",
+      "formula": "ZnGeN2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1100814.cif"
+    },
+    {
+      "material_id": "mp-21677",
+      "formula": "Ca3(InNi2)4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-21677.cif"
+    },
+    {
+      "material_id": "mp-997004",
+      "formula": "CaAgO2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-997004.cif"
+    },
+    {
+      "material_id": "mp-1520157",
+      "formula": "KLaTiSnO6",
+      "gt": 2.6740000000000004,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1520157.cif"
+    },
+    {
+      "material_id": "mp-1369243",
+      "formula": "ZnSnO2",
+      "gt": 1.5469,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1369243.cif"
+    },
+    {
+      "material_id": "mp-553432",
+      "formula": "TiO2",
+      "gt": 3.4210000000000003,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-553432.cif"
+    },
+    {
+      "material_id": "mp-1207473",
+      "formula": "ZnC2",
+      "gt": 2.7078,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1207473.cif"
+    },
+    {
+      "material_id": "mp-1221492",
+      "formula": "Mo2O",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1221492.cif"
+    },
+    {
+      "material_id": "mp-1214190",
+      "formula": "Bi2Se",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1214190.cif"
+    },
+    {
+      "material_id": "mp-1184441",
+      "formula": "Eu3Nb",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1184441.cif"
+    },
+    {
+      "material_id": "mp-1094052",
+      "formula": "Sm3AlN",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1094052.cif"
+    },
+    {
+      "material_id": "mp-39003",
+      "formula": "Mg3Al14O24",
+      "gt": 4.311599999999999,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-39003.cif"
+    },
+    {
+      "material_id": "mp-1208598",
+      "formula": "Th(GeO)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1208598.cif"
+    },
+    {
+      "material_id": "mp-1061691",
+      "formula": "MgNi2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1061691.cif"
+    },
+    {
+      "material_id": "mp-1214321",
+      "formula": "CaB6(HO4)3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1214321.cif"
+    },
+    {
+      "material_id": "mp-1246728",
+      "formula": "MgPbN2",
+      "gt": 0.1898999999999997,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1246728.cif"
+    },
+    {
+      "material_id": "mp-1180887",
+      "formula": "NaCdF3",
+      "gt": 3.5602,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1180887.cif"
+    },
+    {
+      "material_id": "mp-1173466",
+      "formula": "SN",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1173466.cif"
+    },
+    {
+      "material_id": "mp-801465",
+      "formula": "Li5Ni3O5F3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-801465.cif"
+    },
+    {
+      "material_id": "mp-763793",
+      "formula": "Li2Mn3F8",
+      "gt": 3.3624,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-763793.cif"
+    },
+    {
+      "material_id": "mp-37207",
+      "formula": "Li5GaO4",
+      "gt": 3.5894,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-37207.cif"
+    },
+    {
+      "material_id": "mp-626293",
+      "formula": "Sr(H8O5)2",
+      "gt": 3.1307,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-626293.cif"
+    },
+    {
+      "material_id": "mp-976039",
+      "formula": "LuBe13",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-976039.cif"
+    },
+    {
+      "material_id": "mp-1025500",
+      "formula": "ZnCu2SnS4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1025500.cif"
+    },
+    {
+      "material_id": "mp-756475",
+      "formula": "LiMnO2",
+      "gt": 0.5065,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-756475.cif"
+    },
+    {
+      "material_id": "mp-867251",
+      "formula": "LiZn2Pt",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-867251.cif"
+    },
+    {
+      "material_id": "mp-1191539",
+      "formula": "Tb2Fe17C3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1191539.cif"
+    },
+    {
+      "material_id": "mp-540477",
+      "formula": "Li2Mn(PO3)4",
+      "gt": 3.8816000000000006,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-540477.cif"
+    },
+    {
+      "material_id": "mp-755435",
+      "formula": "Tl2Au",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-755435.cif"
+    },
+    {
+      "material_id": "mp-1187065",
+      "formula": "SnGeO3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1187065.cif"
+    },
+    {
+      "material_id": "mp-1027980",
+      "formula": "Te2Mo3W(SeS2)2",
+      "gt": 1.8862,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1027980.cif"
+    },
+    {
+      "material_id": "mp-2175",
+      "formula": "TlF",
+      "gt": 2.2117,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-2175.cif"
+    },
+    {
+      "material_id": "mp-1074412",
+      "formula": "Mg4Si3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1074412.cif"
+    },
+    {
+      "material_id": "mp-1018798",
+      "formula": "MgCuGe",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1018798.cif"
+    },
+    {
+      "material_id": "mp-1013549",
+      "formula": "Ba3BiN",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1013549.cif"
+    },
+    {
+      "material_id": "mp-1275887",
+      "formula": "BaLa2(CoO3)3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1275887.cif"
+    },
+    {
+      "material_id": "mp-1197042",
+      "formula": "NaPH6C2(NO)4",
+      "gt": 4.9843,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1197042.cif"
+    },
+    {
+      "material_id": "mp-972237",
+      "formula": "Tc3H",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-972237.cif"
+    },
+    {
+      "material_id": "mp-1099299",
+      "formula": "Mg6CdSn",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1099299.cif"
+    },
+    {
+      "material_id": "mp-849482",
+      "formula": "Mn12O7F17",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-849482.cif"
+    },
+    {
+      "material_id": "mp-1196066",
+      "formula": "CoH6(CO3)2",
+      "gt": 2.537,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1196066.cif"
+    },
+    {
+      "material_id": "mp-975443",
+      "formula": "InCuO3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-975443.cif"
+    },
+    {
+      "material_id": "mp-14620",
+      "formula": "Tm2CdSe4",
+      "gt": 0.653,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-14620.cif"
+    },
+    {
+      "material_id": "mp-540658",
+      "formula": "Na3Fe5O9",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-540658.cif"
+    },
+    {
+      "material_id": "mp-1172877",
+      "formula": "Ho(FeSn)6",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1172877.cif"
+    },
+    {
+      "material_id": "mp-684950",
+      "formula": "KNaZr2Be(PO4)4",
+      "gt": 2.6594,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-684950.cif"
+    },
+    {
+      "material_id": "mp-1191852",
+      "formula": "Mg6TiH16",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1191852.cif"
+    },
+    {
+      "material_id": "mp-779498",
+      "formula": "Ba3(ClO)2",
+      "gt": 2.5038,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-779498.cif"
+    },
+    {
+      "material_id": "mp-1078100",
+      "formula": "CdPPd5",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1078100.cif"
+    },
+    {
+      "material_id": "mp-672345",
+      "formula": "Cu4W(SCl)4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-672345.cif"
+    },
+    {
+      "material_id": "mp-1215462",
+      "formula": "ZnCu",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1215462.cif"
+    },
+    {
+      "material_id": "mp-306",
+      "formula": "B2O3",
+      "gt": 6.3017,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-306.cif"
+    },
+    {
+      "material_id": "mp-1224578",
+      "formula": "K2MgFe(SiO3)8",
+      "gt": 0.7370999999999999,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1224578.cif"
+    },
+    {
+      "material_id": "mp-935811",
+      "formula": "KNbO3",
+      "gt": 1.4120999999999997,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-935811.cif"
+    },
+    {
+      "material_id": "mp-650524",
+      "formula": "Sb3S2XeN(O2F9)2",
+      "gt": 2.6994,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-650524.cif"
+    },
+    {
+      "material_id": "mp-1235349",
+      "formula": "Ba2LiLaIrO6",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1235349.cif"
+    },
+    {
+      "material_id": "mp-1211117",
+      "formula": "Na11(CoO2)13",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1211117.cif"
+    },
+    {
+      "material_id": "mp-1173803",
+      "formula": "Na3CaFe4(SiO3)8",
+      "gt": 1.4038,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1173803.cif"
+    },
+    {
+      "material_id": "mp-1234313",
+      "formula": "K8Mg(SiO3)8",
+      "gt": 0.0102999999999999,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1234313.cif"
+    },
+    {
+      "material_id": "mp-1212103",
+      "formula": "K2Fe2(PO4)3",
+      "gt": 0.2243,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1212103.cif"
+    },
+    {
+      "material_id": "mp-17186",
+      "formula": "Ca3AlAs3",
+      "gt": 0.7300999999999997,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-17186.cif"
+    },
+    {
+      "material_id": "mp-1246397",
+      "formula": "Ca5MgN4",
+      "gt": 1.0404999999999998,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1246397.cif"
+    },
+    {
+      "material_id": "mp-1217391",
+      "formula": "Ti13Al9Co8",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1217391.cif"
+    },
+    {
+      "material_id": "mp-1196994",
+      "formula": "Lu5Zr3(Ni4As3)4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1196994.cif"
+    },
+    {
+      "material_id": "mp-1200694",
+      "formula": "Dy4CoB13",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1200694.cif"
+    },
+    {
+      "material_id": "mp-726066",
+      "formula": "Be(NF2)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-726066.cif"
+    },
+    {
+      "material_id": "mp-1173475",
+      "formula": "Nb2SiTe4",
+      "gt": 0.3216000000000001,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1173475.cif"
+    },
+    {
+      "material_id": "mp-1017385",
+      "formula": "Mg6CdSi",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1017385.cif"
+    },
+    {
+      "material_id": "mp-870701",
+      "formula": "Fe4S5",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-870701.cif"
+    },
+    {
+      "material_id": "mp-310",
+      "formula": "NpCo2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-310.cif"
+    },
+    {
+      "material_id": "mp-1233687",
+      "formula": "CaFe4(PO4)4",
+      "gt": 1.2373000000000005,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1233687.cif"
+    },
+    {
+      "material_id": "mp-1041194",
+      "formula": "CaTiS2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1041194.cif"
+    },
+    {
+      "material_id": "mp-1096913",
+      "formula": "CrN2",
+      "gt": 0.1268,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1096913.cif"
+    },
+    {
+      "material_id": "mp-1174345",
+      "formula": "Li7Co5O12",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1174345.cif"
+    },
+    {
+      "material_id": "mp-1105904",
+      "formula": "CN6Cl",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1105904.cif"
+    },
+    {
+      "material_id": "mp-560005",
+      "formula": "TlRe3(S2Cl)2",
+      "gt": 1.7613000000000003,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-560005.cif"
+    },
+    {
+      "material_id": "mp-763100",
+      "formula": "LiMnF4",
+      "gt": 2.4813,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-763100.cif"
+    },
+    {
+      "material_id": "mp-1193013",
+      "formula": "KZnBr3O2",
+      "gt": 1.8995,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1193013.cif"
+    },
+    {
+      "material_id": "mp-560489",
+      "formula": "Gd(IO3)3",
+      "gt": 3.0524,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-560489.cif"
+    },
+    {
+      "material_id": "mp-1517910",
+      "formula": "SrEuDyMnO6",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1517910.cif"
+    },
+    {
+      "material_id": "mp-531102",
+      "formula": "Fe(Bi5O8)5",
+      "gt": 1.1488000000000005,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-531102.cif"
+    },
+    {
+      "material_id": "mp-1224907",
+      "formula": "K6V6P6O31",
+      "gt": 0.0392000000000001,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1224907.cif"
+    },
+    {
+      "material_id": "mp-1662331",
+      "formula": "LiMnSiO4",
+      "gt": 1.2118000000000002,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1662331.cif"
+    },
+    {
+      "material_id": "mp-1224272",
+      "formula": "HfTeS",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1224272.cif"
+    },
+    {
+      "material_id": "mp-778031",
+      "formula": "Li3V(BO3)2",
+      "gt": 2.7524,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-778031.cif"
+    },
+    {
+      "material_id": "mp-778215",
+      "formula": "Li6MnV3(PO4)6",
+      "gt": 0.1364,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-778215.cif"
+    },
+    {
+      "material_id": "mp-757843",
+      "formula": "Li4Co3Ni3(SbO8)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-757843.cif"
+    },
+    {
+      "material_id": "mp-556360",
+      "formula": "ZrCoF6",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-556360.cif"
+    },
+    {
+      "material_id": "mp-706292",
+      "formula": "NaMn2V3(PbO6)2",
+      "gt": 1.9277,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-706292.cif"
+    },
+    {
+      "material_id": "mp-1093660",
+      "formula": "LiMg2In",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1093660.cif"
+    },
+    {
+      "material_id": "mp-676637",
+      "formula": "Na2UI6",
+      "gt": 1.1076,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-676637.cif"
+    },
+    {
+      "material_id": "mp-998604",
+      "formula": "RbPbCl3",
+      "gt": 3.263,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-998604.cif"
+    },
+    {
+      "material_id": "mp-1026637",
+      "formula": "NaMg14Sb",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1026637.cif"
+    },
+    {
+      "material_id": "mp-1026651",
+      "formula": "RbMg14W",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1026651.cif"
+    },
+    {
+      "material_id": "mp-774887",
+      "formula": "Li4Cu3Ni2Sb3O16",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-774887.cif"
+    },
+    {
+      "material_id": "mp-777652",
+      "formula": "Li4Fe3(SiO4)3",
+      "gt": 0.0098000000000002,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-777652.cif"
+    },
+    {
+      "material_id": "mp-849305",
+      "formula": "Li3Fe4O3F5",
+      "gt": 2.0659,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-849305.cif"
+    },
+    {
+      "material_id": "mp-1017085",
+      "formula": "CsSrMg6",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1017085.cif"
+    },
+    {
+      "material_id": "mp-485",
+      "formula": "ZrNi3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-485.cif"
+    },
+    {
+      "material_id": "mp-26049",
+      "formula": "Li3Fe(PO3)8",
+      "gt": 2.6742,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-26049.cif"
+    },
+    {
+      "material_id": "mp-7639",
+      "formula": "Na2CuP",
+      "gt": 0.6575000000000002,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-7639.cif"
+    },
+    {
+      "material_id": "mp-866011",
+      "formula": "DyThTc2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-866011.cif"
+    },
+    {
+      "material_id": "mp-1522801",
+      "formula": "CaPrMgBiO6",
+      "gt": 1.6036000000000006,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1522801.cif"
+    },
+    {
+      "material_id": "mp-1060967",
+      "formula": "AgBr",
+      "gt": 0.1213999999999999,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1060967.cif"
+    },
+    {
+      "material_id": "mp-23451",
+      "formula": "Cs3Cr2Br9",
+      "gt": 1.1852,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-23451.cif"
+    },
+    {
+      "material_id": "mp-975308",
+      "formula": "RbGdO3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-975308.cif"
+    },
+    {
+      "material_id": "mp-613206",
+      "formula": "EuGe2Ir",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-613206.cif"
+    },
+    {
+      "material_id": "mp-1225822",
+      "formula": "Cu5SeCl5O4",
+      "gt": 0.0676999999999998,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1225822.cif"
+    },
+    {
+      "material_id": "mp-1034512",
+      "formula": "SrMg14CdO16",
+      "gt": 4.944899999999999,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1034512.cif"
+    },
+    {
+      "material_id": "mp-1038976",
+      "formula": "CeMg5",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1038976.cif"
+    },
+    {
+      "material_id": "mp-1026542",
+      "formula": "Mg14NbSb",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1026542.cif"
+    },
+    {
+      "material_id": "mp-1206957",
+      "formula": "ErNiAs",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1206957.cif"
+    },
+    {
+      "material_id": "mp-1215468",
+      "formula": "Zn2CoS3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1215468.cif"
+    },
+    {
+      "material_id": "mp-1247890",
+      "formula": "Al2SiO5",
+      "gt": 4.1102,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1247890.cif"
+    },
+    {
+      "material_id": "mp-1040980",
+      "formula": "MgCu2(BiO4)2",
+      "gt": 0.1953,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1040980.cif"
+    },
+    {
+      "material_id": "mp-1218739",
+      "formula": "Sr2NbGaO6",
+      "gt": 3.1367,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1218739.cif"
+    },
+    {
+      "material_id": "mp-1102487",
+      "formula": "Sc(P2Ru3)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1102487.cif"
+    },
+    {
+      "material_id": "mp-768043",
+      "formula": "Li4TiMn4(Fe2O9)2",
+      "gt": 0.5678999999999998,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-768043.cif"
+    },
+    {
+      "material_id": "mp-1105990",
+      "formula": "Ho5Ge3C",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1105990.cif"
+    },
+    {
+      "material_id": "mp-862756",
+      "formula": "PrGa3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-862756.cif"
+    },
+    {
+      "material_id": "mp-1008912",
+      "formula": "AgC",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1008912.cif"
+    },
+    {
+      "material_id": "mp-1207773",
+      "formula": "Y5(NiTe)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1207773.cif"
+    },
+    {
+      "material_id": "mp-26342",
+      "formula": "SbP2O7",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-26342.cif"
+    },
+    {
+      "material_id": "mp-19395",
+      "formula": "MnO2",
+      "gt": 1.1467,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-19395.cif"
+    },
+    {
+      "material_id": "mp-1034819",
+      "formula": "Mg14SiBO16",
+      "gt": 0.8164000000000007,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1034819.cif"
+    },
+    {
+      "material_id": "mp-573751",
+      "formula": "AlTeCl7",
+      "gt": 3.2352,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-573751.cif"
+    },
+    {
+      "material_id": "mp-755885",
+      "formula": "Fe4O5F3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-755885.cif"
+    },
+    {
+      "material_id": "mp-995230",
+      "formula": "Cs2Si(HO2)2",
+      "gt": 3.8832,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-995230.cif"
+    },
+    {
+      "material_id": "mp-1522824",
+      "formula": "NaEuHfSnO6",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1522824.cif"
+    },
+    {
+      "material_id": "mp-1210508",
+      "formula": "Lu3SbO7",
+      "gt": 3.1147,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1210508.cif"
+    },
+    {
+      "material_id": "mp-1031577",
+      "formula": "Mg6NbVO8",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1031577.cif"
+    },
+    {
+      "material_id": "mp-1184162",
+      "formula": "ErIrO3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1184162.cif"
+    },
+    {
+      "material_id": "mp-1215402",
+      "formula": "ZrGa6(FeCo)3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1215402.cif"
+    },
+    {
+      "material_id": "mp-1222968",
+      "formula": "LaSm3Cr4O12",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1222968.cif"
+    },
+    {
+      "material_id": "mp-1246330",
+      "formula": "TaTeN",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1246330.cif"
+    },
+    {
+      "material_id": "mp-1197919",
+      "formula": "ZrP2O9",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1197919.cif"
+    },
+    {
+      "material_id": "mp-557026",
+      "formula": "ZnS",
+      "gt": 2.023,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-557026.cif"
+    },
+    {
+      "material_id": "mp-1177837",
+      "formula": "Li2TiFeO4",
+      "gt": 0.9611000000000004,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1177837.cif"
+    },
+    {
+      "material_id": "mp-1102078",
+      "formula": "DyNi3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1102078.cif"
+    },
+    {
+      "material_id": "mp-782649",
+      "formula": "Na4Mn2P(CO4)4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-782649.cif"
+    },
+    {
+      "material_id": "mp-1246588",
+      "formula": "Dy3Mg2MnS8",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1246588.cif"
+    },
+    {
+      "material_id": "mp-559807",
+      "formula": "Sb2BrF17",
+      "gt": 0.1523000000000003,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-559807.cif"
+    },
+    {
+      "material_id": "mp-1222757",
+      "formula": "Li2MgTi9O20",
+      "gt": 2.7058,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1222757.cif"
+    },
+    {
+      "material_id": "mp-910",
+      "formula": "NbC",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-910.cif"
+    },
+    {
+      "material_id": "mp-1102409",
+      "formula": "ErMn2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1102409.cif"
+    },
+    {
+      "material_id": "mp-972095",
+      "formula": "Zn3Hg",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-972095.cif"
+    },
+    {
+      "material_id": "mp-1218765",
+      "formula": "Sr2MnCrO6",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1218765.cif"
+    },
+    {
+      "material_id": "mp-21908",
+      "formula": "Co(SbO3)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-21908.cif"
+    },
+    {
+      "material_id": "mp-976868",
+      "formula": "NiH2SeO5",
+      "gt": 1.8086,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-976868.cif"
+    },
+    {
+      "material_id": "mp-1111468",
+      "formula": "Rb2GaAgCl6",
+      "gt": 1.213,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1111468.cif"
+    },
+    {
+      "material_id": "mp-17056",
+      "formula": "LiZnPO4",
+      "gt": 4.1081,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-17056.cif"
+    },
+    {
+      "material_id": "mp-704186",
+      "formula": "LiFe4(PO4)3",
+      "gt": 3.6404,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-704186.cif"
+    },
+    {
+      "material_id": "mp-755619",
+      "formula": "Sn2P2O7",
+      "gt": 2.7152,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-755619.cif"
+    },
+    {
+      "material_id": "mp-759561",
+      "formula": "FeOF",
+      "gt": 0.3581000000000003,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-759561.cif"
+    },
+    {
+      "material_id": "mp-975388",
+      "formula": "NdDy3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-975388.cif"
+    },
+    {
+      "material_id": "mp-17746",
+      "formula": "HfGePd",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-17746.cif"
+    },
+    {
+      "material_id": "mp-1218268",
+      "formula": "SrCuSi",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1218268.cif"
+    },
+    {
+      "material_id": "mp-1076548",
+      "formula": "Ca2Cu2O5",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1076548.cif"
+    },
+    {
+      "material_id": "mp-1183361",
+      "formula": "Ba3Yb",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1183361.cif"
+    },
+    {
+      "material_id": "mp-554754",
+      "formula": "Na2Zn(SO4)2",
+      "gt": 4.478400000000001,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-554754.cif"
+    },
+    {
+      "material_id": "mp-7486",
+      "formula": "BaNiS2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-7486.cif"
+    },
+    {
+      "material_id": "mp-1189897",
+      "formula": "Ba2ThS6",
+      "gt": 1.3091000000000004,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1189897.cif"
+    },
+    {
+      "material_id": "mp-862720",
+      "formula": "Sr2CdIn",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-862720.cif"
+    },
+    {
+      "material_id": "mp-1198587",
+      "formula": "Dy2Al17",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1198587.cif"
+    },
+    {
+      "material_id": "mp-1185869",
+      "formula": "MgGe3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1185869.cif"
+    },
+    {
+      "material_id": "mp-1034549",
+      "formula": "Mg14VSnO16",
+      "gt": 1.114799999999999,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1034549.cif"
+    },
+    {
+      "material_id": "mp-1095459",
+      "formula": "CeNi4B",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1095459.cif"
+    },
+    {
+      "material_id": "mp-1196243",
+      "formula": "B8PH24RhC7",
+      "gt": 1.6749999999999998,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1196243.cif"
+    },
+    {
+      "material_id": "mp-1182678",
+      "formula": "Mn2O3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1182678.cif"
+    },
+    {
+      "material_id": "mp-1202117",
+      "formula": "LiCu2BP2(HO5)2",
+      "gt": 0.8472999999999997,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1202117.cif"
+    },
+    {
+      "material_id": "mp-759138",
+      "formula": "Li2MnFe(PO4)2",
+      "gt": 3.7336,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-759138.cif"
+    },
+    {
+      "material_id": "mp-756611",
+      "formula": "Li3Mn3TeO8",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-756611.cif"
+    },
+    {
+      "material_id": "mp-1226539",
+      "formula": "CeSiAg",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1226539.cif"
+    },
+    {
+      "material_id": "mp-1187163",
+      "formula": "Sr3Yb",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1187163.cif"
+    },
+    {
+      "material_id": "mp-1181012",
+      "formula": "Li4Re6S11",
+      "gt": 1.7327999999999997,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1181012.cif"
+    },
+    {
+      "material_id": "mp-1031524",
+      "formula": "LiMg6AlO8",
+      "gt": 5.3995,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1031524.cif"
+    },
+    {
+      "material_id": "mp-1028136",
+      "formula": "RbMg14Mn",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1028136.cif"
+    },
+    {
+      "material_id": "mp-999207",
+      "formula": "Sc2MnSn",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-999207.cif"
+    },
+    {
+      "material_id": "mp-1194836",
+      "formula": "BaC4(O2F3)2",
+      "gt": 4.7469,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1194836.cif"
+    },
+    {
+      "material_id": "mp-1288258",
+      "formula": "Li2TiVO4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1288258.cif"
+    },
+    {
+      "material_id": "mp-753537",
+      "formula": "LiMnPO4",
+      "gt": 3.6677,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-753537.cif"
+    },
+    {
+      "material_id": "mp-867873",
+      "formula": "LiTm2Al",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-867873.cif"
+    },
+    {
+      "material_id": "mp-1187011",
+      "formula": "SmHf",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1187011.cif"
+    },
+    {
+      "material_id": "mp-777918",
+      "formula": "Cr3Sb5O16",
+      "gt": 0.2157,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-777918.cif"
+    },
+    {
+      "material_id": "mp-1977994",
+      "formula": "Li7Mn5O12",
+      "gt": 0.6067,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1977994.cif"
+    },
+    {
+      "material_id": "mp-1178158",
+      "formula": "La15(NiO4)8",
+      "gt": 0.0476999999999998,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1178158.cif"
+    },
+    {
+      "material_id": "mp-1177299",
+      "formula": "Li4TiFe2Ni3(PO4)6",
+      "gt": 2.4011,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1177299.cif"
+    },
+    {
+      "material_id": "mp-1207236",
+      "formula": "Pr4Mg3Co2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1207236.cif"
+    },
+    {
+      "material_id": "mp-1245722",
+      "formula": "CrCo2N3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1245722.cif"
+    },
+    {
+      "material_id": "mp-1210763",
+      "formula": "Li2(BH)7",
+      "gt": 4.5411,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1210763.cif"
+    },
+    {
+      "material_id": "mp-20227",
+      "formula": "NaMnP",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-20227.cif"
+    },
+    {
+      "material_id": "mp-775011",
+      "formula": "Li2NbFe3O8",
+      "gt": 1.8009,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-775011.cif"
+    },
+    {
+      "material_id": "mp-19209",
+      "formula": "LiAl(MoO4)2",
+      "gt": 3.6252,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-19209.cif"
+    },
+    {
+      "material_id": "mp-32667",
+      "formula": "SiO2",
+      "gt": 5.3845,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-32667.cif"
+    },
+    {
+      "material_id": "mp-8347",
+      "formula": "BaMnS2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-8347.cif"
+    },
+    {
+      "material_id": "mp-1222551",
+      "formula": "Li3NdGa8",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1222551.cif"
+    },
+    {
+      "material_id": "mp-1040835",
+      "formula": "LaCrReO6",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1040835.cif"
+    },
+    {
+      "material_id": "mp-1016904",
+      "formula": "VCdO3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1016904.cif"
+    },
+    {
+      "material_id": "mp-1215899",
+      "formula": "YTh",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1215899.cif"
+    },
+    {
+      "material_id": "mp-1096517",
+      "formula": "VCrRe2",
+      "gt": 0.2487999999999997,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1096517.cif"
+    },
+    {
+      "material_id": "mp-1233685",
+      "formula": "MgCo4(P2O7)4",
+      "gt": 0.0668999999999999,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1233685.cif"
+    },
+    {
+      "material_id": "mp-770604",
+      "formula": "Li2CoH8(CO5)2",
+      "gt": 2.9158000000000004,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-770604.cif"
+    },
+    {
+      "material_id": "mp-1110804",
+      "formula": "Rb2AgSbBr6",
+      "gt": 1.1538,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1110804.cif"
+    },
+    {
+      "material_id": "mp-9",
+      "formula": "Y",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-9.cif"
+    },
+    {
+      "material_id": "mp-753776",
+      "formula": "Li4SbS4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-753776.cif"
+    },
+    {
+      "material_id": "mp-1244977",
+      "formula": "TaN",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1244977.cif"
+    },
+    {
+      "material_id": "mp-1183212",
+      "formula": "BAuO3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1183212.cif"
+    },
+    {
+      "material_id": "mp-861640",
+      "formula": "Ti2AlRe",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-861640.cif"
+    },
+    {
+      "material_id": "mp-1043946",
+      "formula": "MgFe3(P2O7)2",
+      "gt": 3.2309,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1043946.cif"
+    },
+    {
+      "material_id": "mp-1215356",
+      "formula": "Zr4Si3Sb5",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1215356.cif"
+    },
+    {
+      "material_id": "mp-1025325",
+      "formula": "NpGa5Co",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1025325.cif"
+    },
+    {
+      "material_id": "mp-1212481",
+      "formula": "Hg2GeO2",
+      "gt": 0.5700999999999999,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1212481.cif"
+    },
+    {
+      "material_id": "mp-26982",
+      "formula": "MnP2O7",
+      "gt": 0.7460000000000001,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-26982.cif"
+    },
+    {
+      "material_id": "mp-1521356",
+      "formula": "CaSmMnSnO6",
+      "gt": 1.0705999999999998,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1521356.cif"
+    },
+    {
+      "material_id": "mp-4271",
+      "formula": "EuTaO4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-4271.cif"
+    },
+    {
+      "material_id": "mp-1187229",
+      "formula": "SrLa3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1187229.cif"
+    },
+    {
+      "material_id": "mp-21470",
+      "formula": "Ca2MnGaO5",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-21470.cif"
+    },
+    {
+      "material_id": "mp-1212791",
+      "formula": "P2N6O",
+      "gt": 0.5706000000000002,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1212791.cif"
+    },
+    {
+      "material_id": "mp-1221892",
+      "formula": "Na2CaV12O36",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1221892.cif"
+    },
+    {
+      "material_id": "mp-684022",
+      "formula": "LaTlGeSe4",
+      "gt": 1.1172000000000004,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-684022.cif"
+    },
+    {
+      "material_id": "mp-554704",
+      "formula": "TiPHO5",
+      "gt": 2.85,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-554704.cif"
+    },
+    {
+      "material_id": "mp-1195307",
+      "formula": "MnB2H17N3",
+      "gt": 1.9165,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1195307.cif"
+    },
+    {
+      "material_id": "mp-22315",
+      "formula": "HfCoSn",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-22315.cif"
+    },
+    {
+      "material_id": "mp-1199434",
+      "formula": "TcAsH2(OF5)2",
+      "gt": 2.8161,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1199434.cif"
+    },
+    {
+      "material_id": "mp-1522334",
+      "formula": "CaEuZnWO6",
+      "gt": 0.4771000000000001,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1522334.cif"
+    },
+    {
+      "material_id": "mp-1203275",
+      "formula": "Co2AsO5",
+      "gt": 0.2017,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1203275.cif"
+    },
+    {
+      "material_id": "mp-1227253",
+      "formula": "CaU3Ti8O24",
+      "gt": 0.0593000000000003,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1227253.cif"
+    },
+    {
+      "material_id": "mp-1179613",
+      "formula": "Sb",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1179613.cif"
+    },
+    {
+      "material_id": "mp-781591",
+      "formula": "Li3Co2(SiO4)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-781591.cif"
+    },
+    {
+      "material_id": "mp-291",
+      "formula": "TiOs",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-291.cif"
+    },
+    {
+      "material_id": "mp-25414",
+      "formula": "LiPWCO7",
+      "gt": 2.8866,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-25414.cif"
+    },
+    {
+      "material_id": "mp-1094446",
+      "formula": "YMg2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1094446.cif"
+    },
+    {
+      "material_id": "mp-1176290",
+      "formula": "Li9Mn2Co5O16",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1176290.cif"
+    },
+    {
+      "material_id": "mp-755355",
+      "formula": "La2Pr2O7",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-755355.cif"
+    },
+    {
+      "material_id": "mp-580941",
+      "formula": "AgI",
+      "gt": 1.3759,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-580941.cif"
+    },
+    {
+      "material_id": "mp-26017",
+      "formula": "LiCoPO4",
+      "gt": 2.8088,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-26017.cif"
+    },
+    {
+      "material_id": "mp-30403",
+      "formula": "Li2PbAu",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-30403.cif"
+    },
+    {
+      "material_id": "mp-1033094",
+      "formula": "Mg6AlNiO8",
+      "gt": 1.9389000000000003,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1033094.cif"
+    },
+    {
+      "material_id": "mp-806032",
+      "formula": "Li3V3O3F5",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-806032.cif"
+    },
+    {
+      "material_id": "mp-680196",
+      "formula": "CdI2",
+      "gt": 2.3544,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-680196.cif"
+    },
+    {
+      "material_id": "mp-15846",
+      "formula": "Lu5SbPd2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-15846.cif"
+    },
+    {
+      "material_id": "mp-1190463",
+      "formula": "CsHS2O7",
+      "gt": 5.3167,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1190463.cif"
+    },
+    {
+      "material_id": "mp-705555",
+      "formula": "Fe10O11",
+      "gt": 1.2106,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-705555.cif"
+    },
+    {
+      "material_id": "mp-1072579",
+      "formula": "ThCo5",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1072579.cif"
+    },
+    {
+      "material_id": "mp-1218075",
+      "formula": "SrCaZnSi2O7",
+      "gt": 4.0192,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1218075.cif"
+    },
+    {
+      "material_id": "mp-1111472",
+      "formula": "Rb2AlAgCl6",
+      "gt": 2.4448,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1111472.cif"
+    },
+    {
+      "material_id": "mp-780659",
+      "formula": "Li3Mn4(BO3)4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-780659.cif"
+    },
+    {
+      "material_id": "mp-1076368",
+      "formula": "MgFeO3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1076368.cif"
+    },
+    {
+      "material_id": "mp-1205398",
+      "formula": "Ce(Co2B)6",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1205398.cif"
+    },
+    {
+      "material_id": "mp-977054",
+      "formula": "La(Al2Fe)4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-977054.cif"
+    },
+    {
+      "material_id": "mp-541106",
+      "formula": "Nb2Se9",
+      "gt": 0.7746999999999997,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-541106.cif"
+    },
+    {
+      "material_id": "mp-1208049",
+      "formula": "Tm4MgRh",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1208049.cif"
+    },
+    {
+      "material_id": "mp-1193042",
+      "formula": "Ce3Sn5Au6",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1193042.cif"
+    },
+    {
+      "material_id": "mp-1246679",
+      "formula": "Sr2SbN3",
+      "gt": 1.2579000000000002,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1246679.cif"
+    },
+    {
+      "material_id": "mp-8581",
+      "formula": "Sr(PRh)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-8581.cif"
+    },
+    {
+      "material_id": "mp-1233447",
+      "formula": "Sr4Mg(SO4)4",
+      "gt": 0.7983000000000002,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1233447.cif"
+    },
+    {
+      "material_id": "mp-1025011",
+      "formula": "FeNiSn",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1025011.cif"
+    },
+    {
+      "material_id": "mp-1205683",
+      "formula": "Cs2KCrCl6",
+      "gt": 1.5535,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1205683.cif"
+    },
+    {
+      "material_id": "mp-1174047",
+      "formula": "Li3MnCoO5",
+      "gt": 0.1791,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1174047.cif"
+    },
+    {
+      "material_id": "mp-1232351",
+      "formula": "SrNb2NiClO7",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1232351.cif"
+    },
+    {
+      "material_id": "mp-1201949",
+      "formula": "B5H4",
+      "gt": 2.8736,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1201949.cif"
+    },
+    {
+      "material_id": "mp-754976",
+      "formula": "Cs2BeO2",
+      "gt": 2.7813000000000003,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-754976.cif"
+    },
+    {
+      "material_id": "mp-778203",
+      "formula": "Li8MnFe7(BO3)8",
+      "gt": 2.9522,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-778203.cif"
+    },
+    {
+      "material_id": "mp-1097425",
+      "formula": "CuSiTc2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1097425.cif"
+    },
+    {
+      "material_id": "mp-651026",
+      "formula": "Os2C6SeO6",
+      "gt": 1.6708,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-651026.cif"
+    },
+    {
+      "material_id": "mp-1233925",
+      "formula": "CaZn2(FeO2)4",
+      "gt": 0.0093,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1233925.cif"
+    },
+    {
+      "material_id": "mp-1198383",
+      "formula": "Ho2B3O8",
+      "gt": 0.1139000000000001,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1198383.cif"
+    },
+    {
+      "material_id": "mp-1234054",
+      "formula": "Er4MgZr4O14",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1234054.cif"
+    },
+    {
+      "material_id": "mp-1041597",
+      "formula": "BiO2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1041597.cif"
+    },
+    {
+      "material_id": "mp-1193778",
+      "formula": "RbAl(H2N)4",
+      "gt": 2.6557,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1193778.cif"
+    },
+    {
+      "material_id": "mp-1016588",
+      "formula": "Mg6NbSb",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1016588.cif"
+    },
+    {
+      "material_id": "mp-38843",
+      "formula": "CaTa2O6",
+      "gt": 2.0982000000000003,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-38843.cif"
+    },
+    {
+      "material_id": "mp-1177059",
+      "formula": "Li5V3P8O29",
+      "gt": 0.3126,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1177059.cif"
+    },
+    {
+      "material_id": "mp-1016221",
+      "formula": "Mg3Ga",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1016221.cif"
+    },
+    {
+      "material_id": "mp-13508",
+      "formula": "Er4In(NiGe2)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-13508.cif"
+    },
+    {
+      "material_id": "mp-23183",
+      "formula": "NdCl3",
+      "gt": 4.299799999999999,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-23183.cif"
+    },
+    {
+      "material_id": "mp-757246",
+      "formula": "Li2Ti3VO8",
+      "gt": 0.2192999999999996,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-757246.cif"
+    },
+    {
+      "material_id": "mp-756266",
+      "formula": "Li4Cr3GaO8",
+      "gt": 3.0916,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-756266.cif"
+    },
+    {
+      "material_id": "mp-1002187",
+      "formula": "TcB",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1002187.cif"
+    },
+    {
+      "material_id": "mp-977439",
+      "formula": "Ce2ZnPb",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-977439.cif"
+    },
+    {
+      "material_id": "mp-569335",
+      "formula": "Sm2C3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-569335.cif"
+    },
+    {
+      "material_id": "mp-1410976",
+      "formula": "Li3Mn3O5F3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1410976.cif"
+    },
+    {
+      "material_id": "mp-1094976",
+      "formula": "Sr3Mg",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1094976.cif"
+    },
+    {
+      "material_id": "mp-606102",
+      "formula": "Ce3In3Ru2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-606102.cif"
+    },
+    {
+      "material_id": "mp-1205425",
+      "formula": "Ba8CaY2U4O24",
+      "gt": 2.5366,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1205425.cif"
+    },
+    {
+      "material_id": "mp-530879",
+      "formula": "Ba4Ti4O9",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-530879.cif"
+    },
+    {
+      "material_id": "mp-1100405",
+      "formula": "ScTeRh",
+      "gt": 0.3846000000000007,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1100405.cif"
+    },
+    {
+      "material_id": "mp-1175760",
+      "formula": "Li9Mn2Co5O16",
+      "gt": 0.5621999999999998,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1175760.cif"
+    },
+    {
+      "material_id": "mp-1213469",
+      "formula": "CsZr6MnCl14",
+      "gt": 1.234,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1213469.cif"
+    },
+    {
+      "material_id": "mp-777650",
+      "formula": "LiNbNiO4",
+      "gt": 2.977,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-777650.cif"
+    },
+    {
+      "material_id": "mp-864899",
+      "formula": "NpP3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-864899.cif"
+    },
+    {
+      "material_id": "mp-754668",
+      "formula": "Hf3N2O3",
+      "gt": 3.1036,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-754668.cif"
+    },
+    {
+      "material_id": "mp-559509",
+      "formula": "HgSb3XeF17",
+      "gt": 2.5858,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-559509.cif"
+    },
+    {
+      "material_id": "mp-1044107",
+      "formula": "LaTaZnFeO6",
+      "gt": 2.6454000000000004,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1044107.cif"
+    },
+    {
+      "material_id": "mp-1178044",
+      "formula": "Li2Cr3NiO8",
+      "gt": 0.9962000000000002,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1178044.cif"
+    },
+    {
+      "material_id": "mp-871",
+      "formula": "FeSi",
+      "gt": 0.180200000000001,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-871.cif"
+    },
+    {
+      "material_id": "mp-1208078",
+      "formula": "V(BO)6",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1208078.cif"
+    },
+    {
+      "material_id": "mp-1193511",
+      "formula": "Hf(PO5)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1193511.cif"
+    },
+    {
+      "material_id": "mp-1521056",
+      "formula": "Sr2SmSbO6",
+      "gt": 3.4098,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1521056.cif"
+    },
+    {
+      "material_id": "mp-1179191",
+      "formula": "SrCrO4",
+      "gt": 2.2329,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1179191.cif"
+    },
+    {
+      "material_id": "mp-555946",
+      "formula": "Pb2CO3F2",
+      "gt": 3.4765,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-555946.cif"
+    },
+    {
+      "material_id": "mp-3551",
+      "formula": "TbAgTe2",
+      "gt": 0.8994,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-3551.cif"
+    },
+    {
+      "material_id": "mp-17329",
+      "formula": "PrS2",
+      "gt": 0.3228999999999997,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-17329.cif"
+    },
+    {
+      "material_id": "mp-765691",
+      "formula": "Mn6O5F7",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-765691.cif"
+    },
+    {
+      "material_id": "mp-1202500",
+      "formula": "NdH3CSO7",
+      "gt": 4.625500000000001,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1202500.cif"
+    },
+    {
+      "material_id": "mp-27130",
+      "formula": "Li2W2O7",
+      "gt": 3.7559,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-27130.cif"
+    },
+    {
+      "material_id": "mp-1204868",
+      "formula": "NaCaMn2P3(HO6)2",
+      "gt": 3.5059,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1204868.cif"
+    },
+    {
+      "material_id": "mp-1188463",
+      "formula": "Th2FeS5",
+      "gt": 0.2039000000000008,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1188463.cif"
+    },
+    {
+      "material_id": "mp-771713",
+      "formula": "Cr2(WO4)3",
+      "gt": 2.6717,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-771713.cif"
+    },
+    {
+      "material_id": "mp-542794",
+      "formula": "Fe7S8",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-542794.cif"
+    },
+    {
+      "material_id": "mp-1219742",
+      "formula": "PrNdSb",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1219742.cif"
+    },
+    {
+      "material_id": "mp-1101260",
+      "formula": "V4CrNiO12",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1101260.cif"
+    },
+    {
+      "material_id": "mp-10018",
+      "formula": "Ac",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-10018.cif"
+    },
+    {
+      "material_id": "mp-1176606",
+      "formula": "LiNi(PO3)4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1176606.cif"
+    },
+    {
+      "material_id": "mp-1174436",
+      "formula": "Li4MnCo2O7",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1174436.cif"
+    },
+    {
+      "material_id": "mp-1029284",
+      "formula": "Te3MoWSe",
+      "gt": 2.6573,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1029284.cif"
+    },
+    {
+      "material_id": "mp-1197097",
+      "formula": "KPH3O4",
+      "gt": 5.2301,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1197097.cif"
+    },
+    {
+      "material_id": "mp-1234725",
+      "formula": "Ho2MgAg2(WO4)4",
+      "gt": 2.2612,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1234725.cif"
+    },
+    {
+      "material_id": "mp-1550",
+      "formula": "AlP",
+      "gt": 1.6294000000000004,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1550.cif"
+    },
+    {
+      "material_id": "mp-1113651",
+      "formula": "Rb2TlCrF6",
+      "gt": 4.1503,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1113651.cif"
+    },
+    {
+      "material_id": "mp-625154",
+      "formula": "H8PtO6",
+      "gt": 1.6174000000000002,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-625154.cif"
+    },
+    {
+      "material_id": "mp-7295",
+      "formula": "RbCr5S8",
+      "gt": 0.2846999999999999,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-7295.cif"
+    },
+    {
+      "material_id": "mp-1213422",
+      "formula": "CsKZr6BCl15",
+      "gt": 1.0097999999999998,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1213422.cif"
+    },
+    {
+      "material_id": "mp-1196206",
+      "formula": "C9Cl",
+      "gt": 1.3897,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1196206.cif"
+    },
+    {
+      "material_id": "mp-698171",
+      "formula": "Cu4H7SO11",
+      "gt": 0.1906000000000001,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-698171.cif"
+    },
+    {
+      "material_id": "mp-1228280",
+      "formula": "Ca2Al4Si8O33",
+      "gt": 0.2019,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1228280.cif"
+    },
+    {
+      "material_id": "mp-1196581",
+      "formula": "KPO3",
+      "gt": 5.056,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1196581.cif"
+    },
+    {
+      "material_id": "mp-27694",
+      "formula": "H3ClO5",
+      "gt": 5.4926,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-27694.cif"
+    },
+    {
+      "material_id": "mp-780760",
+      "formula": "Fe10O9F11",
+      "gt": 0.8992,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-780760.cif"
+    },
+    {
+      "material_id": "mp-1310203",
+      "formula": "Co3(PO4)2",
+      "gt": 2.6933,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1310203.cif"
+    },
+    {
+      "material_id": "mp-1026436",
+      "formula": "BaMg14Ti",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1026436.cif"
+    },
+    {
+      "material_id": "mp-774516",
+      "formula": "Li8Mg3Cu9(SiO3)16",
+      "gt": 0.2401999999999997,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-774516.cif"
+    },
+    {
+      "material_id": "mp-777483",
+      "formula": "Ge2N2O",
+      "gt": 2.3193,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-777483.cif"
+    },
+    {
+      "material_id": "mp-1232311",
+      "formula": "AcCuO2F",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1232311.cif"
+    },
+    {
+      "material_id": "mp-1225144",
+      "formula": "EuCuSi3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1225144.cif"
+    },
+    {
+      "material_id": "mp-28305",
+      "formula": "K(MoO2)4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-28305.cif"
+    },
+    {
+      "material_id": "mp-1207639",
+      "formula": "Yb5Co19P12",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1207639.cif"
+    },
+    {
+      "material_id": "mp-7322",
+      "formula": "CsU2O6",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-7322.cif"
+    },
+    {
+      "material_id": "mp-1522661",
+      "formula": "BaEuCr4O12",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1522661.cif"
+    },
+    {
+      "material_id": "mp-1207396",
+      "formula": "Zr2FeB2Ru5",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1207396.cif"
+    },
+    {
+      "material_id": "mp-1002197",
+      "formula": "RuN",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1002197.cif"
+    },
+    {
+      "material_id": "mp-1021679",
+      "formula": "Mg6VCd",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1021679.cif"
+    },
+    {
+      "material_id": "mp-757856",
+      "formula": "Li2FeCo3O8",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-757856.cif"
+    },
+    {
+      "material_id": "mp-1217177",
+      "formula": "Ti3Fe",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1217177.cif"
+    },
+    {
+      "material_id": "mp-1202041",
+      "formula": "SrP3H10C3NO9",
+      "gt": 5.5533,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1202041.cif"
+    },
+    {
+      "material_id": "mp-1227940",
+      "formula": "BaGaSi",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1227940.cif"
+    },
+    {
+      "material_id": "mp-1522185",
+      "formula": "CaPrHfCrO6",
+      "gt": 2.6840999999999995,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1522185.cif"
+    },
+    {
+      "material_id": "mp-1366347",
+      "formula": "CaTa2CoO7",
+      "gt": 0.3692999999999999,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1366347.cif"
+    },
+    {
+      "material_id": "mp-560471",
+      "formula": "Zn2B2PbO6",
+      "gt": 3.2832000000000003,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-560471.cif"
+    },
+    {
+      "material_id": "mp-765390",
+      "formula": "Mn6OF11",
+      "gt": 0.2917999999999999,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-765390.cif"
+    },
+    {
+      "material_id": "mp-1216511",
+      "formula": "V9GaSiGe",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1216511.cif"
+    },
+    {
+      "material_id": "mp-1180577",
+      "formula": "Na3Np(HO3)2",
+      "gt": 1.4886,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1180577.cif"
+    },
+    {
+      "material_id": "mp-559172",
+      "formula": "KCr2AgO7",
+      "gt": 1.429,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-559172.cif"
+    },
+    {
+      "material_id": "mp-25946",
+      "formula": "Sb2P5O16",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-25946.cif"
+    },
+    {
+      "material_id": "mp-1210725",
+      "formula": "Na3V4(Bi10O21)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1210725.cif"
+    },
+    {
+      "material_id": "mp-25426",
+      "formula": "MnPO4F",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-25426.cif"
+    },
+    {
+      "material_id": "mp-754724",
+      "formula": "Li2MnNbO4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-754724.cif"
+    },
+    {
+      "material_id": "mp-1192330",
+      "formula": "CoN6(ClO)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1192330.cif"
+    },
+    {
+      "material_id": "mp-753370",
+      "formula": "Li3MnSi2O7",
+      "gt": 0.7233999999999998,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-753370.cif"
+    },
+    {
+      "material_id": "mp-1210366",
+      "formula": "Y3Ga15Ru4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1210366.cif"
+    },
+    {
+      "material_id": "mp-1177934",
+      "formula": "Li3V8O16",
+      "gt": 1.0935,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1177934.cif"
+    },
+    {
+      "material_id": "mp-550070",
+      "formula": "NbBr2O",
+      "gt": 0.8999999999999999,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-550070.cif"
+    },
+    {
+      "material_id": "mp-1173409",
+      "formula": "PH11S(NO4)2",
+      "gt": 1.3791,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1173409.cif"
+    },
+    {
+      "material_id": "mp-510574",
+      "formula": "USb2Au",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-510574.cif"
+    },
+    {
+      "material_id": "mp-1190336",
+      "formula": "Ho2CoTe2(SO7)2",
+      "gt": 3.0518000000000005,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1190336.cif"
+    },
+    {
+      "material_id": "mp-13002",
+      "formula": "K2SiF6",
+      "gt": 7.1895,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-13002.cif"
+    },
+    {
+      "material_id": "mp-552089",
+      "formula": "Sr2Cu3O5",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-552089.cif"
+    },
+    {
+      "material_id": "mp-763835",
+      "formula": "V3Cr3(TeO8)2",
+      "gt": 0.8990999999999998,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-763835.cif"
+    },
+    {
+      "material_id": "mp-1517370",
+      "formula": "BaNaTbWO6",
+      "gt": 2.8478000000000003,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1517370.cif"
+    },
+    {
+      "material_id": "mp-779007",
+      "formula": "Li10Fe2Co3Ni3O16",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-779007.cif"
+    },
+    {
+      "material_id": "mp-961721",
+      "formula": "HfBiRh",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-961721.cif"
+    },
+    {
+      "material_id": "mp-753024",
+      "formula": "LiVF3",
+      "gt": 1.9761,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-753024.cif"
+    },
+    {
+      "material_id": "mp-625547",
+      "formula": "Mo(HO2)2",
+      "gt": 2.4619,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-625547.cif"
+    },
+    {
+      "material_id": "mp-23709",
+      "formula": "Mg(AlH4)2",
+      "gt": 4.3464,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-23709.cif"
+    },
+    {
+      "material_id": "mp-1223002",
+      "formula": "La4DyC10",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1223002.cif"
+    },
+    {
+      "material_id": "mp-1176109",
+      "formula": "Li9Mn2Co5O16",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1176109.cif"
+    },
+    {
+      "material_id": "mp-867290",
+      "formula": "TbTe",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-867290.cif"
+    },
+    {
+      "material_id": "mp-1401310",
+      "formula": "Mg(NiO2)4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1401310.cif"
+    },
+    {
+      "material_id": "mp-972569",
+      "formula": "Sm(MnAl2)4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-972569.cif"
+    },
+    {
+      "material_id": "mp-23582",
+      "formula": "KLi6BiO6",
+      "gt": 1.413,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-23582.cif"
+    },
+    {
+      "material_id": "mp-556473",
+      "formula": "Cr2PBrO4",
+      "gt": 1.9593,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-556473.cif"
+    },
+    {
+      "material_id": "mp-22709",
+      "formula": "TaNiB2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-22709.cif"
+    },
+    {
+      "material_id": "mp-582433",
+      "formula": "Gd(NiAs)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-582433.cif"
+    },
+    {
+      "material_id": "mp-616555",
+      "formula": "MnC4NO5",
+      "gt": 2.3941,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-616555.cif"
+    },
+    {
+      "material_id": "mp-27925",
+      "formula": "KEr2F7",
+      "gt": 7.0489,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-27925.cif"
+    },
+    {
+      "material_id": "mp-759538",
+      "formula": "LiMnF3",
+      "gt": 3.3597,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-759538.cif"
+    },
+    {
+      "material_id": "mp-1186529",
+      "formula": "Pm3Pa",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1186529.cif"
+    },
+    {
+      "material_id": "mp-1034141",
+      "formula": "Mg14TiNbO16",
+      "gt": 0.6034000000000006,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1034141.cif"
+    },
+    {
+      "material_id": "mp-1228780",
+      "formula": "Ca19Mg(AsO4)14",
+      "gt": 0.0015999999999998,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1228780.cif"
+    },
+    {
+      "material_id": "mp-37276",
+      "formula": "Fe(NiS2)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-37276.cif"
+    },
+    {
+      "material_id": "mp-505434",
+      "formula": "EuTa2O6",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-505434.cif"
+    },
+    {
+      "material_id": "mp-26639",
+      "formula": "LiCoP2O7",
+      "gt": 1.0909,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-26639.cif"
+    },
+    {
+      "material_id": "mp-762222",
+      "formula": "Li2CuF4",
+      "gt": 0.975,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-762222.cif"
+    },
+    {
+      "material_id": "mp-867829",
+      "formula": "LiVRh2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-867829.cif"
+    },
+    {
+      "material_id": "mp-23302",
+      "formula": "RbI",
+      "gt": 3.3463000000000003,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-23302.cif"
+    },
+    {
+      "material_id": "mp-1205479",
+      "formula": "K2SbF5",
+      "gt": 4.7372000000000005,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1205479.cif"
+    },
+    {
+      "material_id": "mp-767039",
+      "formula": "Sn8P2O13",
+      "gt": 1.7037000000000004,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-767039.cif"
+    },
+    {
+      "material_id": "mp-760325",
+      "formula": "Li2Mn2F7",
+      "gt": 0.1167,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-760325.cif"
+    },
+    {
+      "material_id": "mp-605790",
+      "formula": "Ba",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-605790.cif"
+    },
+    {
+      "material_id": "mp-725054",
+      "formula": "LiTi2(PO4)3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-725054.cif"
+    },
+    {
+      "material_id": "mp-1206771",
+      "formula": "Pr2MnP2O",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1206771.cif"
+    },
+    {
+      "material_id": "mp-1111023",
+      "formula": "Na2TlHgF6",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1111023.cif"
+    },
+    {
+      "material_id": "mp-1075045",
+      "formula": "Mg3Si4",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1075045.cif"
+    },
+    {
+      "material_id": "mp-1213493",
+      "formula": "Lu(AsO)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1213493.cif"
+    },
+    {
+      "material_id": "mp-1174064",
+      "formula": "Li3MnCoO5",
+      "gt": 0.4277000000000002,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1174064.cif"
+    },
+    {
+      "material_id": "mp-1182229",
+      "formula": "Fe3O4",
+      "gt": 0.0895000000000001,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1182229.cif"
+    },
+    {
+      "material_id": "mp-1220233",
+      "formula": "NiGeMo",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1220233.cif"
+    },
+    {
+      "material_id": "mp-757088",
+      "formula": "Li4Fe7(OF7)2",
+      "gt": 3.0765,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-757088.cif"
+    },
+    {
+      "material_id": "mp-556340",
+      "formula": "CaTaNO2",
+      "gt": 1.5507999999999995,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-556340.cif"
+    },
+    {
+      "material_id": "mp-705909",
+      "formula": "Be2PH5O7",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-705909.cif"
+    },
+    {
+      "material_id": "mp-1197851",
+      "formula": "Tb2(MoO4)3",
+      "gt": 3.5679,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1197851.cif"
+    },
+    {
+      "material_id": "mp-1101022",
+      "formula": "TiO2",
+      "gt": 1.9968,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1101022.cif"
+    },
+    {
+      "material_id": "mp-1565491",
+      "formula": "LiV2NiO6",
+      "gt": 1.5283000000000002,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1565491.cif"
+    },
+    {
+      "material_id": "mp-1176666",
+      "formula": "LiMn2(PO4)2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1176666.cif"
+    },
+    {
+      "material_id": "mp-1183118",
+      "formula": "AcLaCd2",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1183118.cif"
+    },
+    {
+      "material_id": "mp-1196303",
+      "formula": "Cr2FeNO8",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1196303.cif"
+    },
+    {
+      "material_id": "mp-1106390",
+      "formula": "CSN2",
+      "gt": 0.7470999999999999,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1106390.cif"
+    },
+    {
+      "material_id": "mp-1213970",
+      "formula": "CaOsO3",
+      "gt": 0.0,
+      "cif_path": "/root/autodl-tmp/crystal_agent/data/structures/mp-1213970.cif"
+    }
+  ]
+}

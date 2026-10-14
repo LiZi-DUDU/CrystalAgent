@@ -1,0 +1,186 @@
+{
+  "case_id": "external_mosi2n4",
+  "formula": "MoSi2N4",
+  "mp_id": null,
+  "purpose": "External literature structure absent from the project's Materials Project-derived formula index",
+  "query": "Predict the formation energy and band gap of the literature-reported MoSi2N4 structure supplied as a CIF. Report the routed models and all physical-validation warnings, and state that the structure is external to the Materials Project-derived index.",
+  "started_at_utc": "2026-08-29T07:52:03.060717+00:00",
+  "status": "completed",
+  "structure_path": "/root/autodl-tmp/crystal_agent/data/case_studies/structures/MoSi2N4-AA.cif",
+  "literature_doi": "10.1126/science.abb7023",
+  "structure_source_doi": "10.1002/pssr.202200007",
+  "result": {
+    "formula": "MoSi2N4",
+    "crystal_system": "六方",
+    "space_group": "No.187 (P-6m2)",
+    "plan": [
+      {
+        "property": "formation_energy",
+        "model": "MEGNet",
+        "mae": 0.0767,
+        "sample_count": 7474,
+        "route_split": "routing-construction",
+        "route_frozen": true,
+        "route_source": "data/routing_table/result.json",
+        "all_models": [
+          {
+            "model": "MEGNet",
+            "mae": 0.0767,
+            "sample_count": 7474,
+            "split": "routing-construction",
+            "source": "data/routing_table/mae_matrix.json"
+          },
+          {
+            "model": "M3GNet",
+            "mae": 0.0864,
+            "sample_count": 7474,
+            "split": "routing-construction",
+            "source": "data/routing_table/mae_matrix.json"
+          },
+          {
+            "model": "ALIGNN",
+            "mae": 0.0991,
+            "sample_count": 7474,
+            "split": "routing-construction",
+            "source": "data/routing_table/mae_matrix.json"
+          },
+          {
+            "model": "CGCNN",
+            "mae": 0.1058,
+            "sample_count": 7474,
+            "split": "routing-construction",
+            "source": "data/routing_table/mae_matrix.json"
+          },
+          {
+            "model": "SevenNet",
+            "mae": 0.10962353094271336,
+            "sample_count": 7474,
+            "split": "routing-construction",
+            "source": "data/routing_table/mae_matrix.json"
+          },
+          {
+            "model": "MACE",
+            "mae": 0.11035518151122131,
+            "sample_count": 7474,
+            "split": "routing-construction",
+            "source": "data/routing_table/mae_matrix.json"
+          }
+        ],
+        "required_tools": [
+          "CifParser",
+          "spglib",
+          "FeatureExtractor"
+        ],
+        "physical_implications": [
+          {
+            "from": "formation_energy",
+            "to": "band_gap",
+            "condition": "formation_energy > 0",
+            "implication": "正形成能表示相对于所用元素参考态形成吸热；不能仅据此判断对竞争相的稳定性或带隙结果是否有效",
+            "action": "warn"
+          },
+          {
+            "from": "formation_energy",
+            "to": "thermodynamic_stability",
+            "condition": "formation_energy < 0",
+            "implication": "负形成能表示相对于元素参考态形成放热，但不能代替凸包能或有限温度自由能来判定相稳定性",
+            "action": "note"
+          },
+          {
+            "from": "formation_energy",
+            "to": "synthesis_feasibility",
+            "condition": "formation_energy > 0",
+            "implication": "正形成能相对于元素参考态不利；不能仅由该值推断可合成性或具体合成路径",
+            "action": "warn"
+          }
+        ],
+        "pre_warnings": []
+      },
+      {
+        "property": "band_gap",
+        "model": "ALIGNN",
+        "mae": 0.1952,
+        "sample_count": 7473,
+        "route_split": "routing-construction",
+        "route_frozen": true,
+        "route_source": "data/routing_table/result.json",
+        "all_models": [
+          {
+            "model": "ALIGNN",
+            "mae": 0.1952,
+            "sample_count": 7473,
+            "split": "routing-construction",
+            "source": "data/routing_table/mae_matrix.json"
+          },
+          {
+            "model": "CHGNet",
+            "mae": 0.2166,
+            "sample_count": 7473,
+            "split": "routing-construction",
+            "source": "data/routing_table/mae_matrix.json"
+          },
+          {
+            "model": "MEGNet",
+            "mae": 0.2502,
+            "sample_count": 7473,
+            "split": "routing-construction",
+            "source": "data/routing_table/mae_matrix.json"
+          },
+          {
+            "model": "CGCNN",
+            "mae": 0.6727,
+            "sample_count": 7473,
+            "split": "routing-construction",
+            "source": "data/routing_table/mae_matrix.json"
+          }
+        ],
+        "required_tools": [
+          "CifParser",
+          "spglib",
+          "FeatureExtractor"
+        ],
+        "physical_implications": [
+          {
+            "from": "band_gap",
+            "to": "dielectric_constant",
+            "condition": "band_gap > 0.5",
+            "implication": "Band gap inversely correlates with dielectric constant; wide-gap materials have lower epsilon",
+            "action": "note"
+          },
+          {
+            "from": "band_gap",
+            "to": "synthesis_feasibility",
+            "condition": "band_gap < 0",
+            "implication": "Negative (metallic) band gap may indicate model failure for this structure type",
+            "action": "warn"
+          }
+        ],
+        "pre_warnings": []
+      }
+    ],
+    "results": {
+      "formation_energy": {
+        "value": -0.965,
+        "unit": "eV/atom",
+        "model": "MEGNet",
+        "mae": 0.0767,
+        "sample_count": 7474,
+        "warnings": [],
+        "mode": "single",
+        "confidence": 0.945
+      },
+      "band_gap": {
+        "value": 0.8132,
+        "unit": "eV",
+        "model": "ALIGNN",
+        "mae": 0.1952,
+        "sample_count": 7473,
+        "warnings": [],
+        "mode": "single",
+        "confidence": 0.928
+      }
+    },
+    "report": "## Layer 1: Prediction Results\n\n- **Formation Energy**: -0.9650 eV/atom  \n- **Band Gap**: 0.8132 eV  \n\n---\n\n## Layer 2: Confidence & Model Info\n\n| Property         | Model    | Historical MAE (this crystal system) | Training Samples | Ensemble Mode |\n|------------------|----------|---------------------------------------|------------------|----------------|\n| Formation Energy | MEGNet   | 0.0767 eV/atom                        | 7,474            | No             |\n| Band Gap         | ALIGNN   | 0.1952 eV                             | 7,473            | No             |\n\n> **Notes**:  \n> - Each model is a single-model prediction (not ensemble).  \n> - Historical MAE values are reported for the hexagonal crystal system based on the training set used for each model.\n\n---\n\n## Layer 3: Limitations & Warnings\n\n- **Indicator quality**: The MAE values are model-level averages across many materials; the actual error for **MoSi2N4** may deviate, especially for less‑represented chemistries or unusual bonding environments.  \n- **Formation energy**: The reported value is relative to elemental reference states as used in the MEGNet training data. It does **not** account for finite‑temperature effects (e.g., phonon contributions, configurational entropy).  \n- **Band gap**: The ALIGNN model predicts a **Kohn–Sham‑like** gap; the true experimental optical gap may differ (typically underestimated or renormalized by excitonic effects).  \n- **Crystal‑system specificity**: MAE values are reported for **hexagonal** systems, but the training set may be dominated by a few prototypes; MoSi2N4 (P-6m2) is a layered structure, which may not be well represented by typical bulk hexagonal training data.  \n- **Single‑model risk**: No cross‑validation ensemble or uncertainty quantification (e.g., confidence intervals) is provided. The prediction should be treated as a **point estimate** only.  \n- **Composition extrapolation**: Mo/Si/N ternary compounds are sparse in many training sets; interpolation artifacts may inflate errors beyond the stated MAE.  \n- **Warning – use for screening only**: These results are suitable for high‑throughput screening or relative comparisons, not for quantitative design decisions without experimental or higher‑accuracy validation (e.g., DFT+HSE, GW, or QMC)."
+  },
+  "finished_at_utc": "2026-08-29T07:52:16.102635+00:00"
+}

@@ -1,0 +1,182 @@
+{
+  "published": {
+    "Dummy (MAD) (-)": {
+      "band_gap": 1.191,
+      "formation_energy_per_atom": 1.003,
+      "input": "-",
+      "ref": "LLM4Mat-Bench, Table 19 (MP, MAE)"
+    },
+    "CGCNN (baseline) (CIF)": {
+      "band_gap": 0.366,
+      "formation_energy_per_atom": 0.123,
+      "input": "CIF",
+      "ref": "LLM4Mat-Bench, Table 19 (MP, MAE)"
+    },
+    "MatBERT-109M (CIF)": {
+      "band_gap": 0.348,
+      "formation_energy_per_atom": 0.091,
+      "input": "CIF",
+      "ref": "LLM4Mat-Bench, Table 19 (MP, MAE)"
+    },
+    "MatBERT-109M (Composition)": {
+      "band_gap": 0.401,
+      "formation_energy_per_atom": 0.123,
+      "input": "Composition",
+      "ref": "LLM4Mat-Bench, Table 19 (MP, MAE)"
+    },
+    "MatBERT-109M (Description)": {
+      "band_gap": 0.338,
+      "formation_energy_per_atom": 0.084,
+      "input": "Description",
+      "ref": "LLM4Mat-Bench, Table 19 (MP, MAE)"
+    },
+    "LLM-Prop-35M (CIF)": {
+      "band_gap": 0.317,
+      "formation_energy_per_atom": 0.07,
+      "input": "CIF",
+      "ref": "LLM4Mat-Bench, Table 19 (MP, MAE)"
+    },
+    "LLM-Prop-35M (Composition)": {
+      "band_gap": 0.508,
+      "formation_energy_per_atom": 0.134,
+      "input": "Composition",
+      "ref": "LLM4Mat-Bench, Table 19 (MP, MAE)"
+    },
+    "LLM-Prop-35M (Description)": {
+      "band_gap": 0.303,
+      "formation_energy_per_atom": 0.063,
+      "input": "Description",
+      "ref": "LLM4Mat-Bench, Table 19 (MP, MAE)"
+    },
+    "Gemma2-9B 5-shot (CIF)": {
+      "band_gap": 1.009,
+      "formation_energy_per_atom": 1.44,
+      "input": "CIF",
+      "ref": "LLM4Mat-Bench, Table 19 (MP, MAE)"
+    },
+    "Gemma2-9B 5-shot (Composition)": {
+      "band_gap": 1.192,
+      "formation_energy_per_atom": 1.932,
+      "input": "Composition",
+      "ref": "LLM4Mat-Bench, Table 19 (MP, MAE)"
+    },
+    "Gemma2-9B 5-shot (Description)": {
+      "band_gap": 1.259,
+      "formation_energy_per_atom": null,
+      "input": "Description",
+      "ref": "LLM4Mat-Bench, Table 19 (MP, MAE)"
+    },
+    "Llama2-7B 0-shot (CIF)": {
+      "band_gap": 8.819,
+      "formation_energy_per_atom": 31.515,
+      "input": "CIF",
+      "ref": "LLM4Mat-Bench, Table 19 (MP, MAE)"
+    },
+    "Llama2-7B 5-shot (CIF)": {
+      "band_gap": 1.072,
+      "formation_energy_per_atom": null,
+      "input": "CIF",
+      "ref": "LLM4Mat-Bench, Table 19 (MP, MAE)"
+    },
+    "Llama2-7B 0-shot (Composition)": {
+      "band_gap": 1.913,
+      "formation_energy_per_atom": 128.007,
+      "input": "Composition",
+      "ref": "LLM4Mat-Bench, Table 19 (MP, MAE)"
+    },
+    "Llama2-7B 5-shot (Composition)": {
+      "band_gap": 0.979,
+      "formation_energy_per_atom": 3.034,
+      "input": "Composition",
+      "ref": "LLM4Mat-Bench, Table 19 (MP, MAE)"
+    },
+    "Llama2-7B 0-shot (Description)": {
+      "band_gap": 1.881,
+      "formation_energy_per_atom": 53.083,
+      "input": "Description",
+      "ref": "LLM4Mat-Bench, Table 19 (MP, MAE)"
+    },
+    "Llama2-7B 5-shot (Description)": {
+      "band_gap": 1.123,
+      "formation_energy_per_atom": 2.544,
+      "input": "Description",
+      "ref": "LLM4Mat-Bench, Table 19 (MP, MAE)"
+    }
+  },
+  "ours": {
+    "CrystalAgent (KG+GNN, full core)": {
+      "band_gap": 0.3726,
+      "band_gap_n": 9773,
+      "band_gap_rmse": 0.6968,
+      "formation_energy_per_atom": 0.1087,
+      "formation_energy_n": 9830,
+      "formation_energy_rmse": 0.2486,
+      "input": "Composition+structure",
+      "ref": "ours, official MP test.csv (local CIF subset)"
+    },
+    "CrystalAgent (agent, n=1000)": {
+      "band_gap": 0.3959,
+      "band_gap_n": 1000,
+      "band_gap_rmse": 0.7235,
+      "formation_energy_per_atom": 0.1071,
+      "formation_energy_n": 1000,
+      "formation_energy_rmse": 0.1915,
+      "input": "Composition+structure (agent)",
+      "ref": "ours, seed 42, same 1000-sample pool as agent comparison"
+    },
+    "DeepSeek-chat direct (full)": {
+      "band_gap": 1.9476,
+      "band_gap_n": 9888,
+      "band_gap_rmse": 17.5698,
+      "formation_energy_per_atom": 1.3714,
+      "formation_energy_n": 9947,
+      "formation_energy_rmse": 1.9026,
+      "input": "Composition",
+      "ref": "ours, official MP test.csv, all rows with valid gt"
+    },
+    "DeepSeek-chat direct (n=1000, same pool)": {
+      "band_gap": 2.6418,
+      "band_gap_n": 1000,
+      "band_gap_rmse": 31.6685,
+      "formation_energy_per_atom": 1.405,
+      "formation_energy_n": 1000,
+      "formation_energy_rmse": 1.8651,
+      "input": "Composition",
+      "ref": "ours, seed 42, same 1000-sample pool"
+    }
+  },
+  "agents_same_pool_1000": {
+    "CrystalAgent (agent)": {
+      "band_gap": 0.3959,
+      "band_gap_coverage": 1.0,
+      "formation_energy_per_atom": 0.1071,
+      "formation_energy_coverage": 0.99,
+      "backend": "DeepSeek-chat + KG/GNN",
+      "note": "zero-finetune"
+    },
+    "ChemCrow": {
+      "band_gap": 1.3858,
+      "band_gap_coverage": 0.934,
+      "formation_energy_per_atom": 2.4064,
+      "formation_energy_coverage": 0.782,
+      "backend": "DeepSeek-chat",
+      "note": "RDKit offline tools; molecule-oriented, no crystal tools"
+    },
+    "ChatMOF": {
+      "band_gap": 1.693,
+      "band_gap_coverage": 0.618,
+      "formation_energy_per_atom": 2.7716,
+      "formation_energy_coverage": 0.709,
+      "backend": "DeepSeek-chat",
+      "note": "MOF-oriented; light tools (python_repl/unit_converter), MOF db tools inapplicable to MP crystals"
+    },
+    "DeepSeek direct (same pool)": {
+      "band_gap": 2.6418,
+      "band_gap_coverage": 1.0,
+      "formation_energy_per_atom": 1.405,
+      "formation_energy_coverage": 0.989,
+      "backend": "DeepSeek-chat",
+      "note": "no tools, reference line"
+    }
+  }
+}

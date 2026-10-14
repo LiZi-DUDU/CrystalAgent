@@ -1,0 +1,22 @@
+{
+  "args": {
+    "n": 1000,
+    "property": "formation_energy",
+    "mode": "both",
+    "seed": 42,
+    "tag": ""
+  },
+  "timestamp": "2026-08-19 18:23:22",
+  "agent": {
+    "n": 1000,
+    "coverage": 0.99,
+    "mae": 0.1071,
+    "rmse": 0.1915
+  },
+  "llm": {
+    "n": 1000,
+    "coverage": 0.989,
+    "mae": 1.405,
+    "rmse": 1.8651
+  }
+}

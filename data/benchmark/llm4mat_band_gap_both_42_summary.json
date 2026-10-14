@@ -1,0 +1,22 @@
+{
+  "args": {
+    "n": 1000,
+    "property": "band_gap",
+    "mode": "both",
+    "seed": 42,
+    "tag": ""
+  },
+  "timestamp": "2026-08-19 16:30:46",
+  "agent": {
+    "n": 1000,
+    "coverage": 1.0,
+    "mae": 0.3959,
+    "rmse": 0.7235
+  },
+  "llm": {
+    "n": 1000,
+    "coverage": 1.0,
+    "mae": 2.6418,
+    "rmse": 31.6685
+  }
+}

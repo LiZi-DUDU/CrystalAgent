@@ -1,0 +1,37 @@
+
+#======================================================================
+# CRYSTAL DATA
+#----------------------------------------------------------------------
+data_VESTA_phase_1
+
+_chemical_name_common                  'MoSi2N4                               '
+_cell_length_a                         2.883641
+_cell_length_b                         2.883738
+_cell_length_c                         9.835651
+_cell_angle_alpha                      81.568550
+_cell_angle_beta                       90.000008
+_cell_angle_gamma                      60.001110
+_cell_volume                           69.810385
+_space_group_name_H-M_alt              'P 1'
+_space_group_IT_number                 1
+
+loop_
+_space_group_symop_operation_xyz
+   'x, y, z'
+
+loop_
+   _atom_site_label
+   _atom_site_occupancy
+   _atom_site_fract_x
+   _atom_site_fract_y
+   _atom_site_fract_z
+   _atom_site_adp_type
+   _atom_site_U_iso_or_equiv
+   _atom_site_type_symbol
+   Mo1        1.0     0.491737     0.016526     0.475343    Uiso  ? Mo
+   Si1        1.0     0.055874     0.888251     0.167505    Uiso  ? Si
+   Si2        1.0     0.260942     0.478116     0.782768    Uiso  ? Si
+   N1         1.0     0.115450     0.769102     0.346479    Uiso  ? N
+   N2         1.0     0.201379     0.597243     0.604237    Uiso  ? N
+   N3         1.0     0.705449     0.589101     0.116221    Uiso  ? N
+   N4         1.0     0.945132     0.109735     0.835336    Uiso  ? N

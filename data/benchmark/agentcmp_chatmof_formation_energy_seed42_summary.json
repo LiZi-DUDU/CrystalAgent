@@ -1,0 +1,10 @@
+{
+  "n": 1000,
+  "coverage": 0.709,
+  "mae": 2.7716,
+  "rmse": 4.2423,
+  "agent": "chatmof",
+  "property": "formation_energy",
+  "n_run": 1000,
+  "timestamp": "2026-08-19 21:46:39"
+}

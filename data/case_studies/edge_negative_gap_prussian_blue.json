@@ -1,0 +1,188 @@
+{
+  "case_id": "edge_negative_gap_prussian_blue",
+  "formula": "Na2FeCu(CN)6",
+  "mp_id": "mp-21259",
+  "purpose": "Complex Prussian-blue-type coordination framework used to audit negative band-gap correction and metallic interpretation",
+  "query": "Predict the formation energy and band gap of cubic Na2FeCu(CN)6 using the provided crystal structure. Preserve the raw band-gap output, apply the configured physical-range validation, and report any correction, warning, routed model, routing-construction MAE, and sample count.",
+  "started_at_utc": "2026-10-12T11:35:26.857335+00:00",
+  "status": "completed",
+  "result": {
+    "formula": "Na2FeCu(CN)6",
+    "crystal_system": "立方",
+    "space_group": "No.225 (Fm-3m)",
+    "plan": [
+      {
+        "property": "formation_energy",
+        "model": "M3GNet",
+        "mae": 0.0855,
+        "sample_count": 14668,
+        "route_split": "routing-construction",
+        "route_frozen": true,
+        "route_source": "data/routing_table/result.json",
+        "all_models": [
+          {
+            "model": "M3GNet",
+            "mae": 0.0855,
+            "sample_count": 14668,
+            "split": "routing-construction",
+            "source": "data/routing_table/mae_matrix.json"
+          },
+          {
+            "model": "MEGNet",
+            "mae": 0.0909,
+            "sample_count": 14668,
+            "split": "routing-construction",
+            "source": "data/routing_table/mae_matrix.json"
+          },
+          {
+            "model": "SevenNet",
+            "mae": 0.10683226638531419,
+            "sample_count": 14668,
+            "split": "routing-construction",
+            "source": "data/routing_table/mae_matrix.json"
+          },
+          {
+            "model": "MACE",
+            "mae": 0.10799259032205161,
+            "sample_count": 14668,
+            "split": "routing-construction",
+            "source": "data/routing_table/mae_matrix.json"
+          },
+          {
+            "model": "CGCNN",
+            "mae": 0.1242,
+            "sample_count": 14668,
+            "split": "routing-construction",
+            "source": "data/routing_table/mae_matrix.json"
+          },
+          {
+            "model": "ALIGNN",
+            "mae": 0.1249,
+            "sample_count": 14668,
+            "split": "routing-construction",
+            "source": "data/routing_table/mae_matrix.json"
+          }
+        ],
+        "required_tools": [
+          "CifParser",
+          "spglib",
+          "FeatureExtractor"
+        ],
+        "physical_implications": [
+          {
+            "from": "formation_energy",
+            "to": "band_gap",
+            "condition": "formation_energy > 0",
+            "implication": "正形成能表示相对于所用元素参考态形成吸热；不能仅据此判断对竞争相的稳定性或带隙结果是否有效",
+            "action": "warn"
+          },
+          {
+            "from": "formation_energy",
+            "to": "thermodynamic_stability",
+            "condition": "formation_energy < 0",
+            "implication": "负形成能表示相对于元素参考态形成放热，但不能代替凸包能或有限温度自由能来判定相稳定性",
+            "action": "note"
+          },
+          {
+            "from": "formation_energy",
+            "to": "synthesis_feasibility",
+            "condition": "formation_energy > 0",
+            "implication": "正形成能相对于元素参考态不利；不能仅由该值推断可合成性或具体合成路径",
+            "action": "warn"
+          }
+        ],
+        "pre_warnings": []
+      },
+      {
+        "property": "band_gap",
+        "model": "ALIGNN",
+        "mae": 0.2628,
+        "sample_count": 14666,
+        "route_split": "routing-construction",
+        "route_frozen": true,
+        "route_source": "data/routing_table/result.json",
+        "all_models": [
+          {
+            "model": "ALIGNN",
+            "mae": 0.2628,
+            "sample_count": 14666,
+            "split": "routing-construction",
+            "source": "data/routing_table/mae_matrix.json"
+          },
+          {
+            "model": "CHGNet",
+            "mae": 0.3362,
+            "sample_count": 14666,
+            "split": "routing-construction",
+            "source": "data/routing_table/mae_matrix.json"
+          },
+          {
+            "model": "MEGNet",
+            "mae": 0.4026,
+            "sample_count": 14666,
+            "split": "routing-construction",
+            "source": "data/routing_table/mae_matrix.json"
+          },
+          {
+            "model": "CGCNN",
+            "mae": 0.8103,
+            "sample_count": 14666,
+            "split": "routing-construction",
+            "source": "data/routing_table/mae_matrix.json"
+          }
+        ],
+        "required_tools": [
+          "CifParser",
+          "spglib",
+          "FeatureExtractor"
+        ],
+        "physical_implications": [
+          {
+            "from": "band_gap",
+            "to": "dielectric_constant",
+            "condition": "band_gap > 0.5",
+            "implication": "Band gap inversely correlates with dielectric constant; wide-gap materials have lower epsilon",
+            "action": "note"
+          },
+          {
+            "from": "band_gap",
+            "to": "synthesis_feasibility",
+            "condition": "band_gap < 0",
+            "implication": "Negative (metallic) band gap may indicate model failure for this structure type",
+            "action": "warn"
+          }
+        ],
+        "pre_warnings": []
+      }
+    ],
+    "results": {
+      "formation_energy": {
+        "value": 1.1759,
+        "unit": "eV/atom",
+        "model": "M3GNet",
+        "mae": 0.0855,
+        "sample_count": 14668,
+        "warnings": [
+          "INFO: 正形成能表示相对于所用元素参考态形成吸热；不能仅据此判断对竞争相的稳定性或带隙结果是否有效",
+          "INFO: 正形成能相对于元素参考态不利；不能仅由该值推断可合成性或具体合成路径"
+        ],
+        "mode": "single",
+        "confidence": 0.947
+      },
+      "band_gap": {
+        "value": 0.0,
+        "unit": "eV",
+        "model": "ALIGNN",
+        "mae": 0.2628,
+        "sample_count": 14666,
+        "warnings": [
+          "INFO: band_gap预测为负值(-0.0111 eV)，已截断为 0（按金属处理）"
+        ],
+        "mode": "single",
+        "confidence": 0.868
+      }
+    },
+    "report": "## Layer 1: Prediction Results\n\n| Property | Predicted Value | Unit |\n|---|---|---|\n| Formation Energy | 1.1759 | eV/atom |\n| Band Gap | 0.0000 | eV |\n\n## Layer 2: Confidence & Model Info\n\n| Property | Model | Historical MAE | Sample Count (n) | Ensemble Mode |\n|---|---|---|---|---|\n| Formation Energy | M3GNet | 0.0855 | 14668 | Not indicated |\n| Band Gap | ALIGNN | 0.2628 | 14666 | Not indicated |\n\n## Layer 3: Limitations & Warnings\n\n### Formation Energy\n- **INFO:** A positive formation energy indicates that formation is endothermic relative to the elemental reference states used.\n- **INFO:** A positive formation energy alone is insufficient to judge stability against competing phases; it should not be used as the sole criterion for phase competition analysis.\n- **INFO:** The positive formation energy relative to elemental references is unfavorable; synthesizability or specific synthesis pathways cannot be inferred from this value alone.\n\n### Band Gap\n- **INFO:** The raw predicted band gap is negative (−0.0111 eV) and was truncated to 0, meaning the material is treated as metallic.\n- **Note:** A negative value is physically meaningless for a band gap and likely reflects model regression behavior near the metal/insulator boundary.\n- **Note:** The ALIGNN model's historical MAE for band gap (0.2628 eV) is substantial, indicating inherent prediction uncertainty, though classification as metallic (gap ≈ 0) is typically more robust than quantitative gap values.\n\n### General Caveats\n- Predictions are generated by machine learning models (M3GNet, ALIGNN) and carry inherent uncertainty quantified by their respective historical MAEs.\n- No ensemble mode was indicated for either prediction, so results come from single-model inference.\n- These predictions should be validated against DFT calculations or experimental data before being used for downstream decisions (e.g., synthesis planning, device design)."
+  },
+  "finished_at_utc": "2026-10-12T11:47:24.073316+00:00"
+}

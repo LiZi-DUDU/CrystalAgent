@@ -1,0 +1,185 @@
+{
+  "case_id": "route_switch_lifepo4",
+  "formula": "LiFePO4",
+  "mp_id": "mp-1176761",
+  "purpose": "Complex orthorhombic material demonstrating property-specific routing to different frozen models",
+  "query": "Predict the formation energy and band gap of orthorhombic LiFePO4 using the provided crystal structure. Explain why the two target properties are routed to different frozen models, and report the routing-construction MAEs, sample counts, and all physical-validation warnings.",
+  "started_at_utc": "2026-08-29T07:26:09.163862+00:00",
+  "status": "completed",
+  "result": {
+    "formula": "LiFePO4",
+    "crystal_system": "正交",
+    "space_group": "No.62 (Pnma)",
+    "plan": [
+      {
+        "property": "formation_energy",
+        "model": "SevenNet",
+        "mae": 0.11810093192265093,
+        "sample_count": 22715,
+        "route_split": "routing-construction",
+        "route_frozen": true,
+        "route_source": "data/routing_table/result.json",
+        "all_models": [
+          {
+            "model": "SevenNet",
+            "mae": 0.11810093192265093,
+            "sample_count": 22715,
+            "split": "routing-construction",
+            "source": "data/routing_table/mae_matrix.json"
+          },
+          {
+            "model": "MACE",
+            "mae": 0.11892856274560817,
+            "sample_count": 22715,
+            "split": "routing-construction",
+            "source": "data/routing_table/mae_matrix.json"
+          },
+          {
+            "model": "ALIGNN",
+            "mae": 0.1529,
+            "sample_count": 22715,
+            "split": "routing-construction",
+            "source": "data/routing_table/mae_matrix.json"
+          },
+          {
+            "model": "M3GNet",
+            "mae": 0.1965,
+            "sample_count": 22715,
+            "split": "routing-construction",
+            "source": "data/routing_table/mae_matrix.json"
+          },
+          {
+            "model": "CGCNN",
+            "mae": 0.219,
+            "sample_count": 22715,
+            "split": "routing-construction",
+            "source": "data/routing_table/mae_matrix.json"
+          },
+          {
+            "model": "MEGNet",
+            "mae": 0.2276,
+            "sample_count": 22715,
+            "split": "routing-construction",
+            "source": "data/routing_table/mae_matrix.json"
+          }
+        ],
+        "required_tools": [
+          "CifParser",
+          "spglib",
+          "ElementReference",
+          "EnergyConverter"
+        ],
+        "physical_implications": [
+          {
+            "from": "formation_energy",
+            "to": "band_gap",
+            "condition": "formation_energy > 0",
+            "implication": "正形成能表示相对于所用元素参考态形成吸热；不能仅据此判断对竞争相的稳定性或带隙结果是否有效",
+            "action": "warn"
+          },
+          {
+            "from": "formation_energy",
+            "to": "thermodynamic_stability",
+            "condition": "formation_energy < 0",
+            "implication": "负形成能表示相对于元素参考态形成放热，但不能代替凸包能或有限温度自由能来判定相稳定性",
+            "action": "note"
+          },
+          {
+            "from": "formation_energy",
+            "to": "synthesis_feasibility",
+            "condition": "formation_energy > 0",
+            "implication": "正形成能相对于元素参考态不利；不能仅由该值推断可合成性或具体合成路径",
+            "action": "warn"
+          }
+        ],
+        "pre_warnings": []
+      },
+      {
+        "property": "band_gap",
+        "model": "CHGNet",
+        "mae": 0.3516,
+        "sample_count": 22715,
+        "route_split": "routing-construction",
+        "route_frozen": true,
+        "route_source": "data/routing_table/result.json",
+        "all_models": [
+          {
+            "model": "CHGNet",
+            "mae": 0.3516,
+            "sample_count": 22715,
+            "split": "routing-construction",
+            "source": "data/routing_table/mae_matrix.json"
+          },
+          {
+            "model": "ALIGNN",
+            "mae": 0.4318,
+            "sample_count": 22715,
+            "split": "routing-construction",
+            "source": "data/routing_table/mae_matrix.json"
+          },
+          {
+            "model": "MEGNet",
+            "mae": 0.4918,
+            "sample_count": 22715,
+            "split": "routing-construction",
+            "source": "data/routing_table/mae_matrix.json"
+          },
+          {
+            "model": "CGCNN",
+            "mae": 0.7349,
+            "sample_count": 22715,
+            "split": "routing-construction",
+            "source": "data/routing_table/mae_matrix.json"
+          }
+        ],
+        "required_tools": [
+          "CifParser",
+          "spglib",
+          "FeatureExtractor",
+          "MLP_BandgapHead"
+        ],
+        "physical_implications": [
+          {
+            "from": "band_gap",
+            "to": "dielectric_constant",
+            "condition": "band_gap > 0.5",
+            "implication": "Band gap inversely correlates with dielectric constant; wide-gap materials have lower epsilon",
+            "action": "note"
+          },
+          {
+            "from": "band_gap",
+            "to": "synthesis_feasibility",
+            "condition": "band_gap < 0",
+            "implication": "Negative (metallic) band gap may indicate model failure for this structure type",
+            "action": "warn"
+          }
+        ],
+        "pre_warnings": []
+      }
+    ],
+    "results": {
+      "formation_energy": {
+        "value": -2.2882,
+        "unit": "eV/atom",
+        "model": "SevenNet",
+        "mae": 0.11810093192265093,
+        "sample_count": 22715,
+        "warnings": [],
+        "mode": "single",
+        "confidence": 0.97
+      },
+      "band_gap": {
+        "value": 3.3975,
+        "unit": "eV",
+        "model": "CHGNet",
+        "mae": 0.3516,
+        "sample_count": 22715,
+        "warnings": [],
+        "mode": "single",
+        "confidence": 0.926
+      }
+    },
+    "report": "## Layer 1: Prediction Results\n\n- **Formation Energy**: –2.2882 eV/atom  \n- **Band Gap**: 3.3975 eV  \n\n---\n\n## Layer 2: Confidence & Model Info\n\n| Property | Model | Historical MAE (this crystal system) | Training samples | Ensemble mode |\n|----------|-------|--------------------------------------|-----------------|---------------|\n| Formation Energy | SevenNet | 0.1181 eV/atom | 22,715 | No |\n| Band Gap | CHGNet | 0.3516 eV | 22,715 | No |\n\n*Note: MAE values are reported for the orthorhombic crystal system based on the model’s validation dataset.*\n\n---\n\n## Layer 3: Limitations & Warnings\n\n- **Single-model predictions**: Each property was evaluated using a single model (SevenNet for formation energy, CHGNet for band gap). No ensemble averaging was performed, which may reduce robustness against model-specific biases.  \n- **MAE as an average indicator**: The reported MAE is a historical average over 22,715 samples in the orthorhombic system. Individual predictions for LiFePO₄ may deviate more or less than this average.  \n- **Band gap uncertainty**: CHGNet’s MAE (0.3516 eV) is significant relative to the predicted band gap (3.3975 eV), implying an absolute error range of roughly ±0.35 eV (1σ). The true gap could therefore lie between ~3.05 and ~3.75 eV.  \n- **Formation energy uncertainty**: SevenNet’s MAE (0.1181 eV/atom) translates to an expected error of ~±0.12 eV/atom for this prediction, though errors can be larger for compositions or structural environments underrepresented in training.  \n- **Training data composition**: Both models were trained on a dataset containing many materials; specific Li–Fe–P–O chemistries, especially olivine-type LiFePO₄, may be sparsely represented, increasing extrapolation risk.  \n- **Static 0 K predictions**: Formation energy and band gap are computed at 0 K without zero-point or thermal contributions. Temperature-dependent phase stability and band-gap renormalization are not captured.  \n- **Functional sensitivity**: The band gap is obtained from a machine‑learned potential and may not strictly represent a GW or hybrid-functional quality value; it should be treated as a screening-level estimate.  \n- **No structural relaxation validation**: The prediction assumes the given Pnma structure is the equilibrium configuration; any distortion, defects, or off-stoichiometry would alter the calculated properties and invalidate these values.  \n- **Caveat on band-gap nature**: LiFePO₄ is known experimentally to have a band gap in the range ~3.5–3.9 eV (depending on measurement). The predicted 3.3975 eV underestimates this slightly, within the model’s uncertainty, but should not be used as a precise experimental substitute."
+  },
+  "finished_at_utc": "2026-08-29T07:26:26.521544+00:00"
+}

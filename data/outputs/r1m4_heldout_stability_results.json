@@ -1,0 +1,108 @@
+{
+ "formation_energy": {
+  "task": "formation_energy",
+  "unit": "eV/atom",
+  "B": 10000,
+  "seed": 20260815,
+  "single_best_model": "SevenNet",
+  "n_per_system": {
+   "triclinic": 7240,
+   "monoclinic": 10900,
+   "orthorhombic": 9729,
+   "tetragonal": 5005,
+   "trigonal": 3898,
+   "hexagonal": 3181,
+   "cubic": 6234
+  },
+  "n_total": 46187,
+  "agreement_rate": {
+   "triclinic": 0.9085,
+   "monoclinic": 1.0,
+   "orthorhombic": 1.0,
+   "tetragonal": 1.0,
+   "trigonal": 1.0,
+   "hexagonal": 1.0,
+   "cubic": 1.0
+  },
+  "frozen_route": {
+   "triclinic": "SevenNet",
+   "trigonal": "MEGNet",
+   "hexagonal": "MEGNet",
+   "monoclinic": "MEGNet",
+   "tetragonal": "M3GNet",
+   "orthorhombic": "SevenNet",
+   "cubic": "M3GNet"
+  },
+  "router_gain": {
+   "delta_single": {
+    "mean": -0.024040435324366227,
+    "ci": [
+     -0.025182690125306127,
+     -0.022876290200992626
+    ],
+    "p_negative": 1.0
+   },
+   "delta_ensemble": {
+    "mean": 0.012048602889616792,
+    "ci": [
+     0.010639141602289338,
+     0.013443040582074808
+    ],
+    "p_negative": 0.0
+   }
+  }
+ },
+ "band_gap": {
+  "task": "band_gap",
+  "unit": "eV",
+  "B": 10000,
+  "seed": 20260815,
+  "single_best_model": "CHGNet",
+  "n_per_system": {
+   "triclinic": 7241,
+   "monoclinic": 10902,
+   "orthorhombic": 9716,
+   "tetragonal": 5028,
+   "trigonal": 3900,
+   "hexagonal": 3201,
+   "cubic": 6284
+  },
+  "n_total": 46272,
+  "agreement_rate": {
+   "triclinic": 1.0,
+   "monoclinic": 1.0,
+   "orthorhombic": 1.0,
+   "tetragonal": 1.0,
+   "trigonal": 0.8992,
+   "hexagonal": 0.9894,
+   "cubic": 1.0
+  },
+  "frozen_route": {
+   "triclinic": "CHGNet",
+   "monoclinic": "CHGNet",
+   "orthorhombic": "CHGNet",
+   "tetragonal": "ALIGNN",
+   "trigonal": "ALIGNN",
+   "hexagonal": "ALIGNN",
+   "cubic": "ALIGNN"
+  },
+  "router_gain": {
+   "delta_single": {
+    "mean": -0.023544742792896135,
+    "ci": [
+     -0.027297329601245535,
+     -0.01981604104564426
+    ],
+    "p_negative": 1.0
+   },
+   "delta_ensemble": {
+    "mean": -0.05797759024606075,
+    "ci": [
+     -0.06196685571941643,
+     -0.05390313540536108
+    ],
+    "p_negative": 1.0
+   }
+  }
+ }
+}

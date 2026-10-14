@@ -10,8 +10,13 @@ reported router:
   to convert SevenNet and MACE total energies to formation energies;
 - `chgnet_finetune/model_108056.pt`: frozen supervised band-gap head.
 
-Materials Project CIF files, split metadata, prediction caches, benchmark
-outputs and figures are deliberately not committed. Put CIF files in
-`data/structures/`. The download script expects `train_meta.json` and
-`eval_meta.json` in `data/routing_table/`; these manifests can be supplied by
-the user under the Materials Project data terms.
+Selected per-structure predictions, bootstrap source files, LLM4Mat-Bench
+end-to-end results and case-study traces used by the manuscript are committed.
+Their contents and scope are documented in `PAPER_RESULTS.md`. Rendered figures,
+plotting scripts and manuscripts remain excluded.
+
+The default branch does not contain the full Materials Project CIF library or
+the two split manifests. Put CIF files in `data/structures/`; the download script
+expects `train_meta.json` and `eval_meta.json` in `data/routing_table/`. The
+historical complete snapshot is available on the public branch
+`archive/pre-clean-main-20261014`.

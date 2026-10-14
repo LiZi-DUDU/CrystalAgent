@@ -1,0 +1,10 @@
+{
+  "n": 1000,
+  "coverage": 0.782,
+  "mae": 2.4064,
+  "rmse": 3.5579,
+  "agent": "chemcrow",
+  "property": "formation_energy",
+  "n_run": 1000,
+  "timestamp": "2026-08-19 20:09:14"
+}

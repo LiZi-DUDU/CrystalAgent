@@ -1,0 +1,112 @@
+{
+  "route_provenance": {
+    "source": "data/routing_table/result.json",
+    "split": "routing-construction",
+    "frozen": true
+  },
+  "reporting_notes": {
+    "confidence_reported": false,
+    "phase_stability_assessed": false,
+    "formation_energy_interpretation": "Negative and positive formation energies denote exothermic and endothermic formation, respectively, relative to the elemental reference states; neither alone establishes phase stability without energy above hull or finite-temperature free energy."
+  },
+  "main_cases": [
+    {
+      "case_id": "route_switch_lifepo4",
+      "role": "complex orthorhombic material demonstrating property-specific frozen routing",
+      "formula": "LiFePO4",
+      "mp_id": "mp-1176761",
+      "crystal_system": "orthorhombic",
+      "space_group": "Pnma (62)",
+      "formation_energy": {
+        "model": "SevenNet",
+        "value": -2.2882,
+        "unit": "eV/atom",
+        "routing_mae": 0.118100931922651,
+        "routing_sample_count": 22715
+      },
+      "band_gap": {
+        "model": "CHGNet",
+        "value": 3.3975,
+        "unit": "eV",
+        "routing_mae": 0.3516,
+        "routing_sample_count": 22715
+      },
+      "routing_explanation": "The frozen orthorhombic routing table selects SevenNet for formation energy and CHGNet for band gap; model selection is target-specific rather than material-wide.",
+      "validation": "passed numerical and physical-range checks without additional warnings"
+    },
+    {
+      "case_id": "edge_negative_gap_prussian_blue",
+      "role": "complex coordination-framework edge case demonstrating physical correction and interpretation warnings",
+      "formula": "Na2FeCu(CN)6",
+      "mp_id": "mp-21259",
+      "crystal_system": "cubic",
+      "space_group": "Fm-3m (225)",
+      "structure_sites": 16,
+      "formation_energy": {
+        "model": "M3GNet",
+        "value": 1.1759,
+        "unit": "eV/atom",
+        "routing_mae": 0.0855,
+        "routing_sample_count": 14668,
+        "warnings": [
+          "positive formation energy indicates endothermic formation relative to the elemental reference states",
+          "the value alone does not establish phase stability or synthesis feasibility"
+        ]
+      },
+      "band_gap": {
+        "model": "ALIGNN",
+        "raw_value": -0.0111,
+        "reported_value": 0.0,
+        "unit": "eV",
+        "routing_mae": 0.2628,
+        "routing_sample_count": 14666
+      },
+      "validation": "negative raw band gap clipped to 0 eV and interpreted as metallic; positive formation-energy semantics reported without claiming phase instability"
+    },
+    {
+      "case_id": "external_mosi2n4",
+      "role": "literature-reported material external to the project's Materials Project-derived index",
+      "formula": "MoSi2N4",
+      "mp_id": null,
+      "literature_doi": "10.1126/science.abb7023",
+      "structure_source_doi": "10.1002/pssr.202200007",
+      "structure_source": "author-provided supplementary CIF (AA-stacked MoSi2N4)",
+      "materials_project_check": "formula absent from the project's Materials Project-derived formula index",
+      "crystal_system": "hexagonal",
+      "space_group": "P-6m2 (187)",
+      "formation_energy": {
+        "model": "MEGNet",
+        "value": -0.9650,
+        "unit": "eV/atom",
+        "routing_mae": 0.0767,
+        "routing_sample_count": 7474
+      },
+      "band_gap": {
+        "model": "ALIGNN",
+        "value": 0.8132,
+        "unit": "eV",
+        "routing_mae": 0.1952,
+        "routing_sample_count": 7473
+      },
+      "validation": "numerical and physical-range checks passed; external provenance and out-of-distribution risk were not automatically detected",
+      "reporting_limitations": [
+        "point predictions only; no confidence interval is reported",
+        "negative formation energy denotes exothermic formation relative to elemental reference states and does not establish phase stability",
+        "energy above hull was not evaluated",
+        "the literature value for an isolated monolayer must not be treated as a directly paired reference for this AA-stacked CIF"
+      ]
+    }
+  ],
+  "optional_edge_case": {
+    "case_id": "edge_ceo2",
+    "formula": "CeO2",
+    "mp_id": "mp-20194",
+    "crystal_system": "cubic",
+    "space_group": "Fm-3m (225)",
+    "formation_energy_model": "M3GNet",
+    "formation_energy_eV_per_atom": -3.9505,
+    "band_gap_model": "ALIGNN",
+    "band_gap_eV": 2.2238,
+    "validation": "rare-earth element Ce triggered an extrapolation-risk warning for both properties"
+  }
+}

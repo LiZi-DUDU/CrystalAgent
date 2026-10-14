@@ -1,0 +1,45 @@
+{
+  "protocol": {
+    "property": "formation_energy_per_atom",
+    "n_requested": 1000,
+    "seed": 42,
+    "route": {
+      "三斜": "SevenNet",
+      "单斜": "MEGNet",
+      "正交": "SevenNet",
+      "四方": "M3GNet",
+      "三方": "MEGNet",
+      "六方": "MEGNet",
+      "立方": "M3GNet"
+    },
+    "elemental_reference_source": "data/routing_table/result.json",
+    "note": "Post-hoc reconstruction of the corrected frozen router on the exact seed-42 sample. This is deterministic model-routing evaluation, not an end-to-end LLM parsing run."
+  },
+  "n_valid": 1000,
+  "coverage": 1.0,
+  "mae": 0.1077304441237129,
+  "rmse": 0.18300167987403818,
+  "model_counts": {
+    "M3GNet": 236,
+    "MEGNet": 388,
+    "SevenNet": 376
+  },
+  "system_counts": {
+    "立方": 139,
+    "单斜": 265,
+    "三斜": 152,
+    "四方": 97,
+    "正交": 224,
+    "三方": 63,
+    "六方": 60
+  },
+  "per_system_mae": {
+    "立方": 0.09083374574541724,
+    "单斜": 0.0798977249626335,
+    "三斜": 0.1693866657715368,
+    "四方": 0.09207884456076756,
+    "正交": 0.1224027650292,
+    "三方": 0.10793231331530598,
+    "六方": 0.08392133541548194
+  }
+}

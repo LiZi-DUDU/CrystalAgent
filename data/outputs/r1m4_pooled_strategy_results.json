@@ -1,0 +1,57 @@
+{
+  "scheme": "pooled complete-case paired bootstrap",
+  "B": 10000,
+  "seed": 20260815,
+  "tasks": {
+    "formation_energy": {
+      "n": 46187,
+      "unit": "eV/atom",
+      "fixed_single_model": "SevenNet",
+      "comparisons": {
+        "single": {
+          "observed_difference": -0.02403943984553655,
+          "bootstrap_mean": -0.024045200647155537,
+          "ci": [
+            -0.02520941503731001,
+            -0.022833326120826773
+          ],
+          "p": 0.0
+        },
+        "ensemble": {
+          "observed_difference": 0.012058129574016769,
+          "bootstrap_mean": 0.012051353792408516,
+          "ci": [
+            0.010639933366434763,
+            0.013473196334478658
+          ],
+          "p": 0.0
+        }
+      }
+    },
+    "band_gap": {
+      "n": 46272,
+      "unit": "eV",
+      "fixed_single_model": "CHGNet",
+      "comparisons": {
+        "single": {
+          "observed_difference": -0.023542382795849397,
+          "bootstrap_mean": -0.023529877342400245,
+          "ci": [
+            -0.02730758715620073,
+            -0.019813103928066917
+          ],
+          "p": 0.0
+        },
+        "ensemble": {
+          "observed_difference": -0.057970323648777355,
+          "bootstrap_mean": -0.05798399383436679,
+          "ci": [
+            -0.06205351193513107,
+            -0.053958739873485595
+          ],
+          "p": 0.0
+        }
+      }
+    }
+  }
+}

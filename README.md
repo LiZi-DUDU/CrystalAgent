@@ -5,9 +5,11 @@ frozen graph-neural-network configuration from the crystal system and requested
 property. The released runtime covers formation energy and band gap using
 MEGNet, M3GNet, ALIGNN, CGCNN, CHGNet, SevenNet and MACE adapters.
 
-This branch is a code-only reproducibility release. Manuscripts, plotting code,
-rendered figures, logs, prediction caches and full Materials Project structures
-are intentionally excluded.
+This branch is a source-focused reproducibility release. Manuscripts, plotting
+code, rendered figures, logs and the full Materials Project structure snapshot
+are intentionally excluded. Selected machine-readable prediction and statistical
+results underlying the manuscript are included under `data/`; see
+`data/PAPER_RESULTS.md` for the file-level manifest.
 
 ## Reproducibility scope
 
@@ -17,6 +19,9 @@ CGCNN checkpoints and CHGNet band-gap head. Public model packages download their
 own released checkpoints on first use. Materials Project structures and the
 LLM4Mat-Bench CSV must be obtained from their original providers under the
 corresponding terms.
+
+The complete historical CIF and split snapshot is retained on the public branch
+`archive/pre-clean-main-20261014`; it is not part of the default `main` checkout.
 
 The tested environment used Python 3.10.20, PyTorch 2.2.1, CUDA 12.4 and DGL
 2.5.0+cu124. Exact package versions are listed in `requirements.txt`.
@@ -105,7 +110,8 @@ evaluated as adapted configurations, not as exact reproductions of their
 original systems; their mutually incompatible environments are documented in
 `requirements-chemcrow.txt` and `requirements-chatmof.txt`.
 
-## Security and generated files
+## Security and released results
 
-No API keys are committed. `.env`, figures, manuscripts, plotting scripts,
-large structures and generated benchmark outputs are excluded by `.gitignore`.
+No API keys are committed. `.env`, figures, manuscripts, plotting scripts and
+large structures are excluded. Curated paper-source results are committed
+explicitly and documented in `data/PAPER_RESULTS.md`.
